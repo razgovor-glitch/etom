@@ -7,7 +7,9 @@ import {
   countPackageChildren,
   NODES_BY_ID,
 } from '../data/model';
-import { FRAMEWORK_BY_ID } from '../data/meta';
+import { FRAMEWORK_BY_ID, fwText } from '../data/meta';
+import { useI18n, type T } from '../i18n';
+import { domainShort } from '../i18n/domains';
 import NodeDetail from './NodeDetail';
 
 interface Props {
@@ -26,6 +28,7 @@ function TreeNode({
   onSelect,
   filter,
   domainKeep,
+  t,
 }: {
   node: ModaNode;
   expanded: Set<string>;
@@ -34,6 +37,7 @@ function TreeNode({
   onSelect: (id: string) => void;
   filter: string;
   domainKeep: Set<string> | null;
+  t: T;
 }) {
   const isOpen = expanded.has(node.id);
   const kids = useMemo(() => (isOpen ? packageChildrenOf(node.id) : []), [isOpen, node.id]);
@@ -88,6 +92,7 @@ function TreeNode({
             onSelect={onSelect}
             filter={filter}
             domainKeep={domainKeep}
+            t={t}
           />
         ))}
     </>
@@ -106,6 +111,8 @@ export default function Explorer({ framework, selectedId, onSelect }: Props) {
   const [domainFilter, setDomainFilter] = useState<string | null>(null);
   const facets = useMemo(() => facetsOf(framework), [framework]);
   const meta = FRAMEWORK_BY_ID.get(framework as never);
+  const { t, locale } = useI18n();
+  const text = fwText(meta, locale);
 
   /**
    * Ids to keep when a business-domain filter is active: every element in that
@@ -157,15 +164,15 @@ export default function Explorer({ framework, selectedId, onSelect }: Props) {
 
   return (
     <>
-      <div className="page-title">{meta?.name ?? framework}</div>
-      <p className="page-lede">{meta?.summary}</p>
+      <div className="page-title">{text.name || framework}</div>
+      <p className="page-lede">{text.summary}</p>
 
       <div className="explorer" style={{ marginTop: 22 }}>
         <div className="panel tree-panel">
           <div className="tree-head">
             <input
               className="tree-input"
-              placeholder={`Filter ${total.toLocaleString()} elements…`}
+              placeholder={t('explorer.filter', { count: total })}
               value={filter}
               onChange={(e) => setFilter(e.target.value)}
             />
@@ -176,8 +183,9 @@ export default function Explorer({ framework, selectedId, onSelect }: Props) {
                     key={v}
                     className={`chip ${domainFilter === v ? 'on' : ''}`}
                     onClick={() => setDomainFilter(domainFilter === v ? null : v)}
+                    title={v}
                   >
-                    {v}
+                    {domainShort(locale, v)}
                   </button>
                 ))}
                 {facets.horizontal.map((h) => (
@@ -189,7 +197,7 @@ export default function Explorer({ framework, selectedId, onSelect }: Props) {
             )}
           </div>
           <div className="tree-body">
-            {roots.length === 0 && <p className="empty">No data loaded for this framework yet.</p>}
+            {roots.length === 0 && <p className="empty">{t('explorer.empty')}</p>}
             {roots.map((root) => (
               <TreeNode
                 key={root.id}
@@ -200,6 +208,7 @@ export default function Explorer({ framework, selectedId, onSelect }: Props) {
                 onSelect={onSelect}
                 filter={filter}
                 domainKeep={domainKeep}
+                t={t}
               />
             ))}
           </div>
@@ -210,9 +219,9 @@ export default function Explorer({ framework, selectedId, onSelect }: Props) {
             <NodeDetail node={selected} onOpen={onSelect} />
           ) : (
             <div className="panel panel-pad">
-              <h3 style={{ marginBottom: 10 }}>{meta?.name ?? framework}</h3>
+              <h3 style={{ marginBottom: 10 }}>{text.name || framework}</h3>
               <p className="muted" style={{ maxWidth: '70ch' }}>
-                {meta?.question}
+                {text.question}
               </p>
               {meta?.quote && (
                 <blockquote
@@ -226,15 +235,21 @@ export default function Explorer({ framework, selectedId, onSelect }: Props) {
                     fontSize: 13.5,
                   }}
                 >
-                  “{meta.quote}”
+                  <div>
+                    {locale === 'ru' && meta.quoteRu ? meta.quoteRu : `“${meta.quote}”`}
+                  </div>
+                  {locale === 'ru' && meta.quoteRu && (
+                    <div className="small" style={{ marginTop: 8, opacity: 0.7 }}>
+                      “{meta.quote}”
+                    </div>
+                  )}
                   <div className="dim tiny" style={{ marginTop: 8 }}>
                     — {meta.quoteSource}
                   </div>
                 </blockquote>
               )}
               <p className="dim small" style={{ marginTop: 18 }}>
-                Pick an element in the tree to drill in. <b>{total.toLocaleString()}</b> elements
-                are loaded from the published TM Forum model.
+                {t('explorer.pick')} <b>{t('explorer.loaded', { count: total })}</b>
               </p>
             </div>
           )}

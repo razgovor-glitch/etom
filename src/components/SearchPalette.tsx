@@ -1,7 +1,8 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
 import type { ModaNode } from '../types';
 import { search } from '../lib/search';
-import { FRAMEWORK_BY_ID } from '../data/meta';
+import { FRAMEWORK_BY_ID, fwText } from '../data/meta';
+import { useI18n } from '../i18n';
 
 interface Props {
   onClose: () => void;
@@ -22,6 +23,7 @@ function Highlight({ text, ranges }: { text: string; ranges: [number, number][] 
 }
 
 export default function SearchPalette({ onClose, onOpen }: Props) {
+  const { t, locale } = useI18n();
   const [query, setQuery] = useState('');
   const [active, setActive] = useState(0);
   const inputRef = useRef<HTMLInputElement>(null);
@@ -63,18 +65,15 @@ export default function SearchPalette({ onClose, onOpen }: Props) {
         <input
           ref={inputRef}
           className="palette-input"
-          placeholder="Search every layer — e.g. billing, fault, partner, SLA…"
+          placeholder={t('search.placeholder')}
           value={query}
           onChange={(e) => setQuery(e.target.value)}
         />
         <div className="palette-results" ref={listRef}>
           {query.length < 2 && (
-            <p className="empty">
-              Type at least two characters. Search covers every element of every framework,
-              including the breadcrumb path.
-            </p>
+            <p className="empty">{t('search.hint')}</p>
           )}
-          {query.length >= 2 && hits.length === 0 && <p className="empty">Nothing matched.</p>}
+          {query.length >= 2 && hits.length === 0 && <p className="empty">{t('search.empty')}</p>}
           {hits.map((hit, i) => {
             const meta = FRAMEWORK_BY_ID.get(hit.node.fw as never);
             return (
@@ -97,16 +96,18 @@ export default function SearchPalette({ onClose, onOpen }: Props) {
                     {[...hit.node.path, meta?.name].filter(Boolean).join(' › ')}
                   </div>
                 </span>
-                <span className="tag">{meta?.short ?? hit.node.fw}</span>
+                <span className="tag">{meta ? fwText(meta, locale).short : hit.node.fw}</span>
               </button>
             );
           })}
         </div>
         <div className="palette-foot">
-          <span>↑ ↓ navigate</span>
-          <span>↵ open</span>
-          <span>esc close</span>
-          <span style={{ marginLeft: 'auto' }}>{hits.length} results</span>
+          <span>{t('search.nav')}</span>
+          <span>{t('search.open')}</span>
+          <span>{t('search.close')}</span>
+          <span style={{ marginLeft: 'auto' }}>
+            {t('search.results', { count: hits.length })}
+          </span>
         </div>
       </div>
     </div>

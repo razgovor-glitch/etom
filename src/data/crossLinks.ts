@@ -306,6 +306,103 @@ export const CONCEPTS: ConceptLink[] = [
   },
 ];
 
+/**
+ * Russian rendering of each concept's explanation. Kept beside the English
+ * original in one map so the two never drift apart: adding a concept without
+ * its translation is a missing key at runtime.
+ */
+export const CONCEPT_BLURBS_RU: Record<string, string> = {
+  Customer:
+    'Сторона, которая покупает. Каждый слой MODA хранит своё представление о клиенте, и большинство сквозных процессов начинается именно здесь.',
+  'Product & catalogue':
+    'Коммерческое предложение — то, что клиент подписывает и за что ему выставляют счёт.',
+  Service:
+    'То, что провайдер эксплуатирует и поставляет, в отличие от продукта, который он продаёт.',
+  'Resource & network':
+    'Физическая, сетевая и ИТ-инфраструктура, доставляющая сервисы.',
+  'Market & sales':
+    'Поиск, квалификация и конверсия спроса — коммерческая точка входа в архитектуру.',
+  'Business partner':
+    'Сторонние организации, с которыми провайдер ведёт дела: поставка, агрегация, опт, аутсорсинг.',
+  Enterprise:
+    'Внутренняя операционная модель: стратегия, управление и собственная организация провайдера.',
+  'Order & fulfillment':
+    'От намерения до оказанной услуги — канонический сквозной процесс, собранный из представлений Customer, Product и Resource.',
+  Billing:
+    'Превращение оказанной услуги в начисляемую позицию.',
+  Invoice: 'Сам счёт: начисления, налоги, корректировки и период, который он покрывает.',
+  Payments: 'Сбор причитающегося и расчёты с теми, кому должны мы.',
+  'Accounting & settlement':
+    'Реестр, который делает коммерческий результат проверяемым.',
+  'Tariff & rating':
+    'Правила тарификации и превращение событий использования в денежные суммы.',
+  'Marketing campaign':
+    'Скоординированный выход на рынок, оцениваемый по охвату и отклику, а не по оказанной услуге.',
+  'Campaign analytics':
+    'Как измеряется эффективность кампании и как результат возвращается в таргетинг.',
+  'Sales & pipeline':
+    'Превращение рынка в квалифицированный и прогнозируемый pipeline.',
+  'Product configuration & activation':
+    'Как продукт становится реальным для конкретного клиента и включается.',
+  'Resource commissioning':
+    'Операциональное зеркало активации: подготовка инфраструктуры, которая его реализует, и её передача.',
+  'Fault & problem management':
+    'Обнаружение, локализация и устранение неисправностей и предотвращение их повторения.',
+  'Performance & SLA':
+    'Измерение качества услуги относительно цели и управление самим обязательством.',
+  'Service assurance':
+    'Замкнутый контур: измерить качество, найти причину, устранить и доказать, что устранено.',
+  'Usage & mediation':
+    'Сбор сетевых событий, их корреляция и тарификация в начисляемое использование.',
+  'Capacity & inventory':
+    'Знание о том, что есть в инфраструктуре и есть ли запас для роста.',
+  Knowledge:
+    'Превращение операционной истории в повторно используемые знания для клиентов и сотрудников.',
+  Contract:
+    'Юридическая и коммерческая оболочка вокруг продуктов, партнёров и enterprise-клиентов.',
+  'Data & analytics':
+    'Слой отчётности и аналитики, пронизывающий все остальные фреймворки.',
+  Security: 'Доверие, идентификация и управление доступом на всех уровнях модели.',
+  'Shared & common':
+    'Сквозные concerns, которые каждый домен берёт во временное пользование, а не владеет ими, — именно ради них в MODA есть домены Shared и Common.',
+};
+
+/**
+ * Russian names for the concepts. Unlike element names — which are official TM
+ * Forum names and stay verbatim — concept labels are this app's own editorial
+ * vocabulary, so they are fully translated.
+ */
+export const CONCEPT_NAMES_RU: Record<string, string> = {
+  Customer: 'Клиент',
+  'Product & catalogue': 'Продукт и каталог',
+  Service: 'Услуга',
+  'Resource & network': 'Ресурсы и сеть',
+  'Market & sales': 'Рынки и продажи',
+  'Business partner': 'Бизнес-партнёр',
+  Enterprise: 'Предприятие',
+  'Order & fulfillment': 'Заказ и выполнение',
+  Billing: 'Биллинг',
+  Invoice: 'Счёт',
+  Payments: 'Платежи',
+  'Accounting & settlement': 'Учёт и расчёты',
+  'Tariff & rating': 'Тарифы и тарификация',
+  'Marketing campaign': 'Маркетинговая кампания',
+  'Campaign analytics': 'Аналитика кампаний',
+  'Sales & pipeline': 'Продажи и воронка',
+  'Product configuration & activation': 'Конфигурация и активация продукта',
+  'Resource commissioning': 'Ввод ресурсов в эксплуатацию',
+  'Fault & problem management': 'Управление неисправностями и проблемами',
+  'Performance & SLA': 'Качество услуги и SLA',
+  'Service assurance': 'Гарантирование качества услуги',
+  'Usage & mediation': 'Использование и медиация',
+  'Capacity & inventory': 'Ёмкость и инвентаризация',
+  Knowledge: 'Знания',
+  Contract: 'Договор',
+  'Data & analytics': 'Данные и аналитика',
+  Security: 'Безопасность',
+  'Shared & common': 'Общие и сквозные элементы',
+};
+
 /** Word-level stop list used when comparing names automatically. */
 export const STOPWORDS = new Set([
   'the', 'and', 'for', 'with', 'from', 'that', 'this', 'management', 'process',

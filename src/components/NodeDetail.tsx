@@ -1,7 +1,9 @@
 import type { ModaNode } from '../types';
-import { FRAMEWORK_BY_ID } from '../data/meta';
+import { FRAMEWORK_BY_ID, fwText } from '../data/meta';
 import { childrenOf, countChildren, countPackageChildren } from '../data/model';
 import { relationsOf } from '../lib/links';
+import { useI18n } from '../i18n';
+import { domainShort } from '../i18n/domains';
 
 interface Props {
   node: ModaNode;
@@ -12,7 +14,9 @@ interface Props {
 const CHILD_PREVIEW = 24;
 
 export default function NodeDetail({ node, onOpen, onBack }: Props) {
+  const { t, locale } = useI18n();
   const meta = FRAMEWORK_BY_ID.get(node.fw as never);
+  const text = fwText(meta, locale);
   const children = childrenOf(node.id);
   const packages = countPackageChildren(node.id);
   const { concepts, similar } = relationsOf(node);
@@ -39,7 +43,7 @@ export default function NodeDetail({ node, onOpen, onBack }: Props) {
           </div>
           {onBack && (
             <button className="btn small" onClick={onBack}>
-              ← Back
+              {t('detail.back')}
             </button>
           )}
         </div>
@@ -47,19 +51,21 @@ export default function NodeDetail({ node, onOpen, onBack }: Props) {
         <div className="detail-tags">
           {meta && (
             <span className="tag solid" style={{ background: meta.accent }}>
-              {meta.name}
+              {text.name || meta?.name}
             </span>
           )}
           <span className="tag">{node.kind}</span>
           <span className="tag">{node.level}</span>
-          {node.vertical && <span className="tag">{node.vertical}</span>}
+          {node.vertical && <span className="tag" title={node.vertical}>{domainShort(locale, node.vertical)}</span>}
           {node.horizontal && <span className="tag">{node.horizontal}</span>}
           {node.release && <span className="tag">R{node.release}</span>}
           {node.status && <span className="tag">{node.status}</span>}
           {countChildren(node.id) > 0 && (
             <span className="tag">
-              {countChildren(node.id)} element{countChildren(node.id) === 1 ? '' : 's'}
-              {packages > 0 && packages !== countChildren(node.id) ? ` · ${packages} packages` : ''}
+              {t('detail.count', { count: countChildren(node.id) })}
+              {packages > 0 && packages !== countChildren(node.id)
+                ? ` ${t('detail.packages', { count: packages })}`
+                : ''}
             </span>
           )}
         </div>
@@ -69,17 +75,14 @@ export default function NodeDetail({ node, onOpen, onBack }: Props) {
         {node.summary ? (
           <p className="detail-summary">{node.summary}</p>
         ) : (
-          <p className="dim small">
-            No description is published for this element in the TM Forum model. Follow the
-            source link below for the authoritative page.
-          </p>
+          <p className="dim small">{t('detail.noSummary')}</p>
         )}
 
         {children.length > 0 && (
           <div className="section">
             <div className="section-head">
-              <h3>Contains</h3>
-              <span className="hint">{children.length} elements</span>
+              <h3>{t('detail.contains')}</h3>
+              <span className="hint">{t('detail.count', { count: children.length })}</span>
             </div>
             <div className="grid-cards">
               {children.slice(0, CHILD_PREVIEW).map((child) => (
@@ -94,8 +97,7 @@ export default function NodeDetail({ node, onOpen, onBack }: Props) {
             </div>
             {children.length > CHILD_PREVIEW && (
               <p className="dim small" style={{ marginTop: 10 }}>
-                + {children.length - CHILD_PREVIEW} more. Use the tree on the left to navigate
-                the full structure.
+                {t('detail.more', { count: children.length - CHILD_PREVIEW })}
               </p>
             )}
           </div>
@@ -104,15 +106,15 @@ export default function NodeDetail({ node, onOpen, onBack }: Props) {
         {concepts.length > 0 && (
           <div className="section">
             <div className="section-head">
-              <h3>Concepts</h3>
-              <span className="hint">how this element carries a business concept across MODA</span>
+              <h3>{t('detail.concepts')}</h3>
+              <span className="hint">{t('detail.conceptsHint')}</span>
             </div>
             <div style={{ display: 'grid', gap: 12 }}>
               {concepts.map((concept) => (
                 <div key={concept.concept} className="panel panel-pad" style={{ padding: '14px 16px' }}>
                   <h4 style={{ marginBottom: 4 }}>{concept.concept}</h4>
                   <p className="muted small" style={{ margin: '0 0 10px' }}>
-                    {concept.blurb}
+                    {locale === 'ru' && concept.blurbRu ? concept.blurbRu : concept.blurb}
                   </p>
                   <div className="concept-targets">
                     {Object.entries(concept.resolved).map(([fw, target]) => {
@@ -123,10 +125,10 @@ export default function NodeDetail({ node, onOpen, onBack }: Props) {
                           key={fw}
                           className="concept-target"
                           onClick={() => onOpen(target.id)}
-                          title={`${m?.name ?? fw} — ${target.name}`}
+                          title={`${text.name || m?.name || fw} — ${target.name}`}
                         >
                           <span className="dot" style={{ background: m?.accent }} />
-                          <span className="dim">{m?.short ?? fw}</span>
+                          <span className="dim">{m ? fwText(m, locale).short : fw}</span>
                           <span>{target.name}</span>
                         </button>
                       );
@@ -141,8 +143,8 @@ export default function NodeDetail({ node, onOpen, onBack }: Props) {
         {similar.length > 0 && (
           <div className="section">
             <div className="section-head">
-              <h3>Related across MODA</h3>
-              <span className="hint">matched by shared terminology in other frameworks</span>
+              <h3>{t('detail.related')}</h3>
+              <span className="hint">{t('detail.relatedHint')}</span>
             </div>
             <div className="grid-cards">
               {similar.map(({ node: rel, via, strength }) => {
@@ -151,7 +153,10 @@ export default function NodeDetail({ node, onOpen, onBack }: Props) {
                   <button key={rel.id} className="node-card" onClick={() => onOpen(rel.id)}>
                     <span className="nc-name">{rel.name}</span>
                     <span className="nc-meta">
-                      <span style={{ color: m?.accent }}>{m?.short ?? rel.fw}</span> · shares “{via}”
+                      <span style={{ color: m?.accent }}>
+                        {m ? fwText(m, locale).short : rel.fw}
+                      </span>{' '}
+                      · {t('detail.shares', { term: via })}
                     </span>
                     <span
                       style={{
@@ -172,7 +177,7 @@ export default function NodeDetail({ node, onOpen, onBack }: Props) {
         <div className="section">
           {node.tmfUrl && (
             <a className="btn" href={node.tmfUrl} target="_blank" rel="noreferrer">
-              Open in TM Forum model ↗
+              {t('detail.source')}
             </a>
           )}
         </div>

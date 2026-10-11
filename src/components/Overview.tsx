@@ -1,5 +1,6 @@
-import { BAND_LABELS, FRAMEWORKS, RELATIONS } from '../data/meta';
+import { BAND_KEY, FRAMEWORKS, RELATIONS, fwText } from '../data/meta';
 import { ALL_NODES, BY_FRAMEWORK } from '../data/model';
+import { useI18n } from '../i18n';
 
 interface Props {
   onOpenFramework: (fw: string) => void;
@@ -8,6 +9,7 @@ interface Props {
 }
 
 export default function Overview({ onOpenFramework, onOpenNode, onOpenConcepts }: Props) {
+  const { t, locale, fmt } = useI18n();
   const total = ALL_NODES.length;
   const domains = (BY_FRAMEWORK.get('domains') ?? []).length;
 
@@ -17,29 +19,19 @@ export default function Overview({ onOpenFramework, onOpenNode, onOpenConcepts }
     <>
       <div className="hero">
         <div>
-          <div className="kicker">TM Forum · Open Digital Architecture</div>
-          <h1>One architecture, eight views.</h1>
-          <p className="page-lede">
-            MODA is TM Forum’s reference architecture for digital business. It does not invent a
-            new way to model a company — it lines up the views an operator already needs: what the
-            business <i>is</i> (domains), what it <i>does</i> (eTOM processes), what it must
-            <i> be able to do</i> (functions), what <i>delivers it</i> (applications), what data
-            it <i>carries</i> (information) and how it <i>knows</i> it worked (metrics).
-          </p>
-          <p className="page-lede">
-            This explorer reads the model TM Forum publishes and lets you move between those views
-            without losing your place — the point of MODA only shows up when you can trace one
-            process across all of them.
-          </p>
+          <div className="kicker">{t('home.kicker')}</div>
+          <h1>{t('home.title')}</h1>
+          <p className="page-lede">{t('home.lede1')}</p>
+          <p className="page-lede">{t('home.lede2')}</p>
           <div style={{ display: 'flex', gap: 10, marginTop: 20, flexWrap: 'wrap' }}>
             <button className="btn primary" onClick={() => onOpenFramework('etom')}>
-              Start with eTOM →
+              {t('home.cta.etom')}
             </button>
             <button className="btn" onClick={onOpenConcepts}>
-              Trace a concept across layers
+              {t('home.cta.concepts')}
             </button>
             <button className="btn" onClick={() => onOpenNode('0')}>
-              The model root
+              {t('home.cta.root')}
             </button>
           </div>
         </div>
@@ -47,34 +39,33 @@ export default function Overview({ onOpenFramework, onOpenNode, onOpenConcepts }
         <div className="panel panel-pad">
           <div className="stat-row">
             <div className="stat">
-              <div className="n">{total.toLocaleString()}</div>
-              <div className="l">model elements</div>
+              <div className="n">{fmt(total)}</div>
+              <div className="l">{t('home.stat.elements')}</div>
             </div>
             <div className="stat">
               <div className="n">{FRAMEWORKS.length}</div>
-              <div className="l">frameworks</div>
+              <div className="l">{t('home.stat.frameworks')}</div>
             </div>
             <div className="stat">
               <div className="n">{domains || 12}</div>
-              <div className="l">business domains</div>
+              <div className="l">{t('home.stat.domains')}</div>
             </div>
           </div>
           <p className="dim small" style={{ marginTop: 16, marginBottom: 0 }}>
-            Every element links back to its page in the published TM Forum model, so anything here
-            can be checked against the source.
+            {t('home.stat.note')}
           </p>
         </div>
       </div>
 
       <div className="section">
         <div className="section-head">
-          <h3>The master ODA diagram</h3>
-          <span className="hint">click any layer to open it</span>
+          <h3>{t('home.master.title')}</h3>
+          <span className="hint">{t('home.master.hint')}</span>
         </div>
         <div className="panel oda">
           {bands.map((band, i) => (
             <div key={i} style={{ display: 'contents' }}>
-              <div className="oda-band">{BAND_LABELS[i + 1]}</div>
+              <div className="oda-band">{t(BAND_KEY[(i + 1) as 1 | 2 | 3])}</div>
               {band.map((fw) => {
                 const count = (BY_FRAMEWORK.get(fw.id) ?? []).length;
                 return (
@@ -89,9 +80,9 @@ export default function Overview({ onOpenFramework, onOpenNode, onOpenConcepts }
                     }
                     onClick={() => onOpenFramework(fw.id)}
                   >
-                    <div className="t">{fw.name}</div>
-                    <div className="q">{fw.question}</div>
-                    <div className="c">{count ? `${count.toLocaleString()} elements` : '—'}</div>
+                    <div className="t">{fwText(fw, locale).name}</div>
+                    <div className="q">{fwText(fw, locale).question}</div>
+                    <div className="c">{count ? t('detail.count', { count }) : t('common.empty')}</div>
                   </button>
                 );
               })}
@@ -102,8 +93,8 @@ export default function Overview({ onOpenFramework, onOpenNode, onOpenConcepts }
 
       <div className="section">
         <div className="section-head">
-          <h3>Inside each framework</h3>
-          <span className="hint">the published package tree, straight from the model</span>
+          <h3>{t('home.inside.title')}</h3>
+          <span className="hint">{t('home.inside.hint')}</span>
         </div>
         <div className="concept-grid">
           {FRAMEWORKS.map((fw) => {
@@ -114,9 +105,9 @@ export default function Overview({ onOpenFramework, onOpenNode, onOpenConcepts }
               <div key={fw.id} className="panel concept-card">
                 <div style={{ display: 'flex', alignItems: 'center', gap: 9 }}>
                   <span className="rail-dot" style={{ background: fw.accent }} />
-                  <h4>{fw.name}</h4>
+                  <h4>{fwText(fw, locale).name}</h4>
                   <span className="dim tiny mono" style={{ marginLeft: 'auto' }}>
-                    {all.length.toLocaleString()}
+                    {fmt(all.length)}
                   </span>
                 </div>
                 <div className="concept-targets">
@@ -131,12 +122,12 @@ export default function Overview({ onOpenFramework, onOpenNode, onOpenConcepts }
                     </button>
                   ))}
                   {tops.length === 0 && (
-                    <span className="dim small">
-                      No package level published for this branch.
-                    </span>
+                    <span className="dim small">{t('home.inside.empty')}</span>
                   )}
                   {tops.length > 10 && (
-                    <span className="dim tiny">+{tops.length - 10} more</span>
+                    <span className="dim tiny">
+                      {t('common.more', { count: tops.length - 10 })}
+                    </span>
                   )}
                 </div>
               </div>
@@ -147,8 +138,8 @@ export default function Overview({ onOpenFramework, onOpenNode, onOpenConcepts }
 
       <div className="section">
         <div className="section-head">
-          <h3>How the layers connect</h3>
-          <span className="hint">the relationships that make MODA one model</span>
+          <h3>{t('home.relations.title')}</h3>
+          <span className="hint">{t('home.relations.hint')}</span>
         </div>
         <div className="concept-grid">
           {RELATIONS.map((rel) => {
@@ -163,7 +154,7 @@ export default function Overview({ onOpenFramework, onOpenNode, onOpenConcepts }
                     style={{ background: from.accent, cursor: 'pointer', border: 'none' }}
                     onClick={() => onOpenFramework(from.id)}
                   >
-                    {from.short}
+                    {fwText(from, locale).short}
                   </button>
                   <span className="dim">→</span>
                   <button
@@ -171,11 +162,11 @@ export default function Overview({ onOpenFramework, onOpenNode, onOpenConcepts }
                     style={{ background: to.accent, cursor: 'pointer', border: 'none' }}
                     onClick={() => onOpenFramework(to.id)}
                   >
-                    {to.short}
+                    {fwText(to, locale).short}
                   </button>
                 </div>
                 <p className="muted small" style={{ margin: 0 }}>
-                  {rel.text}
+                  {t(rel.key)}
                 </p>
               </div>
             );

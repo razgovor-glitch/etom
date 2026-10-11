@@ -20,6 +20,10 @@ It presents the architecture as one navigable model rather than eight disconnect
 - **Cross-framework matrices** — business domain × framework coverage, counted from the model, plus
   element-type composition.
 - **Global search** (⌘K) across every element of every framework.
+- **English / Russian interface** — switchable from the top bar, remembered across sessions and
+  defaulting from the browser language. Model content stays verbatim: TM Forum element names,
+  domain names and releases are official names from a published standard, so they are shown as
+  published (with a Russian gloss where it aids reading) rather than replaced with a translation.
 - **Automatic cross-references** — when you open an element, the app finds elements in *other*
   frameworks that share distinctive terminology, e.g. eTOM's *Manage Customer Billing Account*
   surfaces the matching application, information entity and metrics.
@@ -77,6 +81,10 @@ src/
     model.ts             typed loader + tree indexes
     meta.ts              framework descriptions and source links
     crossLinks.ts        curated concept → element map
+  i18n/
+    dictionaries.ts      en + ru strings (en is the checked source of truth)
+    index.tsx            provider, locale switching, plural rules
+    domains.ts           Russian glosses for the MODA domain names
   lib/
     links.ts             concept resolution + automatic cross-framework matching
     search.ts            search with highlighting

@@ -1,7 +1,9 @@
 import { useMemo, useState } from 'react';
 import type { ModaNode } from '../types';
 import { BY_FRAMEWORK } from '../data/model';
-import { FRAMEWORKS } from '../data/meta';
+import { FRAMEWORKS, fwText } from '../data/meta';
+import { useI18n } from '../i18n';
+import { domainLabel } from '../i18n/domains';
 
 interface Props {
   onOpenNode: (id: string) => void;
@@ -23,6 +25,7 @@ const DOMAIN_ORDER = [
 
 export default function Matrix({ onOpenNode }: Props) {
   const [open, setOpen] = useState<string | null>(null);
+  const { t, locale, fmt } = useI18n();
 
   const grid = useMemo(() => {
     const byDomain = new Map<string, Map<string, ModaNode[]>>();
@@ -65,30 +68,26 @@ export default function Matrix({ onOpenNode }: Props) {
 
   return (
     <>
-      <div className="page-title">Cross-framework matrices</div>
-      <p className="page-lede">
-        The same business domains run through every layer of MODA. The Customer domain, for
-        example, is a set of processes in eTOM, a set of functions, a set of applications, a set of
-        entities and a set of metrics. This grid is that alignment, counted from the live model.
-      </p>
+      <div className="page-title">{t('matrix.title')}</div>
+      <p className="page-lede">{t('matrix.lede')}</p>
 
       <div className="section">
         <div className="section-head">
-          <h3>Business domain × framework</h3>
-          <span className="hint">element counts · click a cell to expand</span>
+          <h3>{t('matrix.grid.title')}</h3>
+          <span className="hint">{t('matrix.grid.hint')}</span>
         </div>
         <div className="matrix">
           <table>
             <thead>
               <tr>
-                <th style={{ width: 170 }}>Domain ↓</th>
+                <th style={{ width: 170 }}>{t('matrix.grid.corner')}</th>
                 {FRAMEWORKS.map((fw) => (
                   <th key={fw.id} style={{ textAlign: 'center' }}>
                     <span
                       className="rail-dot"
                       style={{ background: fw.accent, display: 'inline-block', marginRight: 6 }}
                     />
-                    {fw.short}
+                    {fwText(fw, locale).short}
                   </th>
                 ))}
               </tr>
@@ -100,9 +99,9 @@ export default function Matrix({ onOpenNode }: Props) {
                 return (
                   <tr key={domain}>
                     <td style={{ fontWeight: 600 }}>
-                      {domain}
+                      {domainLabel(locale, domain)}
                       <span className="c dim" style={{ display: 'block', fontWeight: 400 }}>
-                        {rowTotal.toLocaleString()}
+                        {fmt(rowTotal)}
                       </span>
                     </td>
                     {FRAMEWORKS.map((fw) => {
@@ -168,7 +167,7 @@ export default function Matrix({ onOpenNode }: Props) {
                                     ))}
                                   {cell.length > 60 && (
                                     <div className="dim tiny" style={{ padding: '4px 0' }}>
-                                      +{cell.length - 60} more
+                                      +{cell.length - 60}
                                     </div>
                                   )}
                                 </div>
@@ -182,14 +181,14 @@ export default function Matrix({ onOpenNode }: Props) {
                 );
               })}
               <tr>
-                <td style={{ fontWeight: 600, background: 'var(--panel-2)' }}>Framework total</td>
+                <td style={{ fontWeight: 600, background: 'var(--panel-2)' }}>{t('matrix.grid.total')}</td>
                 {FRAMEWORKS.map((fw) => (
                   <td
                     key={fw.id}
                     className="mono"
                     style={{ textAlign: 'center', background: 'var(--panel-2)', fontWeight: 600 }}
                   >
-                    {(BY_FRAMEWORK.get(fw.id) ?? []).length.toLocaleString()}
+                    {fmt((BY_FRAMEWORK.get(fw.id) ?? []).length)}
                   </td>
                 ))}
               </tr>
@@ -200,20 +199,20 @@ export default function Matrix({ onOpenNode }: Props) {
 
       <div className="section">
         <div className="section-head">
-          <h3>Element types by framework</h3>
-          <span className="hint">{total.toLocaleString()} eTOM elements included</span>
+          <h3>{t('matrix.types.title')}</h3>
+          <span className="hint">{t('matrix.types.hint', { count: total })}</span>
         </div>
         <div className="matrix">
           <table>
             <thead>
               <tr>
-                <th style={{ width: 200 }}>Framework</th>
+                <th style={{ width: 200 }}>{t('matrix.types.framework')}</th>
                 {kinds.map((k) => (
                   <th key={k} style={{ textAlign: 'right' }}>
                     {k}
                   </th>
                 ))}
-                <th style={{ textAlign: 'right' }}>Total</th>
+                <th style={{ textAlign: 'right' }}>{t('matrix.types.total')}</th>
               </tr>
             </thead>
             <tbody>
@@ -226,7 +225,7 @@ export default function Matrix({ onOpenNode }: Props) {
                         className="rail-dot"
                         style={{ background: fw.accent, display: 'inline-block', marginRight: 8 }}
                       />
-                      {fw.name}
+                      {fwText(fw, locale).name}
                     </td>
                     {kinds.map((k) => {
                       const value = lookup.get(k) ?? 0;
@@ -254,7 +253,7 @@ export default function Matrix({ onOpenNode }: Props) {
                       );
                     })}
                     <td className="mono" style={{ textAlign: 'right', fontWeight: 600 }}>
-                      {rowTotal.toLocaleString()}
+                      {fmt(rowTotal)}
                     </td>
                   </tr>
                 );

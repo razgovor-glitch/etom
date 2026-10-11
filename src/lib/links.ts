@@ -1,6 +1,6 @@
 import type { FrameworkId, ModaNode } from '../types';
 import { BY_FRAMEWORK, ALL_NODES } from '../data/model';
-import { CONCEPTS, STOPWORDS, type ConceptLink } from '../data/crossLinks';
+import { CONCEPTS, CONCEPT_BLURBS_RU, STOPWORDS, type ConceptLink } from '../data/crossLinks';
 
 const norm = (s: string) => s.toLowerCase().replace(/\s+/g, ' ').trim();
 
@@ -28,6 +28,8 @@ export function resolveName(fw: FrameworkId | string, candidates: string[]): Mod
 }
 
 export interface ResolvedConcept extends ConceptLink {
+  /** Russian explanation, when one exists for the concept. */
+  blurbRu?: string;
   resolved: Partial<Record<FrameworkId, ModaNode>>;
   /** Concepts whose name could not be matched anywhere are still listed. */
   matchedCount: number;
@@ -43,7 +45,12 @@ export function resolvedConcepts(): ResolvedConcept[] {
       const hit = resolveName(fw as FrameworkId, names ?? []);
       if (hit) resolved[fw as FrameworkId] = hit;
     }
-    return { ...concept, resolved, matchedCount: Object.keys(resolved).length };
+    return {
+      ...concept,
+      blurbRu: CONCEPT_BLURBS_RU[concept.concept],
+      resolved,
+      matchedCount: Object.keys(resolved).length,
+    };
   });
   return conceptCache;
 }
