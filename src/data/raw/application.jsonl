@@ -1,0 +1,567 @@
+{"n":"Application Framework","t":"Package","p":"0.7","h":"EA15405.htm","g":"DB857CCA-C67C-4438-837F-4ADBF5262897","r":"26.0.0","st":"Proposed"}
+{"n":"TAM Overview","t":"Component diagram0","p":"0.7:1","h":"EARoot/EA7/EA15403.htm","g":"34ED570D-B0C7-4315-8FEA-48398FF00228"}
+{"n":"Application","t":"Package","p":"0.7.1","h":"EARoot/EA7/EA1/EA15418.htm","g":"434B4D2A-4C38-44CB-823B-F91EC811F4CB","r":"26.0.0","st":"Team Approved"}
+{"n":"Deleted Application","t":"Package","p":"0.7.2","h":"EARoot/EA7/EA2/EA15970.htm","g":"C65BD35D-83F0-408C-9EA7-84330453960A"}
+{"n":"Application Framework Level 1 Overview","t":"Component diagram0","p":"0.7.1:1","h":"EARoot/EA7/EA1/EA15416.htm","g":"1D826671-61F8-4A94-859D-D688178350C4"}
+{"n":"Market Sales Domain","t":"Package","p":"0.7.1.1","h":"EARoot/EA7/EA1/EA1/EA15447.htm","g":"65BEA7A0-A211-4E6B-91A3-93F2A8CFC513","r":"26.0.0","st":"Team Approved"}
+{"n":"Customer Domain","t":"Package","p":"0.7.1.2","h":"EARoot/EA7/EA1/EA2/EA15529.htm","g":"9766CB07-C7DB-40D2-A03D-8E338766FD6E"}
+{"n":"Product Domain","t":"Package","p":"0.7.1.3","h":"EARoot/EA7/EA1/EA3/EA15657.htm","g":"2F152B8E-07DB-4F6B-B487-A4B8E964EEDC"}
+{"n":"Service Domain","t":"Package","p":"0.7.1.4","h":"EARoot/EA7/EA1/EA4/EA15676.htm","g":"DEAC14FB-15BF-4A74-975F-CEBFFE4407D1"}
+{"n":"Resource Domain","t":"Package","p":"0.7.1.5","h":"EARoot/EA7/EA1/EA5/EA15749.htm","g":"2194565C-8DC5-4D2F-860F-8C92DAC91B73"}
+{"n":"Business Partner Domain","t":"Package","p":"0.7.1.6","h":"EARoot/EA7/EA1/EA6/EA15819.htm","g":"57B1AEC6-16E3-408D-9487-DC0996C3FD1B"}
+{"n":"Enterprise Domain","t":"Package","p":"0.7.1.7","h":"EARoot/EA7/EA1/EA7/EA15855.htm","g":"D140ECE3-ECB6-45A5-8AB5-A17B5278A298","r":"26.0.0","st":"Team Approved"}
+{"n":"Integration Domain","t":"Package","p":"0.7.1.8","h":"EARoot/EA7/EA1/EA8/EA15944.htm","g":"59D26D7A-C321-475E-8B67-BC62EA7A3852"}
+{"n":"Common Domain","t":"Package","p":"0.7.1.9","h":"EARoot/EA7/EA1/EA9/EA15955.htm","g":"1F9A7A15-E5DA-469E-816A-F552A27A5D58"}
+{"n":"Deleted Application","t":"Component diagram0","p":"0.7.2:1","h":"EARoot/EA7/EA2/EA15968.htm","g":"AE3D7A32-F941-4809-939D-58530253C78A"}
+{"n":"Analyze and Manage Customer Risk (Deleted!)","t":"Class0","p":"0.7.2:2","h":"EARoot/EA7/EA2/EA15971.htm","g":"CB7D923B-0DC9-45C2-A3AE-AAFF7F1EEF77"}
+{"n":"Billing Data Mediation (Deleted)","t":"Class0","p":"0.7.2:3","h":"EARoot/EA7/EA2/EA15972.htm","g":"177A5D7B-309E-4082-A2A0-C2FE9588C3DC"}
+{"n":"Build Customer Insight (Deleted)","t":"Class0","p":"0.7.2:4","h":"EARoot/EA7/EA2/EA15973.htm","g":"31CF126B-9B74-4767-B50F-066C87D7E8B6"}
+{"n":"Business Intelligence (BI)(Deleted)","t":"Class0","p":"0.7.2:5","h":"EARoot/EA7/EA2/EA15974.htm","g":"8E6D9D5A-FB91-4548-A273-3188119B1F85"}
+{"n":"Campaign & Funnel Management (Deleted)*Corporate Sales Management (Deleted)","t":"Class0","p":"0.7.2:6","h":"EARoot/EA7/EA2/EA15975.htm","g":"CC3D3F7D-F9D6-4ABF-96BB-4EFA14369BE9"}
+{"n":"Campaign Analytics (Deleted)","t":"Class0","p":"0.7.2:7","h":"EARoot/EA7/EA2/EA15976.htm","g":"12136194-0D39-443A-A365-F9A051C0C85E"}
+{"n":"Campaign Design (Deleted)","t":"Class0","p":"0.7.2:8","h":"EARoot/EA7/EA2/EA15977.htm","g":"CEB7DEE3-085E-4D11-BC6B-27592617791B"}
+{"n":"Campaign Execution & Refinement (Deleted)","t":"Class0","p":"0.7.2:9","h":"EARoot/EA7/EA2/EA15978.htm","g":"86E9D059-4CE6-4B2E-951D-E647E6F80FA9"}
+{"n":"Campaign Management (Deleted)","t":"Class0","p":"0.7.2:10","h":"EARoot/EA7/EA2/EA15979.htm","g":"2C40470E-64C5-4733-8A88-D400291439CE"}
+{"n":"CM Distribution & Acquisition(Deleted)","t":"Class0","p":"0.7.2:11","h":"EARoot/EA7/EA2/EA15980.htm","g":"73B25599-FC2B-4716-B75A-D5123738EB83"}
+{"n":"CM Portal & Discovery (Deleted)","t":"Class0","p":"0.7.2:12","h":"EARoot/EA7/EA2/EA15981.htm","g":"2CF7495C-FDF8-4F11-88D0-4A0BC23D2D16"}
+{"n":"Contract Generation (Deleted)","t":"Class0","p":"0.7.2:13","h":"EARoot/EA7/EA2/EA15982.htm","g":"7D63EC57-4E9E-4E7E-A4ED-17DBA5849E68"}
+{"n":"Contract Implementation (Deleted)","t":"Class0","p":"0.7.2:14","h":"EARoot/EA7/EA2/EA15983.htm","g":"F42BEE45-0E75-4065-83B9-7911362C8836"}
+{"n":"Contract Management (Deleted)","t":"Class0","p":"0.7.2:15","h":"EARoot/EA7/EA2/EA15984.htm","g":"5217F8FC-C98F-4B95-9D23-D306BC182731"}
+{"n":"Contract Tracking & Storage (Deleted)","t":"Class0","p":"0.7.2:16","h":"EARoot/EA7/EA2/EA15985.htm","g":"D06699A6-69F6-4F65-AEB4-A853C1C7C5FA"}
+{"n":"Contract Workflow (Deleted)","t":"Class0","p":"0.7.2:17","h":"EARoot/EA7/EA2/EA15986.htm","g":"F35EC9CE-4DA3-4ED4-BE78-84F18DE4394F"}
+{"n":"Corporate Sales Management (Deleted)","t":"Class0","p":"0.7.2:18","h":"EARoot/EA7/EA2/EA15987.htm","g":"39A23BB8-BE3C-447A-87B1-AC9551E58681"}
+{"n":"Corporate Sales Workflow Management (Deleted)","t":"Class0","p":"0.7.2:19","h":"EARoot/EA7/EA2/EA15988.htm","g":"741AF028-6C90-4F2C-93B8-76E3CD0EB645"}
+{"n":"Customer Order Distribution[DELETED]","t":"Class0","p":"0.7.2:20","h":"EARoot/EA7/EA2/EA15989.htm","g":"59F343A6-CEB7-4256-B3C1-10B1BE4DBD70"}
+{"n":"Customer Order Establishment*Customer Qualification (Deleted)","t":"Class0","p":"0.7.2:21","h":"EARoot/EA7/EA2/EA15990.htm","g":"6D0D7FE5-2CAB-4374-A695-2DC28AFB7520"}
+{"n":"Customer Order Publication [DELETED]","t":"Class0","p":"0.7.2:22","h":"EARoot/EA7/EA2/EA15991.htm","g":"860DE1FD-90CF-4FCF-9802-D81F5DDF1AE5"}
+{"n":"Customer Qualification (Deleted)","t":"Class0","p":"0.7.2:23","h":"EARoot/EA7/EA2/EA15992.htm","g":"E29E8FEC-E621-44A7-9C27-F710D1887A5F"}
+{"n":"Customer Quality of Service & Service Level Agreement Management (Deleted)","t":"Class0","p":"0.7.2:24","h":"EARoot/EA7/EA2/EA15993.htm","g":"B3688D01-872B-47ED-B0D6-67578C5A1D8F"}
+{"n":"Customer Relationship Analysis (Deleted)","t":"Class0","p":"0.7.2:25","h":"EARoot/EA7/EA2/EA15994.htm","g":"78D7BB46-5B6E-4951-9CA5-3F0B04297B4E"}
+{"n":"Customer Sales Portals (Deleted)","t":"Class0","p":"0.7.2:26","h":"EARoot/EA7/EA2/EA15995.htm","g":"459A9E95-8443-40E8-A962-3E9D47C869A0"}
+{"n":"Customer/Prospect Data Acquisition (Deleted)","t":"Class0","p":"0.7.2:27","h":"EARoot/EA7/EA2/EA15996.htm","g":"AE503451-7C48-41B7-9087-CF97A0DCD140"}
+{"n":"Data Management(Deleted)","t":"Class0","p":"0.7.2:28","h":"EARoot/EA7/EA2/EA15997.htm","g":"64EF6D49-D3D0-4738-8E19-B8E557D8BB8A"}
+{"n":"Design/Price/Propose Workflow (Deleted)","t":"Class0","p":"0.7.2:29","h":"EARoot/EA7/EA2/EA15998.htm","g":"FDC479FA-7D7E-429D-86BA-060F254B90C3"}
+{"n":"DM Data Presentation & Distribution (Deleted)","t":"Class0","p":"0.7.2:30","h":"EARoot/EA7/EA2/EA15999.htm","g":"3E8FDADC-27D4-4AF8-B345-1997A24D61EA"}
+{"n":"Interaction Management (Deleted!)","t":"Class0","p":"0.7.2:31","h":"EARoot/EA7/EA2/EA16000.htm","g":"26497871-56FF-441A-878D-8981C4BBBB2E"}
+{"n":"Job Aids (Deleted)","t":"Class0","p":"0.7.2:32","h":"EARoot/EA7/EA2/EA16001.htm","g":"42B89206-4237-445D-AA96-717A470DBDA4"}
+{"n":"Lead Generation (Deleted)","t":"Class0","p":"0.7.2:33","h":"EARoot/EA7/EA2/EA16002.htm","g":"3F698988-E69E-4964-B91C-B1662801647F"}
+{"n":"Mass Market Sales Management (Deleted)","t":"Class0","p":"0.7.2:34","h":"EARoot/EA7/EA2/EA16003.htm","g":"75DE559C-5A7D-4FFA-BDB8-CC5A912BE9F1"}
+{"n":"Mass Market Sales Reporting & Tracking (Deleted)","t":"Class0","p":"0.7.2:35","h":"EARoot/EA7/EA2/EA16004.htm","g":"426A1B7A-A1B1-476D-A748-DFAA6786CF45"}
+{"n":"Mass Market Sales Workflow Management (Deleted)","t":"Class0","p":"0.7.2:36","h":"EARoot/EA7/EA2/EA16005.htm","g":"0F441509-A996-4644-A3BB-811241AE14CC"}
+{"n":"Offer Management (Deleted)","t":"Class0","p":"0.7.2:37","h":"EARoot/EA7/EA2/EA16006.htm","g":"D8C51290-016F-4B42-924E-DDDAEF9EB7F3"}
+{"n":"Online Charging (Deleted)","t":"Class0","p":"0.7.2:38","h":"EARoot/EA7/EA2/EA16007.htm","g":"753236A2-3EAD-4573-A7AD-E5A04CABE630"}
+{"n":"Partner Event Management (Deleted)","t":"Class0","p":"0.7.2:39","h":"EARoot/EA7/EA2/EA16008.htm","g":"C65B4F06-223F-496D-A197-18E7F7FEBCE0"}
+{"n":"Partner Relationship Management (deleted)","t":"Class0","p":"0.7.2:40","h":"EARoot/EA7/EA2/EA16009.htm","g":"B559FCE2-8E58-4F33-8946-14F4AAA2F4BA"}
+{"n":"Personalize Customer Profile (Deleted!)","t":"Class0","p":"0.7.2:41","h":"EARoot/EA7/EA2/EA16010.htm","g":"63CE4F1E-CA5E-4B01-A8BD-A78B06AC9E9B"}
+{"n":"Price (Deleted)","t":"Class0","p":"0.7.2:42","h":"EARoot/EA7/EA2/EA16011.htm","g":"034219D5-25E3-4C14-BCD3-DC275EEE851E"}
+{"n":"Price Optimization (Deleted)","t":"Class0","p":"0.7.2:43","h":"EARoot/EA7/EA2/EA16012.htm","g":"CC2A2DE8-6B47-4B3B-B7BB-7754D5FB62AC"}
+{"n":"Product Offer onboarding & Lifecycle Management deleted)","t":"Class0","p":"0.7.2:44","h":"EARoot/EA7/EA2/EA16013.htm","g":"F0C202B1-95F3-47C1-800A-92CFEA76A6C7"}
+{"n":"Product Support (Deleted)","t":"Class0","p":"0.7.2:45","h":"EARoot/EA7/EA2/EA16014.htm","g":"43278B40-60B3-462E-82AF-EA8D9D856D9F"}
+{"n":"Product/Service Rating (Deleted)","t":"Class0","p":"0.7.2:46","h":"EARoot/EA7/EA2/EA16015.htm","g":"EBFE02FB-4951-4239-8E53-ACF2C31DE68D"}
+{"n":"Propose (Deleted)","t":"Class0","p":"0.7.2:47","h":"EARoot/EA7/EA2/EA16016.htm","g":"DF92A044-1E39-4C51-89D1-509CA01ADF04"}
+{"n":"Quotation Engine (Deleted)","t":"Class0","p":"0.7.2:48","h":"EARoot/EA7/EA2/EA16017.htm","g":"4B5314C3-8462-4995-98CD-0087631295BC"}
+{"n":"Real-time Billing Mediation (Deleted)","t":"Class0","p":"0.7.2:49","h":"EARoot/EA7/EA2/EA16018.htm","g":"4D6FEED9-E7FC-447F-9784-604A57C41EB4"}
+{"n":"Sales Account Management (Deleted)","t":"Class0","p":"0.7.2:50","h":"EARoot/EA7/EA2/EA16019.htm","g":"9BE9A748-3B40-486D-9543-E8D930702DB7"}
+{"n":"Sales Aids (Deleted)","t":"Class0","p":"0.7.2:51","h":"EARoot/EA7/EA2/EA16020.htm","g":"E69C4EBC-5104-4156-9B3A-3A27783F3C9E"}
+{"n":"Sales Negotiation (Deleted)","t":"Class0","p":"0.7.2:52","h":"EARoot/EA7/EA2/EA16021.htm","g":"D26898E2-04AF-4587-BAA8-3D4A63003D04"}
+{"n":"Sales Workflow (Deleted)","t":"Class0","p":"0.7.2:53","h":"EARoot/EA7/EA2/EA16022.htm","g":"880035A9-28B4-404D-BC06-57B6B7947322"}
+{"n":"Service Level Agreement Management (Deleted)","t":"Class0","p":"0.7.2:54","h":"EARoot/EA7/EA2/EA16023.htm","g":"5156CDA1-84BA-431F-9611-CC6BF14053A8"}
+{"n":"Service Quality Monitoring & Impact Analysis (Deleted)","t":"Class0","p":"0.7.2:55","h":"EARoot/EA7/EA2/EA16024.htm","g":"3415826C-8DA0-4D1D-B09A-EBE41F39121A"}
+{"n":"Solution Design (Deleted)","t":"Class0","p":"0.7.2:56","h":"EARoot/EA7/EA2/EA16025.htm","g":"68AB7D87-576C-45DF-A562-0AC085041EC0"}
+{"n":"Solution Management (Deleted)","t":"Class0","p":"0.7.2:57","h":"EARoot/EA7/EA2/EA16026.htm","g":"2243860B-C95F-434E-8ECF-F8F10D19752B"}
+{"n":"Supplier/Partner Assurance Management (Deleted)","t":"Class0","p":"0.7.2:58","h":"EARoot/EA7/EA2/EA16027.htm","g":"BF813DF2-5CB1-41A9-8B4A-7F12816C3E98"}
+{"n":"Supplier/Partner Data Collection (Deleted)","t":"Class0","p":"0.7.2:59","h":"EARoot/EA7/EA2/EA16028.htm","g":"88DB02F2-8C8F-43E6-BA09-F26313DF57D2"}
+{"n":"Supplier/Partner Invoice Reconciliation (Deleted)","t":"Class0","p":"0.7.2:60","h":"EARoot/EA7/EA2/EA16029.htm","g":"794A4A8A-2E58-4704-8790-CEF6393A9FB5"}
+{"n":"Supplier/Partner Management (Deleted)","t":"Class0","p":"0.7.2:61","h":"EARoot/EA7/EA2/EA16030.htm","g":"ADA15DAE-7CBF-4A2D-B127-26DD7EA68D7C"}
+{"n":"Supplier/Partner Order Management (Deleted)","t":"Class0","p":"0.7.2:62","h":"EARoot/EA7/EA2/EA16031.htm","g":"8929EF35-C5E4-4E27-9849-93C971ECB1A4"}
+{"n":"Supplier/Partner Portal (Deleted)","t":"Class0","p":"0.7.2:63","h":"EARoot/EA7/EA2/EA16032.htm","g":"0B186176-5D8F-4A99-BA75-505F5DADE0FF"}
+{"n":"Supplier/Partner Product Lifecycle Management (Deleted)","t":"Class0","p":"0.7.2:64","h":"EARoot/EA7/EA2/EA16033.htm","g":"E3561426-E7DB-4E19-9F04-FAE2B6EF16A7"}
+{"n":"Supplier/Partner Reconciliation Management","t":"Class0","p":"0.7.2:65","h":"EARoot/EA7/EA2/EA16034.htm","g":"2476408D-203D-4B3F-9302-9D582F774CC6"}
+{"n":"Supplier/Partner Reconciliation Management (Deleted)","t":"Class0","p":"0.7.2:66","h":"EARoot/EA7/EA2/EA16035.htm","g":"1BA5ED98-C575-4A58-830D-28D31C6EDCC0"}
+{"n":"Supplier/Partner Relationship Management (Deleted)","t":"Class0","p":"0.7.2:67","h":"EARoot/EA7/EA2/EA16036.htm","g":"9F8AE0DC-5294-494A-8E71-500E1F96600E"}
+{"n":"Supplier/Partner Reporting (Deleted)","t":"Class0","p":"0.7.2:68","h":"EARoot/EA7/EA2/EA16037.htm","g":"241BF3A3-4A16-47DC-8444-E40E45FC521D"}
+{"n":"Supplier/Partner Settlements (Deleted)","t":"Class0","p":"0.7.2:69","h":"EARoot/EA7/EA2/EA16038.htm","g":"470EF472-ABF1-4C27-8005-A5C0DC2B0155"}
+{"n":"Supplier/Partner Workflow (Deleted)","t":"Class0","p":"0.7.2:70","h":"EARoot/EA7/EA2/EA16039.htm","g":"4E8B547C-19DA-4105-9F65-443738D18227"}
+{"n":"Verify Customer Relationship (Deleted!)","t":"Class0","p":"0.7.2:71","h":"EARoot/EA7/EA2/EA16040.htm","g":"2DCD63F8-344E-4252-8136-7D4B938A4C9E"}
+{"n":"Workforce Management (Deleted)","t":"Class0","p":"0.7.2:72","h":"EARoot/EA7/EA2/EA16041.htm","g":"0A7F8667-CBB7-4EE7-A5D0-4230F22AF4AC"}
+{"n":"Resource Service Inventory Management (deleted)","t":"Class0","p":"0.7.2:73","h":"EARoot/EA7/EA2/EA16042.htm","g":"13CB5E0D-78AD-4413-A1A1-34ABCA2A5602"}
+{"n":"Campaign Performance Tracking (Deleted)","t":"Class0","p":"0.7.2:74","h":"EARoot/EA7/EA2/EA16043.htm","g":"350C4F4B-22F4-4785-B964-F9395E71104B"}
+{"n":"Campaign & Funnel Management (Deleted)","t":"Class0","p":"0.7.2:75","h":"EARoot/EA7/EA2/EA16044.htm","g":"36FC8C78-6F8D-49D1-9B12-1479521AE398"}
+{"n":"Lead Management (Deleted)","t":"Class0","p":"0.7.2:76","h":"EARoot/EA7/EA2/EA16045.htm","g":"F74E1653-3B4E-45EF-A9B7-F6533329B5A5"}
+{"n":"Customer Credit Eligibility (Deleted)","t":"Class0","p":"0.7.2:77","h":"EARoot/EA7/EA2/EA16046.htm","g":"1637FB3E-C380-4018-B343-87DA1B813A52"}
+{"n":"Funnel Management (Deleted)","t":"Class0","p":"0.7.2:78","h":"EARoot/EA7/EA2/EA16047.htm","g":"701A9948-E25D-4EF0-8B5B-F7316435EE8B"}
+{"n":"DM Access & Transformation(Deleted)","t":"Class0","p":"0.7.2:79","h":"EARoot/EA7/EA2/EA16048.htm","g":"150EB2A1-BB25-4BC3-9084-E1423F4C290A"}
+{"n":"DM Data Integration & Context(Deleted)","t":"Class0","p":"0.7.2:80","h":"EARoot/EA7/EA2/EA16049.htm","g":"E2FA2889-0EA5-4243-8364-3D7E3570F197"}
+{"n":"DM Data Presentation & Distribution(Deleted)","t":"Class0","p":"0.7.2:81","h":"EARoot/EA7/EA2/EA16050.htm","g":"6B23C026-37DF-4E8B-AE5F-BE88E6D25549"}
+{"n":"DM Data Storage & Archival(Deleted)","t":"Class0","p":"0.7.2:82","h":"EARoot/EA7/EA2/EA16051.htm","g":"E7795C5A-B5A0-4678-939C-017C104D0DB2"}
+{"n":"BI Analytics(Deleted)","t":"Class0","p":"0.7.2:83","h":"EARoot/EA7/EA2/EA16052.htm","g":"7A161897-E08C-4E8F-9DCB-F8BF4832DB91"}
+{"n":"BI Data Management(Deleted)","t":"Class0","p":"0.7.2:84","h":"EARoot/EA7/EA2/EA16053.htm","g":"F2B7530F-15BD-44EF-B2B9-8BF3274A88CB"}
+{"n":"BI Delivery Mechanism(Deleted)","t":"Class0","p":"0.7.2:85","h":"EARoot/EA7/EA2/EA16054.htm","g":"A682DD15-900E-407C-BBE1-5B85AEFBBFAA"}
+{"n":"BI Performance Management(Deleted)","t":"Class0","p":"0.7.2:86","h":"EARoot/EA7/EA2/EA16055.htm","g":"3CC49375-266C-42C6-84E7-57FDEB94545E"}
+{"n":"BI Reporting(Deleted)","t":"Class0","p":"0.7.2:87","h":"EARoot/EA7/EA2/EA16056.htm","g":"7C474330-506F-4096-ABD3-EC322E1BC8CE"}
+{"n":"BI Supporting Applications(Deleted)","t":"Class0","p":"0.7.2:88","h":"EARoot/EA7/EA2/EA16057.htm","g":"B79BB601-B0A3-4D89-B839-A1906F0763C5"}
+{"n":"Market Sales Domain","t":"TAM diagram0","p":"0.7.1.1:5","h":"EARoot/EA7/EA1/EA1/EA15437.htm","g":"186E505B-022F-4890-B0BA-8C3C8D65144A"}
+{"n":"Sales Aids","t":"Class0","p":"0.7.1.1:10","h":"EARoot/EA7/EA1/EA1/EA15448.htm","g":"11F1D066-5BFB-4B43-8241-AA4CC6845732"}
+{"n":"Compensation & Results","t":"Class0","p":"0.7.1.1:11","h":"EARoot/EA7/EA1/EA1/EA15449.htm","g":"855AF7D9-FDE8-4B80-992C-A2C298F1097A"}
+{"n":"Channel Sales Management","t":"Class0","p":"0.7.1.1:12","h":"EARoot/EA7/EA1/EA1/EA15450.htm","g":"802033F9-ABF5-4BB9-86E1-9B383DDA0B05"}
+{"n":"Sales Portals","t":"Class0","p":"0.7.1.1:13","h":"EARoot/EA7/EA1/EA1/EA15451.htm","g":"87D642A0-6423-44BE-9643-0300DA445EFE"}
+{"n":"Contract Management","t":"Class0","p":"0.7.1.1:14","h":"EARoot/EA7/EA1/EA1/EA15452.htm","g":"2148BE2C-70C1-4721-A809-6AF2A9FEFB11"}
+{"n":"Campaign & Funnel Management","t":"Class0","p":"0.7.1.1:15","h":"EARoot/EA7/EA1/EA1/EA15453.htm","g":"EC359AE7-8ABC-47F7-8B76-CE201634D31B"}
+{"n":"Solution Management","t":"Class0","p":"0.7.1.1:16","h":"EARoot/EA7/EA1/EA1/EA15454.htm","g":"D9F857AE-C90C-4AE5-8291-D82E6EBBB6A1"}
+{"n":"Sales Account Management","t":"Class0","p":"0.7.1.1:17","h":"EARoot/EA7/EA1/EA1/EA15455.htm","g":"14AD9E4F-29FF-4AA6-9737-47CB2CDD2FC0"}
+{"n":"Sales & Marketing Reporting","t":"Class0","p":"0.7.1.1:18","h":"EARoot/EA7/EA1/EA1/EA15456.htm","g":"90F5E2BD-03C7-4731-8BB4-0A8B58EE3D9B"}
+{"n":"Campaign & Funnel Management","t":"Application diagram0","p":"0.7.1.1:1","h":"EARoot/EA7/EA1/EA1/EA15429.htm","g":"C4C313CD-DA1F-4834-8C0C-D5762DC193ED"}
+{"n":"Channel Sales Management","t":"Application diagram0","p":"0.7.1.1:2","h":"EARoot/EA7/EA1/EA1/EA15431.htm","g":"556F1A39-FCF9-4EA7-93CD-8BDAA6A9B2C6"}
+{"n":"Compensation & Results","t":"Application diagram0","p":"0.7.1.1:3","h":"EARoot/EA7/EA1/EA1/EA15433.htm","g":"DD99A301-1355-4E23-B781-C1ACE635C0B6"}
+{"n":"Contract Management","t":"Application diagram0","p":"0.7.1.1:4","h":"EARoot/EA7/EA1/EA1/EA15435.htm","g":"7CCEDE1C-16A3-4C64-B255-9CC6D1168921"}
+{"n":"Sales Account Management","t":"Application diagram0","p":"0.7.1.1:6","h":"EARoot/EA7/EA1/EA1/EA15439.htm","g":"34BE95FD-939F-4424-B325-F75161E9887D"}
+{"n":"Sales Aids","t":"Application diagram0","p":"0.7.1.1:7","h":"EARoot/EA7/EA1/EA1/EA15441.htm","g":"F87FFF39-1434-4A78-B6E0-9784E147E12F"}
+{"n":"Sales Portals","t":"Application diagram0","p":"0.7.1.1:8","h":"EARoot/EA7/EA1/EA1/EA15443.htm","g":"5028A7F1-FD97-44D3-9C09-CAE1FC8E5750"}
+{"n":"Solution Management","t":"Application diagram0","p":"0.7.1.1:9","h":"EARoot/EA7/EA1/EA1/EA15445.htm","g":"8290F5F8-36C5-44FA-A9AE-AC76DB1F38EC"}
+{"n":"Sales Job Aids","t":"Class0","p":"0.7.1.1:19","h":"EARoot/EA7/EA1/EA1/EA15457.htm","g":"0DA17A15-2CAB-4287-AE72-9FB5B2E7467D"}
+{"n":"Sales Product Support","t":"Class0","p":"0.7.1.1:20","h":"EARoot/EA7/EA1/EA1/EA15458.htm","g":"85D12315-B8E6-4597-AF44-76BFE08DEB71"}
+{"n":"Customer/Prospect Data Acquisition","t":"Class0","p":"0.7.1.1:21","h":"EARoot/EA7/EA1/EA1/EA15459.htm","g":"48F2084E-F329-4143-BEF9-035BCE24D7C9"}
+{"n":"Sales Account Assignment","t":"Class0","p":"0.7.1.1:22","h":"EARoot/EA7/EA1/EA1/EA15460.htm","g":"F72916B8-D8F2-452B-98A5-E2B1C46EB038"}
+{"n":"Sales Account Planning","t":"Class0","p":"0.7.1.1:23","h":"EARoot/EA7/EA1/EA1/EA15461.htm","g":"3C0FB719-52FD-4484-9A09-C145E8360B66"}
+{"n":"Contract Generation","t":"Class0","p":"0.7.1.1:24","h":"EARoot/EA7/EA1/EA1/EA15462.htm","g":"DD90C713-592B-4D71-BB7C-FB65DF00059E"}
+{"n":"Contract Implementation","t":"Class0","p":"0.7.1.1:25","h":"EARoot/EA7/EA1/EA1/EA15463.htm","g":"20DF8EE7-857F-47BC-B58B-49C156B0785A"}
+{"n":"Contract Tracking & Storage","t":"Class0","p":"0.7.1.1:26","h":"EARoot/EA7/EA1/EA1/EA15464.htm","g":"CE2E043C-5C1A-49ED-AB6D-8E3AEF3FA143"}
+{"n":"Direct Sales Force","t":"Class0","p":"0.7.1.1:27","h":"EARoot/EA7/EA1/EA1/EA15465.htm","g":"FA7562B4-6612-4190-9E7A-9193E214C99E"}
+{"n":"Telesales","t":"Class0","p":"0.7.1.1:28","h":"EARoot/EA7/EA1/EA1/EA15466.htm","g":"E88B744E-46EE-4E3E-A0E9-FDD87B9AE20C"}
+{"n":"Retail Outlets","t":"Class0","p":"0.7.1.1:29","h":"EARoot/EA7/EA1/EA1/EA15467.htm","g":"29BDDE93-66C2-4E2D-BF13-55AD727CC93C"}
+{"n":"Dealers","t":"Class0","p":"0.7.1.1:30","h":"EARoot/EA7/EA1/EA1/EA15468.htm","g":"FAF29115-1A6A-464C-9A96-04E1B8F85DBA"}
+{"n":"Virtual Network Operators (Dealers)","t":"Class0","p":"0.7.1.1:31","h":"EARoot/EA7/EA1/EA1/EA15469.htm","g":"709BA614-C80F-4C9E-93AC-8D654559DDD7"}
+{"n":"Affiliates","t":"Class0","p":"0.7.1.1:32","h":"EARoot/EA7/EA1/EA1/EA15470.htm","g":"8A8EAD4E-614A-492A-A474-416E28FA7757"}
+{"n":"Compensation Results Reporting","t":"Class0","p":"0.7.1.1:33","h":"EARoot/EA7/EA1/EA1/EA15471.htm","g":"97B3EDB1-6681-4BF3-A619-B394236C8780"}
+{"n":"Sales Compensation","t":"Class0","p":"0.7.1.1:34","h":"EARoot/EA7/EA1/EA1/EA15472.htm","g":"F63E87A5-5F48-4FD9-9D71-CF86D78C12D9"}
+{"n":"Indirect Sales Portals","t":"Class0","p":"0.7.1.1:35","h":"EARoot/EA7/EA1/EA1/EA15473.htm","g":"19E87A27-F5B0-47ED-86F6-173CA5B4EFFA"}
+{"n":"Internal Sales Portals","t":"Class0","p":"0.7.1.1:36","h":"EARoot/EA7/EA1/EA1/EA15474.htm","g":"2C2EE23A-90FA-4AE6-9974-83B4102240CA"}
+{"n":"Solution Design","t":"Class0","p":"0.7.1.1:42","h":"EARoot/EA7/EA1/EA1/EA15480.htm","g":"8304C466-3A04-400E-8EB0-5015AFB19E76"}
+{"n":"Solution Pricing","t":"Class0","p":"0.7.1.1:43","h":"EARoot/EA7/EA1/EA1/EA15481.htm","g":"BF38A72F-CF6D-48D2-ADEF-16485AB95CDE"}
+{"n":"Proposal Management","t":"Class0","p":"0.7.1.1:44","h":"EARoot/EA7/EA1/EA1/EA15482.htm","g":"BB90F950-E0EC-477C-A3A9-6AB28849372F"}
+{"n":"Price Optimization","t":"Class0","p":"0.7.1.1:45","h":"EARoot/EA7/EA1/EA1/EA15483.htm","g":"3143037E-880D-4333-AB24-2D47E1BFEAA6"}
+{"n":"Offer Management","t":"Class0","p":"0.7.1.1:46","h":"EARoot/EA7/EA1/EA1/EA15484.htm","g":"31A51990-7D2D-4669-A2AC-529A75C39080"}
+{"n":"Sales Negotiation","t":"Class0","p":"0.7.1.1:47","h":"EARoot/EA7/EA1/EA1/EA15485.htm","g":"DD20E0DE-DB93-4267-AA4E-AE4547668AD3"}
+{"n":"Solution Requirements Capture","t":"Class0","p":"0.7.1.1:48","h":"EARoot/EA7/EA1/EA1/EA15486.htm","g":"01C82C29-D667-4308-B207-9862CB29A636"}
+{"n":"Campaign Management","t":"Class0","p":"0.7.1.1:49","h":"EARoot/EA7/EA1/EA1/EA15487.htm","g":"8C11D041-2392-4AEE-8360-195612937910"}
+{"n":"Funnel/Workflow Management","t":"Class0","p":"0.7.1.1:50","h":"EARoot/EA7/EA1/EA1/EA15488.htm","g":"F1CD5CE4-84A9-4355-AE4E-45EA15EFC332"}
+{"n":"Campaign Analytics","t":"Class0","p":"0.7.1.1:37","h":"EARoot/EA7/EA1/EA1/EA15475.htm","g":"CA2A6E25-F54E-4C11-9598-5286EAED97F2"}
+{"n":"Campaign Design","t":"Class0","p":"0.7.1.1:38","h":"EARoot/EA7/EA1/EA1/EA15476.htm","g":"14AA29E0-0422-4754-BED5-77DB193CAA1F"}
+{"n":"Lead Generation & Management","t":"Class0","p":"0.7.1.1:39","h":"EARoot/EA7/EA1/EA1/EA15477.htm","g":"B2F4E2B7-205F-43A2-82E2-FF86C01AF644"}
+{"n":"Campaign Execution & Refinement","t":"Class0","p":"0.7.1.1:40","h":"EARoot/EA7/EA1/EA1/EA15478.htm","g":"F2CC1100-6206-471D-ADDF-0C13E92A7CF5"}
+{"n":"Campaign Performance Tracking","t":"Class0","p":"0.7.1.1:41","h":"EARoot/EA7/EA1/EA1/EA15479.htm","g":"2BC4571B-BF67-41FD-8900-D37B5BE7E274"}
+{"n":"Product Domain","t":"TAM diagram0","p":"0.7.1.3:1","h":"EARoot/EA7/EA1/EA3/EA15655.htm","g":"E019A109-3631-4F54-A569-1793AAEEF06C"}
+{"n":"Product Strategy / Proposition Management","t":"Class0","p":"0.7.1.3:2","h":"EARoot/EA7/EA1/EA3/EA15658.htm","g":"110FC48F-9A4D-4AEC-938B-EE9E26720596"}
+{"n":"Product Catalog Management","t":"Class0","p":"0.7.1.3:3","h":"EARoot/EA7/EA1/EA3/EA15659.htm","g":"CB3AB4EB-7BC8-4B0D-94FA-25CBCC129791"}
+{"n":"Product Lifecycle Management","t":"Class0","p":"0.7.1.3:4","h":"EARoot/EA7/EA1/EA3/EA15660.htm","g":"AC6BDDF4-9102-4479-981E-273326139C1B"}
+{"n":"Product Performance Management","t":"Class0","p":"0.7.1.3:5","h":"EARoot/EA7/EA1/EA3/EA15661.htm","g":"6E23004E-585E-4C05-911E-9D7FA07335F3"}
+{"n":"Service Domain","t":"TAM diagram0","p":"0.7.1.4:1","h":"EARoot/EA7/EA1/EA4/EA15662.htm","g":"20EFCE85-A44C-4813-B441-6F03799DA2C9"}
+{"n":"Service Catalog Management","t":"Class0","p":"0.7.1.4:8","h":"EARoot/EA7/EA1/EA4/EA15677.htm","g":"285AC5F9-7592-49DE-B0BC-995DCD5CD4CF"}
+{"n":"Service Inventory Management","t":"Class0","p":"0.7.1.4:9","h":"EARoot/EA7/EA1/EA4/EA15678.htm","g":"A37A3610-DB44-44F4-B01D-41F6E9A0E738"}
+{"n":"Service Order Management","t":"Class0","p":"0.7.1.4:10","h":"EARoot/EA7/EA1/EA4/EA15679.htm","g":"FFC73B18-7311-4260-97CC-E8B49264D2DF"}
+{"n":"Service Problem Management","t":"Class0","p":"0.7.1.4:11","h":"EARoot/EA7/EA1/EA4/EA15680.htm","g":"2A96D5CF-9E1C-46AE-8AC7-B21345B0876F"}
+{"n":"Service Performance Management","t":"Class0","p":"0.7.1.4:12","h":"EARoot/EA7/EA1/EA4/EA15681.htm","g":"EF9C054D-98B5-447F-834B-1D73253B40E4"}
+{"n":"Service Test Management","t":"Class0","p":"0.7.1.4:13","h":"EARoot/EA7/EA1/EA4/EA15682.htm","g":"F6F73A69-93D2-4690-AB46-5C74E13448A4"}
+{"n":"Service Quality Management","t":"Class0","p":"0.7.1.4:14","h":"EARoot/EA7/EA1/EA4/EA15683.htm","g":"931761DC-9E36-4929-9D4D-4833B538C3E0"}
+{"n":"Service Assurance Control","t":"Class0","p":"0.7.1.4:15","h":"EARoot/EA7/EA1/EA4/EA15684.htm","g":"D8BCD798-4C0D-4795-A8B0-28E8812E8A8A"}
+{"n":"Service Capability Orchestration","t":"Class0","p":"0.7.1.4:16","h":"EARoot/EA7/EA1/EA4/EA15685.htm","g":"67AAF0A9-4651-4C5D-84DF-A53CA0889A4B"}
+{"n":"Service Lifecycle Management","t":"Class0","p":"0.7.1.4:17","h":"EARoot/EA7/EA1/EA4/EA15686.htm","g":"8994C189-B4E8-4677-A5D8-486CE00077AA"}
+{"n":"Service Inventory Management","t":"Application diagram0","p":"0.7.1.4:2","h":"EARoot/EA7/EA1/EA4/EA15664.htm","g":"1B4E1F80-D380-4D20-8101-10194DB903C1"}
+{"n":"Service Order Management","t":"Application diagram0","p":"0.7.1.4:3","h":"EARoot/EA7/EA1/EA4/EA15666.htm","g":"CA01AD01-70AD-4BE5-A36E-AA4BE5C28992"}
+{"n":"Service Performance Management","t":"Application diagram0","p":"0.7.1.4:4","h":"EARoot/EA7/EA1/EA4/EA15668.htm","g":"40DBA095-B5E4-464F-9CB2-A75839DB0277"}
+{"n":"Service Problem Management","t":"Application diagram0","p":"0.7.1.4:5","h":"EARoot/EA7/EA1/EA4/EA15670.htm","g":"6965927C-6504-44E0-A973-37E016CD1E9E"}
+{"n":"Service Quality Management","t":"Application diagram0","p":"0.7.1.4:6","h":"EARoot/EA7/EA1/EA4/EA15672.htm","g":"65C499FD-81B5-4CBE-88D5-058EDD9CA7BF"}
+{"n":"Service Test Management","t":"Application diagram0","p":"0.7.1.4:7","h":"EARoot/EA7/EA1/EA4/EA15674.htm","g":"28351C18-DB92-49DB-92EF-3700AF34F6B1"}
+{"n":"Service Problem Reception","t":"Class0","p":"0.7.1.4:22","h":"EARoot/EA7/EA1/EA4/EA15691.htm","g":"2BBD4A18-DBF3-480C-98C6-D1BBDB957ABE"}
+{"n":"Service Problem Monitoring","t":"Class0","p":"0.7.1.4:23","h":"EARoot/EA7/EA1/EA4/EA15692.htm","g":"63651D66-8445-4B3F-9385-8B890A638E86"}
+{"n":"Service Problem Analysis","t":"Class0","p":"0.7.1.4:24","h":"EARoot/EA7/EA1/EA4/EA15693.htm","g":"2FFA309D-43FF-4D13-98EE-5083CFFB2ADD"}
+{"n":"Service Problem Correction & Resolution","t":"Class0","p":"0.7.1.4:25","h":"EARoot/EA7/EA1/EA4/EA15694.htm","g":"719E5B77-D62E-48E3-A3C6-611142AF557F"}
+{"n":"Service Problem Tracking & Management","t":"Class0","p":"0.7.1.4:26","h":"EARoot/EA7/EA1/EA4/EA15695.htm","g":"AABF3D4F-1A42-4B5E-A236-AF2BFA8C80A8"}
+{"n":"Service Problem Reporting","t":"Class0","p":"0.7.1.4:27","h":"EARoot/EA7/EA1/EA4/EA15696.htm","g":"C1917A04-A607-4CE1-AFBB-2B6CD1398424"}
+{"n":"Service Problem Model Establishment","t":"Class0","p":"0.7.1.4:28","h":"EARoot/EA7/EA1/EA4/EA15697.htm","g":"8010B527-E86F-465A-9F6F-C408BCC0E371"}
+{"n":"Service Quality Model Establishment","t":"Class0","p":"0.7.1.4:29","h":"EARoot/EA7/EA1/EA4/EA15698.htm","g":"960E9F87-F4BE-4DEB-A70F-D76A3A12DA96"}
+{"n":"Service Quality Collection & Monitoring","t":"Class0","p":"0.7.1.4:30","h":"EARoot/EA7/EA1/EA4/EA15699.htm","g":"1E8B9FDC-99CF-42E3-A9DD-EBA8FB773346"}
+{"n":"Service Quality Analysis","t":"Class0","p":"0.7.1.4:31","h":"EARoot/EA7/EA1/EA4/EA15700.htm","g":"99ABEB09-127C-4D83-B32F-FA6B9694F160"}
+{"n":"Service Quality Reporting","t":"Class0","p":"0.7.1.4:32","h":"EARoot/EA7/EA1/EA4/EA15701.htm","g":"DA86A1FB-C64E-48EB-B5D5-5C55DB8A400D"}
+{"n":"Service Inventory Reconciliation / Synchronization","t":"Class0","p":"0.7.1.4:33","h":"EARoot/EA7/EA1/EA4/EA15702.htm","g":"3F26E67D-90F2-44E4-AF8A-63CC3E49E1CB"}
+{"n":"Service-Resource Inventory","t":"Class0","p":"0.7.1.4:34","h":"EARoot/EA7/EA1/EA4/EA15703.htm","g":"23541B4A-BBBB-45CB-BD41-5A41A74409A2"}
+{"n":"Service Performance Monitoring","t":"Class0","p":"0.7.1.4:45","h":"EARoot/EA7/EA1/EA4/EA15714.htm","g":"0BA964D5-CA81-4171-9B01-78EEF2FB3744"}
+{"n":"Service Performance Analysis","t":"Class0","p":"0.7.1.4:46","h":"EARoot/EA7/EA1/EA4/EA15715.htm","g":"ED5B50B5-56E3-4F1A-BCA1-07E75AB29C6A"}
+{"n":"Service Performance Reporting","t":"Class0","p":"0.7.1.4:47","h":"EARoot/EA7/EA1/EA4/EA15716.htm","g":"E8721407-DC1F-444C-8CE0-33C00B1B5F29"}
+{"n":"Service Test Strategy and Policy Management","t":"Class0","p":"0.7.1.4:48","h":"EARoot/EA7/EA1/EA4/EA15717.htm","g":"6094C96D-DCFE-47D2-857B-5B8E74F9EF6C"}
+{"n":"Service Test Lifecycle Management","t":"Class0","p":"0.7.1.4:49","h":"EARoot/EA7/EA1/EA4/EA15718.htm","g":"95F2C3C7-F903-4CA8-AD76-1C5979D83081"}
+{"n":"Service Test Command and Control","t":"Class0","p":"0.7.1.4:50","h":"EARoot/EA7/EA1/EA4/EA15719.htm","g":"E4094F15-E7EF-47EC-99CB-5091BF25ED1E"}
+{"n":"Service Test Services","t":"Class0","p":"0.7.1.4:51","h":"EARoot/EA7/EA1/EA4/EA15720.htm","g":"836558B5-CEAB-4BB3-84C1-233ACCC60521"}
+{"n":"Service Order Orchestration","t":"Class0","p":"0.7.1.4:52","h":"EARoot/EA7/EA1/EA4/EA15721.htm","g":"DF82EFAD-ED16-4F47-895C-0118E0825845"}
+{"n":"Service Design/Assign","t":"Class0","p":"0.7.1.4:53","h":"EARoot/EA7/EA1/EA4/EA15722.htm","g":"18B64B78-87B2-4892-85D3-0FDC1B33E1F9"}
+{"n":"Service Configuration Management","t":"Class0","p":"0.7.1.4:54","h":"EARoot/EA7/EA1/EA4/EA15723.htm","g":"42B3957D-07F0-4296-9FBF-6E4BFB9F1AE7"}
+{"n":"Service Activation Management","t":"Class0","p":"0.7.1.4:55","h":"EARoot/EA7/EA1/EA4/EA15724.htm","g":"66018DC6-DA3A-4B59-A7F1-C67F15553806"}
+{"n":"Service Order Publication","t":"Class0","p":"0.7.1.4:56","h":"EARoot/EA7/EA1/EA4/EA15725.htm","g":"63F63CB7-C888-4338-8379-D8A2DB5D2EF8"}
+{"n":"Service Order Establishment","t":"Class0","p":"0.7.1.4:57","h":"EARoot/EA7/EA1/EA4/EA15726.htm","g":"DB793A7D-5E46-4CCF-B575-896429440DB9"}
+{"n":"Design Solution","t":"Class0","p":"0.7.1.4:18","h":"EARoot/EA7/EA1/EA4/EA15687.htm","g":"5C4CBF6B-EB98-4E9A-A013-70997EF251D0"}
+{"n":"Assign/Procure Network Resources","t":"Class0","p":"0.7.1.4:19","h":"EARoot/EA7/EA1/EA4/EA15688.htm","g":"5EB77707-BD69-4308-A705-C9657938DD05"}
+{"n":"Procure Access","t":"Class0","p":"0.7.1.4:20","h":"EARoot/EA7/EA1/EA4/EA15689.htm","g":"C8BB7E1D-BE73-4D06-B554-04FBA18F43FB"}
+{"n":"Procure CPE","t":"Class0","p":"0.7.1.4:21","h":"EARoot/EA7/EA1/EA4/EA15690.htm","g":"4E06BB86-8969-4B96-8941-DC2F871B9B2A"}
+{"n":"Service Data Collection","t":"Class0","p":"0.7.1.4:35","h":"EARoot/EA7/EA1/EA4/EA15704.htm","g":"6437EC25-C7C4-4CB8-A155-AF59284070CD"}
+{"n":"Service Order Validation","t":"Class0","p":"0.7.1.4:36","h":"EARoot/EA7/EA1/EA4/EA15705.htm","g":"2E8AD5A9-36EA-49D8-92D4-993E991E7CDB"}
+{"n":"Service Availability","t":"Class0","p":"0.7.1.4:37","h":"EARoot/EA7/EA1/EA4/EA15706.htm","g":"E980D8CB-936E-49DD-9CC6-4CAF33D7E76E"}
+{"n":"Product/Service Order Decomposition","t":"Class0","p":"0.7.1.4:38","h":"EARoot/EA7/EA1/EA4/EA15707.htm","g":"6002852D-A62F-4783-AC1C-89C2C7AE4383"}
+{"n":"Service Order Tracking & Management","t":"Class0","p":"0.7.1.4:39","h":"EARoot/EA7/EA1/EA4/EA15708.htm","g":"27EC1057-2079-446D-A5F7-8C8B7448D2C0"}
+{"n":"Service Address Validation","t":"Class0","p":"0.7.1.4:40","h":"EARoot/EA7/EA1/EA4/EA15709.htm","g":"4061E7F4-753F-40E8-8196-4D50CE40C72A"}
+{"n":"Service Availability Validation","t":"Class0","p":"0.7.1.4:41","h":"EARoot/EA7/EA1/EA4/EA15710.htm","g":"96374C52-856E-4C20-A330-F107E4AE5256"}
+{"n":"Service Termination Points Determination","t":"Class0","p":"0.7.1.4:42","h":"EARoot/EA7/EA1/EA4/EA15711.htm","g":"951F99BE-C4E3-4015-8CB8-388FF3899500"}
+{"n":"Determine Access Provider","t":"Class0","p":"0.7.1.4:43","h":"EARoot/EA7/EA1/EA4/EA15712.htm","g":"A2C3C4D2-FD79-41EE-8290-5459B38E068F"}
+{"n":"Determine Delivery Interval","t":"Class0","p":"0.7.1.4:44","h":"EARoot/EA7/EA1/EA4/EA15713.htm","g":"8CB16057-0439-4D30-8FE5-74AB697AC3F9"}
+{"n":"Resource Domain","t":"TAM diagram0","p":"0.7.1.5:3","h":"EARoot/EA7/EA1/EA5/EA15731.htm","g":"7B5808BF-E2B2-4159-BF90-2AC3461AFB81"}
+{"n":"Resource Order Tracking & Management","t":"Class0","p":"0.7.1.5:12","h":"EARoot/EA7/EA1/EA5/EA15750.htm","g":"47696BB9-C249-4421-9C2D-686C9D067FEE"}
+{"n":"Resource Lifecycle Management","t":"Class0","p":"0.7.1.5:13","h":"EARoot/EA7/EA1/EA5/EA15751.htm","g":"59082DF0-5CE8-4CF1-9484-D2BDA93ABD74"}
+{"n":"Resource Inventory Management","t":"Class0","p":"0.7.1.5:14","h":"EARoot/EA7/EA1/EA5/EA15752.htm","g":"FFE8C89F-5BAA-4F58-A099-EC1826DDE00C"}
+{"n":"Resource Order Management","t":"Class0","p":"0.7.1.5:15","h":"EARoot/EA7/EA1/EA5/EA15753.htm","g":"6E256C1A-47D2-4957-8003-B5F14EEF1D55"}
+{"n":"Resource Domain Management","t":"Class0","p":"0.7.1.5:16","h":"EARoot/EA7/EA1/EA5/EA15754.htm","g":"93713EA3-A6DF-4D72-98E1-6E8076B10199"}
+{"n":"Resource Process Management (Workflow/ Integration)","t":"Class0","p":"0.7.1.5:17","h":"EARoot/EA7/EA1/EA5/EA15755.htm","g":"91AD146F-801D-4A5C-AAF2-9B82AC1CECDD"}
+{"n":"Voucher Management","t":"Class0","p":"0.7.1.5:18","h":"EARoot/EA7/EA1/EA5/EA15756.htm","g":"32ACA888-2C92-470E-B5C3-32238ADAD0D3"}
+{"n":"Resource Performance Management","t":"Class0","p":"0.7.1.5:19","h":"EARoot/EA7/EA1/EA5/EA15757.htm","g":"ABBB2BA5-0F9A-4FE5-8A57-53B2A521A538"}
+{"n":"Fault Management","t":"Class0","p":"0.7.1.5:20","h":"EARoot/EA7/EA1/EA5/EA15758.htm","g":"3313D1F7-DBF3-4F77-A0F6-2421250F5663"}
+{"n":"Resource Test Management","t":"Class0","p":"0.7.1.5:21","h":"EARoot/EA7/EA1/EA5/EA15759.htm","g":"0D25AF3D-30D6-4C28-A6F5-B40F2172D299"}
+{"n":"Workforce Management","t":"Class0","p":"0.7.1.5:22","h":"EARoot/EA7/EA1/EA5/EA15760.htm","g":"98A4D25F-2AC3-418C-94FB-A80C2B679E4C"}
+{"n":"Network Number Management","t":"Class0","p":"0.7.1.5:23","h":"EARoot/EA7/EA1/EA5/EA15761.htm","g":"C4003B48-FEF9-4F60-89C1-ECF242D3ED40"}
+{"n":"Usage Management","t":"Class0","p":"0.7.1.5:24","h":"EARoot/EA7/EA1/EA5/EA15762.htm","g":"F31BAE6E-3DED-4A09-818F-C5E091A9AFD9"}
+{"n":"Location Management","t":"Class0","p":"0.7.1.5:25","h":"EARoot/EA7/EA1/EA5/EA15763.htm","g":"74B2A141-7F2E-4566-93AB-A959B0356CE9"}
+{"n":"Resource Capability Orchestration","t":"Class0","p":"0.7.1.5:26","h":"EARoot/EA7/EA1/EA5/EA15764.htm","g":"870D8AAC-F995-4095-91CD-B438EC2BDE5D"}
+{"n":"Resource Catalog Management","t":"Class0","p":"0.7.1.5:27","h":"EARoot/EA7/EA1/EA5/EA15765.htm","g":"E5974082-9B5D-4F20-9B36-AC126026ABEB"}
+{"n":"Fault Management","t":"Application diagram0","p":"0.7.1.5:1","h":"EARoot/EA7/EA1/EA5/EA15727.htm","g":"DC62B152-1589-4E44-A252-B2A504413E6A"}
+{"n":"Network Number Management","t":"Application diagram0","p":"0.7.1.5:2","h":"EARoot/EA7/EA1/EA5/EA15729.htm","g":"00D58C0C-A10F-4705-BE8E-8DF6689A39EC"}
+{"n":"Resource Domain Management","t":"Application diagram0","p":"0.7.1.5:4","h":"EARoot/EA7/EA1/EA5/EA15733.htm","g":"CFA3D90A-7DCD-45FA-9E84-8FC7802A8FF5"}
+{"n":"Resource Lifecycle Management","t":"Application diagram0","p":"0.7.1.5:5","h":"EARoot/EA7/EA1/EA5/EA15735.htm","g":"6DA0CB23-454C-4CD8-B591-98D95A58EE3C"}
+{"n":"Resource Order Management","t":"Application diagram0","p":"0.7.1.5:6","h":"EARoot/EA7/EA1/EA5/EA15737.htm","g":"030A89F5-5FC0-4629-B50D-FE255D8512E4"}
+{"n":"Resource Performance Management","t":"Application diagram0","p":"0.7.1.5:7","h":"EARoot/EA7/EA1/EA5/EA15739.htm","g":"18D473D7-256E-45E3-9048-5C4D84A32DAF"}
+{"n":"Resource Process Management (Workflow/ Integration)","t":"Application diagram0","p":"0.7.1.5:8","h":"EARoot/EA7/EA1/EA5/EA15741.htm","g":"5452F07F-5526-4EA3-B1BC-CF143A845FDF"}
+{"n":"Resource Test Management","t":"Application diagram0","p":"0.7.1.5:9","h":"EARoot/EA7/EA1/EA5/EA15743.htm","g":"2154E20E-0F4F-4B6A-86B9-0A6B6E7EEEBB"}
+{"n":"Usage Management","t":"Application diagram0","p":"0.7.1.5:10","h":"EARoot/EA7/EA1/EA5/EA15745.htm","g":"C60C0578-CE84-4B4D-B707-17548545DEAB"}
+{"n":"Workforce Management","t":"Application diagram0","p":"0.7.1.5:11","h":"EARoot/EA7/EA1/EA5/EA15747.htm","g":"B7C1AA48-02D7-459A-A8E7-A9FD4E41EE86"}
+{"n":"Resource Test Strategy and Policy Management","t":"Class0","p":"0.7.1.5:32","h":"EARoot/EA7/EA1/EA5/EA15770.htm","g":"3ED4C171-4182-4825-BD15-D93F45B6C58B"}
+{"n":"Resource Test Lifecycle Management","t":"Class0","p":"0.7.1.5:33","h":"EARoot/EA7/EA1/EA5/EA15771.htm","g":"572A0262-2187-4BAF-A66B-7DDD722F265B"}
+{"n":"Resource Test Command and Control","t":"Class0","p":"0.7.1.5:34","h":"EARoot/EA7/EA1/EA5/EA15772.htm","g":"487D2722-787E-4A96-8D8A-61467BF66A9F"}
+{"n":"Resource Test Services","t":"Class0","p":"0.7.1.5:35","h":"EARoot/EA7/EA1/EA5/EA15773.htm","g":"09BEA3C8-94F7-4B93-B2A1-A25FD3BFB228"}
+{"n":"Resource Verification Management","t":"Class0","p":"0.7.1.5:36","h":"EARoot/EA7/EA1/EA5/EA15774.htm","g":"B573342F-F93B-4EF7-B322-AB0520C9724C"}
+{"n":"Fault Surveillance","t":"Class0","p":"0.7.1.5:37","h":"EARoot/EA7/EA1/EA5/EA15775.htm","g":"BA621842-F2EB-4090-AD75-56F8CC6E5398"}
+{"n":"Fault Correlation & Root Cause Analysis","t":"Class0","p":"0.7.1.5:38","h":"EARoot/EA7/EA1/EA5/EA15776.htm","g":"1BC57F9F-9453-46E1-A53E-B711A2CEB86E"}
+{"n":"Fault Correction & Restoration","t":"Class0","p":"0.7.1.5:39","h":"EARoot/EA7/EA1/EA5/EA15777.htm","g":"A4BC62E9-890A-459B-8F98-B3EDEFD8434C"}
+{"n":"Fault Reporting & Analytics","t":"Class0","p":"0.7.1.5:40","h":"EARoot/EA7/EA1/EA5/EA15778.htm","g":"78463206-589E-4A27-85B5-CCC8041B1B00"}
+{"n":"Resource Commissioning & Configuration Management","t":"Class0","p":"0.7.1.5:41","h":"EARoot/EA7/EA1/EA5/EA15779.htm","g":"A62191C3-ADD6-4F95-A67E-E727CB44B5A1"}
+{"n":"Implementation Planning","t":"Class0","p":"0.7.1.5:42","h":"EARoot/EA7/EA1/EA5/EA15780.htm","g":"1AA12478-F7B8-49CE-AA2B-95B9680238C1"}
+{"n":"Tactical Planning","t":"Class0","p":"0.7.1.5:43","h":"EARoot/EA7/EA1/EA5/EA15781.htm","g":"6E76AEEF-E0E2-4C2E-8C7F-13B3B930A299"}
+{"n":"Capability Specification Management","t":"Class0","p":"0.7.1.5:44","h":"EARoot/EA7/EA1/EA5/EA15782.htm","g":"A2F8C7E6-3406-4F0B-B188-435F4D71C6F9"}
+{"n":"Planning Design Automation","t":"Class0","p":"0.7.1.5:45","h":"EARoot/EA7/EA1/EA5/EA15783.htm","g":"B4113BAB-22F0-4CD7-AA1B-658C4FDC4C44"}
+{"n":"Spares & Warehouse Inventory Management","t":"Class0","p":"0.7.1.5:46","h":"EARoot/EA7/EA1/EA5/EA15784.htm","g":"5C8DBEB7-4EE8-4885-AE70-F66F623F64E5"}
+{"n":"Strategic Planning","t":"Class0","p":"0.7.1.5:47","h":"EARoot/EA7/EA1/EA5/EA15785.htm","g":"C513E98A-F43A-44DD-BB61-50A42D99F124"}
+{"n":"Resource Order Orchestration","t":"Class0","p":"0.7.1.5:48","h":"EARoot/EA7/EA1/EA5/EA15786.htm","g":"78768D36-6F9D-4DE6-BE56-F5BF627AE115"}
+{"n":"Resource Service Order Validation","t":"Class0","p":"0.7.1.5:49","h":"EARoot/EA7/EA1/EA5/EA15787.htm","g":"A769B69D-734C-4343-A8C0-81991EEEF379"}
+{"n":"Resource Design / Assign","t":"Class0","p":"0.7.1.5:50","h":"EARoot/EA7/EA1/EA5/EA15788.htm","g":"F97EE7B9-CD61-4328-B907-307A76DE52FE"}
+{"n":"Resource Order Publication","t":"Class0","p":"0.7.1.5:51","h":"EARoot/EA7/EA1/EA5/EA15789.htm","g":"3FE63CC2-AB97-441E-8AB5-EFC76D40DD59"}
+{"n":"Resource Change Management","t":"Class0","p":"0.7.1.5:52","h":"EARoot/EA7/EA1/EA5/EA15790.htm","g":"27676D2A-B9FD-40F2-880B-50632E0CFDA8"}
+{"n":"Jeopardy Management","t":"Class0","p":"0.7.1.5:53","h":"EARoot/EA7/EA1/EA5/EA15791.htm","g":"06E3FB47-AFF5-41B6-B95C-F7BA6E021723"}
+{"n":"Resource Logistics","t":"Class0","p":"0.7.1.5:54","h":"EARoot/EA7/EA1/EA5/EA15792.htm","g":"E5246C2C-D6DD-405E-AEBA-9DD26B88AD1F"}
+{"n":"Resource Discovery","t":"Class0","p":"0.7.1.5:55","h":"EARoot/EA7/EA1/EA5/EA15793.htm","g":"60368D88-EE5A-42AD-8F18-A5CBDAC6D2CB"}
+{"n":"Resource Activation","t":"Class0","p":"0.7.1.5:56","h":"EARoot/EA7/EA1/EA5/EA15794.htm","g":"61201557-DA68-47FD-8072-1B9F124F9180"}
+{"n":"Resource Fault & Performance Data Mediation","t":"Class0","p":"0.7.1.5:57","h":"EARoot/EA7/EA1/EA5/EA15795.htm","g":"D4B2E29A-B2DD-4C98-9334-06342FC9C47D"}
+{"n":"OSS Inventory/Data Synchronization Management","t":"Class0","p":"0.7.1.5:58","h":"EARoot/EA7/EA1/EA5/EA15796.htm","g":"0135DBDF-9CDF-47C7-BFA3-CB0548BCC11C"}
+{"n":"Workforce Schedule Management","t":"Class0","p":"0.7.1.5:59","h":"EARoot/EA7/EA1/EA5/EA15797.htm","g":"4FB38FFB-02D3-4354-9775-7DD33E878E75"}
+{"n":"Work Order Analysis","t":"Class0","p":"0.7.1.5:60","h":"EARoot/EA7/EA1/EA5/EA15798.htm","g":"12EF99AB-8F16-4926-A86A-1E761938FF15"}
+{"n":"Work Order Assignment & Dispatch","t":"Class0","p":"0.7.1.5:61","h":"EARoot/EA7/EA1/EA5/EA15799.htm","g":"FEDC1585-9776-4F94-8154-4C81DFE0BDE8"}
+{"n":"Work Order Tracking & Management","t":"Class0","p":"0.7.1.5:62","h":"EARoot/EA7/EA1/EA5/EA15800.htm","g":"32B6589E-D49C-4728-AFF7-4D51E9C967BD"}
+{"n":"Workforce Configuration and Setup","t":"Class0","p":"0.7.1.5:63","h":"EARoot/EA7/EA1/EA5/EA15801.htm","g":"F97E48E5-2292-4454-81D2-95DCE7DCBF66"}
+{"n":"Workforce Management Reporting","t":"Class0","p":"0.7.1.5:64","h":"EARoot/EA7/EA1/EA5/EA15802.htm","g":"FA58F724-D223-4847-8CC4-E0252A8B9B94"}
+{"n":"Resource Performance Monitoring","t":"Class0","p":"0.7.1.5:66","h":"EARoot/EA7/EA1/EA5/EA15804.htm","g":"BF3836FD-4597-4A51-BA43-D180B692E203"}
+{"n":"Resource Performance Analysis","t":"Class0","p":"0.7.1.5:67","h":"EARoot/EA7/EA1/EA5/EA15805.htm","g":"7D22B967-72E9-48A2-B832-FDE98F4D87BF"}
+{"n":"Resource Performance Reporting","t":"Class0","p":"0.7.1.5:68","h":"EARoot/EA7/EA1/EA5/EA15806.htm","g":"EEE9C06F-112F-48B4-B0A3-9E91FE6C992A"}
+{"n":"Network Number Inventory Management","t":"Class0","p":"0.7.1.5:69","h":"EARoot/EA7/EA1/EA5/EA15807.htm","g":"9CAFB158-A26F-47A0-AC95-F8C4668B46F5"}
+{"n":"Number Portability","t":"Class0","p":"0.7.1.5:70","h":"EARoot/EA7/EA1/EA5/EA15808.htm","g":"09CE44B2-BF1B-46F3-9276-9651037B5762"}
+{"n":"Usage Event Processing","t":"Class0","p":"0.7.1.5:71","h":"EARoot/EA7/EA1/EA5/EA15809.htm","g":"A15D177D-4A83-4BB5-ADB5-7FAA509AF039"}
+{"n":"Usage Event Error Management","t":"Class0","p":"0.7.1.5:72","h":"EARoot/EA7/EA1/EA5/EA15810.htm","g":"7D03306E-BD37-47E3-A3FE-95EB33F1750B"}
+{"n":"Number Portability Orchestration","t":"Class0","p":"0.7.1.5:28","h":"EARoot/EA7/EA1/EA5/EA15766.htm","g":"AC6E2E1B-B11B-4349-9C65-2523243DAC15"}
+{"n":"Number Portability Policy Management","t":"Class0","p":"0.7.1.5:29","h":"EARoot/EA7/EA1/EA5/EA15767.htm","g":"2605A9A0-0751-4C31-A53D-42E89802F227"}
+{"n":"Number Portability Risk & Effectiveness Management","t":"Class0","p":"0.7.1.5:30","h":"EARoot/EA7/EA1/EA5/EA15768.htm","g":"C7ACEFCD-E124-4801-BC5A-64A0759C0C7E"}
+{"n":"Number Portability Validation","t":"Class0","p":"0.7.1.5:31","h":"EARoot/EA7/EA1/EA5/EA15769.htm","g":"DC131F8B-8C6D-464F-81F3-53AC845251DA"}
+{"n":"Resource Order Data Collection","t":"Class0","p":"0.7.1.5:65","h":"EARoot/EA7/EA1/EA5/EA15803.htm","g":"D7EDAF19-C1CC-418A-A14B-DBC1993ABBD9"}
+{"n":"Resource Availability","t":"Class0","p":"0.7.1.5:73","h":"EARoot/EA7/EA1/EA5/EA15811.htm","g":"55508FC5-EB61-4585-B379-2ACEE4E0AC8F"}
+{"n":"Resource Order Configuration Management","t":"Class0","p":"0.7.1.5:74","h":"EARoot/EA7/EA1/EA5/EA15812.htm","g":"C58FC131-D6A6-4C50-AF1B-0541A8C39DC5"}
+{"n":"Bill Calculation","t":"Application diagram0","p":"0.7.1.2:1","h":"EARoot/EA7/EA1/EA2/EA15489.htm","g":"8EDA99E1-DB62-4730-8035-EB453409465A"}
+{"n":"Billing Account Management","t":"Application diagram0","p":"0.7.1.2:2","h":"EARoot/EA7/EA1/EA2/EA15491.htm","g":"5769FB6D-2740-48A0-B410-93D751F2FF62"}
+{"n":"Billing Events Management","t":"Application diagram0","p":"0.7.1.2:3","h":"EARoot/EA7/EA1/EA2/EA15493.htm","g":"CCE60341-3A82-4023-BB35-00A48B88EDED"}
+{"n":"Billing Inquiry, Dispute & Adjustment Management","t":"Application diagram0","p":"0.7.1.2:4","h":"EARoot/EA7/EA1/EA2/EA15495.htm","g":"91EF70D5-434E-405A-8D35-BE7E9ECE19A7"}
+{"n":"Case Management","t":"Application diagram0","p":"0.7.1.2:5","h":"EARoot/EA7/EA1/EA2/EA15497.htm","g":"9B964A04-0D6D-4283-8574-481613BA823E"}
+{"n":"Charge Calculation and Balance Management","t":"Application diagram0","p":"0.7.1.2:6","h":"EARoot/EA7/EA1/EA2/EA15499.htm","g":"149B1DF4-1587-40A6-A8BD-0CBEFE9E1B09"}
+{"n":"Collection Management","t":"Application diagram0","p":"0.7.1.2:7","h":"EARoot/EA7/EA1/EA2/EA15501.htm","g":"BBEA649D-C714-4EC3-A895-98DFF0CA6B48"}
+{"n":"Customer & Network Care","t":"Application diagram0","p":"0.7.1.2:8","h":"EARoot/EA7/EA1/EA2/EA15503.htm","g":"BA12CAF3-3817-4364-A4CC-55A7704BCEA3"}
+{"n":"Customer Domain","t":"TAM diagram0","p":"0.7.1.2:9","h":"EARoot/EA7/EA1/EA2/EA15505.htm","g":"76EE34BA-AFC1-4FA8-8CD6-BC1C6B70E921"}
+{"n":"Customer Information Management","t":"Application diagram0","p":"0.7.1.2:10","h":"EARoot/EA7/EA1/EA2/EA15507.htm","g":"67CF8B71-424B-4352-AD1E-9B8EEBA67547"}
+{"n":"Customer Insight Management","t":"Application diagram0","p":"0.7.1.2:11","h":"EARoot/EA7/EA1/EA2/EA15509.htm","g":"CCBA1537-452D-42D4-A3F4-8FFBDF6C7A02"}
+{"n":"Customer Loyalty Management","t":"Application diagram0","p":"0.7.1.2:12","h":"EARoot/EA7/EA1/EA2/EA15511.htm","g":"7C8734DA-957D-4582-BFDB-7AA093D4712A"}
+{"n":"Customer Order Management","t":"Application diagram0","p":"0.7.1.2:13","h":"EARoot/EA7/EA1/EA2/EA15513.htm","g":"DE853DAF-22D8-423B-969E-F979C6DF6A25"}
+{"n":"Customer Problem Management","t":"Application diagram0","p":"0.7.1.2:14","h":"EARoot/EA7/EA1/EA2/EA15515.htm","g":"D5CF9F14-35D2-42CA-82BC-4BDC1EE29ACB"}
+{"n":"Customer Self Management","t":"Application diagram0","p":"0.7.1.2:15","h":"EARoot/EA7/EA1/EA2/EA15517.htm","g":"F4856B7E-6A11-4C0C-8DF8-14B5904E88C4"}
+{"n":"Customer Service Representative Toolbox","t":"Application diagram0","p":"0.7.1.2:16","h":"EARoot/EA7/EA1/EA2/EA15519.htm","g":"9FB4C7B9-01AD-43A2-A5B8-BB20625133FB"}
+{"n":"Customer SLA Management","t":"Application diagram0","p":"0.7.1.2:17","h":"EARoot/EA7/EA1/EA2/EA15521.htm","g":"0A53C08D-4884-4B69-9149-C2837F9AB928"}
+{"n":"Privacy Dashboard","t":"Application diagram0","p":"0.7.1.2:18","h":"EARoot/EA7/EA1/EA2/EA15523.htm","g":"63ABCAAF-706F-43AC-885E-253CBBE97D92"}
+{"n":"Receivables Management","t":"Application diagram0","p":"0.7.1.2:19","h":"EARoot/EA7/EA1/EA2/EA15525.htm","g":"8649BBE5-2533-43B7-A660-D723082FD01F"}
+{"n":"Transactional Document Production","t":"Application diagram0","p":"0.7.1.2:20","h":"EARoot/EA7/EA1/EA2/EA15527.htm","g":"0D02B761-D155-462F-8D29-2C032C30D6BE"}
+{"n":"Customer Information Management","t":"Class0","p":"0.7.1.2:21","h":"EARoot/EA7/EA1/EA2/EA15530.htm","g":"0DDC2B51-61EF-4FA8-BD4D-B60755C4446B"}
+{"n":"Transactional Document Production","t":"Class0","p":"0.7.1.2:22","h":"EARoot/EA7/EA1/EA2/EA15531.htm","g":"53E6625F-92F5-44A7-837F-FD78DF926EAB"}
+{"n":"Customer Order Management","t":"Class0","p":"0.7.1.2:23","h":"EARoot/EA7/EA1/EA2/EA15532.htm","g":"7D59C4B7-3C11-458D-A1EB-9CD845B60F64"}
+{"n":"Customer Self Management","t":"Class0","p":"0.7.1.2:24","h":"EARoot/EA7/EA1/EA2/EA15533.htm","g":"27F06E95-B4F4-4D61-8212-6183D5CBF3A6"}
+{"n":"Customer Insight Management","t":"Class0","p":"0.7.1.2:25","h":"EARoot/EA7/EA1/EA2/EA15534.htm","g":"A6A4F9AB-1233-4657-A108-31C90C48B978"}
+{"n":"Customer Service Representative Toolbox","t":"Class0","p":"0.7.1.2:26","h":"EARoot/EA7/EA1/EA2/EA15535.htm","g":"B6B5AC94-D954-423F-8F4E-D4C642378F5C"}
+{"n":"Customer Problem Management","t":"Class0","p":"0.7.1.2:27","h":"EARoot/EA7/EA1/EA2/EA15536.htm","g":"0DEAD7D5-7A7D-4CAC-B159-BDCCEE46AB77"}
+{"n":"Receivables Management","t":"Class0","p":"0.7.1.2:28","h":"EARoot/EA7/EA1/EA2/EA15537.htm","g":"22024CA2-5337-43D2-B3CB-3EC0F68F5F3C"}
+{"n":"Billing Inquiry, Dispute & Adjustment Management","t":"Class0","p":"0.7.1.2:29","h":"EARoot/EA7/EA1/EA2/EA15538.htm","g":"357E4D7E-4297-4FD1-A461-428ADFE8EFC4"}
+{"n":"Bill Format / Render","t":"Class0","p":"0.7.1.2:30","h":"EARoot/EA7/EA1/EA2/EA15539.htm","g":"22A0542B-666C-4769-A68E-8B10E0A4CC35"}
+{"n":"Billing Account Management","t":"Class0","p":"0.7.1.2:31","h":"EARoot/EA7/EA1/EA2/EA15540.htm","g":"CAF4A2CB-6EF1-423D-82E6-19F7AFD57E4E"}
+{"n":"Collection Management","t":"Class0","p":"0.7.1.2:32","h":"EARoot/EA7/EA1/EA2/EA15541.htm","g":"333C7A4E-EFAA-4337-8672-376BC9CA2113"}
+{"n":"Bill Calculation","t":"Class0","p":"0.7.1.2:33","h":"EARoot/EA7/EA1/EA2/EA15542.htm","g":"CE88478B-1A30-43C0-A198-A59A329EEA38"}
+{"n":"Case Management","t":"Class0","p":"0.7.1.2:34","h":"EARoot/EA7/EA1/EA2/EA15543.htm","g":"0B054AA4-C5EF-4F06-B5BC-E882DB420021"}
+{"n":"Customer SLA Management","t":"Class0","p":"0.7.1.2:35","h":"EARoot/EA7/EA1/EA2/EA15544.htm","g":"E1D8FC40-0550-45B2-8ADE-F1692F24D5C6"}
+{"n":"Charge Calculation and Balance Management","t":"Class0","p":"0.7.1.2:36","h":"EARoot/EA7/EA1/EA2/EA15545.htm","g":"3137089E-1268-448E-A8A8-28695496AA16"}
+{"n":"Billing Events Management","t":"Class0","p":"0.7.1.2:37","h":"EARoot/EA7/EA1/EA2/EA15546.htm","g":"57A779CD-7656-4BAE-B2BB-E2879E2AB402"}
+{"n":"Customer Loyalty Management","t":"Class0","p":"0.7.1.2:38","h":"EARoot/EA7/EA1/EA2/EA15547.htm","g":"FA7471AA-56A2-4C09-A3CD-9538DCE5CE4D"}
+{"n":"Customer & Network Care","t":"Class0","p":"0.7.1.2:39","h":"EARoot/EA7/EA1/EA2/EA15548.htm","g":"FD8F3F28-E10E-4AAF-9CAC-1A249F79E8EC"}
+{"n":"Privacy Dashboard","t":"Class0","p":"0.7.1.2:40","h":"EARoot/EA7/EA1/EA2/EA15549.htm","g":"9EB5EB90-4A3D-426B-8BB5-655B960D4C3E"}
+{"n":"Payment Interface Management","t":"Class0","p":"0.7.1.2:41","h":"EARoot/EA7/EA1/EA2/EA15550.htm","g":"DF9A2269-6270-42E2-BFC4-7BCD51429D38"}
+{"n":"Payment Settlement","t":"Class0","p":"0.7.1.2:42","h":"EARoot/EA7/EA1/EA2/EA15551.htm","g":"A7DD6E69-C9B6-4944-810C-786AD87E605A"}
+{"n":"Payment Validation & Authorization","t":"Class0","p":"0.7.1.2:43","h":"EARoot/EA7/EA1/EA2/EA15552.htm","g":"6CD6D839-EF45-421B-B085-068963018F1B"}
+{"n":"Operations Portal","t":"Class0","p":"0.7.1.2:44","h":"EARoot/EA7/EA1/EA2/EA15553.htm","g":"748ECE41-CD13-439B-8F16-314921502DC9"}
+{"n":"Center Efficiency Tools","t":"Class0","p":"0.7.1.2:45","h":"EARoot/EA7/EA1/EA2/EA15554.htm","g":"0141D4AE-AC2B-495E-A6E3-4698B4F10020"}
+{"n":"Case Definition and Configuration","t":"Class0","p":"0.7.1.2:46","h":"EARoot/EA7/EA1/EA2/EA15555.htm","g":"36BAC24E-8720-412C-BBC3-69E9395D5602"}
+{"n":"Case Workflow","t":"Class0","p":"0.7.1.2:47","h":"EARoot/EA7/EA1/EA2/EA15556.htm","g":"63A9B9FB-2560-4854-99A3-C7573F7F67DD"}
+{"n":"Case Correlation & Analysis","t":"Class0","p":"0.7.1.2:48","h":"EARoot/EA7/EA1/EA2/EA15557.htm","g":"A706D30B-FBB3-481D-B935-67BD3C0AC12F"}
+{"n":"Case Tracking & Management","t":"Class0","p":"0.7.1.2:49","h":"EARoot/EA7/EA1/EA2/EA15558.htm","g":"C1E14DBB-F470-44C3-B185-C9DE90565168"}
+{"n":"Case Reporting","t":"Class0","p":"0.7.1.2:50","h":"EARoot/EA7/EA1/EA2/EA15559.htm","g":"17F61D87-E587-4ECD-8B23-C03EA8A35663"}
+{"n":"Case Archival","t":"Class0","p":"0.7.1.2:51","h":"EARoot/EA7/EA1/EA2/EA15560.htm","g":"867250FF-5A4B-4DDB-979E-ABCDC4CB4043"}
+{"n":"Customer Order Capture","t":"Class0","p":"0.7.1.2:52","h":"EARoot/EA7/EA1/EA2/EA15561.htm","g":"F232AA61-9D4B-4084-8D6A-7D50E7E174F9"}
+{"n":"Offer Configuration","t":"Class0","p":"0.7.1.2:53","h":"EARoot/EA7/EA1/EA2/EA15562.htm","g":"67518550-553E-4CFC-B80B-F9E5745EF67A"}
+{"n":"Customer Hierarchy & Group Management","t":"Class0","p":"0.7.1.2:54","h":"EARoot/EA7/EA1/EA2/EA15563.htm","g":"27E26226-FFA7-4BBB-89D2-1D4CD102229A"}
+{"n":"Customer Profile Management","t":"Class0","p":"0.7.1.2:55","h":"EARoot/EA7/EA1/EA2/EA15564.htm","g":"E3DFE8E8-A4BF-484F-BB7C-2FD702D74FF8"}
+{"n":"Customer Credit Management","t":"Class0","p":"0.7.1.2:56","h":"EARoot/EA7/EA1/EA2/EA15565.htm","g":"DDC2E390-C1CA-4110-8968-1F2919725831"}
+{"n":"Customer Interaction Collection & Storage","t":"Class0","p":"0.7.1.2:57","h":"EARoot/EA7/EA1/EA2/EA15566.htm","g":"DB0BE83D-517E-4536-BFC5-A67C696C1C78"}
+{"n":"Customer Subscription Management","t":"Class0","p":"0.7.1.2:58","h":"EARoot/EA7/EA1/EA2/EA15567.htm","g":"89523E20-A1B0-4F45-98DA-B6F5F34F5EC7"}
+{"n":"Customer Problem Qualification & Reception","t":"Class0","p":"0.7.1.2:59","h":"EARoot/EA7/EA1/EA2/EA15568.htm","g":"B99E0499-7FEB-44DA-9197-90E98789CDB5"}
+{"n":"Customer Problem Lifecycle Management","t":"Class0","p":"0.7.1.2:60","h":"EARoot/EA7/EA1/EA2/EA15569.htm","g":"E26DFE68-096A-4F65-A8CB-4AEF905A2340"}
+{"n":"Customer Problem Diagnostics","t":"Class0","p":"0.7.1.2:61","h":"EARoot/EA7/EA1/EA2/EA15570.htm","g":"DEBEA58A-4C74-4D3B-82A5-4FE60FB28C60"}
+{"n":"Customer Problem Resolution","t":"Class0","p":"0.7.1.2:62","h":"EARoot/EA7/EA1/EA2/EA15571.htm","g":"15C5D903-90EB-4DF6-B5E1-A3B72CEAB922"}
+{"n":"Customer Problem Verification & Closure","t":"Class0","p":"0.7.1.2:63","h":"EARoot/EA7/EA1/EA2/EA15572.htm","g":"9FCD0A22-DAB9-4D06-9E7B-978D2CD732C6"}
+{"n":"Customer Problem Reporting","t":"Class0","p":"0.7.1.2:64","h":"EARoot/EA7/EA1/EA2/EA15573.htm","g":"5FEFE243-A406-4F0D-8F66-7E5DFD371FE3"}
+{"n":"Customer Order Item Decomposition","t":"Class0","p":"0.7.1.2:65","h":"EARoot/EA7/EA1/EA2/EA15574.htm","g":"68E40DDE-4FFC-4225-B4A5-4BE8A5A34736"}
+{"n":"Customer Order Work Item Decomposition","t":"Class0","p":"0.7.1.2:66","h":"EARoot/EA7/EA1/EA2/EA15575.htm","g":"57158935-9B2B-4324-8E37-C7A749897174"}
+{"n":"Customer Order Orchestration Plan Creation","t":"Class0","p":"0.7.1.2:67","h":"EARoot/EA7/EA1/EA2/EA15576.htm","g":"85A92FFF-4CD6-492C-B9FD-F3B4202807D5"}
+{"n":"Collection","t":"Class0","p":"0.7.1.2:68","h":"EARoot/EA7/EA1/EA2/EA15577.htm","g":"EF68DBE0-4E84-4CAD-B79B-29997307834A"}
+{"n":"Payment","t":"Class0","p":"0.7.1.2:69","h":"EARoot/EA7/EA1/EA2/EA15578.htm","g":"93B286E4-F3DC-45F9-9491-E8FD3B134BB3"}
+{"n":"Billing Inquiry Dispute & Adjustment Management","t":"Class0","p":"0.7.1.2:70","h":"EARoot/EA7/EA1/EA2/EA15579.htm","g":"BC0C183C-8DF9-4B3E-B429-4E6941E47E2F"}
+{"n":"Customer/Internal Collaboration/Chat","t":"Class0","p":"0.7.1.2:71","h":"EARoot/EA7/EA1/EA2/EA15580.htm","g":"F5CD0ED7-256A-4986-BB89-C7B482789EC5"}
+{"n":"Voice Channel Contact","t":"Class0","p":"0.7.1.2:72","h":"EARoot/EA7/EA1/EA2/EA15581.htm","g":"F0CB8CBB-EF9B-4F10-A2DB-2CB09A313FD9"}
+{"n":"Off-Line Contact Channel Management","t":"Class0","p":"0.7.1.2:73","h":"EARoot/EA7/EA1/EA2/EA15582.htm","g":"E187B6AF-A1F2-4371-87BC-305AD0E1FACF"}
+{"n":"Channel Infrastructure","t":"Class0","p":"0.7.1.2:74","h":"EARoot/EA7/EA1/EA2/EA15583.htm","g":"9472B608-6C11-433F-A5AA-1BA3C169D0DF"}
+{"n":"A/R Management","t":"Class0","p":"0.7.1.2:75","h":"EARoot/EA7/EA1/EA2/EA15584.htm","g":"A227085B-45AA-4EF1-B6E3-BCC91891C8FD"}
+{"n":"Financial Reporting","t":"Class0","p":"0.7.1.2:76","h":"EARoot/EA7/EA1/EA2/EA15585.htm","g":"164EA69D-08CD-4E93-8EBC-E3EF45E51A9D"}
+{"n":"Journalization","t":"Class0","p":"0.7.1.2:77","h":"EARoot/EA7/EA1/EA2/EA15586.htm","g":"A7222F33-D4FE-44AC-B9FD-66206AE20080"}
+{"n":"Payment Management","t":"Class0","p":"0.7.1.2:78","h":"EARoot/EA7/EA1/EA2/EA15587.htm","g":"044AF969-D272-4381-BDF2-5C85DC6FA4EC"}
+{"n":"Customer Self Empowered Fulfillment","t":"Class0","p":"0.7.1.2:79","h":"EARoot/EA7/EA1/EA2/EA15588.htm","g":"FC7BDC25-F3E7-4014-9044-488416345D23"}
+{"n":"Customer Self Empowered Assurance","t":"Class0","p":"0.7.1.2:80","h":"EARoot/EA7/EA1/EA2/EA15589.htm","g":"8EEAACED-AC04-45F3-8931-9911EAE39C4B"}
+{"n":"Customer Self Empowered Billing","t":"Class0","p":"0.7.1.2:81","h":"EARoot/EA7/EA1/EA2/EA15590.htm","g":"F335C116-DC15-462F-9BD6-743E0596C8AE"}
+{"n":"Charge Calculation","t":"Class0","p":"0.7.1.2:82","h":"EARoot/EA7/EA1/EA2/EA15591.htm","g":"942C4A61-D1A9-4BC0-B077-6CA3499CFE90"}
+{"n":"Balance Management","t":"Class0","p":"0.7.1.2:83","h":"EARoot/EA7/EA1/EA2/EA15592.htm","g":"52B2678A-D177-4A57-8C29-5E8D73948991"}
+{"n":"Collection Policy Definition and Configuration","t":"Class0","p":"0.7.1.2:84","h":"EARoot/EA7/EA1/EA2/EA15593.htm","g":"CF0117A1-9826-44EA-98F6-07CD563F8C66"}
+{"n":"Collection Policy Execution and Monitoring","t":"Class0","p":"0.7.1.2:85","h":"EARoot/EA7/EA1/EA2/EA15594.htm","g":"F0CFB632-DD82-490D-ABE4-08C653CB8AED"}
+{"n":"Collection Settlement","t":"Class0","p":"0.7.1.2:86","h":"EARoot/EA7/EA1/EA2/EA15595.htm","g":"D1EC10B9-EA37-405B-9938-947BE98B7B96"}
+{"n":"Bill Inquiry","t":"Class0","p":"0.7.1.2:87","h":"EARoot/EA7/EA1/EA2/EA15596.htm","g":"35707554-7E83-415E-8719-0052247E122B"}
+{"n":"Dispute Management","t":"Class0","p":"0.7.1.2:88","h":"EARoot/EA7/EA1/EA2/EA15597.htm","g":"A784AD77-2839-46B7-8067-4C68C639B475"}
+{"n":"Adjustments","t":"Class0","p":"0.7.1.2:89","h":"EARoot/EA7/EA1/EA2/EA15598.htm","g":"10C98112-3AEA-499B-817B-7872A6EE5659"}
+{"n":"Transactional Document Formatter","t":"Class0","p":"0.7.1.2:90","h":"EARoot/EA7/EA1/EA2/EA15599.htm","g":"2BBB1AD4-41A5-4C15-B0F5-10CB41A7BE00"}
+{"n":"Transactional Document Generator","t":"Class0","p":"0.7.1.2:91","h":"EARoot/EA7/EA1/EA2/EA15600.htm","g":"CFC5C016-09F6-4EEC-AA11-2364F5F1E8F0"}
+{"n":"Document Delivery","t":"Class0","p":"0.7.1.2:92","h":"EARoot/EA7/EA1/EA2/EA15601.htm","g":"D0263F86-C271-4371-9B1F-4AB312FB0AEB"}
+{"n":"Document Archiving","t":"Class0","p":"0.7.1.2:93","h":"EARoot/EA7/EA1/EA2/EA15602.htm","g":"E756F99E-73EB-4376-AA28-8E0A175A7FBB"}
+{"n":"Center Activity Management","t":"Class0","p":"0.7.1.2:94","h":"EARoot/EA7/EA1/EA2/EA15603.htm","g":"876AC049-CA41-4BD7-9EC6-4C43AA229A4B"}
+{"n":"Center Time Management","t":"Class0","p":"0.7.1.2:95","h":"EARoot/EA7/EA1/EA2/EA15604.htm","g":"8C273CA6-12F5-458A-8589-4A94ED34C805"}
+{"n":"Center Budget Management","t":"Class0","p":"0.7.1.2:96","h":"EARoot/EA7/EA1/EA2/EA15605.htm","g":"48B7975C-F09F-4538-A759-EACB472CDEF7"}
+{"n":"Center Quality Management","t":"Class0","p":"0.7.1.2:97","h":"EARoot/EA7/EA1/EA2/EA15606.htm","g":"86501BA1-C74A-4BF1-81DC-BAFEAD42062F"}
+{"n":"Billing Event Processing","t":"Class0","p":"0.7.1.2:98","h":"EARoot/EA7/EA1/EA2/EA15607.htm","g":"89471816-91B3-4086-B0FE-287BF50865FE"}
+{"n":"Billing Event Error Management","t":"Class0","p":"0.7.1.2:99","h":"EARoot/EA7/EA1/EA2/EA15608.htm","g":"E7E76743-A971-4647-A879-3FE1EC26429B"}
+{"n":"Customer Order Establishment","t":"Class0","p":"0.7.1.2:100","h":"EARoot/EA7/EA1/EA2/EA15609.htm","g":"B6CC682F-E9B2-4A41-A9DB-64E937239B0E"}
+{"n":"Customer Order Orchestration","t":"Class0","p":"0.7.1.2:101","h":"EARoot/EA7/EA1/EA2/EA15610.htm","g":"FEA0C3ED-58DE-49CA-9CA4-11366CFD9514"}
+{"n":"Customer Order Tracking & Management","t":"Class0","p":"0.7.1.2:102","h":"EARoot/EA7/EA1/EA2/EA15611.htm","g":"B2BA1F19-86AB-4134-92E2-2DA6CF65B2B2"}
+{"n":"Customer Order Lifecycle Management","t":"Class0","p":"0.7.1.2:103","h":"EARoot/EA7/EA1/EA2/EA15612.htm","g":"43808414-7BDE-4BC0-A2E9-F38EF1B78F4D"}
+{"n":"Customer Order Enrichment","t":"Class0","p":"0.7.1.2:104","h":"EARoot/EA7/EA1/EA2/EA15613.htm","g":"8E42CD42-75A4-43E5-9870-261002F5D57C"}
+{"n":"Customer Order Acceptance","t":"Class0","p":"0.7.1.2:105","h":"EARoot/EA7/EA1/EA2/EA15614.htm","g":"1AA26E32-1486-4259-AAE3-D19F5E6F1D46"}
+{"n":"Customer Order Rules Management","t":"Class0","p":"0.7.1.2:106","h":"EARoot/EA7/EA1/EA2/EA15615.htm","g":"482CB948-AF5A-4801-8B3F-F1E939177E83"}
+{"n":"Customer Order Workflow Management","t":"Class0","p":"0.7.1.2:107","h":"EARoot/EA7/EA1/EA2/EA15616.htm","g":"119C172E-690A-4F5E-9C31-4CC83E8141A6"}
+{"n":"Privacy Profile Type Creation","t":"Class0","p":"0.7.1.2:108","h":"EARoot/EA7/EA1/EA2/EA15617.htm","g":"048B782C-0401-4833-9305-A25F8BAC44BF"}
+{"n":"Privacy Data Exposure","t":"Class0","p":"0.7.1.2:109","h":"EARoot/EA7/EA1/EA2/EA15618.htm","g":"2927A39E-2860-4B3D-9FEE-F3C14AFBD119"}
+{"n":"Privacy Consent","t":"Class0","p":"0.7.1.2:110","h":"EARoot/EA7/EA1/EA2/EA15619.htm","g":"087C5376-5B1A-457A-A56E-CBE106020980"}
+{"n":"Customer Satisfaction Validation","t":"Class0","p":"0.7.1.2:111","h":"EARoot/EA7/EA1/EA2/EA15620.htm","g":"C35687F2-90B5-4BBB-BDA1-EA2EBB8A397E"}
+{"n":"Customer Profiling","t":"Class0","p":"0.7.1.2:112","h":"EARoot/EA7/EA1/EA2/EA15621.htm","g":"BEE5C58D-BA79-44C3-8A44-221C4C7F61A5"}
+{"n":"Customer Experience Monitoring","t":"Class0","p":"0.7.1.2:113","h":"EARoot/EA7/EA1/EA2/EA15622.htm","g":"45E5F100-357E-43FE-AE19-638056CA1CB2"}
+{"n":"Customer Context Map Building","t":"Class0","p":"0.7.1.2:114","h":"EARoot/EA7/EA1/EA2/EA15623.htm","g":"4CB8073B-2360-46F7-8828-8E4B3A910448"}
+{"n":"Customer Operational Decisioning","t":"Class0","p":"0.7.1.2:115","h":"EARoot/EA7/EA1/EA2/EA15624.htm","g":"F24E222D-556F-4498-9FAF-11AF9CE5B4B3"}
+{"n":"Customer Recommended Action","t":"Class0","p":"0.7.1.2:116","h":"EARoot/EA7/EA1/EA2/EA15625.htm","g":"D033D0A1-1052-4121-8BCD-7172B7612386"}
+{"n":"CSR fulfillment","t":"Class0","p":"0.7.1.2:117","h":"EARoot/EA7/EA1/EA2/EA15626.htm","g":"1F8AC839-D30E-48CB-BF50-FC7CC849D99D"}
+{"n":"CSR assurance","t":"Class0","p":"0.7.1.2:118","h":"EARoot/EA7/EA1/EA2/EA15627.htm","g":"B33E7FA5-A024-4944-86DB-E05405B7249C"}
+{"n":"CSR Billing","t":"Class0","p":"0.7.1.2:119","h":"EARoot/EA7/EA1/EA2/EA15628.htm","g":"17CA495C-61C1-4607-8411-B5023C399819"}
+{"n":"Channel Guidance and Data Capture","t":"Class0","p":"0.7.1.2:120","h":"EARoot/EA7/EA1/EA2/EA15629.htm","g":"69035ECE-1EAE-49D6-B67D-F63D89409099"}
+{"n":"Customer and Product Data Collection","t":"Class0","p":"0.7.1.2:121","h":"EARoot/EA7/EA1/EA2/EA15630.htm","g":"0D9509B5-6C0A-4034-9CB1-BD74EC9AB99C"}
+{"n":"Customer Order Validation","t":"Class0","p":"0.7.1.2:122","h":"EARoot/EA7/EA1/EA2/EA15631.htm","g":"F2B2B13A-BAA8-40A4-A88E-DE4CEEAA874F"}
+{"n":"Offering Availability","t":"Class0","p":"0.7.1.2:123","h":"EARoot/EA7/EA1/EA2/EA15632.htm","g":"803C4616-E8F8-4CAC-81BE-76E8308886CC"}
+{"n":"Center Productivity Management","t":"Class0","p":"0.7.1.2:124","h":"EARoot/EA7/EA1/EA2/EA15633.htm","g":"556DE97A-F04E-4A56-964C-F9135B8A26AF"}
+{"n":"Center Compliance & Training","t":"Class0","p":"0.7.1.2:125","h":"EARoot/EA7/EA1/EA2/EA15634.htm","g":"D051D547-C02F-4DF8-9310-9A0A549F0859"}
+{"n":"Center Force & Queue Management","t":"Class0","p":"0.7.1.2:126","h":"EARoot/EA7/EA1/EA2/EA15635.htm","g":"550E2035-2FA0-4418-9480-3EDB3874AF20"}
+{"n":"Billing Account Configuration Management","t":"Class0","p":"0.7.1.2:127","h":"EARoot/EA7/EA1/EA2/EA15636.htm","g":"0641FEBF-E78A-4F02-90F1-811ED02953A2"}
+{"n":"Billing Account Associations Management","t":"Class0","p":"0.7.1.2:128","h":"EARoot/EA7/EA1/EA2/EA15637.htm","g":"49AEB633-BBED-461E-A867-6F7FD58BAE61"}
+{"n":"Customer Bill Charge Calculation","t":"Class0","p":"0.7.1.2:129","h":"EARoot/EA7/EA1/EA2/EA15638.htm","g":"8B197BB8-0724-467D-98E7-0B085943D98D"}
+{"n":"Discounts Calculation","t":"Class0","p":"0.7.1.2:130","h":"EARoot/EA7/EA1/EA2/EA15639.htm","g":"02AE42C2-E1C2-42A7-A66F-20274FFB8A90"}
+{"n":"Tax Calculation","t":"Class0","p":"0.7.1.2:131","h":"EARoot/EA7/EA1/EA2/EA15640.htm","g":"A7B3D757-5DA1-427B-B6AD-A7D370094901"}
+{"n":"Commitment Tracking","t":"Class0","p":"0.7.1.2:132","h":"EARoot/EA7/EA1/EA2/EA15641.htm","g":"304D255E-2007-45AB-A979-E957C58D4949"}
+{"n":"Bill Cycle Run Management","t":"Class0","p":"0.7.1.2:133","h":"EARoot/EA7/EA1/EA2/EA15642.htm","g":"5A713904-56CA-4340-BBA0-5FA529BEAA15"}
+{"n":"Invoice Generation","t":"Class0","p":"0.7.1.2:134","h":"EARoot/EA7/EA1/EA2/EA15643.htm","g":"F02396CF-4B8E-4891-ADC0-7396D5457C1D"}
+{"n":"Customer SLA Issue Reception","t":"Class0","p":"0.7.1.2:135","h":"EARoot/EA7/EA1/EA2/EA15644.htm","g":"032A7F2B-C618-4D8C-AC0D-C4040A998DD0"}
+{"n":"Customer SLA Collection","t":"Class0","p":"0.7.1.2:136","h":"EARoot/EA7/EA1/EA2/EA15645.htm","g":"CCC8ACAD-706B-4106-8632-AC5882223508"}
+{"n":"Customer SLA Analysis","t":"Class0","p":"0.7.1.2:137","h":"EARoot/EA7/EA1/EA2/EA15646.htm","g":"81BB7966-44B2-4DEE-8F56-CD42A488D088"}
+{"n":"Customer SLA Violation Management","t":"Class0","p":"0.7.1.2:138","h":"EARoot/EA7/EA1/EA2/EA15647.htm","g":"223F5615-96E3-464C-92D0-19556FAAC79C"}
+{"n":"Customer SLA Reporting","t":"Class0","p":"0.7.1.2:139","h":"EARoot/EA7/EA1/EA2/EA15648.htm","g":"5BBD6BF5-92B1-4D61-9882-4FFCE008B2C2"}
+{"n":"Customer Program Management","t":"Class0","p":"0.7.1.2:140","h":"EARoot/EA7/EA1/EA2/EA15649.htm","g":"2B47AB7D-179C-4603-8D1F-9E8356CE0A4D"}
+{"n":"Customer Loyalty Prize Management","t":"Class0","p":"0.7.1.2:141","h":"EARoot/EA7/EA1/EA2/EA15650.htm","g":"3B16B891-CB0C-45A3-916C-0098E52CEB2E"}
+{"n":"Customer Loyalty Balance Management","t":"Class0","p":"0.7.1.2:142","h":"EARoot/EA7/EA1/EA2/EA15651.htm","g":"BDCB7D8E-E2BD-46EC-BF52-81E7E58374D2"}
+{"n":"Role-Based Portal","t":"Class0","p":"0.7.1.2:143","h":"EARoot/EA7/EA1/EA2/EA15652.htm","g":"07448FDB-8B86-413F-B75E-6D17934D2076"}
+{"n":"Center Administration","t":"Class0","p":"0.7.1.2:144","h":"EARoot/EA7/EA1/EA2/EA15653.htm","g":"BBB8BF32-2DFD-46A0-A665-5F2E633C855C"}
+{"n":"Contact Channel Management","t":"Class0","p":"0.7.1.2:145","h":"EARoot/EA7/EA1/EA2/EA15654.htm","g":"19FB786F-0782-4C8B-8BAE-9614BE9BD7D8"}
+{"n":"Business Partner Domain","t":"TAM diagram0","p":"0.7.1.6:1","h":"EARoot/EA7/EA1/EA6/EA15813.htm","g":"7B8C1A9E-1FAE-4625-81B5-7A9149CC9E4E"}
+{"n":"Partner Strategy","t":"Class0","p":"0.7.1.6:4","h":"EARoot/EA7/EA1/EA6/EA15820.htm","g":"0AA729B5-9EBD-4CA7-A597-5F6FD7F172A6"}
+{"n":"Wholesale / Interconnect Billing","t":"Class0","p":"0.7.1.6:5","h":"EARoot/EA7/EA1/EA6/EA15821.htm","g":"A0ECD552-A04A-4F96-8EF5-EE9CE3EB5B95"}
+{"n":"Tender Management","t":"Class0","p":"0.7.1.6:6","h":"EARoot/EA7/EA1/EA6/EA15822.htm","g":"6255E522-1FA7-4C4F-9023-41B63EA1B0FE"}
+{"n":"Partner Workflow Management","t":"Class0","p":"0.7.1.6:7","h":"EARoot/EA7/EA1/EA6/EA15823.htm","g":"CC21196B-2DB5-4898-9032-40B0BE0D1ACA"}
+{"n":"Partner Order Management","t":"Class0","p":"0.7.1.6:8","h":"EARoot/EA7/EA1/EA6/EA15824.htm","g":"DFD351C5-2B5D-44FA-B8D8-173634715832"}
+{"n":"Partner Problem Management","t":"Class0","p":"0.7.1.6:9","h":"EARoot/EA7/EA1/EA6/EA15825.htm","g":"A7E2AD8B-5199-4B1D-850B-FEB64DADEDD9"}
+{"n":"Partner Information Management","t":"Class0","p":"0.7.1.6:10","h":"EARoot/EA7/EA1/EA6/EA15826.htm","g":"7C94B5E3-FDC0-4F28-BF21-B005A1F46587"}
+{"n":"Partner Agreement Management","t":"Class0","p":"0.7.1.6:11","h":"EARoot/EA7/EA1/EA6/EA15827.htm","g":"628F96E2-E1FE-45B8-9E19-C7DDBB167FE8"}
+{"n":"Partner Product Offering Onboarding","t":"Class0","p":"0.7.1.6:12","h":"EARoot/EA7/EA1/EA6/EA15828.htm","g":"33DC77ED-5CCA-40EB-A69D-F99272A94C72"}
+{"n":"Partner Information Management","t":"Application diagram0","p":"0.7.1.6:2","h":"EARoot/EA7/EA1/EA6/EA15815.htm","g":"56FD5F74-34F3-4850-9973-76E378470846"}
+{"n":"Partner Strategy","t":"Application diagram0","p":"0.7.1.6:3","h":"EARoot/EA7/EA1/EA6/EA15817.htm","g":"039EB273-4001-402A-86D2-1AD986F22AD1"}
+{"n":"Partner Strategy Definition","t":"Class0","p":"0.7.1.6:13","h":"EARoot/EA7/EA1/EA6/EA15829.htm","g":"314C3EBF-D0BA-449D-B8B2-BAE0D57255A5"}
+{"n":"Partner Strategy Implementation","t":"Class0","p":"0.7.1.6:14","h":"EARoot/EA7/EA1/EA6/EA15830.htm","g":"1B166DB3-6800-4A49-971D-088C99784608"}
+{"n":"Partner Hierarchy & Group Management","t":"Class0","p":"0.7.1.6:15","h":"EARoot/EA7/EA1/EA6/EA15831.htm","g":"867DE363-82A6-42E4-ABBB-88A07239589B"}
+{"n":"Partner Profile Management","t":"Class0","p":"0.7.1.6:16","h":"EARoot/EA7/EA1/EA6/EA15832.htm","g":"28C85F82-A37B-4FC9-8E8C-132442C48E88"}
+{"n":"Partner Financial Risk Management","t":"Class0","p":"0.7.1.6:17","h":"EARoot/EA7/EA1/EA6/EA15833.htm","g":"9FF55FFD-1E45-4815-8851-F80192731F91"}
+{"n":"Partner Interaction Collection & Storage","t":"Class0","p":"0.7.1.6:18","h":"EARoot/EA7/EA1/EA6/EA15834.htm","g":"0A33D74B-61C2-4F28-89EF-527F57793905"}
+{"n":"Integration Domain","t":"TAM diagram0","p":"0.7.1.8:2","h":"EARoot/EA7/EA1/EA8/EA15942.htm","g":"C0A0FD14-EC2E-4FBB-AD8F-86BE8F9AA3ED"}
+{"n":"Enterprise Application Integration","t":"Class0","p":"0.7.1.8:3","h":"EARoot/EA7/EA1/EA8/EA15945.htm","g":"12A2D339-00F7-4610-A774-EF6F2E6D6534"}
+{"n":"Business Process Management & Workflow","t":"Class0","p":"0.7.1.8:4","h":"EARoot/EA7/EA1/EA8/EA15946.htm","g":"000035C7-549D-498D-A966-D484C633E2A7"}
+{"n":"API Management","t":"Class0","p":"0.7.1.8:5","h":"EARoot/EA7/EA1/EA8/EA15947.htm","g":"6D458020-58AD-4D45-A34A-C6699E62EBF8"}
+{"n":"API Management","t":"Application diagram0","p":"0.7.1.8:1","h":"EARoot/EA7/EA1/EA8/EA15940.htm","g":"CA4042FF-3830-4325-9F91-42E030BFFB13"}
+{"n":"API Gateway","t":"Class0","p":"0.7.1.8:6","h":"EARoot/EA7/EA1/EA8/EA15948.htm","g":"843FBD36-6B04-4D6A-BEB5-89F748F4D832"}
+{"n":"API Lifecycle Management","t":"Class0","p":"0.7.1.8:7","h":"EARoot/EA7/EA1/EA8/EA15949.htm","g":"43DF931B-D33F-4C86-98C9-6F23A7043EE0"}
+{"n":"Developers Portal","t":"Class0","p":"0.7.1.8:8","h":"EARoot/EA7/EA1/EA8/EA15950.htm","g":"0643A29D-E36A-41D9-8299-7E5D3BA2A401"}
+{"n":"Common Domain","t":"TAM diagram0","p":"0.7.1.9:1","h":"EARoot/EA7/EA1/EA9/EA15951.htm","g":"A2611E17-B5E1-458D-B8F3-A357CABD06E0"}
+{"n":"Catalog Management","t":"Class0","p":"0.7.1.9:3","h":"EARoot/EA7/EA1/EA9/EA15956.htm","g":"12863AD3-2A9E-48CF-A124-8AFA9C557058"}
+{"n":"Fallout Management","t":"Class0","p":"0.7.1.9:4","h":"EARoot/EA7/EA1/EA9/EA15957.htm","g":"CD640DAB-FE7D-4D87-9E03-BE6F109B858E"}
+{"n":"Orchestration Management","t":"Class0","p":"0.7.1.9:5","h":"EARoot/EA7/EA1/EA9/EA15958.htm","g":"04C1B611-7868-44DD-BB96-51DD76EA13A5"}
+{"n":"Fallout Management","t":"Application diagram0","p":"0.7.1.9:2","h":"EARoot/EA7/EA1/EA9/EA15953.htm","g":"DB1A68CF-0F69-4167-A042-E0C5EA772EAB"}
+{"n":"Fallout Auto Correction","t":"Class0","p":"0.7.1.9:6","h":"EARoot/EA7/EA1/EA9/EA15959.htm","g":"8A1D0530-DD40-4D23-A0CC-02419E5E61B3"}
+{"n":"Fallout Correction Assistance","t":"Class0","p":"0.7.1.9:7","h":"EARoot/EA7/EA1/EA9/EA15960.htm","g":"0D6D10A5-6A4F-4154-A38B-77DA66823DA7"}
+{"n":"Fallout Manual Correction Queue Handling","t":"Class0","p":"0.7.1.9:8","h":"EARoot/EA7/EA1/EA9/EA15961.htm","g":"A96CBF01-BC8D-4587-9A5C-9A64EEC16497"}
+{"n":"Fallout Technician Dashboard","t":"Class0","p":"0.7.1.9:9","h":"EARoot/EA7/EA1/EA9/EA15962.htm","g":"32413C2A-F3E3-4CBD-8E67-CACB6FC6EBAA"}
+{"n":"Fallout Reporting","t":"Class0","p":"0.7.1.9:10","h":"EARoot/EA7/EA1/EA9/EA15963.htm","g":"10EB540B-C970-4405-AF82-E66F584A0556"}
+{"n":"Fallout Notification","t":"Class0","p":"0.7.1.9:11","h":"EARoot/EA7/EA1/EA9/EA15964.htm","g":"89B996EF-C6C6-4683-8E87-78C59762D7DE"}
+{"n":"Fallout Rules Engine","t":"Class0","p":"0.7.1.9:12","h":"EARoot/EA7/EA1/EA9/EA15965.htm","g":"9A7706E5-62D4-4AF1-8BC0-1B50298AA60E"}
+{"n":"Fallout Orchestration","t":"Class0","p":"0.7.1.9:13","h":"EARoot/EA7/EA1/EA9/EA15966.htm","g":"23527594-5DE1-448A-B133-15492281EE37"}
+{"n":"Fallout Management Interface Bus","t":"Class0","p":"0.7.1.9:14","h":"EARoot/EA7/EA1/EA9/EA15967.htm","g":"BE35E00B-0BB7-41F5-B4D6-48144733B3B6"}
+{"n":"Enterprise Domain","t":"TAM diagram0","p":"0.7.1.7:4","h":"EARoot/EA7/EA1/EA7/EA15841.htm","g":"1A47D0CA-C46D-4EBF-9C90-7812BD009FD7"}
+{"n":"Revenue Assurance Management","t":"Class0","p":"0.7.1.7:11","h":"EARoot/EA7/EA1/EA7/EA15856.htm","g":"DCFCB88F-EE53-4804-BA28-B263FEF54F58"}
+{"n":"HR Management","t":"Class0","p":"0.7.1.7:12","h":"EARoot/EA7/EA1/EA7/EA15857.htm","g":"624F2E1D-D015-49D4-B89B-B5EE61EDB16D"}
+{"n":"Financial Management","t":"Class0","p":"0.7.1.7:13","h":"EARoot/EA7/EA1/EA7/EA15858.htm","g":"C9AE64DB-341E-4CAD-95AE-C316C4898294"}
+{"n":"Asset Management","t":"Class0","p":"0.7.1.7:14","h":"EARoot/EA7/EA1/EA7/EA15859.htm","g":"AE149E96-7368-4892-8EA6-7EB018D9DC8F"}
+{"n":"Security Management","t":"Class0","p":"0.7.1.7:15","h":"EARoot/EA7/EA1/EA7/EA15860.htm","g":"1C8E517A-F9BB-458D-A3F6-E3933A61660B"}
+{"n":"Knowledge Management","t":"Class0","p":"0.7.1.7:16","h":"EARoot/EA7/EA1/EA7/EA15861.htm","g":"33C9C86E-69D2-49BC-8F87-697F5E4462E9"}
+{"n":"Fraud Management","t":"Class0","p":"0.7.1.7:17","h":"EARoot/EA7/EA1/EA7/EA15862.htm","g":"AE7F8A26-41BE-4A7B-B0A0-FB60618BD7A7"}
+{"n":"Regulatory & Compliance Management","t":"Class0","p":"0.7.1.7:18","h":"EARoot/EA7/EA1/EA7/EA15863.htm","g":"776A008F-708C-417F-8476-328FFB647AB0"}
+{"n":"Administrative Services","t":"Class0","p":"0.7.1.7:19","h":"EARoot/EA7/EA1/EA7/EA15864.htm","g":"4C046492-E4DE-4AA8-A022-AABB78EF36FC"}
+{"n":"Supply Chain Management","t":"Class0","p":"0.7.1.7:20","h":"EARoot/EA7/EA1/EA7/EA15865.htm","g":"A7842978-A94B-4065-A7C6-A2E98EA37A59"}
+{"n":"Data Management","t":"Class0","p":"0.7.1.7:21","h":"EARoot/EA7/EA1/EA7/EA15866.htm","g":"7A1AA8E5-659B-455D-9AB6-E86B70C4AFE9"}
+{"n":"Administrative Services","t":"Application diagram0","p":"0.7.1.7:1","h":"EARoot/EA7/EA1/EA7/EA15835.htm","g":"D2776A47-2A45-4C75-B7DC-27958682892B"}
+{"n":"Asset Management","t":"Application diagram0","p":"0.7.1.7:2","h":"EARoot/EA7/EA1/EA7/EA15837.htm","g":"345C7D82-D82C-48A2-96EB-1DBE22A59D27"}
+{"n":"Data Management","t":"Application diagram0","p":"0.7.1.7:3","h":"EARoot/EA7/EA1/EA7/EA15839.htm","g":"8885CB1D-1EAA-403B-A304-3E2B581CD237"}
+{"n":"Financial Management","t":"Application diagram0","p":"0.7.1.7:5","h":"EARoot/EA7/EA1/EA7/EA15843.htm","g":"ECBEA527-C1DE-45F0-920C-A780888774AA"}
+{"n":"HR Management","t":"Application diagram0","p":"0.7.1.7:6","h":"EARoot/EA7/EA1/EA7/EA15845.htm","g":"97DE80A5-C9D4-4CFD-BB72-9F1B0DE05B48"}
+{"n":"Knowledge Management","t":"Application diagram0","p":"0.7.1.7:7","h":"EARoot/EA7/EA1/EA7/EA15847.htm","g":"ECAE0623-FF9F-41F3-94AA-F4A4ACBB90FD"}
+{"n":"Revenue Assurance Management","t":"Application diagram0","p":"0.7.1.7:8","h":"EARoot/EA7/EA1/EA7/EA15849.htm","g":"2E1D055C-547C-4033-8008-3821153907FA"}
+{"n":"Security Management","t":"Application diagram0","p":"0.7.1.7:9","h":"EARoot/EA7/EA1/EA7/EA15851.htm","g":"43E1818A-3D84-4819-9152-CCD0C75C34EA"}
+{"n":"Supply Chain Management","t":"Application diagram0","p":"0.7.1.7:10","h":"EARoot/EA7/EA1/EA7/EA15853.htm","g":"E60E5504-D99B-4731-909D-80479215C365"}
+{"n":"Corporate Security","t":"Class0","p":"0.7.1.7:24","h":"EARoot/EA7/EA1/EA7/EA15869.htm","g":"5ECDB3E5-9C4E-4644-A6B0-BC4CE390D3B0"}
+{"n":"Application Security","t":"Class0","p":"0.7.1.7:25","h":"EARoot/EA7/EA1/EA7/EA15870.htm","g":"4E3378A2-4BC1-47F4-8625-F3B2C3FA5FB2"}
+{"n":"Vulnerability Management","t":"Class0","p":"0.7.1.7:26","h":"EARoot/EA7/EA1/EA7/EA15871.htm","g":"9A4A00D0-259F-4D6E-8A05-7F546B48330B"}
+{"n":"Anomaly Management","t":"Class0","p":"0.7.1.7:27","h":"EARoot/EA7/EA1/EA7/EA15872.htm","g":"51D74FDE-8434-49B1-90FD-DEE998BF984B"}
+{"n":"Lawful Interception","t":"Class0","p":"0.7.1.7:28","h":"EARoot/EA7/EA1/EA7/EA15873.htm","g":"3DB030D8-4747-49DC-B5AA-F56A080CAD18"}
+{"n":"PKI and Digital Certificates","t":"Class0","p":"0.7.1.7:29","h":"EARoot/EA7/EA1/EA7/EA15874.htm","g":"BF4BB078-BDDE-47F3-AE91-24EC1D8D138E"}
+{"n":"Intellectual Asset Management","t":"Class0","p":"0.7.1.7:30","h":"EARoot/EA7/EA1/EA7/EA15875.htm","g":"00C927AC-293F-4BA8-8E31-8217F1F7C34A"}
+{"n":"Enterprise Information and Collaboration Management","t":"Class0","p":"0.7.1.7:31","h":"EARoot/EA7/EA1/EA7/EA15876.htm","g":"F78F1786-064F-40AB-AC62-2FDBBB42940C"}
+{"n":"Content Management","t":"Class0","p":"0.7.1.7:32","h":"EARoot/EA7/EA1/EA7/EA15877.htm","g":"1B2BB21F-447F-473B-B3A2-76CC91F98F1D"}
+{"n":"Legal","t":"Class0","p":"0.7.1.7:33","h":"EARoot/EA7/EA1/EA7/EA15878.htm","g":"1D514E5F-1A99-490A-B435-579ED58FFB65"}
+{"n":"Records Retention Management","t":"Class0","p":"0.7.1.7:34","h":"EARoot/EA7/EA1/EA7/EA15879.htm","g":"17540257-0B28-4B91-A7B4-50CCA8A80576"}
+{"n":"Advertising","t":"Class0","p":"0.7.1.7:35","h":"EARoot/EA7/EA1/EA7/EA15880.htm","g":"7DBCACE2-6AA7-4EC1-8BE5-83AB16ABCEEB"}
+{"n":"Project Management","t":"Class0","p":"0.7.1.7:36","h":"EARoot/EA7/EA1/EA7/EA15881.htm","g":"858E22E1-DEEF-460F-9C2B-785947F37170"}
+{"n":"Transportation & Travel Service","t":"Class0","p":"0.7.1.7:37","h":"EARoot/EA7/EA1/EA7/EA15882.htm","g":"7AB28EB9-7A5A-4E68-91D5-5EF71282E40D"}
+{"n":"Payroll Management","t":"Class0","p":"0.7.1.7:40","h":"EARoot/EA7/EA1/EA7/EA15885.htm","g":"79DD3B2F-C692-4D95-9F98-5F132802BE46"}
+{"n":"Performance Management & Feedback","t":"Class0","p":"0.7.1.7:41","h":"EARoot/EA7/EA1/EA7/EA15886.htm","g":"B4B4956F-5845-4325-BD77-38763A313238"}
+{"n":"Governmental & Regulatory Tracking & Reporting","t":"Class0","p":"0.7.1.7:42","h":"EARoot/EA7/EA1/EA7/EA15887.htm","g":"1F1F110F-9BED-443E-AB12-60776AC5EF84"}
+{"n":"Time Reporting & Attendance Management","t":"Class0","p":"0.7.1.7:43","h":"EARoot/EA7/EA1/EA7/EA15888.htm","g":"555BC48E-C1AE-44F2-A29F-B8D2160E7921"}
+{"n":"Recruitment & Staffing","t":"Class0","p":"0.7.1.7:44","h":"EARoot/EA7/EA1/EA7/EA15889.htm","g":"0DE6FA30-3F46-4BB2-8F1D-FCACCC1C5BD1"}
+{"n":"Ethics & Compliance","t":"Class0","p":"0.7.1.7:45","h":"EARoot/EA7/EA1/EA7/EA15890.htm","g":"F619F9F6-F46D-4E61-81B2-60D6DDFB2377"}
+{"n":"Employee Records Management","t":"Class0","p":"0.7.1.7:46","h":"EARoot/EA7/EA1/EA7/EA15891.htm","g":"CF42EE8C-C728-4B3E-A621-8827F8596A9D"}
+{"n":"Awards & Recognition","t":"Class0","p":"0.7.1.7:47","h":"EARoot/EA7/EA1/EA7/EA15892.htm","g":"E8266987-3C55-405B-8D0F-AA9096AEB91E"}
+{"n":"Salary Planning","t":"Class0","p":"0.7.1.7:48","h":"EARoot/EA7/EA1/EA7/EA15893.htm","g":"36B51EF1-AFE1-4124-8F27-DA032673C69B"}
+{"n":"Corporate Communications","t":"Class0","p":"0.7.1.7:49","h":"EARoot/EA7/EA1/EA7/EA15894.htm","g":"CFCDA2B7-498A-4A7F-B640-E688626A26DE"}
+{"n":"Community Involvement","t":"Class0","p":"0.7.1.7:50","h":"EARoot/EA7/EA1/EA7/EA15895.htm","g":"A1D8B70A-B6E0-4C11-A495-D2CF10ADA3FE"}
+{"n":"Corporate Training","t":"Class0","p":"0.7.1.7:51","h":"EARoot/EA7/EA1/EA7/EA15896.htm","g":"F02C1BE9-2894-4ABD-81FF-D81603486186"}
+{"n":"Labor Relations","t":"Class0","p":"0.7.1.7:52","h":"EARoot/EA7/EA1/EA7/EA15897.htm","g":"9F1594F1-CE25-46F8-B3DF-3FE46507C14B"}
+{"n":"Benefits Management","t":"Class0","p":"0.7.1.7:53","h":"EARoot/EA7/EA1/EA7/EA15898.htm","g":"60318CB7-4873-4227-85FE-AD8309E6400D"}
+{"n":"Data Store Management","t":"Class0","p":"0.7.1.7:54","h":"EARoot/EA7/EA1/EA7/EA15899.htm","g":"1DFE8326-F369-4181-9575-D7ADA1E355A9"}
+{"n":"Data Storage and Archival","t":"Class0","p":"0.7.1.7:55","h":"EARoot/EA7/EA1/EA7/EA15900.htm","g":"AAFB24CD-AACD-49FC-9EA5-90DFF00BFBAC"}
+{"n":"Data Distribution Management","t":"Class0","p":"0.7.1.7:56","h":"EARoot/EA7/EA1/EA7/EA15901.htm","g":"05EB8BCB-5E9A-40A8-95D5-43B4FD45E3F5"}
+{"n":"Data Compliance and Policy Management","t":"Class0","p":"0.7.1.7:57","h":"EARoot/EA7/EA1/EA7/EA15902.htm","g":"43F95C47-C4F5-4123-870B-FC5290D29775"}
+{"n":"Data Transformation and Formatting","t":"Class0","p":"0.7.1.7:58","h":"EARoot/EA7/EA1/EA7/EA15903.htm","g":"12728CA2-1A48-4852-BC3E-759A1F30E5B2"}
+{"n":"Supply Chain Planning","t":"Class0","p":"0.7.1.7:65","h":"EARoot/EA7/EA1/EA7/EA15910.htm","g":"B0562DA5-14DD-46A2-A202-57AB3627D8D1"}
+{"n":"Procurement","t":"Class0","p":"0.7.1.7:66","h":"EARoot/EA7/EA1/EA7/EA15911.htm","g":"D3FD9D1C-BBC2-4284-81AB-21B89A1D4CB5"}
+{"n":"Transportation Management","t":"Class0","p":"0.7.1.7:67","h":"EARoot/EA7/EA1/EA7/EA15912.htm","g":"7979F3FE-A2A7-4D79-9A2A-2A89F3E48B53"}
+{"n":"Logistics Management","t":"Class0","p":"0.7.1.7:68","h":"EARoot/EA7/EA1/EA7/EA15913.htm","g":"5982872D-CFA1-4DB2-B891-E63081C2B8E9"}
+{"n":"Supply Chain Order Tracking Management","t":"Class0","p":"0.7.1.7:69","h":"EARoot/EA7/EA1/EA7/EA15914.htm","g":"0896CA41-608E-424A-8ED4-64A3F918BD03"}
+{"n":"Corporate Real Estate","t":"Class0","p":"0.7.1.7:70","h":"EARoot/EA7/EA1/EA7/EA15915.htm","g":"97D400C4-EE04-4C46-BE03-3FEA520AF193"}
+{"n":"Damage Claims Management","t":"Class0","p":"0.7.1.7:71","h":"EARoot/EA7/EA1/EA7/EA15916.htm","g":"97793CFA-1EFF-4A4F-9710-AACCC4760A79"}
+{"n":"Fleet Management","t":"Class0","p":"0.7.1.7:72","h":"EARoot/EA7/EA1/EA7/EA15917.htm","g":"00CF07E9-1026-4563-B946-4C33EBAFCD2D"}
+{"n":"Financial Core Operations","t":"Class0","p":"0.7.1.7:73","h":"EARoot/EA7/EA1/EA7/EA15918.htm","g":"FD29BDFA-BE4E-4510-AEED-3A4832697AD6"}
+{"n":"Employee Expense Reimbursement","t":"Class0","p":"0.7.1.7:74","h":"EARoot/EA7/EA1/EA7/EA15919.htm","g":"4DA81596-4C3A-436D-A4D7-A4C2944418F3"}
+{"n":"Capital Lease Management","t":"Class0","p":"0.7.1.7:75","h":"EARoot/EA7/EA1/EA7/EA15920.htm","g":"B97B541C-DC62-4151-92C6-86B2B6C72737"}
+{"n":"Financial Core Operations Reporting","t":"Class0","p":"0.7.1.7:76","h":"EARoot/EA7/EA1/EA7/EA15921.htm","g":"A7B6EE91-9462-4FCB-ACF0-AA1972432B55"}
+{"n":"Financial Business Unit Reporting","t":"Class0","p":"0.7.1.7:77","h":"EARoot/EA7/EA1/EA7/EA15922.htm","g":"5A37E8BB-FB39-4829-A8B1-23C8A8D37302"}
+{"n":"Corporate Tax","t":"Class0","p":"0.7.1.7:78","h":"EARoot/EA7/EA1/EA7/EA15923.htm","g":"65E3EF15-49A7-4FA6-9EF7-AB2C87F57FA6"}
+{"n":"Corporate Treasury","t":"Class0","p":"0.7.1.7:79","h":"EARoot/EA7/EA1/EA7/EA15924.htm","g":"5C2D2B2C-4939-421D-AFBB-C655259BA021"}
+{"n":"Cash Reconciliation & Escheatment","t":"Class0","p":"0.7.1.7:80","h":"EARoot/EA7/EA1/EA7/EA15925.htm","g":"4B250E54-6D81-4516-9E8E-4A6D73DBE45F"}
+{"n":"General Ledger Account Reconciliation","t":"Class0","p":"0.7.1.7:81","h":"EARoot/EA7/EA1/EA7/EA15926.htm","g":"5D104572-18BC-4AD9-9DAF-12B131E850E9"}
+{"n":"Auditing","t":"Class0","p":"0.7.1.7:82","h":"EARoot/EA7/EA1/EA7/EA15927.htm","g":"CDD47895-E10D-4F3D-807A-A1FB163528C6"}
+{"n":"Regulatory Accounting","t":"Class0","p":"0.7.1.7:83","h":"EARoot/EA7/EA1/EA7/EA15928.htm","g":"8AAB3087-C3B7-43D4-8258-B9514BBBA97C"}
+{"n":"RA Control and Configuration","t":"Class0","p":"0.7.1.7:84","h":"EARoot/EA7/EA1/EA7/EA15929.htm","g":"E75BAD4B-EAFA-41A6-8B2E-ABE37AD5B929"}
+{"n":"RA Tracking & Management","t":"Class0","p":"0.7.1.7:85","h":"EARoot/EA7/EA1/EA7/EA15930.htm","g":"B076C0FA-45B3-4130-A1DA-03F6DF8999B6"}
+{"n":"RA Monitoring","t":"Class0","p":"0.7.1.7:86","h":"EARoot/EA7/EA1/EA7/EA15931.htm","g":"0E429A9A-9F50-4AD2-848A-7C847E9A420E"}
+{"n":"RA Analysis","t":"Class0","p":"0.7.1.7:87","h":"EARoot/EA7/EA1/EA7/EA15932.htm","g":"C1F12DB8-1C76-4367-93E9-5830F19081D2"}
+{"n":"RA Correction & Recovery Initiation","t":"Class0","p":"0.7.1.7:88","h":"EARoot/EA7/EA1/EA7/EA15933.htm","g":"00D267BD-F04E-462F-B9B4-2B61AA5E35CE"}
+{"n":"RA Reporting","t":"Class0","p":"0.7.1.7:89","h":"EARoot/EA7/EA1/EA7/EA15934.htm","g":"5A0AAAFC-4A52-4E14-9E72-6086661D68C5"}
+{"n":"Knowledge Hosting and Sharing","t":"Class0","p":"0.7.1.7:22","h":"EARoot/EA7/EA1/EA7/EA15867.htm","g":"6DB146A7-B9B1-4652-B3DA-D8AA68229A32"}
+{"n":"Knowledge Acquisition & Documentation","t":"Class0","p":"0.7.1.7:23","h":"EARoot/EA7/EA1/EA7/EA15868.htm","g":"43AF672F-27C7-4109-8AF0-C04F107EFA9F"}
+{"n":"Employee Identification Management","t":"Class0","p":"0.7.1.7:38","h":"EARoot/EA7/EA1/EA7/EA15883.htm","g":"F279EB26-03E3-4E3F-BBCA-690DB9CE7D16"}
+{"n":"Building Access Management","t":"Class0","p":"0.7.1.7:39","h":"EARoot/EA7/EA1/EA7/EA15884.htm","g":"93D8D57C-CFC3-438B-8A26-78E554FC2688"}
+{"n":"Real Estate Property & Building Portfolio and Lease Management","t":"Class0","p":"0.7.1.7:59","h":"EARoot/EA7/EA1/EA7/EA15904.htm","g":"99969C7E-9C98-416B-BC38-E073B4F98E28"}
+{"n":"Real Estate Facility Operations Management","t":"Class0","p":"0.7.1.7:60","h":"EARoot/EA7/EA1/EA7/EA15905.htm","g":"45A0FAF6-9611-4F09-A320-B6941E353EE9"}
+{"n":"Space Planning","t":"Class0","p":"0.7.1.7:61","h":"EARoot/EA7/EA1/EA7/EA15906.htm","g":"B7435E80-C5F9-4637-9A54-B979F3267B55"}
+{"n":"Real Estate Asset Capital Planning","t":"Class0","p":"0.7.1.7:62","h":"EARoot/EA7/EA1/EA7/EA15907.htm","g":"CAB9D9B8-1B86-4FE2-8C94-7D297869E0EF"}
+{"n":"Environmental Health & Safety Monitoring and Compliance Management","t":"Class0","p":"0.7.1.7:63","h":"EARoot/EA7/EA1/EA7/EA15908.htm","g":"BE9DE907-E35E-4601-ADAA-35B30B44E3FC"}
+{"n":"Real Estate Capital Construction Management","t":"Class0","p":"0.7.1.7:64","h":"EARoot/EA7/EA1/EA7/EA15909.htm","g":"03AA3FA6-E802-4B68-A73B-A0A392487188"}
+{"n":"General Ledger","t":"Class0","p":"0.7.1.7:90","h":"EARoot/EA7/EA1/EA7/EA15935.htm","g":"7E8485E5-E42F-4D60-B3C7-EE4F7110A30E"}
+{"n":"Financial Controls, Editing, & Reference Data","t":"Class0","p":"0.7.1.7:91","h":"EARoot/EA7/EA1/EA7/EA15936.htm","g":"26904469-3BD0-4976-948C-BD2C12AA714A"}
+{"n":"Accounts Payable","t":"Class0","p":"0.7.1.7:92","h":"EARoot/EA7/EA1/EA7/EA15937.htm","g":"E95C5E2D-C967-429B-A961-36516138C734"}
+{"n":"Fixed Assets","t":"Class0","p":"0.7.1.7:93","h":"EARoot/EA7/EA1/EA7/EA15938.htm","g":"ABBEC689-9104-412F-A0AE-222D145D34A7"}
+{"n":"Project Accounting","t":"Class0","p":"0.7.1.7:94","h":"EARoot/EA7/EA1/EA7/EA15939.htm","g":"1E143C61-2641-4ECC-B2D5-B8DABAFAC5A9"}

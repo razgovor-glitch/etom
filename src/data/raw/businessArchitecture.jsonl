@@ -1,0 +1,34 @@
+{"n": "Business Architecture", "t": "Package", "p": "0.9", "h": "EARoot/EA9/EA19886.htm", "g": "DBF8B05A-597F-47FC-906E-5D10CF75DEEE"}
+{"n": "Aspects", "t": "Package", "p": "0.9.1", "h": "EARoot/EA9/EA1/EA19893.htm", "g": "EB26FF0A-AB06-4B10-A44D-DFA712EB30CD"}
+{"n": "Capability Framework", "t": "Package", "p": "0.9.2", "h": "EARoot/EA9/EA2/EA19906.htm", "g": "8C4E5749-7CAA-4CEA-B3E3-BA76C45271F0", "r": "26.0.0", "st": "Proposed"}
+{"n": "Business Architecture Domains and Aspects", "t": "Logical diagram0", "p": "0.9:1", "h": "EARoot/EA9/EA19884.htm", "g": "AD829E71-0CB8-4722-B6BB-DF9BA5EDBF55"}
+{"n": "Operations (BA)", "t": "Class0", "p": "0.9.1:1", "h": "EARoot/EA9/EA1/EA19894.htm", "g": "13C3A7D3-DA3D-4A6A-962A-F59F738FE9E1"}
+{"n": "Strategy (BA)", "t": "Class0", "p": "0.9.1:2", "h": "EARoot/EA9/EA1/EA19895.htm", "g": "948D8A5B-CEEF-4DD3-AEDD-F1AA8E678215"}
+{"n": "Insight (BA)", "t": "Class0", "p": "0.9.1:3", "h": "EARoot/EA9/EA1/EA19896.htm", "g": "B075A822-1692-4989-A960-885A9DB9D63B"}
+{"n": "Intention (BA)", "t": "Class0", "p": "0.9.1:4", "h": "EARoot/EA9/EA1/EA19897.htm", "g": "78693140-F3F0-427F-92CF-33A494DE2000"}
+{"n": "Planning (BA)", "t": "Class0", "p": "0.9.1:5", "h": "EARoot/EA9/EA1/EA19898.htm", "g": "E53D699D-141B-4A4A-B79C-41046F5400F2"}
+{"n": "Accounting (BA)", "t": "Class0", "p": "0.9.1:6", "h": "EARoot/EA9/EA1/EA19899.htm", "g": "48B3F288-5F83-4434-AEED-C3B50B00F75B"}
+{"n": "Assurance (BA)", "t": "Class0", "p": "0.9.1:7", "h": "EARoot/EA9/EA1/EA19900.htm", "g": "5ADD654E-12A5-4214-8966-40FBDDEC7A7A"}
+{"n": "Engagement (BA)", "t": "Class0", "p": "0.9.1:8", "h": "EARoot/EA9/EA1/EA19901.htm", "g": "21F08B6A-385C-48C0-B994-74D57D3D9FBD"}
+{"n": "Environment (BA)", "t": "Class0", "p": "0.9.1:9", "h": "EARoot/EA9/EA1/EA19902.htm", "g": "C37A0088-4F6D-4F23-874D-C6F0DDDDB785"}
+{"n": "Fulfillment (BA)", "t": "Class0", "p": "0.9.1:10", "h": "EARoot/EA9/EA1/EA19903.htm", "g": "CCBB3A52-8F92-4530-B5F3-CA4B30B717C6"}
+{"n": "Capability Framework - Executive View", "t": "Logical diagram0", "p": "0.9.2:1", "h": "EARoot/EA9/EA2/EA19904.htm", "g": "BA4F9DA4-D488-4EFF-8DB4-B4717996ABA5"}
+{"n": "Business Domain", "t": "Package", "p": "0.9.2.1", "h": "EARoot/EA9/EA2/EA1/EA19914.htm", "g": "DA0E6EF0-6E87-4FED-89DF-94F3B94B8232"}
+{"n": "Commercial Domain", "t": "Package", "p": "0.9.2.2", "h": "EARoot/EA9/EA2/EA2/EA20060.htm", "g": "829D7D14-5333-498F-AA8D-83E23137A42A"}
+{"n": "Generic Domain", "t": "Package", "p": "0.9.2.3", "h": "EARoot/EA9/EA2/EA3/EA20275.htm", "g": "015D1AA2-241C-4D64-AB85-2AF0442074BF"}
+{"n": "Production Domain", "t": "Package", "p": "0.9.2.4", "h": "EARoot/EA9/EA2/EA4/EA20348.htm", "g": "29E412D9-0EF6-4F5A-8ED7-F86B6FDA9C6D"}
+{"n": "Views", "t": "Package", "p": "0.9.2.5", "h": "EARoot/EA9/EA2/EA5/EA20565.htm", "g": "2528B05B-B992-49D6-85F1-B27E4A770009"}
+{"n": "Business Domain", "t": "Logical diagram0", "p": "0.9.2.1:1", "h": "EARoot/EA9/EA2/EA1/EA19912.htm", "g": "97F6C499-41B0-4FFA-B773-99CAFAF6A28E"}
+{"n": "Business Accounting Management", "t": "Class0", "p": "0.9.2.1:2", "h": "EARoot/EA9/EA2/EA1/EA19915.htm", "g": "4FA705E8-3605-44F5-A22D-B55BE7D6C97E"}
+{"n": "Business Assurance Management", "t": "Class0", "p": "0.9.2.1:3", "h": "EARoot/EA9/EA2/EA1/EA19916.htm", "g": "07CC5C61-B803-4596-BC0C-C080515003C9"}
+{"n": "Business Domain Management", "t": "Class0", "p": "0.9.2.1:4", "h": "EARoot/EA9/EA2/EA1/EA19917.htm", "g": "F21540B1-5E6D-41A9-99FC-4E4C14B36191"}
+{"n": "Business Engagement Management", "t": "Class0", "p": "0.9.2.1:5", "h": "EARoot/EA9/EA2/EA1/EA19918.htm", "g": "992CBBD6-57A5-4A76-8279-FC59C9132547"}
+{"n": "Business Environment Management", "t": "Class0", "p": "0.9.2.1:6", "h": "EARoot/EA9/EA2/EA1/EA19919.htm", "g": "6C67F0D7-674D-4AB8-8A37-161B1B709368"}
+{"n": "Business Fulfillment Management", "t": "Class0", "p": "0.9.2.1:7", "h": "EARoot/EA9/EA2/EA1/EA19920.htm", "g": "988BA390-8EC4-4120-BCAD-2BCF57876115"}
+{"n": "Business Insight Management", "t": "Class0", "p": "0.9.2.1:8", "h": "EARoot/EA9/EA2/EA1/EA19921.htm", "g": "6FD2D947-DE9A-4E0F-9C02-76A27361A5E1"}
+{"n": "Business Intention Management", "t": "Class0", "p": "0.9.2.1:9", "h": "EARoot/EA9/EA2/EA1/EA19922.htm", "g": "DFFE9C76-B9AE-4E4A-BACF-51FAD7BF1CD9"}
+{"n": "Business Operations Management", "t": "Class0", "p": "0.9.2.1:10", "h": "EARoot/EA9/EA2/EA1/EA19923.htm", "g": "9F035A39-F8D3-4422-8B8A-AF784EBA1E1D"}
+{"n": "Business Planning Management", "t": "Class0", "p": "0.9.2.1:11", "h": "EARoot/EA9/EA2/EA1/EA19924.htm", "g": "DC04AE76-421E-45F4-B0B6-FB97273E4FC8"}
+{"n": "Business Strategy Management", "t": "Class0", "p": "0.9.2.1:12", "h": "EARoot/EA9/EA2/EA1/EA19925.htm", "g": "51A64461-3EE7-479D-B1EB-1245F0013AAA"}
+{"n": "Ecosystem Domain", "t": "Package", "p": "0.9.2.1.1", "h": "EARoot/EA9/EA2/EA1/EA1/EA19930.htm", "g": "A35490E5-CFFC-4565-8451-6026F6349D34"}
+{"n": "Enterprise Domain", "t": "Package", "p": "0.9.2.1.2", "h": "EARoot/EA9/EA2/EA1/EA2/EA19995.htm", "g": "D39D538C-13C5-4E64-B58B-A230F59B8857"}

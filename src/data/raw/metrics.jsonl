@@ -1,0 +1,541 @@
+{"n": "Business Metrics", "t": "Logical diagram0", "p": "0.8:1", "h": "EARoot/EA8/EA16058.htm", "g": "57767B74-7B70-42E7-86B2-4B9586068289"}
+{"n": "Metrics Landing Page Draft", "t": "Logical diagram0", "p": "0.8:2", "h": "EARoot/EA8/EA16060.htm", "g": "D1C08F28-3A6E-4E0F-91F0-D6EAC55A7922"}
+{"n": "Metrics Framework Poster II", "t": "Logical diagram0", "p": "0.8:3", "h": "EARoot/EA8/EA16062.htm", "g": "DB1BF354-346D-4621-BE7E-2FB9E1A07FB8"}
+{"n": "Business Metrics", "t": "Logical diagram0", "p": "0.8:4", "h": "EARoot/EA8/EA16064.htm", "g": "BF92E6B9-40F3-4226-B36D-348823A4E508"}
+{"n": "Metrics", "t": "Package diagram0", "p": "0.8:5", "h": "EARoot/EA8/EA16066.htm", "g": "0C1E2671-E288-483C-A659-B35CA51974C1"}
+{"n": "# Activations Completed But Failed", "t": "Class0", "p": "0.8:6", "h": "EARoot/EA8/EA16090.htm", "g": "8896A70D-3882-4F8C-982C-EA97DA7123CC"}
+{"n": "# Customer Contacts", "t": "Class0", "p": "0.8:7", "h": "EARoot/EA8/EA16091.htm", "g": "C058D793-A33F-42DB-94B7-6F1F8861E0A1"}
+{"n": "# Customer Orders Accepted By Customer", "t": "Class0", "p": "0.8:8", "h": "EARoot/EA8/EA16092.htm", "g": "A6F06A20-2026-4C4C-B374-8C9023D20564"}
+{"n": "# Customer Problem Reports Closed", "t": "Class0", "p": "0.8:9", "h": "EARoot/EA8/EA16093.htm", "g": "63FD8D82-6552-418C-8EEA-C64571BF5111"}
+{"n": "# Customer Requests", "t": "Class0", "p": "0.8:10", "h": "EARoot/EA8/EA16094.htm", "g": "7D7EB4DC-5682-4AA9-90D7-A016D37658C0"}
+{"n": "# Customer Requests (x1000), Per Customer", "t": "Class0", "p": "0.8:11", "h": "EARoot/EA8/EA16095.htm", "g": "2FE3CC97-71BB-4E3A-9A74-AF7C93C482F2"}
+{"n": "# Customers", "t": "Class0", "p": "0.8:12", "h": "EARoot/EA8/EA16096.htm", "g": "BBEC88B9-27F0-4618-A960-F3DE3179E13C"}
+{"n": "# Customers Digital", "t": "Class0", "p": "0.8:13", "h": "EARoot/EA8/EA16097.htm", "g": "73E1590F-F33C-4723-BB4F-1ED0D19B3541"}
+{"n": "# Days Bill Processing Time, From Bill Cycle Close, To Bill Dispatch", "t": "Class0", "p": "0.8:14", "h": "EARoot/EA8/EA16098.htm", "g": "702D0344-5E01-4A20-80C4-5A6544F58AF2"}
+{"n": "# Days Billing Error Resolution Time", "t": "Class0", "p": "0.8:15", "h": "EARoot/EA8/EA16099.htm", "g": "F20F7B2D-8D34-402B-97B7-48891F1AB0FE"}
+{"n": "# Hours Bill Processing Time, From Bill Cycle Close, To Bill Dispatch", "t": "Class0", "p": "0.8:16", "h": "EARoot/EA8/EA16100.htm", "g": "435C9004-458A-424C-AB2B-CBF70A42C453"}
+{"n": "# Hours Billing Process Outage Time", "t": "Class0", "p": "0.8:17", "h": "EARoot/EA8/EA16101.htm", "g": "D46DB9E8-E7BB-43F7-ADB9-9ABFD5E0D3BB"}
+{"n": "# Hours Customer Payment Handling Time, From Receipt, To Posted In Billing", "t": "Class0", "p": "0.8:18", "h": "EARoot/EA8/EA16102.htm", "g": "6AB870A7-E189-4CA0-AAC0-D3F1E248CB42"}
+{"n": "# Hours Delivery Delay - Committed", "t": "Class0", "p": "0.8:19", "h": "EARoot/EA8/EA16103.htm", "g": "1DD25FBA-C028-43A1-ADFF-15F5B8EE4BFE"}
+{"n": "# Hours Installation Delay - Actual", "t": "Class0", "p": "0.8:20", "h": "EARoot/EA8/EA16104.htm", "g": "801FA019-F8AE-4B00-A92A-2414C9BA6B6E"}
+{"n": "# Hours Installation Time Difference", "t": "Class0", "p": "0.8:21", "h": "EARoot/EA8/EA16105.htm", "g": "9BE8AD15-A557-461A-8119-05D84F74C17B"}
+{"n": "# Hours Order Fulfillment Time, From Activation, To Bill Dispatch, Per Customer Order", "t": "Class0", "p": "0.8:22", "h": "EARoot/EA8/EA16106.htm", "g": "ADB0664F-B784-43BA-A800-1518E5A6C3CE"}
+{"n": "# Hours Order Fulfillment Time, From Ordering, To Acceptance, Per Customer Order Accepted By Customer", "t": "Class0", "p": "0.8:23", "h": "EARoot/EA8/EA16107.htm", "g": "41B688B4-AC17-4454-9C00-7CEB56008B5B"}
+{"n": "# Hours Order Fulfillment Time, From Ordering, To Activation", "t": "Class0", "p": "0.8:24", "h": "EARoot/EA8/EA16108.htm", "g": "038714A2-F4BC-4AE5-9EDC-C9B57DA3C5BF"}
+{"n": "# Hours Order Fulfillment Time, From Ordering, To Activation, Per Customer Order Accepted By Customer", "t": "Class0", "p": "0.8:25", "h": "EARoot/EA8/EA16109.htm", "g": "46BE189B-B34F-4D41-B537-13DF74CB483B"}
+{"n": "# Kb/s Email Download Throughput", "t": "Class0", "p": "0.8:26", "h": "EARoot/EA8/EA16110.htm", "g": "73621C11-218D-4491-995A-7E56A2A2D45B"}
+{"n": "# Kb/s MMS Download Throughput", "t": "Class0", "p": "0.8:27", "h": "EARoot/EA8/EA16111.htm", "g": "5A08B8BC-F3BF-406C-BB58-FBBB26F3E334"}
+{"n": "# Kb/s MMS Send Throughput", "t": "Class0", "p": "0.8:28", "h": "EARoot/EA8/EA16112.htm", "g": "E0EE2FE9-D49B-40E0-AFEE-D003AC1A6E74"}
+{"n": "# Minutes Customer Incident Handling Time, Per Customer Incident Resolved", "t": "Class0", "p": "0.8:29", "h": "EARoot/EA8/EA16113.htm", "g": "8D34CCE7-FD6B-4407-8027-AE50805A7BDD"}
+{"n": "# Mobile Devices using on-device or security applications", "t": "Class0", "p": "0.8:30", "h": "EARoot/EA8/EA16114.htm", "g": "8F605AD7-8E40-4F2A-9846-4E11DBF19F48"}
+{"n": "# Mobile Originated Call Attempts", "t": "Class0", "p": "0.8:31", "h": "EARoot/EA8/EA16115.htm", "g": "991D8400-425B-4AB6-9440-F3D948024CD8"}
+{"n": "# Months Average Project Completion Time", "t": "Class0", "p": "0.8:32", "h": "EARoot/EA8/EA16116.htm", "g": "32E914DE-8E4A-499A-B794-50329E154A78"}
+{"n": "# Months New Product Delivery Time", "t": "Class0", "p": "0.8:33", "h": "EARoot/EA8/EA16117.htm", "g": "1C13EC56-662F-4DD6-AC9B-4A60331A173A"}
+{"n": "# Months Revenue Recovery Process Time, Per Revenue Recovery Case", "t": "Class0", "p": "0.8:34", "h": "EARoot/EA8/EA16118.htm", "g": "0CF6BBA5-938F-4F61-B672-FA1D091AA8AF"}
+{"n": "# Months System Time To Integrate Partner", "t": "Class0", "p": "0.8:35", "h": "EARoot/EA8/EA16119.htm", "g": "7F119323-36BE-47F8-BDCC-64BEEAB9A2E9"}
+{"n": "# Orders Successful", "t": "Class0", "p": "0.8:36", "h": "EARoot/EA8/EA16120.htm", "g": "F1BECD5A-133E-439E-8EEF-6A2C60C54997"}
+{"n": "# Problem Reports", "t": "Class0", "p": "0.8:37", "h": "EARoot/EA8/EA16121.htm", "g": "BC685D0F-1F34-4EB6-93AB-9EE633847A6A"}
+{"n": "# Products Launched In Last 12 Months", "t": "Class0", "p": "0.8:38", "h": "EARoot/EA8/EA16122.htm", "g": "3668166E-CAB1-42C7-84C7-A7142FF39CF8"}
+{"n": "# Redials/Dropped Calls Voice/VoIP", "t": "Class0", "p": "0.8:39", "h": "EARoot/EA8/EA16123.htm", "g": "1BCAA7AF-2E96-4297-B5BB-CC3E7D021D50"}
+{"n": "# Seconds Average Top-Up Activation Time", "t": "Class0", "p": "0.8:40", "h": "EARoot/EA8/EA16124.htm", "g": "647F7444-9245-434B-B800-A1419C2A9816"}
+{"n": "# Seconds Email Login", "t": "Class0", "p": "0.8:41", "h": "EARoot/EA8/EA16125.htm", "g": "F0D2262B-96CA-49D3-A000-F0B1BF3AB304"}
+{"n": "# Seconds Home Page Browsing Delay", "t": "Class0", "p": "0.8:42", "h": "EARoot/EA8/EA16126.htm", "g": "CFA0DCFC-557C-4997-8D01-481DF139B25F"}
+{"n": "# Seconds per MMS Download", "t": "Class0", "p": "0.8:43", "h": "EARoot/EA8/EA16127.htm", "g": "89CD4B35-5358-4E70-A75C-A1C826732C7F"}
+{"n": "# Seconds per Streaming Stall", "t": "Class0", "p": "0.8:44", "h": "EARoot/EA8/EA16128.htm", "g": "5A0686DB-1AB7-4BE6-AB5A-5CD3F9F73F6F"}
+{"n": "# Seconds Returning Roamer Registration", "t": "Class0", "p": "0.8:45", "h": "EARoot/EA8/EA16129.htm", "g": "634A4351-6995-46BC-A907-08204CF494AF"}
+{"n": "# Servers patched that result in further security problems", "t": "Class0", "p": "0.8:46", "h": "EARoot/EA8/EA16130.htm", "g": "ACFCB2E7-BDC2-49DC-A48C-7B3D8A95994A"}
+{"n": "# Subscribers, Per Employee", "t": "Class0", "p": "0.8:47", "h": "EARoot/EA8/EA16131.htm", "g": "8007E844-49CA-42A9-90B0-FB35CA353800"}
+{"n": "# Virtual_Network.Faults Auto-Resolved", "t": "Class0", "p": "0.8:48", "h": "EARoot/EA8/EA16132.htm", "g": "70BA54C9-40C4-424E-9631-78728B2C288D"}
+{"n": "$ Assurance Cost", "t": "Class0", "p": "0.8:49", "h": "EARoot/EA8/EA16133.htm", "g": "18D710AB-ED5D-47B9-84A3-08125925B4DE"}
+{"n": "$ Collections Cost", "t": "Class0", "p": "0.8:50", "h": "EARoot/EA8/EA16134.htm", "g": "EE52E7DD-5D88-4029-B1EE-8F4A4768BDD4"}
+{"n": "$ Cost Leakage Detected And Recovered", "t": "Class0", "p": "0.8:51", "h": "EARoot/EA8/EA16135.htm", "g": "69A5F15C-5EF7-4DE6-9967-273AD4E13C8E"}
+{"n": "$ Cost, Per Employee", "t": "Class0", "p": "0.8:52", "h": "EARoot/EA8/EA16136.htm", "g": "7F8D31B5-D281-4BB1-9E06-AFAE9779706C"}
+{"n": "$ Customer Management Cost", "t": "Class0", "p": "0.8:53", "h": "EARoot/EA8/EA16137.htm", "g": "FDFFD982-7408-4E18-A230-5226E04ED858"}
+{"n": "$ Customer Management Cost, Per Customer Request", "t": "Class0", "p": "0.8:54", "h": "EARoot/EA8/EA16138.htm", "g": "128F3216-2C90-4714-9DF8-576742184695"}
+{"n": "$ Fulfillment Cost", "t": "Class0", "p": "0.8:55", "h": "EARoot/EA8/EA16139.htm", "g": "E2ADA8A7-FE5A-4179-9F37-8FF94C36F9CB"}
+{"n": "$ Future Infrastructure Build Investments", "t": "Class0", "p": "0.8:56", "h": "EARoot/EA8/EA16140.htm", "g": "AE95638F-86AB-436A-94B4-5813225D8D67"}
+{"n": "$ Revenue Recoverable", "t": "Class0", "p": "0.8:57", "h": "EARoot/EA8/EA16141.htm", "g": "D569FDDF-89BC-4B59-912D-455466A5A659"}
+{"n": "$ Revenue Recovered", "t": "Class0", "p": "0.8:58", "h": "EARoot/EA8/EA16142.htm", "g": "7DF14F67-39BC-4318-A0C8-80364A8BE052"}
+{"n": "$ Revenue Unbilled And Underbilled", "t": "Class0", "p": "0.8:59", "h": "EARoot/EA8/EA16143.htm", "g": "F6C7AD62-E365-47B2-8B20-B93B0696AEE5"}
+{"n": "$ Revenue, By Channel Type", "t": "Class0", "p": "0.8:60", "h": "EARoot/EA8/EA16144.htm", "g": "A4A79C54-E69C-4373-BCD7-E543CE2B72DC"}
+{"n": "$ Revenue, Per Employee", "t": "Class0", "p": "0.8:61", "h": "EARoot/EA8/EA16145.htm", "g": "3D299926-5967-4C2D-BBA0-16C4441BF725"}
+{"n": "$ SLA Management Cost", "t": "Class0", "p": "0.8:62", "h": "EARoot/EA8/EA16146.htm", "g": "DC5F4F27-7218-46E8-8215-5DA4D0B88DC1"}
+{"n": "$ Stranded And Unused Asset Cost", "t": "Class0", "p": "0.8:63", "h": "EARoot/EA8/EA16147.htm", "g": "D401024A-3C11-4064-940C-D8035CF36AD1"}
+{"n": "% Agent Time On Call, Of Agent Time At Work", "t": "Class0", "p": "0.8:64", "h": "EARoot/EA8/EA16148.htm", "g": "FBA8BDFB-1461-4FBF-A5DC-9BC71641CBD2"}
+{"n": "% Assets Purchased But Not In Registry", "t": "Class0", "p": "0.8:65", "h": "EARoot/EA8/EA16149.htm", "g": "FFBF1553-EDDA-4716-9488-ADE0A7978561"}
+{"n": "% Assurance Cost, Of Opex", "t": "Class0", "p": "0.8:66", "h": "EARoot/EA8/EA16150.htm", "g": "E457790E-9820-4DBE-92F4-D75E3BCDEF09"}
+{"n": "% Assurance Cost, Of Revenue", "t": "Class0", "p": "0.8:67", "h": "EARoot/EA8/EA16151.htm", "g": "8D278F12-66F8-4B87-A10D-61705D4E026B"}
+{"n": "% Bills Appealed", "t": "Class0", "p": "0.8:68", "h": "EARoot/EA8/EA16152.htm", "g": "E9F5A3B7-D12A-4ED3-8824-0443303CC563"}
+{"n": "% Bills Paperless", "t": "Class0", "p": "0.8:69", "h": "EARoot/EA8/EA16153.htm", "g": "EE08802D-2CE1-4A45-9E31-3C8AA59BAA2F"}
+{"n": "% Calls Answered In Less Than 30 Seconds", "t": "Class0", "p": "0.8:70", "h": "EARoot/EA8/EA16154.htm", "g": "871B93D8-D891-47C6-9AFD-6B9D8B1E6F1C"}
+{"n": "% Calls With Repeat Customer Issue", "t": "Class0", "p": "0.8:71", "h": "EARoot/EA8/EA16155.htm", "g": "593F5FEC-1A16-47C9-AAA1-024A345356D1"}
+{"n": "% Costs Saved From Projects Completed In Last 12 Months", "t": "Class0", "p": "0.8:72", "h": "EARoot/EA8/EA16156.htm", "g": "5F0486F1-BE48-403B-AF41-3C124C7F41E2"}
+{"n": "% Customer Contacts, By Contact Type", "t": "Class0", "p": "0.8:73", "h": "EARoot/EA8/EA16157.htm", "g": "AEC7BA39-29EE-4CC5-A1E7-7E0D1855F57C"}
+{"n": "% Customer Orders Requiring Rework, By Cause Type", "t": "Class0", "p": "0.8:74", "h": "EARoot/EA8/EA16158.htm", "g": "8591E551-33A9-47AE-815A-A74FB9CDB488"}
+{"n": "% Customer Problem Reports Resolved By Committed Date", "t": "Class0", "p": "0.8:75", "h": "EARoot/EA8/EA16159.htm", "g": "F5D8ADF4-37F0-4DDA-8F4F-49505FA5220C"}
+{"n": "% Customers Who Are Detractors (Relational)", "t": "Class0", "p": "0.8:76", "h": "EARoot/EA8/EA16160.htm", "g": "55E7A0BA-8656-4A31-BEEC-3EC9EFA44582"}
+{"n": "% Customers Who Are Detractors (Transactional)", "t": "Class0", "p": "0.8:77", "h": "EARoot/EA8/EA16161.htm", "g": "F69DF69A-9776-4CFF-8B2D-C5CFA9FA7998"}
+{"n": "% Customers Who Can Identify Brand Unaided", "t": "Class0", "p": "0.8:78", "h": "EARoot/EA8/EA16162.htm", "g": "8C78C960-046D-4560-9D08-35313D96D0FE"}
+{"n": "% Customers With Multiple Services From Same Service Provider", "t": "Class0", "p": "0.8:79", "h": "EARoot/EA8/EA16163.htm", "g": "67824890-3B29-47AF-BDBC-8EF4714A95B8"}
+{"n": "% Data Records Validated", "t": "Class0", "p": "0.8:80", "h": "EARoot/EA8/EA16164.htm", "g": "082D38E9-91E7-4075-9B9E-98F886437C31"}
+{"n": "% Digital Applications Described In An APM (Applications Portfolio Management) Tool", "t": "Class0", "p": "0.8:81", "h": "EARoot/EA8/EA16165.htm", "g": "1B635B1A-E380-4225-9F6E-B8770562AD76"}
+{"n": "% Email Download Success", "t": "Class0", "p": "0.8:82", "h": "EARoot/EA8/EA16166.htm", "g": "D7FEEE54-B890-4C0E-A683-B14C5BFFE5B5"}
+{"n": "% Email Login Success", "t": "Class0", "p": "0.8:83", "h": "EARoot/EA8/EA16167.htm", "g": "775D7A3F-3A35-4CB9-AD90-BDF4B61FDA70"}
+{"n": "% Emails Suppressed As Spam", "t": "Class0", "p": "0.8:84", "h": "EARoot/EA8/EA16168.htm", "g": "7BC5AC8A-24D9-4DCD-BA73-B11CD2AE2015"}
+{"n": "% Fixed-Line Subscribers Active For At Least 3 Years", "t": "Class0", "p": "0.8:85", "h": "EARoot/EA8/EA16169.htm", "g": "53918D71-3E41-445C-A393-B5D2379CBB3C"}
+{"n": "% Future Infrastructure Build Investment, Of Revenue", "t": "Class0", "p": "0.8:86", "h": "EARoot/EA8/EA16170.htm", "g": "0A4F8CC0-83A4-43B4-A434-086141F1B2CF"}
+{"n": "% Inbound Calls Turned Turned Into Cross-Sell or Up-Sell Opportunity", "t": "Class0", "p": "0.8:87", "h": "EARoot/EA8/EA16171.htm", "g": "A5A2FEB3-2B65-4C56-9A25-212B55F6498A"}
+{"n": "% Inbound Calls Turned Turned Into Revenue Opportunity", "t": "Class0", "p": "0.8:88", "h": "EARoot/EA8/EA16172.htm", "g": "637B543D-2007-44E7-A601-6B217E1B2DEE"}
+{"n": "% Inbound Calls, By Call Type", "t": "Class0", "p": "0.8:89", "h": "EARoot/EA8/EA16173.htm", "g": "BDA54BDE-F26F-48E1-971F-E816D0DBC86E"}
+{"n": "% Initial Buffer Success", "t": "Class0", "p": "0.8:90", "h": "EARoot/EA8/EA16174.htm", "g": "ABECA1F2-6175-4B38-8417-1B3EF08A2B47"}
+{"n": "% MMS Download Success", "t": "Class0", "p": "0.8:91", "h": "EARoot/EA8/EA16175.htm", "g": "53F03ABD-B2F8-4539-9AD4-9AC13AA46B80"}
+{"n": "% MMS Send Success", "t": "Class0", "p": "0.8:92", "h": "EARoot/EA8/EA16176.htm", "g": "29AA503E-13AE-431E-BCC9-3F0BEEE7A41C"}
+{"n": "% Mobile Devices using on-device or security applications", "t": "Class0", "p": "0.8:93", "h": "EARoot/EA8/EA16177.htm", "g": "88142C70-6164-47CB-9E2F-301D6793F09F"}
+{"n": "% Outbound Calls, By Call Type", "t": "Class0", "p": "0.8:94", "h": "EARoot/EA8/EA16178.htm", "g": "F58248CE-C325-43A3-B7DF-87A3216B1BDD"}
+{"n": "% Prepaid Customers Erroneously Identified As Postpaid", "t": "Class0", "p": "0.8:95", "h": "EARoot/EA8/EA16179.htm", "g": "79C235CB-8B48-4CCC-A811-ECCA7A70C55E"}
+{"n": "% Product Management Cost On New Products", "t": "Class0", "p": "0.8:96", "h": "EARoot/EA8/EA16180.htm", "g": "DB4F202E-54C2-4DCE-9EBD-31D12EE0DDC5"}
+{"n": "% Product Management Cost On Updates Or Maintenance Of Existing Products", "t": "Class0", "p": "0.8:97", "h": "EARoot/EA8/EA16181.htm", "g": "04C7408A-9B68-4D5F-99E4-BF541AC0D9DF"}
+{"n": "% Product Offerings That Met All Business Case Objectives", "t": "Class0", "p": "0.8:98", "h": "EARoot/EA8/EA16182.htm", "g": "6C79CC9A-B59C-440D-A871-B47CBB1B9C98"}
+{"n": "% Returning Roamer Registrations - Border Cell", "t": "Class0", "p": "0.8:99", "h": "EARoot/EA8/EA16183.htm", "g": "039D4896-6C1A-4738-910F-8A11E3762227"}
+{"n": "% Revenue From Upgrades", "t": "Class0", "p": "0.8:100", "h": "EARoot/EA8/EA16184.htm", "g": "9D208EE0-93D9-492F-AA65-8535B2F36ED0"}
+{"n": "% Revenue Overbilled", "t": "Class0", "p": "0.8:101", "h": "EARoot/EA8/EA16185.htm", "g": "5435069B-D9F4-4EBF-BD4A-31C3CD69539E"}
+{"n": "% Revenue Recovered", "t": "Class0", "p": "0.8:102", "h": "EARoot/EA8/EA16186.htm", "g": "5B65023B-5FED-41AE-AEF5-645FC4D3EBE1"}
+{"n": "% Revenue Unbilled And Underbilled", "t": "Class0", "p": "0.8:103", "h": "EARoot/EA8/EA16187.htm", "g": "6882F9F3-2B7A-4D5A-AC7F-2BFEDD0CEE03"}
+{"n": "% Security Cost, Of Revenue", "t": "Class0", "p": "0.8:104", "h": "EARoot/EA8/EA16188.htm", "g": "774AAC0C-3B55-40DA-BCA6-5E141174B884"}
+{"n": "% Servers patched resulting in further security problems", "t": "Class0", "p": "0.8:105", "h": "EARoot/EA8/EA16189.htm", "g": "B35260CC-BDE3-4259-B229-B316EDDFA88D"}
+{"n": "% SLA Management Cost, Of Revenue", "t": "Class0", "p": "0.8:106", "h": "EARoot/EA8/EA16190.htm", "g": "8C6131B1-ED0A-4CDB-8AD2-3230B5E3DE20"}
+{"n": "% Streaming Sessions Disconnected", "t": "Class0", "p": "0.8:107", "h": "EARoot/EA8/EA16191.htm", "g": "9FC6FE85-6A09-43F8-BF0D-C53B42142075"}
+{"n": "% Subscribers Lost, By Billing Type", "t": "Class0", "p": "0.8:108", "h": "EARoot/EA8/EA16192.htm", "g": "690F34F2-B340-4607-91FA-73D2E91944EB"}
+{"n": "% Subscribers Who Cancel Or Don't Renew At The End Of Their Initial Contract", "t": "Class0", "p": "0.8:109", "h": "EARoot/EA8/EA16193.htm", "g": "67D686F4-40C9-498B-B03D-E02092279C1D"}
+{"n": "% Time Streaming Stalled", "t": "Class0", "p": "0.8:110", "h": "EARoot/EA8/EA16194.htm", "g": "44E6BE4D-4239-40D0-84BE-4707EDB18252"}
+{"n": "% Wireless Subscribers Active For At Least 2 Years", "t": "Class0", "p": "0.8:111", "h": "EARoot/EA8/EA16195.htm", "g": "76FDD4ED-A077-4FB0-A730-FFD5AA4D6A77"}
+{"n": "% XDRs Recovered, Processed And Billed After Recycling", "t": "Class0", "p": "0.8:112", "h": "EARoot/EA8/EA16196.htm", "g": "466EC83E-9D60-4524-955E-22968ECCC7A3"}
+{"n": "Accuracy of financial forecast for previous quarter and year", "t": "Class0", "p": "0.8:113", "h": "EARoot/EA8/EA16197.htm", "g": "38841418-FAE2-4798-A796-13A45C02D75F"}
+{"n": "Accuracy of the PNI data", "t": "Class0", "p": "0.8:114", "h": "EARoot/EA8/EA16198.htm", "g": "5B49A86E-6C30-4337-BA6C-CA8A321DFD4E"}
+{"n": "Age of Servers and IT equipment", "t": "Class0", "p": "0.8:115", "h": "EARoot/EA8/EA16199.htm", "g": "607726F5-6177-45BA-B9E3-84C2910FDEEF"}
+{"n": "App Market Performance", "t": "Class0", "p": "0.8:116", "h": "EARoot/EA8/EA16200.htm", "g": "A433A3A7-6BBF-4E5C-BD32-2F9D421FB321"}
+{"n": "Audit Times and Frequency", "t": "Class0", "p": "0.8:117", "h": "EARoot/EA8/EA16201.htm", "g": "38AA94F8-4435-4DAD-8032-D2386E6AA1A2"}
+{"n": "Auto discovery percentage", "t": "Class0", "p": "0.8:118", "h": "EARoot/EA8/EA16202.htm", "g": "A962AFB2-C7C1-4701-BAF9-266E6425FCC2"}
+{"n": "Automatic and Remote Testing", "t": "Class0", "p": "0.8:119", "h": "EARoot/EA8/EA16203.htm", "g": "B35D0905-1C6E-4A81-9523-602564E400E9"}
+{"n": "Average Call Center Revenue Per CSR", "t": "Class0", "p": "0.8:120", "h": "EARoot/EA8/EA16204.htm", "g": "C9B58A5A-42EC-467A-9C95-DAA81BABF459"}
+{"n": "Average cost per cell site (wireless operators only)", "t": "Class0", "p": "0.8:121", "h": "EARoot/EA8/EA16205.htm", "g": "929E3448-1EF1-4F3A-9D02-BA278E33FA27"}
+{"n": "Average cost per cell site (wireless operators only)", "t": "Class0", "p": "0.8:122", "h": "EARoot/EA8/EA16206.htm", "g": "C9360A8D-4547-4EE0-8773-8E9595A2DA6C"}
+{"n": "Average Handle Time", "t": "Class0", "p": "0.8:123", "h": "EARoot/EA8/EA16207.htm", "g": "14ECC388-3878-4372-8FE9-43E89171474A"}
+{"n": "Average margin per user/subscriber (AMPU)", "t": "Class0", "p": "0.8:124", "h": "EARoot/EA8/EA16208.htm", "g": "72F02466-F86A-450E-AC6A-4E05BF46DD2E"}
+{"n": "Average number of days delinquent", "t": "Class0", "p": "0.8:125", "h": "EARoot/EA8/EA16209.htm", "g": "7B7A52A4-B727-42B3-B97F-9B5B7ABE1825"}
+{"n": "Average number of tickets opened per day, week, month, quarter and year", "t": "Class0", "p": "0.8:126", "h": "EARoot/EA8/EA16210.htm", "g": "97DDFDF0-20CB-4CB5-B697-63145D08874C"}
+{"n": "Average order to activation time by major process (or major service)", "t": "Class0", "p": "0.8:127", "h": "EARoot/EA8/EA16211.htm", "g": "B50ACA20-D60D-4C60-A9F9-3263954162FF"}
+{"n": "Average revenue per account (ARPA)", "t": "Class0", "p": "0.8:128", "h": "EARoot/EA8/EA16212.htm", "g": "8E1E7817-F5F3-4987-8390-4A04D3920C6E"}
+{"n": "Average revenue per cell site (wireless operators)", "t": "Class0", "p": "0.8:129", "h": "EARoot/EA8/EA16213.htm", "g": "0F9AE83E-9D68-43F1-ADC5-3BB9CB9F449F"}
+{"n": "Average time to deploying new equipment and construction", "t": "Class0", "p": "0.8:130", "h": "EARoot/EA8/EA16214.htm", "g": "3BD3F81F-CF94-48FF-A219-5EDD19EC886D"}
+{"n": "Average utilization of servers and IT equipment", "t": "Class0", "p": "0.8:131", "h": "EARoot/EA8/EA16215.htm", "g": "A1706337-8A64-4EA0-812A-ED54EF6AE14C"}
+{"n": "Average Wait Time", "t": "Class0", "p": "0.8:132", "h": "EARoot/EA8/EA16216.htm", "g": "07D289A9-F00B-4158-93E4-E649A28697D9"}
+{"n": "Average wait time for help desk response", "t": "Class0", "p": "0.8:133", "h": "EARoot/EA8/EA16217.htm", "g": "BE64D78D-2962-4E44-8EF2-B9A7672D8361"}
+{"n": "Base Station full", "t": "Class0", "p": "0.8:134", "h": "EARoot/EA8/EA16218.htm", "g": "551AC7F3-E5E4-4FBC-8B5A-96F37C86BB6F"}
+{"n": "Base Station handoff errors", "t": "Class0", "p": "0.8:135", "h": "EARoot/EA8/EA16219.htm", "g": "F0DA1E68-DDBD-4E5A-A9BF-23C1AB172F6B"}
+{"n": "Basic Return Rate", "t": "Class0", "p": "0.8:136", "h": "EARoot/EA8/EA16220.htm", "g": "B7629F40-C0D9-4215-905E-968794D688BC"}
+{"n": "Compliance Education and Training", "t": "Class0", "p": "0.8:137", "h": "EARoot/EA8/EA16222.htm", "g": "369E7A51-DC04-4CFC-BD44-B8DA4394A64F"}
+{"n": "Data Retention Times", "t": "Class0", "p": "0.8:138", "h": "EARoot/EA8/EA16223.htm", "g": "4170346F-99A6-4E92-950F-1090184C403D"}
+{"n": "Days Sales Outstanding (DSO)", "t": "Class0", "p": "0.8:139", "h": "EARoot/EA8/EA16224.htm", "g": "B603F0DA-1E68-48E6-8475-410E4CA3D78A"}
+{"n": "Detection of Link Failure", "t": "Class0", "p": "0.8:140", "h": "EARoot/EA8/EA16225.htm", "g": "3F9F9CE0-DFC3-4A35-9161-92B10D703C36"}
+{"n": "Detection of security event spikes", "t": "Class0", "p": "0.8:141", "h": "EARoot/EA8/EA16226.htm", "g": "5D626B9A-BD78-4FDD-808D-7559D664FD90"}
+{"n": "Detection of spikes", "t": "Class0", "p": "0.8:142", "h": "EARoot/EA8/EA16227.htm", "g": "99138263-265B-4184-8116-4372F31330E4"}
+{"n": "Device summary report", "t": "Class0", "p": "0.8:143", "h": "EARoot/EA8/EA16228.htm", "g": "E9DF475C-4729-4725-95A0-2EFAF5877130"}
+{"n": "Effectiveness of Fulfillment process", "t": "Class0", "p": "0.8:144", "h": "EARoot/EA8/EA16229.htm", "g": "513EAA59-FFE2-4245-B84D-FB8CD295FC77"}
+{"n": "Employee engagement level", "t": "Class0", "p": "0.8:145", "h": "EARoot/EA8/EA16230.htm", "g": "09762B5C-4557-47C0-A183-F452F75E92BB"}
+{"n": "End to End Service Performance", "t": "Class0", "p": "0.8:146", "h": "EARoot/EA8/EA16231.htm", "g": "BEB579CE-FE49-4157-A39F-EC2D5BD5E662"}
+{"n": "Event reduction rate", "t": "Class0", "p": "0.8:147", "h": "EARoot/EA8/EA16232.htm", "g": "9490A30D-1B65-4230-9323-EF6C6D0E8B7F"}
+{"n": "Field Replaceable Unit Returns", "t": "Class0", "p": "0.8:148", "h": "EARoot/EA8/EA16233.htm", "g": "2B956880-1F3F-4FA9-AAFB-1CC72A71DACD"}
+{"n": "Fill ratio", "t": "Class0", "p": "0.8:149", "h": "EARoot/EA8/EA16234.htm", "g": "BDF29CF0-5188-4756-9864-A2BF0F94F921"}
+{"n": "First Call Resolution", "t": "Class0", "p": "0.8:150", "h": "EARoot/EA8/EA16235.htm", "g": "AC02DB39-E33D-4FB6-86EA-D16DE604CCA3"}
+{"n": "Fix Response Time", "t": "Class0", "p": "0.8:151", "h": "EARoot/EA8/EA16236.htm", "g": "1BA599F0-60B9-44A5-A225-76DC7A4B6273"}
+{"n": "Interconnect cost as a percentage of revenue", "t": "Class0", "p": "0.8:152", "h": "EARoot/EA8/EA16237.htm", "g": "9A2CF7DE-8E62-44E2-A9AD-D02EB5546029"}
+{"n": "Interface Availability", "t": "Class0", "p": "0.8:153", "h": "EARoot/EA8/EA16238.htm", "g": "456F873F-2868-43C8-8B50-11B062932F97"}
+{"n": "Inter-frame arrival time variations", "t": "Class0", "p": "0.8:154", "h": "EARoot/EA8/EA16239.htm", "g": "E4822EF5-B1D1-4C9C-B68C-4F6F26AD8954"}
+{"n": "Link Availability", "t": "Class0", "p": "0.8:155", "h": "EARoot/EA8/EA16240.htm", "g": "3EBFBFB1-B99D-4CA0-ACD0-058441B72AD8"}
+{"n": "Link Utilization", "t": "Class0", "p": "0.8:156", "h": "EARoot/EA8/EA16241.htm", "g": "3BADD210-7C6E-4F3D-8241-F83082BC5D56"}
+{"n": "Market Share", "t": "Class0", "p": "0.8:157", "h": "EARoot/EA8/EA16242.htm", "g": "164E8516-1907-4A72-94B7-88B1BBA4698E"}
+{"n": "Mean Time Between Failures (MTBF)", "t": "Class0", "p": "0.8:158", "h": "EARoot/EA8/EA16243.htm", "g": "54F7349F-772D-4BFF-AE0A-8282FF3ABDF1"}
+{"n": "Metric1", "t": "Class0", "p": "0.8:159", "h": "EARoot/EA8/EA16244.htm", "g": "F55121DE-4135-4355-A480-05B8B6FA9A2E"}
+{"n": "Mobile Money Payments", "t": "Class0", "p": "0.8:160", "h": "EARoot/EA8/EA16247.htm", "g": "654F7588-8A9D-43EA-A07A-5F89F3222816"}
+{"n": "Net Profit", "t": "Class0", "p": "0.8:161", "h": "EARoot/EA8/EA16248.htm", "g": "ADF2EEA1-5D1B-48E5-8539-40D46AD35A6D"}
+{"n": "Net Promoter Score (NPS) trended over time", "t": "Class0", "p": "0.8:162", "h": "EARoot/EA8/EA16249.htm", "g": "3F8E98CD-A5FD-4851-9AFD-5C42EA28BC12"}
+{"n": "Net Promoter Score (Relational) (NPS-R)", "t": "Class0", "p": "0.8:163", "h": "EARoot/EA8/EA16250.htm", "g": "D1F1FBF1-96E6-4EBF-A0DE-F12990B7CD5C"}
+{"n": "Net Promoter Score (Transactional) (NPS-T)", "t": "Class0", "p": "0.8:164", "h": "EARoot/EA8/EA16251.htm", "g": "38E50163-64E1-41FE-9C60-11129CBC8F88"}
+{"n": "Network access revenue breakdown", "t": "Class0", "p": "0.8:165", "h": "EARoot/EA8/EA16252.htm", "g": "6A09E89B-468C-485A-8B7B-4A6AAECA8296"}
+{"n": "Network Element/Device Availability", "t": "Class0", "p": "0.8:166", "h": "EARoot/EA8/EA16253.htm", "g": "7920808E-58E8-420C-B798-122A326243DF"}
+{"n": "Network Errors", "t": "Class0", "p": "0.8:167", "h": "EARoot/EA8/EA16254.htm", "g": "7E9FE321-FD3B-4CF7-85C2-0F2C9D7D43EA"}
+{"n": "Network Utilization", "t": "Class0", "p": "0.8:168", "h": "EARoot/EA8/EA16255.htm", "g": "2051A375-779D-402E-AAE3-3044966FDA6C"}
+{"n": "Number of first call ticket closures", "t": "Class0", "p": "0.8:169", "h": "EARoot/EA8/EA16256.htm", "g": "D5298A11-49F7-47C0-B56B-4728A3FD66BE"}
+{"n": "Number of handsets returned with no fault found", "t": "Class0", "p": "0.8:170", "h": "EARoot/EA8/EA16257.htm", "g": "6F95EC9F-3FD4-4F50-BC4C-10B750A28E7A"}
+{"n": "Number of known attacks", "t": "Class0", "p": "0.8:171", "h": "EARoot/EA8/EA16258.htm", "g": "D0F61BB9-3EE3-4B1B-A385-85AD9F7C4F12"}
+{"n": "Number of tickets opened on the last day of the week, month, quarter and year", "t": "Class0", "p": "0.8:172", "h": "EARoot/EA8/EA16259.htm", "g": "4F179EA0-2708-46DF-8AEC-BD85088DC403"}
+{"n": "Number of updates per month, per quarter and per year", "t": "Class0", "p": "0.8:173", "h": "EARoot/EA8/EA16260.htm", "g": "74BD3000-E061-4894-B2F4-D64C84056A81"}
+{"n": "Overall Equipment Effectiveness (OEE)", "t": "Class0", "p": "0.8:174", "h": "EARoot/EA8/EA16261.htm", "g": "E9889459-6A7A-4B59-9109-06DB413FEAC9"}
+{"n": "Overdue Problem Fix Responsiveness", "t": "Class0", "p": "0.8:175", "h": "EARoot/EA8/EA16262.htm", "g": "43498415-7D84-4800-9473-D9BCF3BDB2E5"}
+{"n": "Percentage of Compliance Certification Sign-offs", "t": "Class0", "p": "0.8:176", "h": "EARoot/EA8/EA16263.htm", "g": "2CF2E485-DF7A-45FA-8593-5D2B8D45CC06"}
+{"n": "Propensity To Churn", "t": "Class0", "p": "0.8:177", "h": "EARoot/EA8/EA16264.htm", "g": "2D4F7152-1363-4C3F-9A49-40CA733365A8"}
+{"n": "Propensity To Join", "t": "Class0", "p": "0.8:178", "h": "EARoot/EA8/EA16265.htm", "g": "60864E34-E56F-4BC2-A1E9-C16D3CEECDC2"}
+{"n": "Propensity To Upgrade", "t": "Class0", "p": "0.8:179", "h": "EARoot/EA8/EA16266.htm", "g": "61C01800-0484-4C1E-B802-3D1FCFC6673E"}
+{"n": "Quality of Experience", "t": "Class0", "p": "0.8:180", "h": "EARoot/EA8/EA16267.htm", "g": "F9994093-0DAE-4E1C-B502-3B38C8B97228"}
+{"n": "Ratio of repairs initiated by customer versus repairs initiated by the service provider", "t": "Class0", "p": "0.8:181", "h": "EARoot/EA8/EA16268.htm", "g": "E3C3B6E0-20E7-4483-B1AB-DD5991949B28"}
+{"n": "Registration Delay", "t": "Class0", "p": "0.8:182", "h": "EARoot/EA8/EA16269.htm", "g": "32F4B9C8-12CD-438F-AD84-F2C4748BE1FB"}
+{"n": "Release Delay", "t": "Class0", "p": "0.8:183", "h": "EARoot/EA8/EA16270.htm", "g": "823A5C3A-0690-4F97-BBC1-BE48EAFB20F4"}
+{"n": "Release rate", "t": "Class0", "p": "0.8:184", "h": "EARoot/EA8/EA16271.htm", "g": "E66347C1-FF4A-4526-AE7C-7C012D420E79"}
+{"n": "Return on invested Capital (ROIC)", "t": "Class0", "p": "0.8:185", "h": "EARoot/EA8/EA16272.htm", "g": "A354A40A-2865-4769-BD52-CCFF69879496"}
+{"n": "Revenue in backlog", "t": "Class0", "p": "0.8:186", "h": "EARoot/EA8/EA16273.htm", "g": "95F6F966-E5A2-43B1-A308-8E645121AF3D"}
+{"n": "Revenue System Size", "t": "Class0", "p": "0.8:187", "h": "EARoot/EA8/EA16274.htm", "g": "8F158560-1923-42CF-91A0-E0914946F820"}
+{"n": "Root cause event to trouble ticket percentage", "t": "Class0", "p": "0.8:188", "h": "EARoot/EA8/EA16275.htm", "g": "A7DBE80A-9EBC-4EAC-AA01-998F4DA2C85C"}
+{"n": "Round trip delay", "t": "Class0", "p": "0.8:189", "h": "EARoot/EA8/EA16276.htm", "g": "2AD3FA03-5BDC-4E80-A847-5E2FBFCE9DF5"}
+{"n": "Route Flapping", "t": "Class0", "p": "0.8:190", "h": "EARoot/EA8/EA16277.htm", "g": "471B5DDB-1E94-45AA-8876-8F703017DDED"}
+{"n": "Sales revenue, exclusive of sales tax for each business unit", "t": "Class0", "p": "0.8:191", "h": "EARoot/EA8/EA16278.htm", "g": "E71D4CE3-EA86-4FB4-9D43-2C31BBE8F745"}
+{"n": "Service Availability", "t": "Class0", "p": "0.8:192", "h": "EARoot/EA8/EA16279.htm", "g": "8A80BC14-A4F8-470C-A662-0DAFB827C591"}
+{"n": "Service Impact Outage", "t": "Class0", "p": "0.8:193", "h": "EARoot/EA8/EA16280.htm", "g": "57B08F37-05D9-4BB4-87EE-3269A8099460"}
+{"n": "Service Quality", "t": "Class0", "p": "0.8:194", "h": "EARoot/EA8/EA16281.htm", "g": "A1B69961-150F-4FBA-8797-CC052A6E49DD"}
+{"n": "Setup Delay", "t": "Class0", "p": "0.8:195", "h": "EARoot/EA8/EA16282.htm", "g": "84543294-65AB-472F-AD29-040FB9E3843B"}
+{"n": "Software Fix Quality", "t": "Class0", "p": "0.8:196", "h": "EARoot/EA8/EA16283.htm", "g": "E8101B23-4146-4AAF-A7E9-9DE23C5A6AEC"}
+{"n": "Software Problem Report", "t": "Class0", "p": "0.8:197", "h": "EARoot/EA8/EA16284.htm", "g": "33A82CD2-E74F-448A-ADBF-E76981556D53"}
+{"n": "Speed of first level root cause analysis", "t": "Class0", "p": "0.8:198", "h": "EARoot/EA8/EA16285.htm", "g": "B43360D7-4E7A-4F28-B06A-73B9B4734124"}
+{"n": "Ticket abandonment percentage", "t": "Class0", "p": "0.8:199", "h": "EARoot/EA8/EA16286.htm", "g": "254CAE78-69BD-4B65-8C57-DB7CB333583D"}
+{"n": "Ticket Summary Report", "t": "Class0", "p": "0.8:200", "h": "EARoot/EA8/EA16287.htm", "g": "B4F13A12-7BBC-4535-8E41-09C4D217D429"}
+{"n": "Time for reroute on a link failure", "t": "Class0", "p": "0.8:201", "h": "EARoot/EA8/EA16288.htm", "g": "0FBEAA7D-30F1-4F04-BE28-9CCD8F3E7B2D"}
+{"n": "Time to delete a user", "t": "Class0", "p": "0.8:202", "h": "EARoot/EA8/EA16289.htm", "g": "15D60C7E-BE18-4B7B-AE40-9A339C137F57"}
+{"n": "Total Cost of Ownership", "t": "Class0", "p": "0.8:203", "h": "EARoot/EA8/EA16290.htm", "g": "667D31C7-DF99-41AA-B1FE-435B669C66EA"}
+{"n": "VM dead-on-arrival ratio", "t": "Class0", "p": "0.8:204", "h": "EARoot/EA8/EA16292.htm", "g": "E09E8D3B-1088-435F-A975-2625AC065C12"}
+{"n": "Business Metrics", "t": "Package", "p": "0.8", "h": "EARoot/EA8/EA16068.htm", "g": "4001E562-BC3A-40DB-9D8A-1619B1BE37F2", "r": "26.0.0", "st": "Team Approved"}
+{"n": "MetricGroups", "t": "Package", "p": "0.8.1", "h": "EARoot/EA8/EA1/EA16295.htm", "g": "40F70EB2-0351-486E-A697-3BE42AE6FA31"}
+{"n": "Metrics", "t": "Package", "p": "0.8.2", "h": "EARoot/EA8/EA2/EA16954.htm", "g": "3EF47BCA-1703-4777-B2ED-C83C67D1F56C"}
+{"n": "Views", "t": "Package", "p": "0.8.3", "h": "EARoot/EA8/EA3/EA19765.htm", "g": "29862B72-B89E-4EBB-9DC8-A02AA8BA8C2F"}
+{"n": "Domains", "t": "Package", "p": "0.8.2.1", "h": "EARoot/EA8/EA2/EA1/EA16957.htm", "g": "6CF81516-DA90-443D-88C7-87B0C049D561", "r": "26.0.0", "st": "Team Approved"}
+{"n": "Metrics", "t": "Package", "p": "0.8.2.2", "h": "EARoot/EA8/EA2/EA2/EA16998.htm", "g": "DFA4ED4E-6494-467E-B696-AC02FBDCC5FF", "r": "26.0.0", "st": "Team Approved"}
+{"n": "Metric Groups structure", "t": "Package", "p": "0.8.1.1", "h": "EARoot/EA8/EA1/EA1/EA16604.htm", "g": "D478FC23-D5F3-4E6F-A688-6BB4CEA058CF"}
+{"n": "ABE Views", "t": "Package", "p": "0.8.3.1", "h": "EARoot/EA8/EA3/EA1/EA19869.htm", "g": "03363A3D-19E3-4059-804A-BB23DD9B34A3"}
+{"n": "Customer Domain", "t": "Package", "p": "0.8.2.1.1", "h": "EARoot/EA8/EA2/EA1/EA1/EA16969.htm", "g": "7B5378D6-E01F-4EF2-8F5A-1EE516379D0E"}
+{"n": "Product Domain", "t": "Package", "p": "0.8.2.1.2", "h": "EARoot/EA8/EA2/EA1/EA2/EA16976.htm", "g": "3131BEEB-12BC-4B88-91A9-88B843B6166B"}
+{"n": "Service Domain", "t": "Package", "p": "0.8.2.1.3", "h": "EARoot/EA8/EA2/EA1/EA3/EA16979.htm", "g": "D9D35BB3-26BC-4C27-8BE9-BD0AB1B2507F"}
+{"n": "Resource Domain", "t": "Package", "p": "0.8.2.1.4", "h": "EARoot/EA8/EA2/EA1/EA4/EA16982.htm", "g": "982467AC-5375-4F5C-8BA5-D62ED4A81ECF"}
+{"n": "Market & Sales Domain", "t": "Package", "p": "0.8.2.1.5", "h": "EARoot/EA8/EA2/EA1/EA5/EA16985.htm", "g": "46BC79C2-B1DA-46D7-9D9C-D567B9A11921", "r": "26.0.0", "st": "Team Approved"}
+{"n": "Business Partner Domain", "t": "Package", "p": "0.8.2.1.6", "h": "EARoot/EA8/EA2/EA1/EA6/EA16988.htm", "g": "6B834B2A-AD55-4B69-A6AD-937A78BD22F0"}
+{"n": "Enterprise Domain", "t": "Package", "p": "0.8.2.1.7", "h": "EARoot/EA8/EA2/EA1/EA7/EA16991.htm", "g": "C853E76B-3F48-4F4E-8774-4D8911104347"}
+{"n": "Shared Domain", "t": "Package", "p": "0.8.2.1.8", "h": "EARoot/EA8/EA2/EA1/EA8/EA16994.htm", "g": "DB25CDC0-8801-438D-8D23-C54E0CAAE335"}
+{"n": "Patterns Domain", "t": "Package", "p": "0.8.2.1.9", "h": "EARoot/EA8/EA2/EA1/EA9/EA16997.htm", "g": "45306C71-EAEB-4CD7-B642-A1D09280CB25"}
+{"n": "Customer Party Roles", "t": "Package", "p": "0.8.2.1.1.1", "h": "EARoot/EA8/EA2/EA1/EA1/EA1/EA16973.htm", "g": "BC5D0966-B668-486B-AC4C-D99B284E5C32"}
+{"n": "Customer Domain Metrics", "t": "Logical diagram0", "p": "0.8.2.1.1:1", "h": "EARoot/EA8/EA2/EA1/EA1/EA16967.htm", "g": "5DFA8528-ADDF-4A11-A68E-16E3FA4D6A71"}
+{"n": "Customer Party Roles", "t": "Logical diagram0", "p": "0.8.2.1.1.1:1", "h": "EARoot/EA8/EA2/EA1/EA1/EA1/EA16971.htm", "g": "556B3346-1EDE-4DEA-B42E-73D9E65782DD"}
+{"n": "Product Domain Metrics", "t": "Logical diagram0", "p": "0.8.2.1.2:1", "h": "EARoot/EA8/EA2/EA1/EA2/EA16974.htm", "g": "4EA332BD-E2B5-4DD9-AA62-FB372C3C5104"}
+{"n": "Service Domain Metrics", "t": "Logical diagram0", "p": "0.8.2.1.3:1", "h": "EARoot/EA8/EA2/EA1/EA3/EA16977.htm", "g": "6B26D370-A18C-43AC-BAE3-9F335F58D20A"}
+{"n": "Resource Domain Metrics", "t": "Logical diagram0", "p": "0.8.2.1.4:1", "h": "EARoot/EA8/EA2/EA1/EA4/EA16980.htm", "g": "3FB98F18-EDCD-4C0E-B1D7-9B8A163E3482"}
+{"n": "Market & Sales Domain Metrics", "t": "Logical diagram0", "p": "0.8.2.1.5:1", "h": "EARoot/EA8/EA2/EA1/EA5/EA16983.htm", "g": "6106C9F0-3E97-4CDA-B79F-8E7C466F0564"}
+{"n": "Business Partner Domain Metrics", "t": "Logical diagram0", "p": "0.8.2.1.6:1", "h": "EARoot/EA8/EA2/EA1/EA6/EA16986.htm", "g": "3E5BD8F5-0A93-49B9-8819-36CF734A221A"}
+{"n": "Enterprise Domain Metrics", "t": "Logical diagram0", "p": "0.8.2.1.7:1", "h": "EARoot/EA8/EA2/EA1/EA7/EA16989.htm", "g": "3F1525D5-60B1-4CFC-82B0-71652A1C7AB2"}
+{"n": "Shared Domain Metrics", "t": "Logical diagram0", "p": "0.8.2.1.8:1", "h": "EARoot/EA8/EA2/EA1/EA8/EA16992.htm", "g": "2216CAC0-9C55-47CD-B775-FBB81D47A1D1"}
+{"n": "Patterns Domain Metrics", "t": "Logical diagram0", "p": "0.8.2.1.9:1", "h": "EARoot/EA8/EA2/EA1/EA9/EA16995.htm", "g": "3381C143-9CD4-499F-ADE4-539BD20C2323"}
+{"n": "Metrics Framework Poster", "t": "Logical diagram0", "p": "0.8.3:1", "h": "EARoot/EA8/EA3/EA19759.htm", "g": "AE8AF563-BACB-46FE-9EFB-2D58EDC8129D"}
+{"n": "Metrics Level 1 DRAFT", "t": "Logical diagram0", "p": "0.8.3:2", "h": "EARoot/EA8/EA3/EA19761.htm", "g": "85C39E0D-E1E9-491C-BCEC-B05B73F852F7"}
+{"n": "Working Diagram", "t": "Logical diagram0", "p": "0.8.3:3", "h": "EARoot/EA8/EA3/EA19763.htm", "g": "106A851A-06D0-4FD2-8C46-8FE318C1F67A"}
+{"n": "BSS", "t": "Package", "p": "0.8.2.2.2", "h": "EARoot/EA8/EA2/EA2/EA2/EA17215.htm", "g": "4CC38CE7-DA1E-4C44-8A87-8F8F29FD4B88"}
+{"n": "CAB", "t": "Package", "p": "0.8.2.2.3", "h": "EARoot/EA8/EA2/EA2/EA3/EA17259.htm", "g": "D052FE67-95CE-4E5E-8CFD-6E14392EE5CC"}
+{"n": "CEM", "t": "Package", "p": "0.8.2.2.4", "h": "EARoot/EA8/EA2/EA2/EA4/EA17313.htm", "g": "07FAEBAE-803C-4622-AB59-B678B185D192"}
+{"n": "CF", "t": "Package", "p": "0.8.2.2.5", "h": "EARoot/EA8/EA2/EA2/EA5/EA17847.htm", "g": "7A5204E8-8E4C-4506-AFA4-BC8D63AE227C"}
+{"n": "CYB", "t": "Package", "p": "0.8.2.2.6", "h": "EARoot/EA8/EA2/EA2/EA6/EA18810.htm", "g": "25D1A5D6-D11B-4C34-B3F1-7408B8E76C3B"}
+{"n": "DIG", "t": "Package", "p": "0.8.2.2.7", "h": "EARoot/EA8/EA2/EA2/EA7/EA18880.htm", "g": "E5B5961F-D253-4667-918C-DD8BBD1F0064"}
+{"n": "DMM2", "t": "Package", "p": "0.8.2.2.8", "h": "EARoot/EA8/EA2/EA2/EA8/EA18948.htm", "g": "F36E91B4-8CF7-4AD2-9D33-1CFF85DF04B1"}
+{"n": "DMM3", "t": "Package", "p": "0.8.2.2.9", "h": "EARoot/EA8/EA2/EA2/EA9/EA19033.htm", "g": "DE255C96-DD90-4784-AC24-B219EF94748F"}
+{"n": "DMM4", "t": "Package", "p": "0.8.2.2.10", "h": "EARoot/EA8/EA2/EA2/EA10/EA19217.htm", "g": "B2BFA3CE-EEEC-4F55-B622-289C95D5E8CF"}
+{"n": "FRD", "t": "Package", "p": "0.8.2.2.11", "h": "EARoot/EA8/EA2/EA2/EA11/EA19313.htm", "g": "078D5502-6F07-4C51-9795-08D48E3B046A"}
+{"n": "MA", "t": "Package", "p": "0.8.2.2.12", "h": "EARoot/EA8/EA2/EA2/EA12/EA19340.htm", "g": "D5270749-3784-42AE-9F90-20B76BFE0708"}
+{"n": "MET", "t": "Package", "p": "0.8.2.2.13", "h": "EARoot/EA8/EA2/EA2/EA13/EA19349.htm", "g": "13BBDD46-198F-4DFC-9CFF-F36DFDFD38F5"}
+{"n": "OMNI", "t": "Package", "p": "0.8.2.2.14", "h": "EARoot/EA8/EA2/EA2/EA14/EA19352.htm", "g": "8488E51E-149D-40A7-A528-CAAADD67BC2D"}
+{"n": "POST", "t": "Package", "p": "0.8.2.2.15", "h": "EARoot/EA8/EA2/EA2/EA15/EA19380.htm", "g": "BA579CF1-052B-4A98-962C-FE307A5096F8"}
+{"n": "RA", "t": "Package", "p": "0.8.2.2.16", "h": "EARoot/EA8/EA2/EA2/EA16/EA19405.htm", "g": "FD124904-14D2-4C12-88DD-45AB7C14DB17"}
+{"n": "REG", "t": "Package", "p": "0.8.2.2.17", "h": "EARoot/EA8/EA2/EA2/EA17/EA19408.htm", "g": "92313EAA-4465-482A-B74F-AF52B1412B5B"}
+{"n": "SCO", "t": "Package", "p": "0.8.2.2.18", "h": "EARoot/EA8/EA2/EA2/EA18/EA19466.htm", "g": "50E48A52-9550-4F37-9949-01BAAAEF9B38"}
+{"n": "SLAM", "t": "Package", "p": "0.8.2.2.19", "h": "EARoot/EA8/EA2/EA2/EA19/EA19494.htm", "g": "6230DA1E-3BB7-4628-91A0-E40CEA2B6F99"}
+{"n": "VCPE", "t": "Package", "p": "0.8.2.2.20", "h": "EARoot/EA8/EA2/EA2/EA20/EA19572.htm", "g": "57F327CF-EFE1-4913-A159-E1FFEC1B2F4D"}
+{"n": "WEB", "t": "Package", "p": "0.8.2.2.21", "h": "EARoot/EA8/EA2/EA2/EA21/EA19592.htm", "g": "1A0807E5-E381-4797-B7E9-99AB6A832A63"}
+{"n": "WF", "t": "Package", "p": "0.8.2.2.22", "h": "EARoot/EA8/EA2/EA2/EA22/EA19604.htm", "g": "A1F92149-FF88-421F-BFBD-FDEA100C5019"}
+{"n": "ZMPE", "t": "Package", "p": "0.8.2.2.23", "h": "EARoot/EA8/EA2/EA2/EA23/EA19613.htm", "g": "025D8169-23C9-4C1F-B346-184F39254886"}
+{"n": "ZMPQ", "t": "Package", "p": "0.8.2.2.24", "h": "EARoot/EA8/EA2/EA2/EA24/EA19635.htm", "g": "639A4F7C-500D-4DAA-8142-C390914CBCCE"}
+{"n": "BMS", "t": "Package", "p": "0.8.2.2.1", "h": "EARoot/EA8/EA2/EA2/EA1/EA17025.htm", "g": "DAB1B626-9DBE-4411-A684-DCE4B78118B5"}
+{"n": "BMS", "t": "Logical diagram0", "p": "0.8.2.2.1:1", "h": "EARoot/EA8/EA2/EA2/EA1/EA17023.htm", "g": "BD0BD888-075A-4A9E-AEFE-E812876FE7C8"}
+{"n": "# Activations", "t": "Class0", "p": "0.8.2.2.1:2", "h": "EARoot/EA8/EA2/EA2/EA1/EA17026.htm", "g": "4EE22F15-A750-478B-93FA-A703AEE40075"}
+{"n": "# Activations Completed By Committed Date", "t": "Class0", "p": "0.8.2.2.1:3", "h": "EARoot/EA8/EA2/EA2/EA1/EA17027.htm", "g": "EF110909-71A7-4A97-B1B8-0EFDB00A23A5"}
+{"n": "# Activations Completed, For Data Services", "t": "Class0", "p": "0.8.2.2.1:4", "h": "EARoot/EA8/EA2/EA2/EA1/EA17028.htm", "g": "54F2BF01-FBE6-4EE4-A9B4-080818296E5D"}
+{"n": "# Bill Processing Faults", "t": "Class0", "p": "0.8.2.2.1:5", "h": "EARoot/EA8/EA2/EA2/EA1/EA17029.htm", "g": "1781483B-0E1E-4561-9F4F-80CAF20D367D"}
+{"n": "# Billing Suspense File Recyclings", "t": "Class0", "p": "0.8.2.2.1:6", "h": "EARoot/EA8/EA2/EA2/EA1/EA17030.htm", "g": "DE4CCE0D-D6B0-4872-BCF1-9A2806171B40"}
+{"n": "# Customer Bills", "t": "Class0", "p": "0.8.2.2.1:7", "h": "EARoot/EA8/EA2/EA2/EA1/EA17031.htm", "g": "D5F7BEE1-DF8E-406D-85FA-5C567A52E4DC"}
+{"n": "# Customer Bills Issued", "t": "Class0", "p": "0.8.2.2.1:8", "h": "EARoot/EA8/EA2/EA2/EA1/EA17032.htm", "g": "62A28A1F-03B9-449C-9BA2-91E5573211D5"}
+{"n": "# Customer Bills Issued, By Delivery Type", "t": "Class0", "p": "0.8.2.2.1:9", "h": "EARoot/EA8/EA2/EA2/EA1/EA17033.htm", "g": "C1453DB6-5AA3-49EB-93AC-F945B8A351CB"}
+{"n": "# Customer Bills Paid Electronically", "t": "Class0", "p": "0.8.2.2.1:10", "h": "EARoot/EA8/EA2/EA2/EA1/EA17034.htm", "g": "DFBC0087-C9D7-44BA-94F8-E0E2656DCFFA"}
+{"n": "# Customer Bills Produced", "t": "Class0", "p": "0.8.2.2.1:11", "h": "EARoot/EA8/EA2/EA2/EA1/EA17035.htm", "g": "35836993-2CEC-499A-8E0B-A4009F5377B8"}
+{"n": "# Customer Bills Requiring Adjustments Initiated By Customer", "t": "Class0", "p": "0.8.2.2.1:12", "h": "EARoot/EA8/EA2/EA2/EA1/EA17036.htm", "g": "CAE6E075-786B-45B7-BD69-4221B82E4B9C"}
+{"n": "# Customer Bills Requiring Adjustments Initiated Internally", "t": "Class0", "p": "0.8.2.2.1:13", "h": "EARoot/EA8/EA2/EA2/EA1/EA17037.htm", "g": "A28FCAA9-AC72-4FD8-A1C1-F4BFB805188E"}
+{"n": "# Customer Bills Requiring Manual Intervention", "t": "Class0", "p": "0.8.2.2.1:14", "h": "EARoot/EA8/EA2/EA2/EA1/EA17038.htm", "g": "B8AD9F4A-AE65-4B13-9246-C0F454402C09"}
+{"n": "# Customer Bills Sent Electronically", "t": "Class0", "p": "0.8.2.2.1:15", "h": "EARoot/EA8/EA2/EA2/EA1/EA17039.htm", "g": "AB1F680A-6FE0-4A66-BD4C-FE1EC58DF85E"}
+{"n": "# Customer Bills With Error", "t": "Class0", "p": "0.8.2.2.1:16", "h": "EARoot/EA8/EA2/EA2/EA1/EA17040.htm", "g": "5AF55952-0228-4ED8-B257-60B02B76FE33"}
+{"n": "# Customer Calls Abandoned", "t": "Class0", "p": "0.8.2.2.1:17", "h": "EARoot/EA8/EA2/EA2/EA1/EA17041.htm", "g": "4B5195D9-A216-486D-A4F2-1C1FB79D4B5B"}
+{"n": "# Customer Calls Inbound", "t": "Class0", "p": "0.8.2.2.1:18", "h": "EARoot/EA8/EA2/EA2/EA1/EA17042.htm", "g": "2E743F8B-93F7-48B2-B196-82FE4BA4DC6D"}
+{"n": "# Customer Contacts About Billing", "t": "Class0", "p": "0.8.2.2.1:19", "h": "EARoot/EA8/EA2/EA2/EA1/EA17043.htm", "g": "BFE80F3C-8D4C-467C-8923-5AF2CA44CCAD"}
+{"n": "# Customer Contacts About Billing, Per Customer Bill Issued", "t": "Class0", "p": "0.8.2.2.1:20", "h": "EARoot/EA8/EA2/EA2/EA1/EA17044.htm", "g": "BD4A996C-F08F-41DC-A39E-F38B0CA0459D"}
+{"n": "# Customer Contacts About ReReported Customer Incidents", "t": "Class0", "p": "0.8.2.2.1:21", "h": "EARoot/EA8/EA2/EA2/EA1/EA17045.htm", "g": "9C9425D0-70C5-4674-857C-A7FEF22028DC"}
+{"n": "# Customer Contacts About ReReported Customer Incidents, Per Customer Incident Closed", "t": "Class0", "p": "0.8.2.2.1:22", "h": "EARoot/EA8/EA2/EA2/EA1/EA17046.htm", "g": "3B3B5D89-67DD-402D-B31C-97361A776E60"}
+{"n": "# Customer Contacts About Usability Of Installed Service", "t": "Class0", "p": "0.8.2.2.1:23", "h": "EARoot/EA8/EA2/EA2/EA1/EA17047.htm", "g": "B2D894A9-853E-4A4E-A27E-DB7A33DEB8E5"}
+{"n": "# Customer Contacts About Usability Of Installed Service, Per Activation", "t": "Class0", "p": "0.8.2.2.1:24", "h": "EARoot/EA8/EA2/EA2/EA1/EA17048.htm", "g": "77ECBCC4-25CE-479C-AB1E-DA1C8A0EEB27"}
+{"n": "# Customer Contacts, By Contact Type", "t": "Class0", "p": "0.8.2.2.1:25", "h": "EARoot/EA8/EA2/EA2/EA1/EA17049.htm", "g": "5444B364-A9AE-4CB7-8F08-3D6A5ADB5928"}
+{"n": "# Customer Contacts, By Request Type", "t": "Class0", "p": "0.8.2.2.1:26", "h": "EARoot/EA8/EA2/EA2/EA1/EA17050.htm", "g": "326B0B76-CA11-4E32-9E31-C321ACD00611"}
+{"n": "# Customer Incidents Closed", "t": "Class0", "p": "0.8.2.2.1:27", "h": "EARoot/EA8/EA2/EA2/EA1/EA17051.htm", "g": "9B69033B-2A7C-4B6E-A330-C2A1A9B2C512"}
+{"n": "# Customer Incidents Resolved", "t": "Class0", "p": "0.8.2.2.1:28", "h": "EARoot/EA8/EA2/EA2/EA1/EA17052.htm", "g": "6AE4FEB2-0A86-46C0-B9CA-DB1B72C62CDF"}
+{"n": "# Customer Orders", "t": "Class0", "p": "0.8.2.2.1:29", "h": "EARoot/EA8/EA2/EA2/EA1/EA17053.htm", "g": "1709B391-30F8-4AB6-A20C-E440713BE8F8"}
+{"n": "# Customer Orders Failed Within 28 Days", "t": "Class0", "p": "0.8.2.2.1:30", "h": "EARoot/EA8/EA2/EA2/EA1/EA17054.htm", "g": "ED998316-A0D5-4A1F-A482-5311C94A375C"}
+{"n": "# Customer Orders Requiring Rework", "t": "Class0", "p": "0.8.2.2.1:31", "h": "EARoot/EA8/EA2/EA2/EA1/EA17055.htm", "g": "5DDFD017-322A-4B8D-A413-9C241331D462"}
+{"n": "# Customer Orders Requiring Rework, By Cause Type", "t": "Class0", "p": "0.8.2.2.1:32", "h": "EARoot/EA8/EA2/EA2/EA1/EA17056.htm", "g": "5FF6BB3B-F04D-4F85-9F2C-967CF19EB185"}
+{"n": "# Customer Orders With Errors", "t": "Class0", "p": "0.8.2.2.1:33", "h": "EARoot/EA8/EA2/EA2/EA1/EA17057.htm", "g": "DC693D5B-F84D-40DD-A69C-EF7EEACCC1FA"}
+{"n": "# Customer Orders With Pending Error Fixes", "t": "Class0", "p": "0.8.2.2.1:34", "h": "EARoot/EA8/EA2/EA2/EA1/EA17058.htm", "g": "87FE62DB-38E3-41D5-9268-EAB2AA92FFF8"}
+{"n": "# Customer Payments", "t": "Class0", "p": "0.8.2.2.1:35", "h": "EARoot/EA8/EA2/EA2/EA1/EA17059.htm", "g": "D334E43E-B2A7-4086-B431-0E643AB449CA"}
+{"n": "# Customer Payments, By Payment Type", "t": "Class0", "p": "0.8.2.2.1:36", "h": "EARoot/EA8/EA2/EA2/EA1/EA17060.htm", "g": "CC52B989-3A81-4F3E-9AFC-DBAB8A6040D5"}
+{"n": "# Customer Problem Reports", "t": "Class0", "p": "0.8.2.2.1:37", "h": "EARoot/EA8/EA2/EA2/EA1/EA17061.htm", "g": "7EA6C024-07E3-4FE5-8777-2942E3207442"}
+{"n": "# Customer Problem Reports Actually Closed In Compliance With SLA", "t": "Class0", "p": "0.8.2.2.1:38", "h": "EARoot/EA8/EA2/EA2/EA1/EA17062.htm", "g": "71E573F9-98E1-44A6-B73C-B90FF075511E"}
+{"n": "# Customer Problem Reports Closed, By Cause Type", "t": "Class0", "p": "0.8.2.2.1:39", "h": "EARoot/EA8/EA2/EA2/EA1/EA17063.htm", "g": "A14F7019-A84D-457C-B366-6B91A1ED5635"}
+{"n": "# Customer Problem Reports Due To Be Closed In Compliance With SLA", "t": "Class0", "p": "0.8.2.2.1:40", "h": "EARoot/EA8/EA2/EA2/EA1/EA17064.htm", "g": "F34C48D0-C913-463F-8EE0-74BF88D977D8"}
+{"n": "# Customer Problem Reports From Customers", "t": "Class0", "p": "0.8.2.2.1:41", "h": "EARoot/EA8/EA2/EA2/EA1/EA17065.htm", "g": "425150CC-D648-4C97-9600-5E327B7C8165"}
+{"n": "# Customer Problem Reports Resolved By Committed Date", "t": "Class0", "p": "0.8.2.2.1:42", "h": "EARoot/EA8/EA2/EA2/EA1/EA17066.htm", "g": "AF332C3E-D4F8-47F2-91A3-CFD3AC0F557C"}
+{"n": "# Customer Problem Reports Resolved To Customer Satisfaction", "t": "Class0", "p": "0.8.2.2.1:43", "h": "EARoot/EA8/EA2/EA2/EA1/EA17067.htm", "g": "49261AF8-D2F6-4B28-A08C-344BA361ECFF"}
+{"n": "# Customer Problem Reports Resolved To Customer Satisfaction, Per NOC FTE Assigned To Problem Resolution", "t": "Class0", "p": "0.8.2.2.1:44", "h": "EARoot/EA8/EA2/EA2/EA1/EA17068.htm", "g": "19B5A0C4-BE13-4C43-8B7B-A3211ED0AF32"}
+{"n": "# Customer Requests (x1000)", "t": "Class0", "p": "0.8.2.2.1:45", "h": "EARoot/EA8/EA2/EA2/EA1/EA17069.htm", "g": "DF8075C4-6715-4A6D-B87F-B59504F06E7E"}
+{"n": "# Customer Requests Handled To Completion On First Call", "t": "Class0", "p": "0.8.2.2.1:46", "h": "EARoot/EA8/EA2/EA2/EA1/EA17070.htm", "g": "2540385B-BCD5-4484-975A-EBF4B2E16260"}
+{"n": "# Customers Acquired", "t": "Class0", "p": "0.8.2.2.1:47", "h": "EARoot/EA8/EA2/EA2/EA1/EA17071.htm", "g": "390913A2-9AAA-4B0F-A537-649CB7CA39FF"}
+{"n": "# Customers At Start Of Month", "t": "Class0", "p": "0.8.2.2.1:48", "h": "EARoot/EA8/EA2/EA2/EA1/EA17072.htm", "g": "12247090-14DF-4713-850A-88DC8216D4EB"}
+{"n": "# Customers Included In Reconciliation", "t": "Class0", "p": "0.8.2.2.1:49", "h": "EARoot/EA8/EA2/EA2/EA1/EA17073.htm", "g": "F74CCC97-62BE-40DE-8B75-2C8F99077DB7"}
+{"n": "# Customers Lost", "t": "Class0", "p": "0.8.2.2.1:50", "h": "EARoot/EA8/EA2/EA2/EA1/EA17074.htm", "g": "4EBC09EF-5698-4DAD-BF82-3BA460D04DCF"}
+{"n": "# Customers Misaligned", "t": "Class0", "p": "0.8.2.2.1:51", "h": "EARoot/EA8/EA2/EA2/EA1/EA17075.htm", "g": "F699E264-BDD2-4109-9C40-E619E27BB69D"}
+{"n": "# Customers With SLA", "t": "Class0", "p": "0.8.2.2.1:52", "h": "EARoot/EA8/EA2/EA2/EA1/EA17076.htm", "g": "9AFC1CA3-D648-497D-B9A8-FF3FEE0C170B"}
+{"n": "# Data Records", "t": "Class0", "p": "0.8.2.2.1:53", "h": "EARoot/EA8/EA2/EA2/EA1/EA17077.htm", "g": "6AB04431-9DC5-4E18-9CB3-EA375CC845FC"}
+{"n": "# Data Records Misaligned", "t": "Class0", "p": "0.8.2.2.1:54", "h": "EARoot/EA8/EA2/EA2/EA1/EA17078.htm", "g": "21503F0F-8DC0-472E-8077-DA67E7559AB7"}
+{"n": "# Data Records Validated", "t": "Class0", "p": "0.8.2.2.1:55", "h": "EARoot/EA8/EA2/EA2/EA1/EA17079.htm", "g": "7D9B4B85-EF2C-4D22-9F79-326B4D3BE157"}
+{"n": "# Fulfillment Issues", "t": "Class0", "p": "0.8.2.2.1:56", "h": "EARoot/EA8/EA2/EA2/EA1/EA17080.htm", "g": "8629F9CF-A720-459B-BF8F-02B3578A56AB"}
+{"n": "# Hours Bill Processing Time, From Bill Cycle Close, To Bill Dispatch, Per Customer Bill", "t": "Class0", "p": "0.8.2.2.1:57", "h": "EARoot/EA8/EA2/EA2/EA1/EA17081.htm", "g": "2BAB8F54-447F-4A90-B1AF-E8C220F2C110"}
+{"n": "# Hours Billing Process Outage Time, Per Bill Processing Fault", "t": "Class0", "p": "0.8.2.2.1:58", "h": "EARoot/EA8/EA2/EA2/EA1/EA17082.htm", "g": "4532A711-F5F7-4DD6-88BA-9A54C6E5480E"}
+{"n": "# Hours Customer Payment Handling Time, From Receipt, To Posted In Billing, Per Customer Payment", "t": "Class0", "p": "0.8.2.2.1:59", "h": "EARoot/EA8/EA2/EA2/EA1/EA17083.htm", "g": "68A083E8-31D8-4FF2-B03B-7C587868C957"}
+{"n": "# Hours Fulfillment Issue Resolution Time, To Customer Acceptance", "t": "Class0", "p": "0.8.2.2.1:60", "h": "EARoot/EA8/EA2/EA2/EA1/EA17084.htm", "g": "A4EBCD97-1645-4033-B735-60D4D63C11B9"}
+{"n": "# Hours Fulfillment Issue Resolution Time, To Customer Acceptance, Per Fulfillment Issue", "t": "Class0", "p": "0.8.2.2.1:61", "h": "EARoot/EA8/EA2/EA2/EA1/EA17085.htm", "g": "D774D5F1-A50B-49C9-B22F-8C72B778AA3A"}
+{"n": "# Hours Installation Time Difference, Per Installation Committed", "t": "Class0", "p": "0.8.2.2.1:62", "h": "EARoot/EA8/EA2/EA2/EA1/EA17086.htm", "g": "84EF1CB7-4C3A-47CA-AD96-EC206101573E"}
+{"n": "# Hours Order Fulfillment Time, From Activation, To Bill Dispatch", "t": "Class0", "p": "0.8.2.2.1:63", "h": "EARoot/EA8/EA2/EA2/EA1/EA17087.htm", "g": "471F7212-984A-4624-8239-925621184E56"}
+{"n": "# Hours Order Fulfillment Time, From Bill Dispatch, To Cash Received", "t": "Class0", "p": "0.8.2.2.1:64", "h": "EARoot/EA8/EA2/EA2/EA1/EA17088.htm", "g": "4B281BB2-D9BE-4144-BA29-C1A85604EBF6"}
+{"n": "# Hours Order Fulfillment Time, From Bill Dispatch, To Cash Received, Per Customer Order", "t": "Class0", "p": "0.8.2.2.1:65", "h": "EARoot/EA8/EA2/EA2/EA1/EA17089.htm", "g": "93455C2F-98E9-429E-9013-8E2BB3190524"}
+{"n": "# Hours Order Fulfillment Time, From Ordering, To Acceptance", "t": "Class0", "p": "0.8.2.2.1:66", "h": "EARoot/EA8/EA2/EA2/EA1/EA17090.htm", "g": "1D306F35-6052-4F85-B84F-0BA679534F96"}
+{"n": "# Hours Pricing Change Activity Time", "t": "Class0", "p": "0.8.2.2.1:67", "h": "EARoot/EA8/EA2/EA2/EA1/EA17091.htm", "g": "FBC32400-37DE-4EAE-B5BE-411BFFB7DA11"}
+{"n": "# Hours Pricing Change Activity Time, Per Pricing Change", "t": "Class0", "p": "0.8.2.2.1:68", "h": "EARoot/EA8/EA2/EA2/EA1/EA17092.htm", "g": "F7358A21-68A1-49CA-9FB1-E9AB1A2F2494"}
+{"n": "# Hours Repair And Maintenance Time", "t": "Class0", "p": "0.8.2.2.1:69", "h": "EARoot/EA8/EA2/EA2/EA1/EA17093.htm", "g": "95F2FB66-A565-465F-AEC9-1C9F4700204A"}
+{"n": "# Hours Repair Time", "t": "Class0", "p": "0.8.2.2.1:70", "h": "EARoot/EA8/EA2/EA2/EA1/EA17094.htm", "g": "CE2F0D7B-8095-43C6-A8C6-D202AA084701"}
+{"n": "# Hours Service Problem Handling Time", "t": "Class0", "p": "0.8.2.2.1:71", "h": "EARoot/EA8/EA2/EA2/EA1/EA17095.htm", "g": "53E80C5B-4697-457D-9899-37DEAB480D32"}
+{"n": "# Hours Service Problem Handling Time, Per Service Problem Report Resolved", "t": "Class0", "p": "0.8.2.2.1:72", "h": "EARoot/EA8/EA2/EA2/EA1/EA17096.htm", "g": "57C24BE1-F61E-4E5D-8233-42D54F665AE6"}
+{"n": "# Installations", "t": "Class0", "p": "0.8.2.2.1:73", "h": "EARoot/EA8/EA2/EA2/EA1/EA17097.htm", "g": "0CAD6F6A-0DFB-4ED1-AADE-6E6AFFF643C7"}
+{"n": "# Installations Committed", "t": "Class0", "p": "0.8.2.2.1:74", "h": "EARoot/EA8/EA2/EA2/EA1/EA17098.htm", "g": "7A0AD5B4-B18F-4B62-A753-3B56966DC72B"}
+{"n": "# Minutes Customer Incident Handling Time", "t": "Class0", "p": "0.8.2.2.1:75", "h": "EARoot/EA8/EA2/EA2/EA1/EA17099.htm", "g": "45C72F12-C437-4514-91B4-616EB64A4FCD"}
+{"n": "# Minutes Customer Information Handling Time", "t": "Class0", "p": "0.8.2.2.1:76", "h": "EARoot/EA8/EA2/EA2/EA1/EA17100.htm", "g": "86578654-FDAF-4524-BDFF-21A0829BF21E"}
+{"n": "# Minutes Customer Information Handling Time, Per Customer Request", "t": "Class0", "p": "0.8.2.2.1:77", "h": "EARoot/EA8/EA2/EA2/EA1/EA17101.htm", "g": "31E72A02-9D5E-480A-94B6-91A20085635A"}
+{"n": "# Minutes Customer Problem Handling Time, To Service Restoration", "t": "Class0", "p": "0.8.2.2.1:78", "h": "EARoot/EA8/EA2/EA2/EA1/EA17102.htm", "g": "528BCCA8-7413-4CA8-9DEF-48154EA3D168"}
+{"n": "# Minutes Customer Problem Handling Time, To Service Restoration, Per Customer Problem Report Closed", "t": "Class0", "p": "0.8.2.2.1:79", "h": "EARoot/EA8/EA2/EA2/EA1/EA17103.htm", "g": "0AAA89DB-A1D6-4EBB-8BBB-BCC134351DFC"}
+{"n": "# Minutes Customer Request Handling Time, From Receipt, To Completion", "t": "Class0", "p": "0.8.2.2.1:80", "h": "EARoot/EA8/EA2/EA2/EA1/EA17104.htm", "g": "83988F8A-B1DB-4EC3-93C1-86FA53AED5E2"}
+{"n": "# Minutes Service Outage", "t": "Class0", "p": "0.8.2.2.1:81", "h": "EARoot/EA8/EA2/EA2/EA1/EA17105.htm", "g": "6EC0C31D-DC5C-4DC7-8F8C-2C4B29884A84"}
+{"n": "# Minutes Service Uptime Contracted", "t": "Class0", "p": "0.8.2.2.1:82", "h": "EARoot/EA8/EA2/EA2/EA1/EA17106.htm", "g": "DCA19DB7-BA6D-48CF-97C2-D4AD0CFDF220"}
+{"n": "# Minutes Service Uptime Contracted Delivered", "t": "Class0", "p": "0.8.2.2.1:83", "h": "EARoot/EA8/EA2/EA2/EA1/EA17107.htm", "g": "85B6555B-EA67-4A57-8EE3-D2AA3C6183FB"}
+{"n": "# Months Revenue Recovery Process Time", "t": "Class0", "p": "0.8.2.2.1:84", "h": "EARoot/EA8/EA2/EA2/EA1/EA17108.htm", "g": "A1F3943C-9ECD-4003-83CB-8E218BCE7554"}
+{"n": "# NOC FTEs Assigned To Problem Resolution", "t": "Class0", "p": "0.8.2.2.1:85", "h": "EARoot/EA8/EA2/EA2/EA1/EA17109.htm", "g": "F95E1F0F-240E-436F-93D6-6E24B21ED243"}
+{"n": "# Prepaid Customers", "t": "Class0", "p": "0.8.2.2.1:86", "h": "EARoot/EA8/EA2/EA2/EA1/EA17110.htm", "g": "26D5CAFD-576F-4E31-8792-47A89E5B688A"}
+{"n": "# Prepaid Customers Erroneously Identified As Postpaid", "t": "Class0", "p": "0.8.2.2.1:87", "h": "EARoot/EA8/EA2/EA2/EA1/EA17111.htm", "g": "3B43B2EF-2857-412C-91FF-229C43BE13B2"}
+{"n": "# Pricing Changes", "t": "Class0", "p": "0.8.2.2.1:88", "h": "EARoot/EA8/EA2/EA2/EA1/EA17112.htm", "g": "A8626275-E17C-43B5-BCAF-57B4647022B9"}
+{"n": "# Revenue Recovery Cases", "t": "Class0", "p": "0.8.2.2.1:89", "h": "EARoot/EA8/EA2/EA2/EA1/EA17113.htm", "g": "115BCC6F-A12C-4A75-AD3A-718C0758A0A3"}
+{"n": "# Seconds Customer Call Waiting Time", "t": "Class0", "p": "0.8.2.2.1:90", "h": "EARoot/EA8/EA2/EA2/EA1/EA17114.htm", "g": "4E2E47DD-486E-457D-B1DA-7712F68C47AE"}
+{"n": "# Service Problem Reports Resolved", "t": "Class0", "p": "0.8.2.2.1:91", "h": "EARoot/EA8/EA2/EA2/EA1/EA17115.htm", "g": "8BFFD306-7071-4477-BF13-985DC8876DC9"}
+{"n": "# Settlement Reports", "t": "Class0", "p": "0.8.2.2.1:92", "h": "EARoot/EA8/EA2/EA2/EA1/EA17116.htm", "g": "3B7B2025-4A21-4E23-905C-202BDE1EE049"}
+{"n": "# Settlement Reports Verified And Accepted", "t": "Class0", "p": "0.8.2.2.1:93", "h": "EARoot/EA8/EA2/EA2/EA1/EA17117.htm", "g": "65638463-D35A-4ED2-A4E0-5F47EBAFA4F9"}
+{"n": "# SLA Violations", "t": "Class0", "p": "0.8.2.2.1:94", "h": "EARoot/EA8/EA2/EA2/EA1/EA17118.htm", "g": "8FD1B1B4-3C50-47F6-9DB5-39D807F60B70"}
+{"n": "# SLA Violations, Per SLA", "t": "Class0", "p": "0.8.2.2.1:95", "h": "EARoot/EA8/EA2/EA2/EA1/EA17119.htm", "g": "078E64E8-99D1-4621-A058-3E679D5CCF3C"}
+{"n": "# SLAs", "t": "Class0", "p": "0.8.2.2.1:96", "h": "EARoot/EA8/EA2/EA2/EA1/EA17120.htm", "g": "EA9259A0-4F8A-4592-8367-489DDF652AC8"}
+{"n": "# Users", "t": "Class0", "p": "0.8.2.2.1:97", "h": "EARoot/EA8/EA2/EA2/EA1/EA17121.htm", "g": "E8C9FDFB-2956-4092-AD48-D31F133F4EEA"}
+{"n": "# XDRs", "t": "Class0", "p": "0.8.2.2.1:98", "h": "EARoot/EA8/EA2/EA2/EA1/EA17122.htm", "g": "5A3C30F2-5CE6-47B6-81FC-2993D008B1BD"}
+{"n": "# XDRs Falling Into Suspense", "t": "Class0", "p": "0.8.2.2.1:99", "h": "EARoot/EA8/EA2/EA2/EA1/EA17123.htm", "g": "D98D67B1-5C95-458E-A27A-60A0B3462DEF"}
+{"n": "# XDRs For Billing", "t": "Class0", "p": "0.8.2.2.1:100", "h": "EARoot/EA8/EA2/EA2/EA1/EA17124.htm", "g": "BF3721D0-6513-4084-9674-ABD6D8A98709"}
+{"n": "# XDRs From Network", "t": "Class0", "p": "0.8.2.2.1:101", "h": "EARoot/EA8/EA2/EA2/EA1/EA17125.htm", "g": "48D53646-BD41-459D-824E-7C56A1D327D0"}
+{"n": "# XDRs Recovered, Processed And Billed After Recycling", "t": "Class0", "p": "0.8.2.2.1:102", "h": "EARoot/EA8/EA2/EA2/EA1/EA17126.htm", "g": "91777537-D389-4963-92AB-DD828B14894C"}
+{"n": "$ Account Receivable Value", "t": "Class0", "p": "0.8.2.2.1:103", "h": "EARoot/EA8/EA2/EA2/EA1/EA17127.htm", "g": "A07725D7-CCEC-4546-BB90-60ECE4B2FD34"}
+{"n": "$ Assurance Cost, Per Service Problem Report Resolved", "t": "Class0", "p": "0.8.2.2.1:104", "h": "EARoot/EA8/EA2/EA2/EA1/EA17128.htm", "g": "206AD4C1-5E72-4D5C-8DAE-A8C2E932AAD2"}
+{"n": "$ Billing Charge Cost", "t": "Class0", "p": "0.8.2.2.1:105", "h": "EARoot/EA8/EA2/EA2/EA1/EA17129.htm", "g": "FD6FC9B5-1304-4D5E-9BB3-36F0DAF45540"}
+{"n": "$ Billing Charge Value From Previous Billing Cycle", "t": "Class0", "p": "0.8.2.2.1:106", "h": "EARoot/EA8/EA2/EA2/EA1/EA17130.htm", "g": "4CB42397-C99F-45B4-8BE8-34626B88557C"}
+{"n": "$ Billing Error Cost", "t": "Class0", "p": "0.8.2.2.1:107", "h": "EARoot/EA8/EA2/EA2/EA1/EA17131.htm", "g": "18A25AA3-0AF7-417E-A548-0E6F1AF54DC0"}
+{"n": "$ Billing Management Cost", "t": "Class0", "p": "0.8.2.2.1:108", "h": "EARoot/EA8/EA2/EA2/EA1/EA17132.htm", "g": "E3BEDF9A-3D1D-4EF2-8DB3-BC006EE8F0C1"}
+{"n": "$ Billing Management Cost, Per Customer Bill Produced", "t": "Class0", "p": "0.8.2.2.1:109", "h": "EARoot/EA8/EA2/EA2/EA1/EA17133.htm", "g": "79059840-CE61-46C3-BAC9-4B195B270984"}
+{"n": "$ Capex", "t": "Class0", "p": "0.8.2.2.1:110", "h": "EARoot/EA8/EA2/EA2/EA1/EA17134.htm", "g": "676B6FAF-0923-47C6-BC13-123B421EC848"}
+{"n": "$ Channel Cost", "t": "Class0", "p": "0.8.2.2.1:111", "h": "EARoot/EA8/EA2/EA2/EA1/EA17135.htm", "g": "87BAFEDB-CDEB-4990-B083-6A07B7AEAD18"}
+{"n": "$ Collectable Debt Written Off", "t": "Class0", "p": "0.8.2.2.1:112", "h": "EARoot/EA8/EA2/EA2/EA1/EA17136.htm", "g": "D43983EB-D633-41B6-81A3-623E27C6030D"}
+{"n": "$ Cost Leakage Detected And Not Recovered", "t": "Class0", "p": "0.8.2.2.1:113", "h": "EARoot/EA8/EA2/EA2/EA1/EA17137.htm", "g": "3BFDBE92-AA48-4133-B41B-8AA059FA296A"}
+{"n": "$ Customer Bill Value", "t": "Class0", "p": "0.8.2.2.1:114", "h": "EARoot/EA8/EA2/EA2/EA1/EA17138.htm", "g": "49ED1CCA-D242-4385-8A33-E268034E8116"}
+{"n": "$ Customer Bill Value Unpaid", "t": "Class0", "p": "0.8.2.2.1:115", "h": "EARoot/EA8/EA2/EA2/EA1/EA17139.htm", "g": "7B99E578-2405-4418-B757-FAF8B233EDFB"}
+{"n": "$ Fulfillment Cost, Per Installation", "t": "Class0", "p": "0.8.2.2.1:116", "h": "EARoot/EA8/EA2/EA2/EA1/EA17140.htm", "g": "1C790DC0-A906-492D-BA9D-8B139BBAA6BF"}
+{"n": "$ Operating Income", "t": "Class0", "p": "0.8.2.2.1:117", "h": "EARoot/EA8/EA2/EA2/EA1/EA17141.htm", "g": "F2B4D239-8866-4233-9A5B-53D36FB98426"}
+{"n": "$ Opex", "t": "Class0", "p": "0.8.2.2.1:118", "h": "EARoot/EA8/EA2/EA2/EA1/EA17142.htm", "g": "62C9820F-E0B4-4F21-B1B9-0B7A052DEBC9"}
+{"n": "$ Revenue", "t": "Class0", "p": "0.8.2.2.1:119", "h": "EARoot/EA8/EA2/EA2/EA1/EA17143.htm", "g": "A27733A1-CC50-47C9-826F-5B34293B4CF1"}
+{"n": "$ Revenue Billed", "t": "Class0", "p": "0.8.2.2.1:120", "h": "EARoot/EA8/EA2/EA2/EA1/EA17144.htm", "g": "FDA6322C-4D1D-4F60-80EE-5DEFAC2947E0"}
+{"n": "$ Revenue Collected", "t": "Class0", "p": "0.8.2.2.1:121", "h": "EARoot/EA8/EA2/EA2/EA1/EA17145.htm", "g": "9E355FA7-748D-4EB8-BAD0-283B8F742B9B"}
+{"n": "$ Revenue For Services Newly Fulfilled", "t": "Class0", "p": "0.8.2.2.1:122", "h": "EARoot/EA8/EA2/EA2/EA1/EA17146.htm", "g": "FC2A0519-FF11-4342-92EE-FE9BB312683D"}
+{"n": "$ Revenue Overbilled", "t": "Class0", "p": "0.8.2.2.1:123", "h": "EARoot/EA8/EA2/EA2/EA1/EA17147.htm", "g": "D463BC56-14A8-4248-B9A8-EBFA78FDCD0B"}
+{"n": "$ Revenue Recovered And Recoverable", "t": "Class0", "p": "0.8.2.2.1:124", "h": "EARoot/EA8/EA2/EA2/EA1/EA17148.htm", "g": "48035520-CBB3-4138-893F-D4A2893F2EAD"}
+{"n": "$ Revenue, By Bearer Service And Application Type", "t": "Class0", "p": "0.8.2.2.1:125", "h": "EARoot/EA8/EA2/EA2/EA1/EA17149.htm", "g": "BB8C83C1-4639-4F2D-A978-B920922B5D48"}
+{"n": "$ Revenue, For Data Services", "t": "Class0", "p": "0.8.2.2.1:126", "h": "EARoot/EA8/EA2/EA2/EA1/EA17150.htm", "g": "0B53B9D7-44EE-4F85-A1E0-29474FC9E824"}
+{"n": "$ Revenue, For Voice Services", "t": "Class0", "p": "0.8.2.2.1:127", "h": "EARoot/EA8/EA2/EA2/EA1/EA17151.htm", "g": "030AB6DF-6C7E-4EF3-BF4A-EC4B56DCA30C"}
+{"n": "$ Sales Cost", "t": "Class0", "p": "0.8.2.2.1:128", "h": "EARoot/EA8/EA2/EA2/EA1/EA17152.htm", "g": "1E091B14-5046-4CDD-BADD-D8FB723A0527"}
+{"n": "$ Sales Per Day", "t": "Class0", "p": "0.8.2.2.1:129", "h": "EARoot/EA8/EA2/EA2/EA1/EA17153.htm", "g": "991CE546-1456-44BF-9CA5-318DEC2A123B"}
+{"n": "% Activations Completed But Failed", "t": "Class0", "p": "0.8.2.2.1:130", "h": "EARoot/EA8/EA2/EA2/EA1/EA17154.htm", "g": "730856EA-0020-44D5-8244-C140215C7372"}
+{"n": "% Activations Completed By Committed Date", "t": "Class0", "p": "0.8.2.2.1:131", "h": "EARoot/EA8/EA2/EA2/EA1/EA17155.htm", "g": "BA49C23A-05B8-4D31-8368-810B0B04BA23"}
+{"n": "% Billing Charge Value From Previous Billing Cycle, Of Billing Charge Cost", "t": "Class0", "p": "0.8.2.2.1:132", "h": "EARoot/EA8/EA2/EA2/EA1/EA17156.htm", "g": "278395B1-DE75-4DBD-9B43-8A34900FC2B7"}
+{"n": "% Billing Error Cost, Of Revenue Billed", "t": "Class0", "p": "0.8.2.2.1:133", "h": "EARoot/EA8/EA2/EA2/EA1/EA17157.htm", "g": "AB855745-BC5C-4A2E-97EA-27D54EE13063"}
+{"n": "% Billing Management Cost, Of Revenue Billed", "t": "Class0", "p": "0.8.2.2.1:134", "h": "EARoot/EA8/EA2/EA2/EA1/EA17158.htm", "g": "E7CB0D28-557E-4E85-ACF9-2409BF787E90"}
+{"n": "% Collectable Debt Written Off, Of Revenue Collected", "t": "Class0", "p": "0.8.2.2.1:135", "h": "EARoot/EA8/EA2/EA2/EA1/EA17159.htm", "g": "1B3BC99B-5AC5-4B6F-94DC-675FDFB95F18"}
+{"n": "% Collections Cost, Of Revenue Billed", "t": "Class0", "p": "0.8.2.2.1:136", "h": "EARoot/EA8/EA2/EA2/EA1/EA17160.htm", "g": "BD04E5B4-52AA-435B-B566-F89022B709B4"}
+{"n": "% Cost Leakage Detected And Not Recovered, Of Revenue", "t": "Class0", "p": "0.8.2.2.1:137", "h": "EARoot/EA8/EA2/EA2/EA1/EA17161.htm", "g": "207EFD32-B7D2-49F3-BDBB-8360957B4085"}
+{"n": "% Cost Leakage Detected And Recovered, Of Revenue", "t": "Class0", "p": "0.8.2.2.1:138", "h": "EARoot/EA8/EA2/EA2/EA1/EA17162.htm", "g": "40E678B8-0680-46D1-B180-DBA3515FD2E2"}
+{"n": "% Customer Bill Value Unpaid", "t": "Class0", "p": "0.8.2.2.1:139", "h": "EARoot/EA8/EA2/EA2/EA1/EA17163.htm", "g": "83F004C6-882A-4CB6-9A41-9076D5F350AD"}
+{"n": "% Customer Bills Issued, By Delivery Type", "t": "Class0", "p": "0.8.2.2.1:140", "h": "EARoot/EA8/EA2/EA2/EA1/EA17164.htm", "g": "672930FB-47CA-48FB-A7DE-08ED7FCB994E"}
+{"n": "% Customer Bills Paid Electronically", "t": "Class0", "p": "0.8.2.2.1:141", "h": "EARoot/EA8/EA2/EA2/EA1/EA17165.htm", "g": "86939355-5D69-45D6-B61E-118BCEC298B9"}
+{"n": "% Customer Bills Requiring Adjustments Initiated By Customer", "t": "Class0", "p": "0.8.2.2.1:142", "h": "EARoot/EA8/EA2/EA2/EA1/EA17166.htm", "g": "F881FF25-722D-49B4-A803-52F781D15C17"}
+{"n": "% Customer Bills Requiring Adjustments Initiated Internally", "t": "Class0", "p": "0.8.2.2.1:143", "h": "EARoot/EA8/EA2/EA2/EA1/EA17167.htm", "g": "4A1C08D4-7F6F-49F4-ADBF-724FA6226272"}
+{"n": "% Customer Bills Requiring Manual Intervention", "t": "Class0", "p": "0.8.2.2.1:144", "h": "EARoot/EA8/EA2/EA2/EA1/EA17168.htm", "g": "27453A4C-28B5-4772-84F0-3155D36BA334"}
+{"n": "% Customer Bills Sent Electronically", "t": "Class0", "p": "0.8.2.2.1:145", "h": "EARoot/EA8/EA2/EA2/EA1/EA17169.htm", "g": "BBEE1462-77F7-49AF-9AB3-CDA530CF9C6D"}
+{"n": "% Customer Bills With Error", "t": "Class0", "p": "0.8.2.2.1:146", "h": "EARoot/EA8/EA2/EA2/EA1/EA17170.htm", "g": "58345487-33D3-48A5-A1C0-04CB6742489D"}
+{"n": "% Customer Calls Abandoned", "t": "Class0", "p": "0.8.2.2.1:147", "h": "EARoot/EA8/EA2/EA2/EA1/EA17171.htm", "g": "EB2A6EA7-260B-465E-A3AB-F878D1202D7D"}
+{"n": "% Customer Contacts, By Request Type", "t": "Class0", "p": "0.8.2.2.1:148", "h": "EARoot/EA8/EA2/EA2/EA1/EA17172.htm", "g": "D6AB784F-94B5-42C8-8F9C-242E4F41E0BB"}
+{"n": "% Customer Management Cost, Of Opex", "t": "Class0", "p": "0.8.2.2.1:149", "h": "EARoot/EA8/EA2/EA2/EA1/EA17173.htm", "g": "46C089B3-1558-4771-B8D8-F649FDF96F4D"}
+{"n": "% Customer Management Cost, Of Revenue", "t": "Class0", "p": "0.8.2.2.1:150", "h": "EARoot/EA8/EA2/EA2/EA1/EA17174.htm", "g": "1DB0BE22-A9AA-4C9D-A304-5F5DDB556661"}
+{"n": "% Customer Orders Failed Within 28 Days", "t": "Class0", "p": "0.8.2.2.1:151", "h": "EARoot/EA8/EA2/EA2/EA1/EA17175.htm", "g": "C73312A8-C434-4459-9B4A-9833D43D5DF2"}
+{"n": "% Customer Orders Requiring Rework", "t": "Class0", "p": "0.8.2.2.1:152", "h": "EARoot/EA8/EA2/EA2/EA1/EA17176.htm", "g": "396A9D98-4FDE-49EB-9E90-7CE51D1116E9"}
+{"n": "% Customer Orders With Pending Error Fixes", "t": "Class0", "p": "0.8.2.2.1:153", "h": "EARoot/EA8/EA2/EA2/EA1/EA17177.htm", "g": "11831DBA-9666-4F3A-AD5F-9C798DA5768A"}
+{"n": "% Customer Payments, By Payment Type", "t": "Class0", "p": "0.8.2.2.1:154", "h": "EARoot/EA8/EA2/EA2/EA1/EA17178.htm", "g": "5B241D24-C86A-498D-8B04-76BBD0F8315B"}
+{"n": "% Customer Problem Reports Actually Closed In Compliance With SLA", "t": "Class0", "p": "0.8.2.2.1:155", "h": "EARoot/EA8/EA2/EA2/EA1/EA17179.htm", "g": "B51C1D2A-A5AA-4EBB-9650-D69658DB6DF4"}
+{"n": "% Customer Problem Reports Closed, By Cause Type", "t": "Class0", "p": "0.8.2.2.1:156", "h": "EARoot/EA8/EA2/EA2/EA1/EA17180.htm", "g": "4B391592-4698-427E-A60B-B68BE9AB1DD7"}
+{"n": "% Customer Problem Reports From Customers", "t": "Class0", "p": "0.8.2.2.1:157", "h": "EARoot/EA8/EA2/EA2/EA1/EA17181.htm", "g": "9290F014-59C7-4F16-97B2-E4413A0C6DC4"}
+{"n": "% Customers Acquired", "t": "Class0", "p": "0.8.2.2.1:158", "h": "EARoot/EA8/EA2/EA2/EA1/EA17182.htm", "g": "63B8BCF1-83ED-4FEF-B684-285FDA56EA81"}
+{"n": "% Customers Included In Reconciliation", "t": "Class0", "p": "0.8.2.2.1:159", "h": "EARoot/EA8/EA2/EA2/EA1/EA17183.htm", "g": "0B102D84-9EA7-4CEB-951B-0FE26A888577"}
+{"n": "% Customers Lost", "t": "Class0", "p": "0.8.2.2.1:160", "h": "EARoot/EA8/EA2/EA2/EA1/EA17184.htm", "g": "DD166B56-A9FD-4970-8291-12792828D621"}
+{"n": "% Customers Misaligned", "t": "Class0", "p": "0.8.2.2.1:161", "h": "EARoot/EA8/EA2/EA2/EA1/EA17185.htm", "g": "B89D8855-8716-4B02-B403-323063E964D0"}
+{"n": "% Customers Who Are Promoters (Relational)", "t": "Class0", "p": "0.8.2.2.1:162", "h": "EARoot/EA8/EA2/EA2/EA1/EA17186.htm", "g": "58654B94-8800-43B0-919D-70AA72983227"}
+{"n": "% Customers Who Are Promoters (Transactional)", "t": "Class0", "p": "0.8.2.2.1:163", "h": "EARoot/EA8/EA2/EA2/EA1/EA17187.htm", "g": "B3C61C39-E50B-456E-901B-F4640D3A7B65"}
+{"n": "% Customers With SLA", "t": "Class0", "p": "0.8.2.2.1:164", "h": "EARoot/EA8/EA2/EA2/EA1/EA17188.htm", "g": "F4786719-AD5B-47ED-BB4E-8153DD1E54D3"}
+{"n": "% Data Records Misaligned", "t": "Class0", "p": "0.8.2.2.1:165", "h": "EARoot/EA8/EA2/EA2/EA1/EA17189.htm", "g": "AEEE4E7D-5690-423C-B563-AC977C082241"}
+{"n": "% Fulfillment Cost, Of Opex", "t": "Class0", "p": "0.8.2.2.1:166", "h": "EARoot/EA8/EA2/EA2/EA1/EA17190.htm", "g": "7C491756-870F-42D5-9759-CA23454F0BB8"}
+{"n": "% Fulfillment Cost, Of Revenue For Services Newly Fulfilled", "t": "Class0", "p": "0.8.2.2.1:167", "h": "EARoot/EA8/EA2/EA2/EA1/EA17191.htm", "g": "4150A788-DD08-47F6-8C13-BADEA59840FB"}
+{"n": "% Opex, Of Capex", "t": "Class0", "p": "0.8.2.2.1:168", "h": "EARoot/EA8/EA2/EA2/EA1/EA17192.htm", "g": "9803F25B-4396-4C7D-9F94-F302EF167023"}
+{"n": "% Opex, Of Revenue", "t": "Class0", "p": "0.8.2.2.1:169", "h": "EARoot/EA8/EA2/EA2/EA1/EA17193.htm", "g": "CEBC52DD-F756-489D-B74E-E3B528A72AAC"}
+{"n": "% Repair Time, Of Repair And Maintenance Time", "t": "Class0", "p": "0.8.2.2.1:170", "h": "EARoot/EA8/EA2/EA2/EA1/EA17194.htm", "g": "1F6C16C2-C8FE-4411-BC05-A45AEC68FD27"}
+{"n": "% Revenue Recoverable", "t": "Class0", "p": "0.8.2.2.1:171", "h": "EARoot/EA8/EA2/EA2/EA1/EA17195.htm", "g": "71E6167F-6336-478C-B228-2A38B0536FA0"}
+{"n": "% Revenue Recovered And Recoverable", "t": "Class0", "p": "0.8.2.2.1:172", "h": "EARoot/EA8/EA2/EA2/EA1/EA17196.htm", "g": "159F8D12-BA2F-4193-A0B7-F974B4B4838F"}
+{"n": "% Revenue, By Bearer Service And Application Type", "t": "Class0", "p": "0.8.2.2.1:173", "h": "EARoot/EA8/EA2/EA2/EA1/EA17197.htm", "g": "33E34EEF-F868-43AF-98A1-300EA2996856"}
+{"n": "% Revenue, By Channel Type", "t": "Class0", "p": "0.8.2.2.1:174", "h": "EARoot/EA8/EA2/EA2/EA1/EA17198.htm", "g": "5DFF9122-D44E-4727-9C95-45C10FC729E4"}
+{"n": "% Revenue, By Channel Type, Of Channel Cost", "t": "Class0", "p": "0.8.2.2.1:175", "h": "EARoot/EA8/EA2/EA2/EA1/EA17199.htm", "g": "C3424B23-D417-4DC9-A51C-9D7B9C0EC599"}
+{"n": "% Revenue, For Data Services", "t": "Class0", "p": "0.8.2.2.1:176", "h": "EARoot/EA8/EA2/EA2/EA1/EA17200.htm", "g": "A2D9FD74-F5BE-437A-B3CE-DF86A5053ADF"}
+{"n": "% Revenue, For Voice Services", "t": "Class0", "p": "0.8.2.2.1:177", "h": "EARoot/EA8/EA2/EA2/EA1/EA17201.htm", "g": "6AA2AA93-A632-4E45-BDB8-5865FEE88171"}
+{"n": "% Sales Cost, Of Revenue For Services Newly Fulfilled", "t": "Class0", "p": "0.8.2.2.1:178", "h": "EARoot/EA8/EA2/EA2/EA1/EA17202.htm", "g": "94A46F7C-0220-4650-B20C-70A5633F85EA"}
+{"n": "% Settlement Reports Verified And Accepted", "t": "Class0", "p": "0.8.2.2.1:179", "h": "EARoot/EA8/EA2/EA2/EA1/EA17203.htm", "g": "4535FEED-BEA6-49D4-813E-8A63E8D938D8"}
+{"n": "% Stranded And Unused Asset Cost, Of Revenue", "t": "Class0", "p": "0.8.2.2.1:180", "h": "EARoot/EA8/EA2/EA2/EA1/EA17204.htm", "g": "8E522A9E-C545-46F2-BC3B-E736BE92613E"}
+{"n": "% XDRs Falling Into Suspense", "t": "Class0", "p": "0.8.2.2.1:181", "h": "EARoot/EA8/EA2/EA2/EA1/EA17205.htm", "g": "1EB3A199-2BDD-413C-ADC8-14AC714FF297"}
+{"n": "% XDRs For Billing", "t": "Class0", "p": "0.8.2.2.1:182", "h": "EARoot/EA8/EA2/EA2/EA1/EA17206.htm", "g": "2E24A541-26E5-48BA-8FB3-00BAF31B7340"}
+{"n": "Average Hold Time", "t": "Class0", "p": "0.8.2.2.1:183", "h": "EARoot/EA8/EA2/EA2/EA1/EA17207.htm", "g": "E882DC48-9CA1-4910-94D0-D7A437748DF5"}
+{"n": "Average Revenue Per User (ARPU)", "t": "Class0", "p": "0.8.2.2.1:184", "h": "EARoot/EA8/EA2/EA2/EA1/EA17208.htm", "g": "AC9ECB50-4E92-42A3-8299-5821821782AF"}
+{"n": "First Call Resolution (FCR)", "t": "Class0", "p": "0.8.2.2.1:185", "h": "EARoot/EA8/EA2/EA2/EA1/EA17209.htm", "g": "FBE5ED28-858E-499F-B1E4-5204A54C6BD9"}
+{"n": "Mean Time To Repair (MTTR)", "t": "Class0", "p": "0.8.2.2.1:186", "h": "EARoot/EA8/EA2/EA2/EA1/EA17210.htm", "g": "DBC9D0CB-2DE9-496C-82CC-45E1CD9837A5"}
+{"n": "Profitability", "t": "Class0", "p": "0.8.2.2.1:187", "h": "EARoot/EA8/EA2/EA2/EA1/EA17211.htm", "g": "0857C7B8-3C2B-4F75-AAF9-E63A63416489"}
+{"n": "Revenue System Uptime", "t": "Class0", "p": "0.8.2.2.1:188", "h": "EARoot/EA8/EA2/EA2/EA1/EA17212.htm", "g": "3612D614-DD41-4DB8-BBA5-E0E0B3355BB0"}
+{"n": "BSS", "t": "Logical diagram0", "p": "0.8.2.2.2:1", "h": "EARoot/EA8/EA2/EA2/EA2/EA17213.htm", "g": "C0DCEBCA-2ECC-4D49-9866-DCF320672A25"}
+{"n": "# “Guess you like” recommendations", "t": "Class0", "p": "0.8.2.2.2:2", "h": "EARoot/EA8/EA2/EA2/EA2/EA17216.htm", "g": "42EE4B8E-BCEB-4B0A-A775-258FDECC4515"}
+{"n": "# Brand Mentions", "t": "Class0", "p": "0.8.2.2.2:3", "h": "EARoot/EA8/EA2/EA2/EA2/EA17217.htm", "g": "55187693-B0AE-4F7A-AB8A-F84B9DDDE5A9"}
+{"n": "# BSS Functions", "t": "Class0", "p": "0.8.2.2.2:4", "h": "EARoot/EA8/EA2/EA2/EA2/EA17218.htm", "g": "3895B88C-2CB3-4E61-9415-A40DA30FEF5A"}
+{"n": "# Conversions of “Guess you like”", "t": "Class0", "p": "0.8.2.2.2:5", "h": "EARoot/EA8/EA2/EA2/EA2/EA17219.htm", "g": "C22FD937-FA56-48B2-86EF-418A685DFD8E"}
+{"n": "# Cross-Sell Opportunities", "t": "Class0", "p": "0.8.2.2.2:6", "h": "EARoot/EA8/EA2/EA2/EA2/EA17220.htm", "g": "9A36E300-F228-4BA4-8844-546A9D949245"}
+{"n": "# Cross-Sell Opportunities Converted", "t": "Class0", "p": "0.8.2.2.2:7", "h": "EARoot/EA8/EA2/EA2/EA2/EA17221.htm", "g": "04574E3B-2298-42D5-B199-9695EDE29D50"}
+{"n": "# DIY services", "t": "Class0", "p": "0.8.2.2.2:8", "h": "EARoot/EA8/EA2/EA2/EA2/EA17222.htm", "g": "EBF0407D-8AAF-40C2-852E-ADD2DE941D82"}
+{"n": "# Mobile Platforms Supported", "t": "Class0", "p": "0.8.2.2.2:9", "h": "EARoot/EA8/EA2/EA2/EA2/EA17223.htm", "g": "E9E70D7D-D444-4FF5-A738-A360349C1DA3"}
+{"n": "# Mobile Sessions", "t": "Class0", "p": "0.8.2.2.2:10", "h": "EARoot/EA8/EA2/EA2/EA2/EA17224.htm", "g": "372593BE-DD1D-4D73-8C9B-568AB2F74749"}
+{"n": "# of BSS functions offered on mobile", "t": "Class0", "p": "0.8.2.2.2:11", "h": "EARoot/EA8/EA2/EA2/EA2/EA17225.htm", "g": "B8982C91-4FEE-4E45-8C27-F14E0ED47513"}
+{"n": "# Opportunities to Share", "t": "Class0", "p": "0.8.2.2.2:12", "h": "EARoot/EA8/EA2/EA2/EA2/EA17226.htm", "g": "143EC05D-EA6F-4E7D-88A4-45D13B3237DA"}
+{"n": "# Orders", "t": "Class0", "p": "0.8.2.2.2:13", "h": "EARoot/EA8/EA2/EA2/EA2/EA17227.htm", "g": "3EE14329-03AE-4B8B-9923-1E0C30526024"}
+{"n": "# Pages Visited", "t": "Class0", "p": "0.8.2.2.2:14", "h": "EARoot/EA8/EA2/EA2/EA2/EA17228.htm", "g": "037D60D1-AFEE-48C9-8428-26CF9E1EA283"}
+{"n": "# Positive Brand Mentions", "t": "Class0", "p": "0.8.2.2.2:15", "h": "EARoot/EA8/EA2/EA2/EA2/EA17229.htm", "g": "9AA27130-5EAA-4EBD-A0C6-602BF9BB4912"}
+{"n": "# Positive Product Mentions", "t": "Class0", "p": "0.8.2.2.2:16", "h": "EARoot/EA8/EA2/EA2/EA2/EA17230.htm", "g": "E6FA1A76-9AA7-49DF-97B8-EFE40FE3C34F"}
+{"n": "# Positive Service Mentions", "t": "Class0", "p": "0.8.2.2.2:17", "h": "EARoot/EA8/EA2/EA2/EA2/EA17231.htm", "g": "D921C3E1-02B8-49EF-89F3-77B2819C278C"}
+{"n": "# Product Mentions", "t": "Class0", "p": "0.8.2.2.2:18", "h": "EARoot/EA8/EA2/EA2/EA2/EA17232.htm", "g": "DCE92B52-D5F4-4440-A30D-3694C03D9979"}
+{"n": "# Seconds Average App Start-Up Time", "t": "Class0", "p": "0.8.2.2.2:19", "h": "EARoot/EA8/EA2/EA2/EA2/EA17233.htm", "g": "03425005-6EC4-4569-B4B2-31AA1A3AA8A4"}
+{"n": "# Seconds Average Web Page Response Time", "t": "Class0", "p": "0.8.2.2.2:20", "h": "EARoot/EA8/EA2/EA2/EA2/EA17234.htm", "g": "A59E9E34-889A-45CD-8434-17D54B5ECAE1"}
+{"n": "# Service Mentions", "t": "Class0", "p": "0.8.2.2.2:21", "h": "EARoot/EA8/EA2/EA2/EA2/EA17235.htm", "g": "7724B425-5759-4BE3-A0A9-1652FB5F84B9"}
+{"n": "# Services", "t": "Class0", "p": "0.8.2.2.2:22", "h": "EARoot/EA8/EA2/EA2/EA2/EA17236.htm", "g": "10DE0633-744C-4F32-9548-019152053817"}
+{"n": "# Sessions", "t": "Class0", "p": "0.8.2.2.2:23", "h": "EARoot/EA8/EA2/EA2/EA2/EA17237.htm", "g": "23CDD2BB-6CC2-447B-8B0D-2A1B777674CE"}
+{"n": "# Sessions", "t": "Class0", "p": "0.8.2.2.2:24", "h": "EARoot/EA8/EA2/EA2/EA2/EA17238.htm", "g": "D28B838E-A24F-44E0-A7AC-9D668AA15316"}
+{"n": "# Shares", "t": "Class0", "p": "0.8.2.2.2:25", "h": "EARoot/EA8/EA2/EA2/EA2/EA17239.htm", "g": "47CCB807-43D0-4AC9-8576-CFDC45BDB19B"}
+{"n": "# Support Channels", "t": "Class0", "p": "0.8.2.2.2:26", "h": "EARoot/EA8/EA2/EA2/EA2/EA17240.htm", "g": "DAC78AA7-2603-48FF-8CA6-6571784367EC"}
+{"n": "# Up-Sell Opportunities", "t": "Class0", "p": "0.8.2.2.2:27", "h": "EARoot/EA8/EA2/EA2/EA2/EA17241.htm", "g": "7ABC9461-9843-42D5-8B9E-660C9BB07A07"}
+{"n": "# Up-Sell Opportunities Converted", "t": "Class0", "p": "0.8.2.2.2:28", "h": "EARoot/EA8/EA2/EA2/EA2/EA17242.htm", "g": "BB73B6C2-003F-49D0-97FE-1216AEB67484"}
+{"n": "% Brand positive mentioned rate", "t": "Class0", "p": "0.8.2.2.2:29", "h": "EARoot/EA8/EA2/EA2/EA2/EA17243.htm", "g": "82D24564-314D-4B48-967F-4B327B4BBD9D"}
+{"n": "% Conversion rate of “Guess you like”", "t": "Class0", "p": "0.8.2.2.2:30", "h": "EARoot/EA8/EA2/EA2/EA2/EA17244.htm", "g": "CA3D15B0-90CC-4A66-B2D5-6B8FD069232B"}
+{"n": "% Cross-Sell Opportunities Converted", "t": "Class0", "p": "0.8.2.2.2:31", "h": "EARoot/EA8/EA2/EA2/EA2/EA17245.htm", "g": "36DFC582-F05F-405A-987C-E47C4A7EE671"}
+{"n": "% DIY service rate", "t": "Class0", "p": "0.8.2.2.2:32", "h": "EARoot/EA8/EA2/EA2/EA2/EA17246.htm", "g": "9870635A-38EF-4DD3-ABBE-82618FB3A03D"}
+{"n": "% Mobile Access", "t": "Class0", "p": "0.8.2.2.2:33", "h": "EARoot/EA8/EA2/EA2/EA2/EA17247.htm", "g": "1F723FD7-76FC-4AD5-B79C-36EF6C3511A6"}
+{"n": "% of BSS functions offered on mobile", "t": "Class0", "p": "0.8.2.2.2:34", "h": "EARoot/EA8/EA2/EA2/EA2/EA17248.htm", "g": "712BC44F-ED74-439B-BDAA-06C6C73E8EEC"}
+{"n": "% Product positive mentioned rate", "t": "Class0", "p": "0.8.2.2.2:35", "h": "EARoot/EA8/EA2/EA2/EA2/EA17249.htm", "g": "0BB6F809-1DB8-462A-A7EB-8237747C38F4"}
+{"n": "% Service positive mentioned rate", "t": "Class0", "p": "0.8.2.2.2:36", "h": "EARoot/EA8/EA2/EA2/EA2/EA17250.htm", "g": "13680EBF-76C7-48AC-A949-529FB8D600C2"}
+{"n": "% Social Share Rate", "t": "Class0", "p": "0.8.2.2.2:37", "h": "EARoot/EA8/EA2/EA2/EA2/EA17251.htm", "g": "45325169-C9EC-452F-AF44-A1B248908DE3"}
+{"n": "% Up-Sell Opportunities Converted", "t": "Class0", "p": "0.8.2.2.2:38", "h": "EARoot/EA8/EA2/EA2/EA2/EA17252.htm", "g": "476BE99F-1BF1-4704-B663-610336013635"}
+{"n": "Average order create time", "t": "Class0", "p": "0.8.2.2.2:39", "h": "EARoot/EA8/EA2/EA2/EA2/EA17253.htm", "g": "A7483AD2-E6BD-4276-9875-7DB0875032F9"}
+{"n": "Total Order Time", "t": "Class0", "p": "0.8.2.2.2:40", "h": "EARoot/EA8/EA2/EA2/EA2/EA17254.htm", "g": "EC57BE44-7DA9-484B-8635-B820610042A1"}
+{"n": "Total Response Time", "t": "Class0", "p": "0.8.2.2.2:41", "h": "EARoot/EA8/EA2/EA2/EA2/EA17255.htm", "g": "48660EE0-E490-48EE-A9D9-8DDD7E2B5920"}
+{"n": "Total Response Time First Page", "t": "Class0", "p": "0.8.2.2.2:42", "h": "EARoot/EA8/EA2/EA2/EA2/EA17256.htm", "g": "BD1F0820-B5AA-41C2-A489-857D7C8EB6F0"}
+{"n": "CAB", "t": "Logical diagram0", "p": "0.8.2.2.3:1", "h": "EARoot/EA8/EA2/EA2/EA3/EA17257.htm", "g": "B84F1EE1-8344-45FC-9197-14A01A62C495"}
+{"n": "# Customer Appointments Met", "t": "Class0", "p": "0.8.2.2.3:2", "h": "EARoot/EA8/EA2/EA2/EA3/EA17260.htm", "g": "87459DD9-A529-4E86-855C-93F518500BBF"}
+{"n": "# Customers Appointments", "t": "Class0", "p": "0.8.2.2.3:3", "h": "EARoot/EA8/EA2/EA2/EA3/EA17261.htm", "g": "A5BB3B4B-5DAC-4190-802B-39FC49ACFC50"}
+{"n": "# Minutes Average Time From Technician Shift Start to First Customer Appointment Arrival", "t": "Class0", "p": "0.8.2.2.3:4", "h": "EARoot/EA8/EA2/EA2/EA3/EA17262.htm", "g": "2AE4505A-6095-469C-A7AE-4AA11251CBA2"}
+{"n": "# Truck Rolls", "t": "Class0", "p": "0.8.2.2.3:5", "h": "EARoot/EA8/EA2/EA2/EA3/EA17263.htm", "g": "0A481A77-4B41-4CE4-BEF6-9CEF7B416159"}
+{"n": "# Truck Rolls Avoidable", "t": "Class0", "p": "0.8.2.2.3:6", "h": "EARoot/EA8/EA2/EA2/EA3/EA17264.htm", "g": "EEA72082-EF98-4642-98C5-0E567A5466A7"}
+{"n": "# Work Orders Evaluated For Accuracy", "t": "Class0", "p": "0.8.2.2.3:7", "h": "EARoot/EA8/EA2/EA2/EA3/EA17265.htm", "g": "60A638DC-B521-48F2-9A88-793FD5BF8539"}
+{"n": "# Work Orders Evaluated For Accuracy Passed", "t": "Class0", "p": "0.8.2.2.3:8", "h": "EARoot/EA8/EA2/EA2/EA3/EA17266.htm", "g": "F034AA96-B0E9-42F7-828E-04F5B67B35DE"}
+{"n": "% Customer Appointments Met", "t": "Class0", "p": "0.8.2.2.3:9", "h": "EARoot/EA8/EA2/EA2/EA3/EA17267.htm", "g": "1C77A12A-B3CA-4B10-AE75-3FBBA2627A37"}
+{"n": "% Truck Rolls Avoidable", "t": "Class0", "p": "0.8.2.2.3:10", "h": "EARoot/EA8/EA2/EA2/EA3/EA17268.htm", "g": "06077228-E2C9-4D5C-BB63-F4E7325D7A37"}
+{"n": "% Work Orders Evaluated For Accuracy Passed", "t": "Class0", "p": "0.8.2.2.3:11", "h": "EARoot/EA8/EA2/EA2/EA3/EA17269.htm", "g": "398EB663-EA58-41E9-B6CF-CA11E97E8ACA"}
+{"n": "Abandon rate", "t": "Class0", "p": "0.8.2.2.3:12", "h": "EARoot/EA8/EA2/EA2/EA3/EA17270.htm", "g": "99BB0081-593E-4C12-80B7-8C67DE525E8A"}
+{"n": "Average First Answer Hold Time", "t": "Class0", "p": "0.8.2.2.3:13", "h": "EARoot/EA8/EA2/EA2/EA3/EA17271.htm", "g": "4616D783-1E2D-42BE-B205-CCDB1C0975AD"}
+{"n": "Average handle time", "t": "Class0", "p": "0.8.2.2.3:14", "h": "EARoot/EA8/EA2/EA2/EA3/EA17272.htm", "g": "CFB37026-FD3E-48C8-A988-5F943F16F1F8"}
+{"n": "Average Time To Install", "t": "Class0", "p": "0.8.2.2.3:15", "h": "EARoot/EA8/EA2/EA2/EA3/EA17273.htm", "g": "77539FE3-1312-41C7-BF6E-F1317A151091"}
+{"n": "Average Time To Repair", "t": "Class0", "p": "0.8.2.2.3:16", "h": "EARoot/EA8/EA2/EA2/EA3/EA17274.htm", "g": "91EFCC2C-8441-4F0C-A55B-EC388F4D9671"}
+{"n": "Average Truck Idle Time", "t": "Class0", "p": "0.8.2.2.3:17", "h": "EARoot/EA8/EA2/EA2/EA3/EA17275.htm", "g": "83C3A4B1-6FD2-4CEB-BEC0-579E3C1C4100"}
+{"n": "Calls per headset hour", "t": "Class0", "p": "0.8.2.2.3:18", "h": "EARoot/EA8/EA2/EA2/EA3/EA17276.htm", "g": "9BABDD09-2A92-4FF1-AB21-E778E5734596"}
+{"n": "Customer Satisfaction Ratio", "t": "Class0", "p": "0.8.2.2.3:19", "h": "EARoot/EA8/EA2/EA2/EA3/EA17277.htm", "g": "A994A6EE-765D-45B3-AEE9-19415242877D"}
+{"n": "Customer Satisfaction Surveys collected", "t": "Class0", "p": "0.8.2.2.3:20", "h": "EARoot/EA8/EA2/EA2/EA3/EA17278.htm", "g": "4C3E673A-0170-49AA-91D9-7EC3F3B84648"}
+{"n": "Customer Satisfaction Surveys Passed", "t": "Class0", "p": "0.8.2.2.3:21", "h": "EARoot/EA8/EA2/EA2/EA3/EA17279.htm", "g": "1A6B13EA-AA98-49F0-9514-45595EB6800E"}
+{"n": "Days Out", "t": "Class0", "p": "0.8.2.2.3:22", "h": "EARoot/EA8/EA2/EA2/EA3/EA17280.htm", "g": "A15F1AAF-F75E-4473-B79F-186DB552E785"}
+{"n": "First Appointment Interval", "t": "Class0", "p": "0.8.2.2.3:23", "h": "EARoot/EA8/EA2/EA2/EA3/EA17281.htm", "g": "C2528F29-298A-43D8-8375-F8A57855BE27"}
+{"n": "First Call Resolution Rate", "t": "Class0", "p": "0.8.2.2.3:24", "h": "EARoot/EA8/EA2/EA2/EA3/EA17282.htm", "g": "D6124B81-BC6B-468B-B421-0C3E1FB11501"}
+{"n": "Number First Calls Resolved", "t": "Class0", "p": "0.8.2.2.3:25", "h": "EARoot/EA8/EA2/EA2/EA3/EA17283.htm", "g": "998BAA59-8992-4D4E-B7A5-3FE85936B69E"}
+{"n": "Number First Calls Taken", "t": "Class0", "p": "0.8.2.2.3:26", "h": "EARoot/EA8/EA2/EA2/EA3/EA17284.htm", "g": "7BC4F039-B1AE-406C-8651-7834DB3230A1"}
+{"n": "Number of active subscribers", "t": "Class0", "p": "0.8.2.2.3:27", "h": "EARoot/EA8/EA2/EA2/EA3/EA17285.htm", "g": "0E7D2B36-ADC9-4C93-B428-017C7C449CBD"}
+{"n": "Percent of Calls Answered ON Time", "t": "Class0", "p": "0.8.2.2.3:28", "h": "EARoot/EA8/EA2/EA2/EA3/EA17286.htm", "g": "53129DD8-89FB-44B3-A466-B410E3FEA467"}
+{"n": "Points Completed", "t": "Class0", "p": "0.8.2.2.3:29", "h": "EARoot/EA8/EA2/EA2/EA3/EA17287.htm", "g": "2E48C2BE-3014-410D-860C-4FAEECFCBEB9"}
+{"n": "Repeat Trouble Call Rate", "t": "Class0", "p": "0.8.2.2.3:30", "h": "EARoot/EA8/EA2/EA2/EA3/EA17288.htm", "g": "56B5C23C-CBD3-4A3E-A411-F75426EAFA87"}
+{"n": "Service on Install Rate", "t": "Class0", "p": "0.8.2.2.3:31", "h": "EARoot/EA8/EA2/EA2/EA3/EA17289.htm", "g": "F85ADBF4-F835-45D4-8C0B-A80A93FBECB8"}
+{"n": "Technicians on Duty", "t": "Class0", "p": "0.8.2.2.3:32", "h": "EARoot/EA8/EA2/EA2/EA3/EA17290.htm", "g": "2885B4B9-CD89-4713-9381-84F423D78E89"}
+{"n": "Total Abandoned calls", "t": "Class0", "p": "0.8.2.2.3:33", "h": "EARoot/EA8/EA2/EA2/EA3/EA17291.htm", "g": "49868660-0259-4189-BC82-81074B793787"}
+{"n": "Total Agent Calls Taken", "t": "Class0", "p": "0.8.2.2.3:34", "h": "EARoot/EA8/EA2/EA2/EA3/EA17292.htm", "g": "9E7BBD9A-B168-406A-98E5-BC079BD81822"}
+{"n": "Total Calls Answered On Time", "t": "Class0", "p": "0.8.2.2.3:35", "h": "EARoot/EA8/EA2/EA2/EA3/EA17293.htm", "g": "C979BDCE-BB56-4E8C-AA11-35EC86178484"}
+{"n": "Total First Answer Hold Time", "t": "Class0", "p": "0.8.2.2.3:36", "h": "EARoot/EA8/EA2/EA2/EA3/EA17294.htm", "g": "A4D6B527-C3C1-49DB-87E7-7A732561080D"}
+{"n": "Total Handle time", "t": "Class0", "p": "0.8.2.2.3:37", "h": "EARoot/EA8/EA2/EA2/EA3/EA17295.htm", "g": "2E1C9E7E-7C3F-4A4B-9784-40B5CF736BBA"}
+{"n": "Total Headset Hours", "t": "Class0", "p": "0.8.2.2.3:38", "h": "EARoot/EA8/EA2/EA2/EA3/EA17296.htm", "g": "74FBE985-F927-49B7-B08E-CC235ABAD2C9"}
+{"n": "Total inbound calls", "t": "Class0", "p": "0.8.2.2.3:39", "h": "EARoot/EA8/EA2/EA2/EA3/EA17297.htm", "g": "FCC0169D-85CB-47B6-8CA1-7ED9112526E4"}
+{"n": "Total Revenue Generated", "t": "Class0", "p": "0.8.2.2.3:40", "h": "EARoot/EA8/EA2/EA2/EA3/EA17298.htm", "g": "69C4F5C8-2B90-47AD-B335-B0084AC9EA23"}
+{"n": "Total Revenue Generating Calls", "t": "Class0", "p": "0.8.2.2.3:41", "h": "EARoot/EA8/EA2/EA2/EA3/EA17299.htm", "g": "419466C5-D700-454F-B43E-D31D975F8245"}
+{"n": "Total Time to install", "t": "Class0", "p": "0.8.2.2.3:42", "h": "EARoot/EA8/EA2/EA2/EA3/EA17300.htm", "g": "F0BBBD1D-DA2B-4475-8148-33F442DECE2A"}
+{"n": "Total Time to Repair", "t": "Class0", "p": "0.8.2.2.3:43", "h": "EARoot/EA8/EA2/EA2/EA3/EA17301.htm", "g": "E15378E8-E660-47D4-99D4-185885F7AA17"}
+{"n": "Total Truck Idle Time", "t": "Class0", "p": "0.8.2.2.3:44", "h": "EARoot/EA8/EA2/EA2/EA3/EA17302.htm", "g": "25204F46-5E3E-4D5A-A06E-8CD07989B8F7"}
+{"n": "Trouble Call Rate", "t": "Class0", "p": "0.8.2.2.3:45", "h": "EARoot/EA8/EA2/EA2/EA3/EA17303.htm", "g": "4A4D6603-4A64-4804-AB03-1277B6331914"}
+{"n": "Truck Inventory Inspection Pass rate", "t": "Class0", "p": "0.8.2.2.3:46", "h": "EARoot/EA8/EA2/EA2/EA3/EA17304.htm", "g": "93BD3F90-78ED-4576-B2BA-D63785B71D20"}
+{"n": "Truck Inventory Inspections", "t": "Class0", "p": "0.8.2.2.3:47", "h": "EARoot/EA8/EA2/EA2/EA3/EA17305.htm", "g": "FDF09860-76EB-4E6A-9F75-5091370FD9EA"}
+{"n": "Truck Inventory Inspections passed", "t": "Class0", "p": "0.8.2.2.3:48", "h": "EARoot/EA8/EA2/EA2/EA3/EA17306.htm", "g": "CDF799C6-F759-47FB-9F79-6D7A23C76780"}
+{"n": "Truck roll Repeat Trouble Calls Completed", "t": "Class0", "p": "0.8.2.2.3:49", "h": "EARoot/EA8/EA2/EA2/EA3/EA17307.htm", "g": "7381B4F8-FCD2-4129-8AED-1EE39C457133"}
+{"n": "Truck roll Service on Installs Completed", "t": "Class0", "p": "0.8.2.2.3:50", "h": "EARoot/EA8/EA2/EA2/EA3/EA17308.htm", "g": "E036B6E7-FCEF-44F1-A513-F1FBE8708175"}
+{"n": "Truck Roll Trouble Calls Completed", "t": "Class0", "p": "0.8.2.2.3:51", "h": "EARoot/EA8/EA2/EA2/EA3/EA17309.htm", "g": "26779F2C-4585-4D70-A08C-D17B5AE8A133"}
+{"n": "Truck Rolls Installs Completed", "t": "Class0", "p": "0.8.2.2.3:52", "h": "EARoot/EA8/EA2/EA2/EA3/EA17310.htm", "g": "ABDA4D43-757F-46A2-ACB2-503CEE0AC3E0"}

@@ -1,0 +1,476 @@
+{"n": "Information Framework", "t": "Logical diagram", "p": "0.4", "h": "EARoot/EA4/EA430.htm", "g": "597FB050-A03A-4aa6-B057-39A013EF4220"}
+{"n": "Aggregate Business Entities", "t": "Package", "p": "0.4.1", "h": "EARoot/EA4/EA1/EA448.htm", "g": "32669B2A-BF62-40c4-8592-3E5DD6BC6684"}
+{"n": "Business Entity", "t": "Package", "p": "0.4.2", "h": "EARoot/EA4/EA2/EA963.htm", "g": "C39AE1D1-580B-4267-B3C9-9A52D2BA5178"}
+{"n": "SID Blades", "t": "Package", "p": "0.4.3", "h": "EARoot/EA4/EA3/EA7364.htm", "g": "A050025C-CC21-43f5-A136-A496E2CC7A4D"}
+{"n": "Business Partner Domain", "t": "Package", "p": "0.4.1.1", "h": "EARoot/EA4/EA1/EA1/EA472.htm", "g": "38B73AD1-DB2D-487d-A316-94A3A33C5077"}
+{"n": "Customer Domain", "t": "Package", "p": "0.4.1.2", "h": "EARoot/EA4/EA1/EA2/EA509.htm", "g": "4BD732DB-E11B-4af5-A4C0-1B4552B83EAF"}
+{"n": "Enterprise Domain", "t": "Package", "p": "0.4.1.3", "h": "EARoot/EA4/EA1/EA3/EA539.htm", "g": "4FF724DD-6AC0-49e3-BE41-461D4D0FA593"}
+{"n": "Market Domain", "t": "Package", "p": "0.4.1.4", "h": "EARoot/EA4/EA1/EA4/EA591.htm", "g": "26123D23-1D47-48f7-8384-6372B6ECE8CD"}
+{"n": "Patterns Domain", "t": "Package", "p": "0.4.1.5", "h": "EARoot/EA4/EA1/EA5/EA628.htm", "g": "1D52B0F5-D96D-4f76-8735-FAC47472F12E"}
+{"n": "Product Domain", "t": "Package", "p": "0.4.1.6", "h": "EARoot/EA4/EA1/EA6/EA727.htm", "g": "22F3E2EA-380E-4a49-82CF-21BC3701E929"}
+{"n": "Resource Domain", "t": "Package", "p": "0.4.1.7", "h": "EARoot/EA4/EA1/EA7/EA771.htm", "g": "C46A2B7A-4BD4-49aa-80C8-3245A47B90C7"}
+{"n": "Sales Domain", "t": "Package", "p": "0.4.1.8", "h": "EARoot/EA4/EA1/EA8/EA850.htm", "g": "A52E4B1E-9009-4074-9DE1-31FE35DFCB48"}
+{"n": "Service Domain", "t": "Package", "p": "0.4.1.9", "h": "EARoot/EA4/EA1/EA9/EA870.htm", "g": "D36F081B-9098-4824-9A0C-4B10A7628BB3"}
+{"n": "Shared Domain", "t": "Package", "p": "0.4.1.10", "h": "EARoot/EA4/EA1/EA10/EA923.htm", "g": "8D9C5BA3-8F59-446d-B631-BE93CB297F1F"}
+{"n": "Business Partner Domain Structure", "t": "Logical diagram", "p": "0.4.1.1:2", "h": "EARoot/EA4/EA1/EA1/EA462.htm", "g": "ADE361D3-9555-4670-A0B2-596011232B2E"}
+{"n": "Applied Business Partner Billing Rate ABE", "t": "Class", "p": "0.4.1.1:7", "h": "EARoot/EA4/EA1/EA1/EA473.htm", "g": "386E3FB4-37A2-4f38-8E88-8AF4CC48FF4A"}
+{"n": "Business Partner Account ABE", "t": "Class", "p": "0.4.1.1:8", "h": "EARoot/EA4/EA1/EA1/EA474.htm", "g": "3E1125AE-0E16-420c-BE70-394CD10665A4"}
+{"n": "Business Partner Bill ABE", "t": "Class", "p": "0.4.1.1:9", "h": "EARoot/EA4/EA1/EA1/EA475.htm", "g": "815A987C-8340-4269-A46F-C428E51BB5F1"}
+{"n": "Business Partner Party Roles ABE", "t": "Class", "p": "0.4.1.1:10", "h": "EARoot/EA4/EA1/EA1/EA476.htm", "g": "A2664249-E3D5-4702-A676-9417928C252A"}
+{"n": "Business Partner Product Order ABE", "t": "Class", "p": "0.4.1.1:11", "h": "EARoot/EA4/EA1/EA1/EA477.htm", "g": "E7098006-FEEF-489f-8CD6-C760DABCA999"}
+{"n": "Party Bill Collection ABE", "t": "Class", "p": "0.4.1.1:12", "h": "EARoot/EA4/EA1/EA1/EA478.htm", "g": "784D8925-DC31-4f0f-9420-5BEED6A2EB61"}
+{"n": "Party Interaction ABE", "t": "Class", "p": "0.4.1.1:13", "h": "EARoot/EA4/EA1/EA1/EA479.htm", "g": "30AD87FF-6A57-4cde-9049-AB273E48B05F"}
+{"n": "Party Problem ABE", "t": "Class", "p": "0.4.1.1:14", "h": "EARoot/EA4/EA1/EA1/EA480.htm", "g": "96E65966-693C-4178-9B97-1E7663DFD813"}
+{"n": "Party Product Specification and Offering ABE", "t": "Class", "p": "0.4.1.1:15", "h": "EARoot/EA4/EA1/EA1/EA481.htm", "g": "1A33D2F0-7B44-4e9a-AA8C-A2F38267307B"}
+{"n": "Party Revenue & Settlement ABE", "t": "Class", "p": "0.4.1.1:16", "h": "EARoot/EA4/EA1/EA1/EA482.htm", "g": "E7905879-47D2-4066-A8AB-70BF6DF2519E"}
+{"n": "Party Service Level Agreement ABE", "t": "Class", "p": "0.4.1.1:17", "h": "EARoot/EA4/EA1/EA1/EA483.htm", "g": "1E0060FD-3D09-403e-AE91-C933D9BE021E"}
+{"n": "Party Statistic ABE", "t": "Class", "p": "0.4.1.1:18", "h": "EARoot/EA4/EA1/EA1/EA484.htm", "g": "0A74B407-1E3B-4a10-A298-B25689780B85"}
+{"n": "Party Strategy & Plan ABE", "t": "Class", "p": "0.4.1.1:19", "h": "EARoot/EA4/EA1/EA1/EA485.htm", "g": "0EF088BD-E296-48fd-973E-29509C799929"}
+{"n": "Party Bill ABE", "t": "Logical diagram", "p": "0.4.1.1:3", "h": "EARoot/EA4/EA1/EA1/EA464.htm", "g": "A349A4AA-DD58-47d9-B30E-E403D3E7B994"}
+{"n": "Party Bill Collection ABE", "t": "Custom diagram", "p": "0.4.1.1:4", "h": "EARoot/EA4/EA1/EA1/EA466.htm", "g": "BBFBC4E4-1B1A-4e5f-8A76-81828720991C"}
+{"n": "Party Product Specification and Offering ABE", "t": "Custom diagram", "p": "0.4.1.1:5", "h": "EARoot/EA4/EA1/EA1/EA468.htm", "g": "611E9191-AFAB-4e3e-90DE-F97C836D9D0C"}
+{"n": "Party Revenue & Settlement ABE", "t": "Custom diagram", "p": "0.4.1.1:6", "h": "EARoot/EA4/EA1/EA1/EA470.htm", "g": "EAB4C577-8D01-4159-96AA-B70DF2AD00B7"}
+{"n": "Party Role Product Offering ABE", "t": "Class", "p": "0.4.1.1:20", "h": "EARoot/EA4/EA1/EA1/EA486.htm", "g": "43059823-CECC-4ccc-A5BE-E7A4DF92CED8"}
+{"n": "Party Role Product Specification ABE", "t": "Class", "p": "0.4.1.1:21", "h": "EARoot/EA4/EA1/EA1/EA487.htm", "g": "777E5046-518C-4d49-9DCA-512C7A740BCB"}
+{"n": "Business Partner Dunning ABE", "t": "Class", "p": "0.4.1.1:22", "h": "EARoot/EA4/EA1/EA1/EA488.htm", "g": "D6E256D2-509B-4734-BC7A-CCE43252AE92"}
+{"n": "Business Partner Payment ABE", "t": "Class", "p": "0.4.1.1:23", "h": "EARoot/EA4/EA1/EA1/EA489.htm", "g": "26D5F85C-CEDE-4af2-8490-80FC234404EB"}
+{"n": "Party Billing Credit ABE", "t": "Class", "p": "0.4.1.1:24", "h": "EARoot/EA4/EA1/EA1/EA490.htm", "g": "B284242E-9C62-45f9-8B20-6A4C54F03790"}
+{"n": "Party Revenue Sharing ABE", "t": "Class", "p": "0.4.1.1:29", "h": "EARoot/EA4/EA1/EA1/EA495.htm", "g": "CF3DDEF1-1692-4a5b-8AD0-0FBB3F0DD143"}
+{"n": "Party Settlement ABE", "t": "Class", "p": "0.4.1.1:30", "h": "EARoot/EA4/EA1/EA1/EA496.htm", "g": "6A385A8B-206F-4c8f-9988-66C8D09D1237"}
+{"n": "Party Revenue Share ABE", "t": "Class", "p": "0.4.1.1:25", "h": "EARoot/EA4/EA1/EA1/EA491.htm", "g": "1AE4E5AA-9D64-48a8-AE95-F80EA69DF465"}
+{"n": "Party Revenue Share Reconciliation ABE", "t": "Class", "p": "0.4.1.1:26", "h": "EARoot/EA4/EA1/EA1/EA492.htm", "g": "8C612CE4-F423-485c-8013-9E41168D170E"}
+{"n": "Party Revenue Sharing Agreement ABE", "t": "Class", "p": "0.4.1.1:27", "h": "EARoot/EA4/EA1/EA1/EA493.htm", "g": "34E1E1A4-91C2-442c-AE65-848101E07BA8"}
+{"n": "Party Revenue Sharing Model ABE", "t": "Class", "p": "0.4.1.1:28", "h": "EARoot/EA4/EA1/EA1/EA494.htm", "g": "5AB8720E-917C-4983-8EDF-28CF16C59A24"}
+{"n": "Customer Domain Structure", "t": "ABE diagram", "p": "0.4.1.2:6", "h": "EARoot/EA4/EA1/EA2/EA507.htm", "g": "3063291F-283B-4a97-BD60-2F005E58CF1B"}
+{"n": "Applied Customer Billing Rate ABE", "t": "Class", "p": "0.4.1.2:7", "h": "EARoot/EA4/EA1/EA2/EA510.htm", "g": "5E9238C0-B97F-4f0d-AB60-2C1E98C48C29"}
+{"n": "Customer Bill ABE", "t": "Class", "p": "0.4.1.2:8", "h": "EARoot/EA4/EA1/EA2/EA511.htm", "g": "EB1B08F6-4F8C-4e54-91A1-BFE79DD3C85C"}
+{"n": "Customer Bill Collection ABE", "t": "Class", "p": "0.4.1.2:9", "h": "EARoot/EA4/EA1/EA2/EA512.htm", "g": "0E9C8115-F96D-4377-8DE2-107B6C250C1E"}
+{"n": "Customer Billing Account ABE", "t": "Class", "p": "0.4.1.2:10", "h": "EARoot/EA4/EA1/EA2/EA513.htm", "g": "06B78677-D822-49d7-84EA-6F1BD4BCA72B"}
+{"n": "Customer Billing Inquiry and Dispute ABE", "t": "Class", "p": "0.4.1.2:11", "h": "EARoot/EA4/EA1/EA2/EA514.htm", "g": "8F9F9BF8-1001-4b67-B329-BD9164FFAF3D"}
+{"n": "Customer Interaction ABE", "t": "Class", "p": "0.4.1.2:12", "h": "EARoot/EA4/EA1/EA2/EA515.htm", "g": "FF496DC7-9C6A-4058-80E8-7D826EED549C"}
+{"n": "Customer Party Roles ABE", "t": "Class", "p": "0.4.1.2:13", "h": "EARoot/EA4/EA1/EA2/EA516.htm", "g": "F29AA382-5272-41ad-9EE5-986FF9B66883"}
+{"n": "Customer Problem ABE", "t": "Class", "p": "0.4.1.2:14", "h": "EARoot/EA4/EA1/EA2/EA517.htm", "g": "ABE95021-953C-4023-B211-CEB133381B6E"}
+{"n": "Customer Product Order ABE", "t": "Class", "p": "0.4.1.2:15", "h": "EARoot/EA4/EA1/EA2/EA518.htm", "g": "A0A713D4-1B65-45ed-8817-E23BE5524CB4"}
+{"n": "Customer Service Level Agreement ABE", "t": "Class", "p": "0.4.1.2:16", "h": "EARoot/EA4/EA1/EA2/EA519.htm", "g": "5DAE6CEA-D17A-4192-970A-607137661FD3"}
+{"n": "Customer Statistic ABE", "t": "Class", "p": "0.4.1.2:17", "h": "EARoot/EA4/EA1/EA2/EA520.htm", "g": "A3BB4412-82B7-43d0-8936-BD9F2C8B0579"}
+{"n": "Sales Quote ABE", "t": "Class", "p": "0.4.1.2:18", "h": "EARoot/EA4/EA1/EA2/EA521.htm", "g": "F3856596-395F-46da-9432-E26E788FEC5A"}
+{"n": "Applied Customer Billing Rate ABE", "t": "Custom diagram", "p": "0.4.1.2:1", "h": "EARoot/EA4/EA1/EA2/EA497.htm", "g": "7E19BC42-2E46-48e0-BE85-21E2DF0C9A96"}
+{"n": "Customer Bill ABE", "t": "Custom diagram", "p": "0.4.1.2:2", "h": "EARoot/EA4/EA1/EA2/EA499.htm", "g": "978ECD34-911D-486b-A7A8-33CA6AD3FA61"}
+{"n": "Customer Bill Collection ABE", "t": "Custom diagram", "p": "0.4.1.2:3", "h": "EARoot/EA4/EA1/EA2/EA501.htm", "g": "2CD8D9C3-2266-4c17-86D8-5CCABD16C734"}
+{"n": "Customer Billing Account ABE", "t": "Custom diagram", "p": "0.4.1.2:4", "h": "EARoot/EA4/EA1/EA2/EA503.htm", "g": "39E928A9-9350-4683-968F-5F8B74BBED1C"}
+{"n": "Customer Billing Credit ABE", "t": "Class", "p": "0.4.1.2:19", "h": "EARoot/EA4/EA1/EA2/EA522.htm", "g": "9F00805C-9D82-4518-8DAB-DE32F88058D1"}
+{"n": "Customer Payment ABE", "t": "Class", "p": "0.4.1.2:20", "h": "EARoot/EA4/EA1/EA2/EA523.htm", "g": "A44D4657-7DFC-4ab9-B73F-817F4BDA1B21"}
+{"n": "Dunning ABE", "t": "Class", "p": "0.4.1.2:21", "h": "EARoot/EA4/EA1/EA2/EA524.htm", "g": "7528A808-4C9C-471f-A944-5413E380A52B"}
+{"n": "Applied Customer Billing Rate Spec ABE", "t": "Class", "p": "0.4.1.2:22", "h": "EARoot/EA4/EA1/EA2/EA525.htm", "g": "927D6B3E-74F0-40db-9BA6-5EF6CA67445F"}
+{"n": "Customer Billing Statistic ABE", "t": "Class", "p": "0.4.1.2:25", "h": "EARoot/EA4/EA1/EA2/EA528.htm", "g": "6488EB31-D620-433e-B65C-79C9E91441D7"}
+{"n": "Exposed API", "t": "ProvidedInterface", "p": "0.4.1.2:23", "h": "EARoot/EA4/EA1/EA2/EA526.htm", "g": "8ABEF956-121B-437b-99B3-5D61BDDF5BC2"}
+{"n": "Exposed API", "t": "ProvidedInterface", "p": "0.4.1.2:24", "h": "EARoot/EA4/EA1/EA2/EA527.htm", "g": "65D57A7A-BDE9-41c7-99A2-804A62A63DC6"}
+{"n": "Enterprise Domain Structure", "t": "Logical diagram", "p": "0.4.1.3:2", "h": "EARoot/EA4/EA1/EA3/EA531.htm", "g": "D0A513B3-3B42-4a2f-9CC3-AF3A5431FDFC"}
+{"n": "Enterprise Effectiveness ABE", "t": "Class", "p": "0.4.1.3:6", "h": "EARoot/EA4/EA1/EA3/EA540.htm", "g": "4FDBF9BC-99A9-440e-8F72-9F7A3BF724F2"}
+{"n": "Enterprise Party Roles ABE", "t": "Class", "p": "0.4.1.3:7", "h": "EARoot/EA4/EA1/EA3/EA541.htm", "g": "ADE66634-40A0-41f2-89E4-90C17B202B48"}
+{"n": "Enterprise Risk ABE", "t": "Class", "p": "0.4.1.3:8", "h": "EARoot/EA4/EA1/EA3/EA542.htm", "g": "66EADDD2-20C4-45b8-8E0C-C2DA04D93F7F"}
+{"n": "Finance ABE", "t": "Class", "p": "0.4.1.3:9", "h": "EARoot/EA4/EA1/EA3/EA543.htm", "g": "1E30C6D9-CD4D-4ebc-BE29-8852771906B2"}
+{"n": "Workforce ABE", "t": "Class", "p": "0.4.1.3:10", "h": "EARoot/EA4/EA1/EA3/EA544.htm", "g": "4FCCCE7D-5F5B-403f-8439-9D3BD994C21D"}
+{"n": "Enterprise Effectiveness ABE", "t": "Custom diagram", "p": "0.4.1.3:3", "h": "EARoot/EA4/EA1/EA3/EA533.htm", "g": "1A7C163A-F6F8-434b-A608-5FB39264FBCC"}
+{"n": "Enterprise Risk ABE", "t": "Custom diagram", "p": "0.4.1.3:4", "h": "EARoot/EA4/EA1/EA3/EA535.htm", "g": "19427E01-B363-4393-BA40-3E0041E72928"}
+{"n": "Workforce ABE", "t": "Custom diagram", "p": "0.4.1.3:5", "h": "EARoot/EA4/EA1/EA3/EA537.htm", "g": "5AC7DC41-81EF-4ddc-8ECA-815632B5803B"}
+{"n": "Budget ABE", "t": "Class", "p": "0.4.1.3:11", "h": "EARoot/EA4/EA1/EA3/EA545.htm", "g": "0E67ACDD-9B53-444b-AFA3-FE6A5F3C458D"}
+{"n": "Financial Account ABE", "t": "Class", "p": "0.4.1.3:12", "h": "EARoot/EA4/EA1/EA3/EA546.htm", "g": "DBB17407-AF46-4b97-80D6-D7A87EE204F9"}
+{"n": "Employee Pay ABE", "t": "Class", "p": "0.4.1.3:20", "h": "EARoot/EA4/EA1/EA3/EA554.htm", "g": "D9F717F5-235F-4c97-ADF6-BFBC0369DE45"}
+{"n": "Work Specification ABE", "t": "Class", "p": "0.4.1.3:21", "h": "EARoot/EA4/EA1/EA3/EA555.htm", "g": "F5351E7F-3676-4e1f-B63B-7A714556B429"}
+{"n": "Workforce Resource ABE", "t": "Class", "p": "0.4.1.3:22", "h": "EARoot/EA4/EA1/EA3/EA556.htm", "g": "2C50084F-9242-481e-9A0B-02414EC535DF"}
+{"n": "Workforce Schedule ABE", "t": "Class", "p": "0.4.1.3:23", "h": "EARoot/EA4/EA1/EA3/EA557.htm", "g": "80682079-CA77-43c7-8FBF-633774722089"}
+{"n": "Business Objective ABE", "t": "Class", "p": "0.4.1.3:24", "h": "EARoot/EA4/EA1/EA3/EA558.htm", "g": "EC58ABAD-6BFD-4f65-A2BB-A2FB9D5F0C34"}
+{"n": "Enterprise Security ABE", "t": "Class", "p": "0.4.1.3:26", "h": "EARoot/EA4/EA1/EA3/EA560.htm", "g": "842240AF-BFCD-451a-9513-9BA9BF9358AA"}
+{"n": "Revenue Assurance ABE", "t": "Class", "p": "0.4.1.3:27", "h": "EARoot/EA4/EA1/EA3/EA561.htm", "g": "2F228F20-4642-4d1e-AA78-12EAF9313FEB"}
+{"n": "Work ABE", "t": "Class", "p": "0.4.1.3:13", "h": "EARoot/EA4/EA1/EA3/EA547.htm", "g": "4BE452AF-CF00-4509-804B-2F22D7A9C0BE"}
+{"n": "RA Action_Response ABE", "t": "Class", "p": "0.4.1.3:14", "h": "EARoot/EA4/EA1/EA3/EA548.htm", "g": "F8715A08-EDB4-44f9-A860-8CFBEE946224"}
+{"n": "RA Assessment ABE", "t": "Class", "p": "0.4.1.3:15", "h": "EARoot/EA4/EA1/EA3/EA549.htm", "g": "C78A5F30-0C34-46e4-BAE4-6F060DF442E0"}
+{"n": "RA Control ABE", "t": "Class", "p": "0.4.1.3:16", "h": "EARoot/EA4/EA1/EA3/EA550.htm", "g": "832A798B-5A31-4420-A99C-D91FCB80F31C"}
+{"n": "RA Key Performance Indicator ABE", "t": "Class", "p": "0.4.1.3:17", "h": "EARoot/EA4/EA1/EA3/EA551.htm", "g": "38A949C2-6DFF-4fea-B106-C5F1B375CDBA"}
+{"n": "RA Trouble Ticket ABE", "t": "Class", "p": "0.4.1.3:18", "h": "EARoot/EA4/EA1/EA3/EA552.htm", "g": "638EB235-F863-4878-BD49-7B93B26FCD4D"}
+{"n": "RA Violation ABE", "t": "Class", "p": "0.4.1.3:19", "h": "EARoot/EA4/EA1/EA3/EA553.htm", "g": "85E94011-21E5-447c-A3FC-1683CE8BB66E"}
+{"n": "Security Entity ABE", "t": "Class", "p": "0.4.1.3:30", "h": "EARoot/EA4/EA1/EA3/EA564.htm", "g": "7A8B91D4-1952-4e8e-AE4F-5D25FB455042"}
+{"n": "Security Event ABE", "t": "Class", "p": "0.4.1.3:31", "h": "EARoot/EA4/EA1/EA3/EA565.htm", "g": "FE482030-453E-4f13-900F-8E7759FE0386"}
+{"n": "Security Incident ABE", "t": "Class", "p": "0.4.1.3:32", "h": "EARoot/EA4/EA1/EA3/EA566.htm", "g": "991451D4-5E5A-49f0-9FEA-2D8F1A7FE1EC"}
+{"n": "Security Threat ABE", "t": "Class", "p": "0.4.1.3:33", "h": "EARoot/EA4/EA1/EA3/EA567.htm", "g": "6FE37770-072D-4bc9-BD75-37D19EDF911C"}
+{"n": "Security Vulnerability ABE", "t": "Class", "p": "0.4.1.3:34", "h": "EARoot/EA4/EA1/EA3/EA568.htm", "g": "FA9ACE51-D5EC-4007-87E8-DA5A252AD201"}
+{"n": "Accounts Payable ABE", "t": "Class", "p": "0.4.1.3:38", "h": "EARoot/EA4/EA1/EA3/EA572.htm", "g": "B7081661-6655-40a1-984C-FB71262E2570"}
+{"n": "Accounts Receivable ABE", "t": "Class", "p": "0.4.1.3:39", "h": "EARoot/EA4/EA1/EA3/EA573.htm", "g": "A17B936D-FDBC-4d70-954F-8C9723C61F7E"}
+{"n": "Asset ABE", "t": "Class", "p": "0.4.1.3:40", "h": "EARoot/EA4/EA1/EA3/EA574.htm", "g": "A5424EE7-C4DF-4bc6-A303-3D70D6DF7183"}
+{"n": "Debt ABE", "t": "Class", "p": "0.4.1.3:41", "h": "EARoot/EA4/EA1/EA3/EA575.htm", "g": "11296609-C4FF-4f28-B958-9C0EF6D72193"}
+{"n": "EBITDA ABE", "t": "Class", "p": "0.4.1.3:42", "h": "EARoot/EA4/EA1/EA3/EA576.htm", "g": "A59A0883-560A-4269-8DD8-3027D2966752"}
+{"n": "Expense ABE", "t": "Class", "p": "0.4.1.3:43", "h": "EARoot/EA4/EA1/EA3/EA577.htm", "g": "51873A85-D595-4da8-9363-0E6E238E8948"}
+{"n": "Income ABE", "t": "Class", "p": "0.4.1.3:44", "h": "EARoot/EA4/EA1/EA3/EA578.htm", "g": "9A71F1FD-B86A-41eb-944D-46B433970153"}
+{"n": "Revenue ABE", "t": "Class", "p": "0.4.1.3:45", "h": "EARoot/EA4/EA1/EA3/EA579.htm", "g": "E3DB1F87-940B-4b0a-B1BD-05E6C67FF4A3"}
+{"n": "Security Threat Technique ABE", "t": "Class", "p": "0.4.1.3:28", "h": "EARoot/EA4/EA1/EA3/EA562.htm", "g": "F4202404-3192-4ede-8BF6-B9F1C284B07F"}
+{"n": "Security Threat Tool ABE", "t": "Class", "p": "0.4.1.3:29", "h": "EARoot/EA4/EA1/EA3/EA563.htm", "g": "017C5396-7BE8-46ef-99A3-8DF1C4032889"}
+{"n": "Security Vulnerability Score ABE", "t": "Class", "p": "0.4.1.3:35", "h": "EARoot/EA4/EA1/EA3/EA569.htm", "g": "92946E4E-A9A6-421c-99B8-1FD48A3FA456"}
+{"n": "Security Vulnerability Scoring Definition ABE", "t": "Class", "p": "0.4.1.3:36", "h": "EARoot/EA4/EA1/EA3/EA570.htm", "g": "5E01EF59-7184-4e6e-8F10-C44E4E78A745"}
+{"n": "Sales Revenue ABE", "t": "Class", "p": "0.4.1.3:37", "h": "EARoot/EA4/EA1/EA3/EA571.htm", "g": "D4A3B4A8-A0C7-419a-A4A1-DE0B52D34C88"}
+{"n": "Net Income ABE", "t": "Class", "p": "0.4.1.3:46", "h": "EARoot/EA4/EA1/EA3/EA580.htm", "g": "C567EC34-2B34-45e3-85F6-25E25AB6009C"}
+{"n": "Operating Income ABE", "t": "Class", "p": "0.4.1.3:47", "h": "EARoot/EA4/EA1/EA3/EA581.htm", "g": "AC2DB4C2-59FA-4e1c-B2D3-16DACB0E89CB"}
+{"n": "Capex ABE", "t": "Class", "p": "0.4.1.3:48", "h": "EARoot/EA4/EA1/EA3/EA582.htm", "g": "4883B6FC-2FDB-45fb-B0B3-AC69FF86CD9C"}
+{"n": "Cost ABE", "t": "Class", "p": "0.4.1.3:49", "h": "EARoot/EA4/EA1/EA3/EA583.htm", "g": "0D6AE94E-1B71-4c98-9FF5-D2743D384B5D"}
+{"n": "Opex ABE", "t": "Class", "p": "0.4.1.3:50", "h": "EARoot/EA4/EA1/EA3/EA584.htm", "g": "B0C8F609-62C0-4ce5-ADD6-F8BEFDC92958"}
+{"n": "Security Vulnerability Scoring Algorithm ABE", "t": "Class", "p": "0.4.1.3:25", "h": "EARoot/EA4/EA1/EA3/EA559.htm", "g": "F673D8AC-36E4-4651-B50B-BB12314B234B"}
+{"n": "Market Domain Structure", "t": "ABE diagram", "p": "0.4.1.4:3", "h": "EARoot/EA4/EA1/EA4/EA589.htm", "g": "463EEAA4-8847-4a50-A6F0-C1685ADB1F79"}
+{"n": "Competitor ABE", "t": "Class", "p": "0.4.1.4:4", "h": "EARoot/EA4/EA1/EA4/EA592.htm", "g": "C5B0A70C-1F11-4d65-981E-31DB0EA7EF93"}
+{"n": "Market Forecast ABE", "t": "Class", "p": "0.4.1.4:5", "h": "EARoot/EA4/EA1/EA4/EA593.htm", "g": "C65E0F59-BE4E-4297-8D05-5F9BD3A0297D"}
+{"n": "Market Party Roles ABE", "t": "Class", "p": "0.4.1.4:6", "h": "EARoot/EA4/EA1/EA4/EA594.htm", "g": "1F04AA3A-38E7-4973-A68D-63395789EAD5"}
+{"n": "Market Segment ABE", "t": "Class", "p": "0.4.1.4:7", "h": "EARoot/EA4/EA1/EA4/EA595.htm", "g": "B8A4BC19-9611-4a2d-A108-0ADAC612C302"}
+{"n": "Market Statistics ABE", "t": "Class", "p": "0.4.1.4:8", "h": "EARoot/EA4/EA1/EA4/EA596.htm", "g": "8C0BB4C6-DAF5-4cb3-93BC-AA5388D60ED9"}
+{"n": "Market Strategy Plan ABE", "t": "Class", "p": "0.4.1.4:9", "h": "EARoot/EA4/EA1/EA4/EA597.htm", "g": "55C6C201-12B6-490c-9116-397CAA94ECC9"}
+{"n": "Marketing Campaign ABE", "t": "Class", "p": "0.4.1.4:10", "h": "EARoot/EA4/EA1/EA4/EA598.htm", "g": "49187642-7DEE-4199-9B90-D13D30CDEB24"}
+{"n": "Marketing Performance ABE", "t": "Class", "p": "0.4.1.4:11", "h": "EARoot/EA4/EA1/EA4/EA599.htm", "g": "93AA1826-F21D-48c3-BEEE-E74A357D6C71"}
+{"n": "Competitor ABE", "t": "Custom diagram", "p": "0.4.1.4:1", "h": "EARoot/EA4/EA1/EA4/EA585.htm", "g": "84CAAFAA-1069-45de-A1D2-C747E2602D26"}
+{"n": "Competitor Intelligence ABE", "t": "Class", "p": "0.4.1.4:12", "h": "EARoot/EA4/EA1/EA4/EA600.htm", "g": "2B508923-04E4-41f9-8932-A35BD9704EB8"}
+{"n": "Competitor Product Correlation ABE", "t": "Class", "p": "0.4.1.4:13", "h": "EARoot/EA4/EA1/EA4/EA601.htm", "g": "23D25760-214D-46e0-855E-A7B381AF2279"}
+{"n": "Common Domain Structure", "t": "ABE diagram", "p": "0.4.1.5:5", "h": "EARoot/EA4/EA1/EA5/EA610.htm", "g": "C710152E-97D8-48a9-87BF-0F7BE4A13238"}
+{"n": "Patterns Domain Level 1", "t": "Logical diagram", "p": "0.4.1.5:7", "h": "EARoot/EA4/EA1/EA5/EA614.htm", "g": "09BCEDA7-52E7-45e7-9A21-4F972D8A5249"}
+{"n": "Patterns Domain Level 1 & 2", "t": "Logical diagram", "p": "0.4.1.5:8", "h": "EARoot/EA4/EA1/EA5/EA616.htm", "g": "4ECF5F11-ADA2-4aa0-9633-55CC6AC61896"}
+{"n": "Account ABE", "t": "Class", "p": "0.4.1.5:14", "h": "EARoot/EA4/EA1/EA5/EA629.htm", "g": "4D1E88F2-9858-4384-9815-DF44791530BC"}
+{"n": "Agreement ABE", "t": "Class", "p": "0.4.1.5:15", "h": "EARoot/EA4/EA1/EA5/EA630.htm", "g": "B78D9E1B-414C-42f1-84A2-52CAD660BB1D"}
+{"n": "Anomaly ABE", "t": "Class", "p": "0.4.1.5:16", "h": "EARoot/EA4/EA1/EA5/EA631.htm", "g": "582FD1A9-8BA3-4512-BDD0-96C09DD5A2AB"}
+{"n": "Base Types ABE", "t": "Class", "p": "0.4.1.5:17", "h": "EARoot/EA4/EA1/EA5/EA632.htm", "g": "FF2DFA00-EDB5-416d-8162-9D26651C94E1"}
+{"n": "Business Interaction ABE", "t": "Class", "p": "0.4.1.5:18", "h": "EARoot/EA4/EA1/EA5/EA633.htm", "g": "F3A9D765-F113-4b43-B568-4E5E250B5887"}
+{"n": "Capacity ABE", "t": "Class", "p": "0.4.1.5:19", "h": "EARoot/EA4/EA1/EA5/EA634.htm", "g": "F2EFAB25-07B6-4f13-ACD6-8605B0663F5D"}
+{"n": "Catalog ABE", "t": "Class", "p": "0.4.1.5:20", "h": "EARoot/EA4/EA1/EA5/EA635.htm", "g": "E7C5C8E6-78DA-4760-87A1-9A839AF0AC68"}
+{"n": "Closed Loop ABE", "t": "Class", "p": "0.4.1.5:21", "h": "EARoot/EA4/EA1/EA5/EA636.htm", "g": "C6FDEE1E-B8CE-460e-9370-554520360ED2"}
+{"n": "Configuration and Profiling ABE", "t": "Class", "p": "0.4.1.5:22", "h": "EARoot/EA4/EA1/EA5/EA637.htm", "g": "A2D2F734-242F-4420-8D24-5E2F719DA385"}
+{"n": "Event ABE", "t": "Class", "p": "0.4.1.5:23", "h": "EARoot/EA4/EA1/EA5/EA638.htm", "g": "E5529A17-2169-4fc0-9714-B6830FF03566"}
+{"n": "Goal ABE", "t": "Class", "p": "0.4.1.5:24", "h": "EARoot/EA4/EA1/EA5/EA639.htm", "g": "4977F2DE-7C41-4200-B699-FD0CC2D280E7"}
+{"n": "Intent ABE", "t": "Class", "p": "0.4.1.5:25", "h": "EARoot/EA4/EA1/EA5/EA640.htm", "g": "B0159F3C-90E2-4b06-9470-C4A0539F0FF6"}
+{"n": "Maturity Model ABE", "t": "Class", "p": "0.4.1.5:26", "h": "EARoot/EA4/EA1/EA5/EA641.htm", "g": "238A9EE1-C1B1-4721-8D3C-D611A03D6EF8"}
+{"n": "Metric ABE", "t": "Class", "p": "0.4.1.5:27", "h": "EARoot/EA4/EA1/EA5/EA642.htm", "g": "E5590015-0AC8-4ff8-B7AC-A35C24781B84"}
+{"n": "Performance ABE", "t": "Class", "p": "0.4.1.5:28", "h": "EARoot/EA4/EA1/EA5/EA643.htm", "g": "2390BFFF-2C71-4923-A1F7-B6845B52112E"}
+{"n": "Policy ABE", "t": "Class", "p": "0.4.1.5:29", "h": "EARoot/EA4/EA1/EA5/EA644.htm", "g": "62F67A23-B951-49c2-9D69-AF445B95BB8F"}
+{"n": "Project ABE", "t": "Class", "p": "0.4.1.5:30", "h": "EARoot/EA4/EA1/EA5/EA645.htm", "g": "FECEAA02-0E7B-45a6-8E8D-2012ACD3D12A"}
+{"n": "Root Business Entities ABE", "t": "Class", "p": "0.4.1.5:31", "h": "EARoot/EA4/EA1/EA5/EA646.htm", "g": "6C1E4FDF-0669-402e-8099-BB63469E1053"}
+{"n": "Segmentation ABE", "t": "Class", "p": "0.4.1.5:32", "h": "EARoot/EA4/EA1/EA5/EA647.htm", "g": "13E6A6D8-8E6B-4ee6-A9B5-468BAB697C0B"}
+{"n": "Test ABE", "t": "Class", "p": "0.4.1.5:33", "h": "EARoot/EA4/EA1/EA5/EA648.htm", "g": "241564CD-EB23-4870-8250-2D8C20082B91"}
+{"n": "Topology ABE", "t": "Class", "p": "0.4.1.5:34", "h": "EARoot/EA4/EA1/EA5/EA649.htm", "g": "F5C30E00-FA2B-4359-91F2-AE8CA08E0DC0"}
+{"n": "Trouble or Problem ABE", "t": "Class", "p": "0.4.1.5:35", "h": "EARoot/EA4/EA1/EA5/EA650.htm", "g": "82B52ECB-62BA-452f-8E17-070B8B442152"}
+{"n": "Trouble Ticket ABE", "t": "Class", "p": "0.4.1.5:36", "h": "EARoot/EA4/EA1/EA5/EA651.htm", "g": "9A868F00-FBB8-4630-8080-3B6E3149A285"}
+{"n": "Usage ABE", "t": "Class", "p": "0.4.1.5:37", "h": "EARoot/EA4/EA1/EA5/EA652.htm", "g": "D4F98C8E-6A14-4858-A8BA-E6BD934E079D"}
+{"n": "Workflow ABE", "t": "Class", "p": "0.4.1.5:38", "h": "EARoot/EA4/EA1/EA5/EA653.htm", "g": "50B7ED6B-34B0-4ac8-9AAE-529D3D871E18"}
+{"n": "Agreement ABE", "t": "Custom diagram", "p": "0.4.1.5:1", "h": "EARoot/EA4/EA1/EA5/EA602.htm", "g": "69E998ED-3CE4-4fa5-B4B9-5BD610EADA33"}
+{"n": "Base Types ABE", "t": "Custom diagram", "p": "0.4.1.5:2", "h": "EARoot/EA4/EA1/EA5/EA604.htm", "g": "3EEC4AE1-A1AA-4c81-BB5F-28E9B4DB282D"}
+{"n": "Business Interaction ABE", "t": "Custom diagram", "p": "0.4.1.5:3", "h": "EARoot/EA4/EA1/EA5/EA606.htm", "g": "A6F81D85-979D-41ba-8820-A9B44F47C8D1"}
+{"n": "Catalog ABE", "t": "Custom diagram", "p": "0.4.1.5:4", "h": "EARoot/EA4/EA1/EA5/EA608.htm", "g": "92E7019B-34CC-48df-928C-EB474EE02AD8"}
+{"n": "Metric ABE", "t": "Custom diagram", "p": "0.4.1.5:6", "h": "EARoot/EA4/EA1/EA5/EA612.htm", "g": "D6D64D36-8FBB-4c60-B494-DAB905E0300C"}
+{"n": "Performance ABE", "t": "Custom diagram", "p": "0.4.1.5:9", "h": "EARoot/EA4/EA1/EA5/EA618.htm", "g": "BA428622-2E23-4a99-8E7C-E7F4C549090B"}
+{"n": "Policy ABE", "t": "Custom diagram", "p": "0.4.1.5:10", "h": "EARoot/EA4/EA1/EA5/EA620.htm", "g": "A9868DD6-951C-4a6d-8B6F-72DDC335423B"}
+{"n": "Project ABE", "t": "Custom diagram", "p": "0.4.1.5:11", "h": "EARoot/EA4/EA1/EA5/EA622.htm", "g": "D3C91215-FD4C-4524-AFB0-C7600D90523F"}
+{"n": "Root Business Entities ABE", "t": "Custom diagram", "p": "0.4.1.5:12", "h": "EARoot/EA4/EA1/EA5/EA624.htm", "g": "C917418A-2801-4072-A032-246B32C750D8"}
+{"n": "Usage ABE", "t": "Logical diagram", "p": "0.4.1.5:13", "h": "EARoot/EA4/EA1/EA5/EA626.htm", "g": "31930E41-E464-471c-ABFD-1413B6884B1F"}
+{"n": "Performance Category ABE", "t": "Class", "p": "0.4.1.5:40", "h": "EARoot/EA4/EA1/EA5/EA655.htm", "g": "4A03455A-DBCB-4125-8C99-A130921AB334"}
+{"n": "Performance Monitoring ABE", "t": "Class", "p": "0.4.1.5:41", "h": "EARoot/EA4/EA1/EA5/EA656.htm", "g": "719836A8-188C-412a-990C-E2CD484B436D"}
+{"n": "Performance Specification ABE", "t": "Class", "p": "0.4.1.5:42", "h": "EARoot/EA4/EA1/EA5/EA657.htm", "g": "D8C6A64B-0426-45af-8AB7-C49E43DAD238"}
+{"n": "Performance Threshold ABE", "t": "Class", "p": "0.4.1.5:43", "h": "EARoot/EA4/EA1/EA5/EA658.htm", "g": "4B05A3A7-5084-4dea-A27F-67A51F23E50E"}
+{"n": "Policy Application ABE", "t": "Class", "p": "0.4.1.5:47", "h": "EARoot/EA4/EA1/EA5/EA662.htm", "g": "A3D332B3-3061-429b-BC37-870EFB14BBEE"}
+{"n": "Policy Framework ABE", "t": "Class", "p": "0.4.1.5:48", "h": "EARoot/EA4/EA1/EA5/EA663.htm", "g": "A0AD8594-7421-4b83-BDBA-60FE52AFC78D"}
+{"n": "Policy Framework Spec ABE", "t": "Class", "p": "0.4.1.5:49", "h": "EARoot/EA4/EA1/EA5/EA664.htm", "g": "D8EA2ADD-90A7-4ed8-962D-89180A0540E8"}
+{"n": "Policy Management ABE", "t": "Class", "p": "0.4.1.5:50", "h": "EARoot/EA4/EA1/EA5/EA665.htm", "g": "CA0BAC54-E894-4449-A3AB-1C1D9062FE32"}
+{"n": "Policy Structure ABE", "t": "Class", "p": "0.4.1.5:51", "h": "EARoot/EA4/EA1/EA5/EA666.htm", "g": "88F3A1E3-6894-4b66-84B8-1D5E1C81123E"}
+{"n": "Association ABE", "t": "Class", "p": "0.4.1.5:52", "h": "EARoot/EA4/EA1/EA5/EA667.htm", "g": "7E0D4207-9705-4d02-AD5D-B4F244EFCB9B"}
+{"n": "Characteristic ABE", "t": "Class", "p": "0.4.1.5:53", "h": "EARoot/EA4/EA1/EA5/EA668.htm", "g": "06684DED-C188-47b8-907E-52F8067A93AE"}
+{"n": "Entity Identification ABE", "t": "Class", "p": "0.4.1.5:54", "h": "EARoot/EA4/EA1/EA5/EA669.htm", "g": "4066B945-95D4-4d5a-A070-FC4A62404499"}
+{"n": "Entity Specification Action ABE", "t": "Class", "p": "0.4.1.5:55", "h": "EARoot/EA4/EA1/EA5/EA670.htm", "g": "7BBE8F32-C0CC-46cd-A522-17460FA4A66E"}
+{"n": "External System Capability ABE", "t": "Class", "p": "0.4.1.5:56", "h": "EARoot/EA4/EA1/EA5/EA671.htm", "g": "900A32B6-68EC-422b-B2B9-265697737D2B"}
+{"n": "Root Entity Group ABE", "t": "Class", "p": "0.4.1.5:57", "h": "EARoot/EA4/EA1/EA5/EA672.htm", "g": "7A1C5C2A-5095-4962-A332-56A23EE9CDAE"}
+{"n": "Commitment ABE", "t": "Class", "p": "0.4.1.5:69", "h": "EARoot/EA4/EA1/EA5/EA684.htm", "g": "3E3F45EA-296B-4ce4-BA69-A32E2CA7A18A"}
+{"n": "IP Detail Record ABE", "t": "Class", "p": "0.4.1.5:70", "h": "EARoot/EA4/EA1/EA5/EA685.htm", "g": "9F88E9E1-EC8E-426c-81D4-0655CA703B12"}
+{"n": "Usage Entity ABE", "t": "Class", "p": "0.4.1.5:71", "h": "EARoot/EA4/EA1/EA5/EA686.htm", "g": "A60A7481-21C0-4e19-86BC-757B8FD19F5C"}
+{"n": "Usage Specification ABE", "t": "Class", "p": "0.4.1.5:72", "h": "EARoot/EA4/EA1/EA5/EA687.htm", "g": "49C2B67C-822E-4e0a-BCC7-80F91B8C5351"}
+{"n": "Metric Definition ABE", "t": "Class", "p": "0.4.1.5:74", "h": "EARoot/EA4/EA1/EA5/EA689.htm", "g": "E35EBC45-5F4A-44b7-B691-F1AA54779DF9"}
+{"n": "Metric Definition Measure ABE", "t": "Class", "p": "0.4.1.5:75", "h": "EARoot/EA4/EA1/EA5/EA690.htm", "g": "71FEAD72-BD95-4017-8CB0-0CF0F3926C0F"}
+{"n": "Metric Measure ABE", "t": "Class", "p": "0.4.1.5:76", "h": "EARoot/EA4/EA1/EA5/EA691.htm", "g": "384B6284-0E2A-443c-8AE4-90D67B06B4D1"}
+{"n": "Metric Monitoring ABE", "t": "Class", "p": "0.4.1.5:77", "h": "EARoot/EA4/EA1/EA5/EA692.htm", "g": "4E95422E-8F3F-48fc-9286-6A90BC0F0420"}
+{"n": "Entity Catalog ABE", "t": "Class", "p": "0.4.1.5:78", "h": "EARoot/EA4/EA1/EA5/EA693.htm", "g": "AD699382-6BD8-4265-BE0C-BA8C53DE2EC0"}
+{"n": "Disputed Amount ABE", "t": "Class", "p": "0.4.1.5:79", "h": "EARoot/EA4/EA1/EA5/EA694.htm", "g": "BD6ED576-CDB8-41ce-9E36-EDFDA30BF26C"}
+{"n": "Activity ABE", "t": "Class", "p": "0.4.1.5:80", "h": "EARoot/EA4/EA1/EA5/EA695.htm", "g": "3A18985E-A604-482f-9294-357693518BDC"}
+{"n": "Project Calendar ABE", "t": "Class", "p": "0.4.1.5:81", "h": "EARoot/EA4/EA1/EA5/EA696.htm", "g": "4E9892BB-6AA2-4770-B93F-6FF17E882643"}
+{"n": "Project Element ABE", "t": "Class", "p": "0.4.1.5:82", "h": "EARoot/EA4/EA1/EA5/EA697.htm", "g": "16C82570-AFFD-45e4-B8AB-02006204A4BF"}
+{"n": "Project Resource ABE", "t": "Class", "p": "0.4.1.5:83", "h": "EARoot/EA4/EA1/EA5/EA698.htm", "g": "5D514273-FBFF-444f-ADB8-BBEDD4EFBBF5"}
+{"n": "Project Role ABE", "t": "Class", "p": "0.4.1.5:84", "h": "EARoot/EA4/EA1/EA5/EA699.htm", "g": "CB493C54-4659-43fc-852D-72A58DF6C4EE"}
+{"n": "Project Scope ABE", "t": "Class", "p": "0.4.1.5:85", "h": "EARoot/EA4/EA1/EA5/EA700.htm", "g": "F25CDF56-2C80-4eff-9942-301BD58895D8"}
+{"n": "SCRUM Blade ABE", "t": "Class", "p": "0.4.1.5:86", "h": "EARoot/EA4/EA1/EA5/EA701.htm", "g": "D40BB37F-CD5F-441e-BC9F-1E8A3D6290C2"}
+{"n": "Work Breakdown Structure ABE", "t": "Class", "p": "0.4.1.5:87", "h": "EARoot/EA4/EA1/EA5/EA702.htm", "g": "37789A06-587A-4996-B47F-F76CCCF1B064"}
+{"n": "Work Order ABE", "t": "Class", "p": "0.4.1.5:88", "h": "EARoot/EA4/EA1/EA5/EA703.htm", "g": "E05E43D3-A414-4863-98C2-70DD934C6243"}
+{"n": "Base Types Example ABE", "t": "Class", "p": "0.4.1.5:89", "h": "EARoot/EA4/EA1/EA5/EA704.htm", "g": "2A48494A-E6FF-49cc-ACE9-26706EA04D1A"}
+{"n": "Anomaly Entity ABE", "t": "Class", "p": "0.4.1.5:90", "h": "EARoot/EA4/EA1/EA5/EA705.htm", "g": "10A204C7-6406-46f5-8F15-79EB895EA4E5"}
+{"n": "Anomaly Management Plan ABE", "t": "Class", "p": "0.4.1.5:91", "h": "EARoot/EA4/EA1/EA5/EA706.htm", "g": "758379F1-1176-4c4d-AEC6-210760061595"}
+{"n": "Anomaly Specification ABE", "t": "Class", "p": "0.4.1.5:92", "h": "EARoot/EA4/EA1/EA5/EA707.htm", "g": "7B721F54-D566-4e27-A998-C6BDACEADB02"}
+{"n": "Business Rule ABE", "t": "Class", "p": "0.4.1.5:93", "h": "EARoot/EA4/EA1/EA5/EA708.htm", "g": "6667F22F-324E-4140-9269-C8A58840199C"}
+{"n": "Maturity Model Entity ABE", "t": "Class", "p": "0.4.1.5:94", "h": "EARoot/EA4/EA1/EA5/EA709.htm", "g": "4983D9EF-3C81-4b8a-9969-7ECF2DCEB13E"}
+{"n": "Maturity Model Specification ABE", "t": "Class", "p": "0.4.1.5:95", "h": "EARoot/EA4/EA1/EA5/EA710.htm", "g": "1D9A8E39-04DF-4f10-985E-3A2352CB7EE8"}
+{"n": "Characteristic Pricing ABE", "t": "Class", "p": "0.4.1.5:39", "h": "EARoot/EA4/EA1/EA5/EA654.htm", "g": "0976687D-EFFA-4722-891F-9DFB23C300FB"}
+{"n": "Performance Category Specification ABE", "t": "Class", "p": "0.4.1.5:44", "h": "EARoot/EA4/EA1/EA5/EA659.htm", "g": "2B5B5104-B96B-40b6-8D5A-2262192BB2F5"}
+{"n": "Metric Collection ABE", "t": "Class", "p": "0.4.1.5:45", "h": "EARoot/EA4/EA1/EA5/EA660.htm", "g": "FFE0D345-BE52-45f4-8676-3BA3BF3D4720"}
+{"n": "Metric Job ABE", "t": "Class", "p": "0.4.1.5:46", "h": "EARoot/EA4/EA1/EA5/EA661.htm", "g": "2DA1A16C-94FC-44b8-9113-EFD9DE7077DF"}
+{"n": "Performance Collection ABE", "t": "Class", "p": "0.4.1.5:58", "h": "EARoot/EA4/EA1/EA5/EA673.htm", "g": "BA7BFF57-F062-4286-A869-868FF2508C4C"}
+{"n": "Performance Production ABE", "t": "Class", "p": "0.4.1.5:59", "h": "EARoot/EA4/EA1/EA5/EA674.htm", "g": "F3D78ACE-7383-40ff-9D34-FCD1C961FCBD"}
+{"n": "Metric Definition Measure Threshold ABE", "t": "Class", "p": "0.4.1.5:60", "h": "EARoot/EA4/EA1/EA5/EA675.htm", "g": "D3ED1855-CC3B-4b1b-9FCA-220DB07C3778"}
+{"n": "Policy Action ABE", "t": "Class", "p": "0.4.1.5:61", "h": "EARoot/EA4/EA1/EA5/EA676.htm", "g": "13D103BD-9A4D-4df6-8835-2D052C0EC8BD"}
+{"n": "Policy Condition ABE", "t": "Class", "p": "0.4.1.5:62", "h": "EARoot/EA4/EA1/EA5/EA677.htm", "g": "596B4D1D-9013-4c96-8E59-9309C1282527"}
+{"n": "Policy Event ABE", "t": "Class", "p": "0.4.1.5:63", "h": "EARoot/EA4/EA1/EA5/EA678.htm", "g": "52D33EAF-EECF-4360-95BC-1E1E4FF0CEE1"}
+{"n": "Policy Statement ABE", "t": "Class", "p": "0.4.1.5:64", "h": "EARoot/EA4/EA1/EA5/EA679.htm", "g": "AEBCB073-7023-4dfe-A4C0-27AA88E06381"}
+{"n": "Policy Value ABE", "t": "Class", "p": "0.4.1.5:65", "h": "EARoot/EA4/EA1/EA5/EA680.htm", "g": "4E135EEE-BFBF-4fac-991F-51EDB0E1C5FE"}
+{"n": "Policy Variable ABE", "t": "Class", "p": "0.4.1.5:66", "h": "EARoot/EA4/EA1/EA5/EA681.htm", "g": "F34A0AA8-F290-4c80-85BF-8B5276FED3D7"}
+{"n": "Policy Server ABE", "t": "Class", "p": "0.4.1.5:67", "h": "EARoot/EA4/EA1/EA5/EA682.htm", "g": "E18D0A1D-1830-439a-9DCB-58AE8651FA7C"}
+{"n": "PolicyApp Role ABE", "t": "Class", "p": "0.4.1.5:68", "h": "EARoot/EA4/EA1/EA5/EA683.htm", "g": "4FF6C262-3962-4d27-875F-86B6576F4566"}
+{"n": "Metric Definition Dimension ABE", "t": "Class", "p": "0.4.1.5:73", "h": "EARoot/EA4/EA1/EA5/EA688.htm", "g": "2D455C56-0520-45ae-BC06-7E851635D2CD"}
+{"n": "Product Domain", "t": "Logical diagram", "p": "0.4.1.6:5", "h": "EARoot/EA4/EA1/EA6/EA719.htm", "g": "1FBCDD4F-4FA2-4ac5-9A9B-F3A25F148B4D"}
+{"n": "Loyalty ABE", "t": "Class", "p": "0.4.1.6:9", "h": "EARoot/EA4/EA1/EA6/EA728.htm", "g": "E66FC506-CF18-4b02-867F-81FB68FE1366"}
+{"n": "Product and Offering Instance ABE", "t": "Class", "p": "0.4.1.6:10", "h": "EARoot/EA4/EA1/EA6/EA729.htm", "g": "53984FA1-3A0D-4d7c-B1BE-B55249FEA43D"}
+{"n": "Product Capacity ABE", "t": "Class", "p": "0.4.1.6:11", "h": "EARoot/EA4/EA1/EA6/EA730.htm", "g": "44E2EFD4-C2E9-4d5f-B815-51186B843864"}
+{"n": "Product Configuration ABE", "t": "Class", "p": "0.4.1.6:12", "h": "EARoot/EA4/EA1/EA6/EA731.htm", "g": "7A6C87C8-1E34-4671-B778-521970CA12BB"}
+{"n": "Product Offering Specification ABE", "t": "Class", "p": "0.4.1.6:13", "h": "EARoot/EA4/EA1/EA6/EA732.htm", "g": "7A337173-26A3-4972-8FE8-D1A0BE8694CA"}
+{"n": "Product Order ABE", "t": "Class", "p": "0.4.1.6:14", "h": "EARoot/EA4/EA1/EA6/EA733.htm", "g": "8577D2C1-A369-4777-BD31-5780C84AD9B8"}
+{"n": "Product Party Roles ABE", "t": "Class", "p": "0.4.1.6:15", "h": "EARoot/EA4/EA1/EA6/EA734.htm", "g": "F7B5146E-C864-4a47-868F-57750C36AC88"}
+{"n": "Product Performance ABE", "t": "Class", "p": "0.4.1.6:16", "h": "EARoot/EA4/EA1/EA6/EA735.htm", "g": "83EE261F-4224-46d9-9774-2D6F5D71B7D0"}
+{"n": "Product Specification ABE", "t": "Class", "p": "0.4.1.6:17", "h": "EARoot/EA4/EA1/EA6/EA736.htm", "g": "D96A4901-8FCD-4025-BF0B-B9A1792D4515"}
+{"n": "Product Test ABE", "t": "Class", "p": "0.4.1.6:18", "h": "EARoot/EA4/EA1/EA6/EA737.htm", "g": "5F0F22CB-BFBC-4428-A0B2-7697404788D1"}
+{"n": "Product Usage ABE", "t": "Class", "p": "0.4.1.6:19", "h": "EARoot/EA4/EA1/EA6/EA738.htm", "g": "A9D4A5DE-0C8C-4cc3-8BDF-628434B271FF"}
+{"n": "Strategic Product Portfolio Plan ABE", "t": "Class", "p": "0.4.1.6:20", "h": "EARoot/EA4/EA1/EA6/EA739.htm", "g": "8E8D5A2E-6D6A-426e-A6CD-D9FBBE1A93D8"}
+{"n": "Loyalty ABE", "t": "Custom diagram", "p": "0.4.1.6:1", "h": "EARoot/EA4/EA1/EA6/EA711.htm", "g": "3497087B-ABB0-42c5-BAB9-6AA307785023"}
+{"n": "Product ABE", "t": "Custom diagram", "p": "0.4.1.6:2", "h": "EARoot/EA4/EA1/EA6/EA713.htm", "g": "203D87F9-4919-481b-86B9-65ACAD53F83D"}
+{"n": "Product Configuration ABE", "t": "Custom diagram", "p": "0.4.1.6:3", "h": "EARoot/EA4/EA1/EA6/EA715.htm", "g": "78B1A9CD-9F4A-4579-A03E-F5277663E9EB"}
+{"n": "Product Offering ABE", "t": "Custom diagram", "p": "0.4.1.6:6", "h": "EARoot/EA4/EA1/EA6/EA721.htm", "g": "7BEA37DA-2EBD-4be9-9FCC-9C16BC613CFE"}
+{"n": "Product Specification ABE", "t": "Custom diagram", "p": "0.4.1.6:7", "h": "EARoot/EA4/EA1/EA6/EA723.htm", "g": "4071711E-6B08-4418-B453-B5C67CE7EDC3"}
+{"n": "Product Usage ABE", "t": "Logical diagram", "p": "0.4.1.6:8", "h": "EARoot/EA4/EA1/EA6/EA725.htm", "g": "F39A0064-B061-4717-BD96-A0B53F717603"}
+{"n": "Product ABE", "t": "Class", "p": "0.4.1.6:22", "h": "EARoot/EA4/EA1/EA6/EA741.htm", "g": "EB05C880-BAD4-4020-932C-97F92AECD389"}
+{"n": "Product Offering Instance ABE", "t": "Class", "p": "0.4.1.6:23", "h": "EARoot/EA4/EA1/EA6/EA742.htm", "g": "07E84850-2AD8-4672-8944-324AF43E7D8B"}
+{"n": "Pricing Logic Algorithm ABE", "t": "Class", "p": "0.4.1.6:24", "h": "EARoot/EA4/EA1/EA6/EA743.htm", "g": "5170C4C6-0CCC-4763-AFE1-1819125FCE26"}
+{"n": "Product Catalog ABE", "t": "Class", "p": "0.4.1.6:25", "h": "EARoot/EA4/EA1/EA6/EA744.htm", "g": "3C8DCA4B-79B3-4f04-B587-FF8616FA5B3E"}
+{"n": "Product Offering Price ABE", "t": "Class", "p": "0.4.1.6:26", "h": "EARoot/EA4/EA1/EA6/EA745.htm", "g": "30E67CEF-69A4-4587-B3F9-1D75A6968830"}
+{"n": "Product Offering Price Rule ABE", "t": "Class", "p": "0.4.1.6:27", "h": "EARoot/EA4/EA1/EA6/EA746.htm", "g": "0A18B061-3F0D-414c-A269-EB9FA10E22BF"}
+{"n": "Product Offering Price Tax ABE", "t": "Class", "p": "0.4.1.6:28", "h": "EARoot/EA4/EA1/EA6/EA747.htm", "g": "931379F7-B451-4b35-AF82-CD1E9AAFA715"}
+{"n": "Product Action ABE", "t": "Class", "p": "0.4.1.6:29", "h": "EARoot/EA4/EA1/EA6/EA748.htm", "g": "DCBCFA92-687C-4928-860F-662A4EECCD60"}
+{"n": "Product Usage Entity ABE", "t": "Class", "p": "0.4.1.6:30", "h": "EARoot/EA4/EA1/EA6/EA749.htm", "g": "E132E479-C03D-4f8d-A66E-97A9AABB6FCD"}
+{"n": "Product Usage Specification ABE", "t": "Class", "p": "0.4.1.6:31", "h": "EARoot/EA4/EA1/EA6/EA750.htm", "g": "18577B11-B72D-4c56-92B0-04AFD0B9E328"}
+{"n": "Goods and Shipping Product Spec ABE", "t": "Class", "p": "0.4.1.6:32", "h": "EARoot/EA4/EA1/EA6/EA751.htm", "g": "6E720DC0-9115-47dd-B847-1CABFA5DF5A9"}
+{"n": "Network Product Spec ABE", "t": "Class", "p": "0.4.1.6:33", "h": "EARoot/EA4/EA1/EA6/EA752.htm", "g": "8ED1AF62-EE98-4ce9-A113-46A5B988237E"}
+{"n": "Usage Volume Product Spec ABE", "t": "Class", "p": "0.4.1.6:34", "h": "EARoot/EA4/EA1/EA6/EA753.htm", "g": "07768CF4-9659-49ac-A841-926BC9802A63"}
+{"n": "Loyalty Program ABE", "t": "Class", "p": "0.4.1.6:35", "h": "EARoot/EA4/EA1/EA6/EA754.htm", "g": "48096782-3BC0-4f74-8924-2F3FAB2DF1E3"}
+{"n": "Loyalty Program Specification ABE", "t": "Class", "p": "0.4.1.6:36", "h": "EARoot/EA4/EA1/EA6/EA755.htm", "g": "B1F2B31A-005A-4ddf-BC3D-3D976C07222C"}
+{"n": "PLA Spec ABE", "t": "Class", "p": "0.4.1.6:21", "h": "EARoot/EA4/EA1/EA6/EA740.htm", "g": "28D101F2-C7E8-4e3c-8C9A-0EF4A668B209"}
+{"n": "Network Product ABE", "t": "Class", "p": "0.4.1.6:37", "h": "EARoot/EA4/EA1/EA6/EA756.htm", "g": "51DEDB67-1E10-478e-B777-2F4551973172"}
+{"n": "Usage Volume Product ABE", "t": "Class", "p": "0.4.1.6:38", "h": "EARoot/EA4/EA1/EA6/EA757.htm", "g": "D0856DDA-1237-4e68-82E4-CB9737645F27"}
+{"n": "Product Price ABE", "t": "Class", "p": "0.4.1.6:39", "h": "EARoot/EA4/EA1/EA6/EA758.htm", "g": "157029F5-ACFD-4391-8611-885518403DBA"}
+{"n": "Resource Domain Structure", "t": "Logical diagram", "p": "0.4.1.7:3", "h": "EARoot/EA4/EA1/EA7/EA763.htm", "g": "B09CE4F9-D0A8-48e8-970F-215F53E074B4"}
+{"n": "Resource ABE", "t": "Class", "p": "0.4.1.7:7", "h": "EARoot/EA4/EA1/EA7/EA772.htm", "g": "EDCE4860-E059-4a98-85B9-4F4DA797B997"}
+{"n": "Resource Capacity ABE", "t": "Class", "p": "0.4.1.7:8", "h": "EARoot/EA4/EA1/EA7/EA773.htm", "g": "8C8A1279-C7BD-47a4-BA85-9BC73DECCA92"}
+{"n": "Resource Configuration ABE", "t": "Class", "p": "0.4.1.7:9", "h": "EARoot/EA4/EA1/EA7/EA774.htm", "g": "09AB42F3-275C-4e33-BACA-BA7E45012230"}
+{"n": "Resource Order ABE", "t": "Class", "p": "0.4.1.7:10", "h": "EARoot/EA4/EA1/EA7/EA775.htm", "g": "BBE00BDE-94B0-49b5-B0A2-8AAA968E2330"}
+{"n": "Resource Party Roles ABE", "t": "Class", "p": "0.4.1.7:11", "h": "EARoot/EA4/EA1/EA7/EA776.htm", "g": "3E2234AC-FA29-418f-BB33-475F16917294"}
+{"n": "Resource Performance ABE", "t": "Class", "p": "0.4.1.7:12", "h": "EARoot/EA4/EA1/EA7/EA777.htm", "g": "B1298934-557C-4208-B073-1AFCF7145565"}
+{"n": "Resource Specification ABE", "t": "Class", "p": "0.4.1.7:13", "h": "EARoot/EA4/EA1/EA7/EA778.htm", "g": "F11C49A8-D234-4a31-B648-7703B3E62E07"}
+{"n": "Resource Strategy & Plan ABE", "t": "Class", "p": "0.4.1.7:14", "h": "EARoot/EA4/EA1/EA7/EA779.htm", "g": "C8211A77-AF23-4ed7-9285-C4C4C6982F77"}
+{"n": "Resource Test ABE", "t": "Class", "p": "0.4.1.7:15", "h": "EARoot/EA4/EA1/EA7/EA780.htm", "g": "FD8AE43F-C753-4e08-85F1-8D6587BB8BD4"}
+{"n": "Resource Topology ABE", "t": "Class", "p": "0.4.1.7:16", "h": "EARoot/EA4/EA1/EA7/EA781.htm", "g": "20D1191F-E059-401f-A7A8-5570C756DC43"}
+{"n": "Resource Trouble ABE", "t": "Class", "p": "0.4.1.7:17", "h": "EARoot/EA4/EA1/EA7/EA782.htm", "g": "6D83A818-50B3-4ea0-B116-34E6A829B34B"}
+{"n": "Resource Usage ABE", "t": "Class", "p": "0.4.1.7:18", "h": "EARoot/EA4/EA1/EA7/EA783.htm", "g": "7D1B2E94-C952-4f0e-BE36-0F7563BAD6B8"}
+{"n": "Stock Item ABE", "t": "Class", "p": "0.4.1.7:19", "h": "EARoot/EA4/EA1/EA7/EA784.htm", "g": "BECC33AA-49E6-4914-A2E1-CBEFD47E6EE1"}
+{"n": "Resource ABE", "t": "Logical diagram", "p": "0.4.1.7:1", "h": "EARoot/EA4/EA1/EA7/EA759.htm", "g": "329330A0-B6FF-4587-87FB-CF881CF397FA"}
+{"n": "Resource Order ABE", "t": "Custom diagram", "p": "0.4.1.7:4", "h": "EARoot/EA4/EA1/EA7/EA765.htm", "g": "D150344E-DD0A-4551-A0D5-4B13B81EE1A9"}
+{"n": "Resource Specification ABE", "t": "Logical diagram", "p": "0.4.1.7:5", "h": "EARoot/EA4/EA1/EA7/EA767.htm", "g": "F95CBD87-BDD9-40f7-BEC8-2F454FF782F3"}
+{"n": "Resource Trouble ABE", "t": "Custom diagram", "p": "0.4.1.7:6", "h": "EARoot/EA4/EA1/EA7/EA769.htm", "g": "F93F4C46-CFAE-4049-BA83-C9EE679245CC"}
+{"n": "Alarm ABE", "t": "Class", "p": "0.4.1.7:40", "h": "EARoot/EA4/EA1/EA7/EA805.htm", "g": "7F50CA85-5492-4d22-AE47-D544C7E6E1DC"}
+{"n": "Alarm Severity Assignment Profile ABE", "t": "Class", "p": "0.4.1.7:41", "h": "EARoot/EA4/EA1/EA7/EA806.htm", "g": "C563C92F-9EC4-4bae-96B7-7438296CC9A4"}
+{"n": "Resource Usage Entity ABE", "t": "Class", "p": "0.4.1.7:42", "h": "EARoot/EA4/EA1/EA7/EA807.htm", "g": "866800C3-7DBA-45e4-ADA1-99CDDF94ED37"}
+{"n": "Resource Usage Specification ABE", "t": "Class", "p": "0.4.1.7:43", "h": "EARoot/EA4/EA1/EA7/EA808.htm", "g": "FBB7A9D0-7394-4c79-95BC-8A9335E70F60"}
+{"n": "Resource Number Portability ABE", "t": "Class", "p": "0.4.1.7:48", "h": "EARoot/EA4/EA1/EA7/EA813.htm", "g": "6122DC10-47F0-4f40-B554-864EFF34F986"}
+{"n": "Resource Number Portability Role ABE", "t": "Class", "p": "0.4.1.7:49", "h": "EARoot/EA4/EA1/EA7/EA814.htm", "g": "3F20E14B-9A52-4716-A4A5-6D11C6393A64"}
+{"n": "Compound Resource ABE", "t": "Class", "p": "0.4.1.7:73", "h": "EARoot/EA4/EA1/EA7/EA838.htm", "g": "5E4EFE62-0578-4857-8E84-B5FEBFC10BC8"}
+{"n": "Logical Resource ABE", "t": "Class", "p": "0.4.1.7:74", "h": "EARoot/EA4/EA1/EA7/EA839.htm", "g": "CE5887A7-5099-4d7f-B8FD-9A85ABFD5CC6"}
+{"n": "Physical Resource ABE", "t": "Class", "p": "0.4.1.7:75", "h": "EARoot/EA4/EA1/EA7/EA840.htm", "g": "3158822E-97AF-4b7e-AB1B-A7DC83F3E953"}
+{"n": "TIP Resource ABE", "t": "Class", "p": "0.4.1.7:76", "h": "EARoot/EA4/EA1/EA7/EA841.htm", "g": "B5DA7778-793A-4d7f-9BA2-4802D9FC7407"}
+{"n": "CompoundResource Specification ABE", "t": "Class", "p": "0.4.1.7:77", "h": "EARoot/EA4/EA1/EA7/EA842.htm", "g": "6FE5C9CC-D3F4-4801-93AD-9754B7FBFF73"}
+{"n": "LogicalResource Specification ABE", "t": "Class", "p": "0.4.1.7:78", "h": "EARoot/EA4/EA1/EA7/EA843.htm", "g": "EBFAA7AD-E13A-4f06-8975-96167081E853"}
+{"n": "PhysicalResource Specification ABE", "t": "Class", "p": "0.4.1.7:79", "h": "EARoot/EA4/EA1/EA7/EA844.htm", "g": "E4E2E84C-9A3E-4799-AC22-82470F614C73"}
+{"n": "Resource Catalog ABE", "t": "Class", "p": "0.4.1.7:80", "h": "EARoot/EA4/EA1/EA7/EA845.htm", "g": "30AC0685-EBFA-44e5-A515-360B7AB3409B"}
+{"n": "Auxiliary Component ABE", "t": "Class", "p": "0.4.1.7:31", "h": "EARoot/EA4/EA1/EA7/EA796.htm", "g": "CD85CC3F-8A9E-4516-8654-256039AD7949"}
+{"n": "Equipment ABE", "t": "Class", "p": "0.4.1.7:32", "h": "EARoot/EA4/EA1/EA7/EA797.htm", "g": "F4330D16-3741-4adf-91AE-B43A5E0D1F3B"}
+{"n": "Equipment Holder ABE", "t": "Class", "p": "0.4.1.7:33", "h": "EARoot/EA4/EA1/EA7/EA798.htm", "g": "05D61A20-DF3F-4f19-AB95-0C9779A8089C"}
+{"n": "Hardware ABE", "t": "Class", "p": "0.4.1.7:34", "h": "EARoot/EA4/EA1/EA7/EA799.htm", "g": "6E77BD66-749F-4317-840C-AA0E2EC540D5"}
+{"n": "Physical Capacity ABE", "t": "Class", "p": "0.4.1.7:35", "h": "EARoot/EA4/EA1/EA7/EA800.htm", "g": "472D3F6C-4A3E-43a5-8C55-CBA0AAF3829D"}
+{"n": "Physical Component ABE", "t": "Class", "p": "0.4.1.7:36", "h": "EARoot/EA4/EA1/EA7/EA801.htm", "g": "421336EF-724F-4809-8CBA-0C06AC6ACC06"}
+{"n": "Physical Device ABE", "t": "Class", "p": "0.4.1.7:37", "h": "EARoot/EA4/EA1/EA7/EA802.htm", "g": "28F4AAFE-6D04-4f26-83E8-D7614816993F"}
+{"n": "Physical Role ABE", "t": "Class", "p": "0.4.1.7:38", "h": "EARoot/EA4/EA1/EA7/EA803.htm", "g": "17E35027-0D62-4596-9ACA-EBF6963A13E5"}
+{"n": "Network Resource Assurance ABE", "t": "Class", "p": "0.4.1.7:46", "h": "EARoot/EA4/EA1/EA7/EA811.htm", "g": "02EE4311-BC3C-4118-AAF6-DD5F109E2634"}
+{"n": "Network Resource Basic ABE", "t": "Class", "p": "0.4.1.7:47", "h": "EARoot/EA4/EA1/EA7/EA812.htm", "g": "C43A1C08-A222-4ac6-BDF6-FC02777DA7BA"}
+{"n": "Address ABE", "t": "Class", "p": "0.4.1.7:50", "h": "EARoot/EA4/EA1/EA7/EA815.htm", "g": "020C649D-EE5F-4639-9A40-DF73BCDB00A0"}
+{"n": "Ai Model ABE", "t": "Class", "p": "0.4.1.7:51", "h": "EARoot/EA4/EA1/EA7/EA816.htm", "g": "DF4291BC-CB6D-4f14-88B9-4AC3B6CF1311"}
+{"n": "Computing and Software ABE", "t": "Class", "p": "0.4.1.7:52", "h": "EARoot/EA4/EA1/EA7/EA817.htm", "g": "53DEB01A-6EDE-4b7a-8FD3-F4F583F03455"}
+{"n": "Converged Network ABE", "t": "Class", "p": "0.4.1.7:53", "h": "EARoot/EA4/EA1/EA7/EA818.htm", "g": "33CA783A-164A-47b0-8451-98DD3F8D783A"}
+{"n": "LogicalResource Examples ABE", "t": "Class", "p": "0.4.1.7:54", "h": "EARoot/EA4/EA1/EA7/EA819.htm", "g": "E44FD45E-67E3-4c6e-91F6-2BA973618239"}
+{"n": "Management Information ABE", "t": "Class", "p": "0.4.1.7:55", "h": "EARoot/EA4/EA1/EA7/EA820.htm", "g": "E7637662-C84B-4d91-BCA8-FB5F8BD9B01D"}
+{"n": "Protocol Service ABE", "t": "Class", "p": "0.4.1.7:56", "h": "EARoot/EA4/EA1/EA7/EA821.htm", "g": "0B3DFE86-A57D-40e1-84B7-30F448371A1D"}
+{"n": "Resource Number ABE", "t": "Class", "p": "0.4.1.7:57", "h": "EARoot/EA4/EA1/EA7/EA822.htm", "g": "47A04CC6-BE65-428e-82E1-6657A0CA56ED"}
+{"n": "Statistics ABE", "t": "Class", "p": "0.4.1.7:58", "h": "EARoot/EA4/EA1/EA7/EA823.htm", "g": "45933F67-2A8B-433a-9896-C83249753E8A"}
+{"n": "TIP Logical Resource ABE", "t": "Class", "p": "0.4.1.7:59", "h": "EARoot/EA4/EA1/EA7/EA824.htm", "g": "8CE562B7-6193-4031-A507-6551BFB2052E"}
+{"n": "Physical Role Specification ABE", "t": "Class", "p": "0.4.1.7:60", "h": "EARoot/EA4/EA1/EA7/EA825.htm", "g": "295FA8FA-68CF-4956-99B3-C62B7F7CF404"}
+{"n": "Ai Model Specification ABE", "t": "Class", "p": "0.4.1.7:69", "h": "EARoot/EA4/EA1/EA7/EA834.htm", "g": "7E568FE1-79AE-404a-B3A1-052E97B4B861"}
+{"n": "Logical Role Specification ABE", "t": "Class", "p": "0.4.1.7:70", "h": "EARoot/EA4/EA1/EA7/EA835.htm", "g": "A8C521D2-5AFE-406d-9F9D-F07E190D28A6"}
+{"n": "LogicalResource Spec Examples ABE", "t": "Class", "p": "0.4.1.7:71", "h": "EARoot/EA4/EA1/EA7/EA836.htm", "g": "9F58C018-D65A-41aa-AF0C-23E9EBCF9819"}
+{"n": "Software Resource and Software Specifications ABE", "t": "Class", "p": "0.4.1.7:72", "h": "EARoot/EA4/EA1/EA7/EA837.htm", "g": "8C9B062F-2282-4757-8F3B-0F98B17B87FA"}
+{"n": "HolderAtomic ABE", "t": "Class", "p": "0.4.1.7:20", "h": "EARoot/EA4/EA1/EA7/EA785.htm", "g": "68A2C046-24F1-4b4a-982E-7C6E1CCB5B54"}
+{"n": "HolderComposite ABE", "t": "Class", "p": "0.4.1.7:21", "h": "EARoot/EA4/EA1/EA7/EA786.htm", "g": "95B39DC2-A193-47c8-9A7D-20C918EF675F"}
+{"n": "Bridging Protocols ABE", "t": "Class", "p": "0.4.1.7:22", "h": "EARoot/EA4/EA1/EA7/EA787.htm", "g": "8A722359-3ADD-4567-873A-3288F0C2FF6A"}
+{"n": "LAN Protocols ABE", "t": "Class", "p": "0.4.1.7:23", "h": "EARoot/EA4/EA1/EA7/EA788.htm", "g": "9764DB13-B823-492e-90BE-526482AB959B"}
+{"n": "Management Protocols ABE", "t": "Class", "p": "0.4.1.7:24", "h": "EARoot/EA4/EA1/EA7/EA789.htm", "g": "4AD3AF5B-C0B3-4491-923E-DF239A84C098"}
+{"n": "Routed Protocols ABE", "t": "Class", "p": "0.4.1.7:25", "h": "EARoot/EA4/EA1/EA7/EA790.htm", "g": "AD776E79-349F-46bc-9B8C-B83543039DCC"}
+{"n": "Routing Protocols ABE", "t": "Class", "p": "0.4.1.7:26", "h": "EARoot/EA4/EA1/EA7/EA791.htm", "g": "79B20B93-5152-43a7-9A82-83EC36493ABC"}
+{"n": "Signaling Protocols ABE", "t": "Class", "p": "0.4.1.7:27", "h": "EARoot/EA4/EA1/EA7/EA792.htm", "g": "57E4833D-682D-4dc8-85D0-36683D4AAF15"}
+{"n": "Switching Protocols ABE", "t": "Class", "p": "0.4.1.7:28", "h": "EARoot/EA4/EA1/EA7/EA793.htm", "g": "7552EDE4-064A-426e-8B75-A31BB5BC4133"}
+{"n": "WAN Protocols ABE", "t": "Class", "p": "0.4.1.7:29", "h": "EARoot/EA4/EA1/EA7/EA794.htm", "g": "6D3E6EC3-7FE0-48b9-9229-C997180BAF3B"}
+{"n": "Pysical Role Example ABE", "t": "Class", "p": "0.4.1.7:30", "h": "EARoot/EA4/EA1/EA7/EA795.htm", "g": "CE9FCE85-CECA-4b2f-95DB-054F7D94D719"}
+{"n": "Software Resource and Software ABE", "t": "Class", "p": "0.4.1.7:39", "h": "EARoot/EA4/EA1/EA7/EA804.htm", "g": "AF623144-0D90-4bae-ACA4-036BE9B68EFD"}
+{"n": "Software Resource Specification ABE", "t": "Class", "p": "0.4.1.7:44", "h": "EARoot/EA4/EA1/EA7/EA809.htm", "g": "187188B1-2FEB-444a-9682-29232FC65F48"}
+{"n": "Software Specification ABE", "t": "Class", "p": "0.4.1.7:45", "h": "EARoot/EA4/EA1/EA7/EA810.htm", "g": "81E7370C-FA33-463e-A82A-447E68314713"}
+{"n": "Accounting ABE", "t": "Class", "p": "0.4.1.7:61", "h": "EARoot/EA4/EA1/EA7/EA826.htm", "g": "446BEC60-128D-475e-9232-022978ED86B3"}
+{"n": "Management Method ABE", "t": "Class", "p": "0.4.1.7:62", "h": "EARoot/EA4/EA1/EA7/EA827.htm", "g": "6036952B-30F8-411c-B04C-35F2003EE77E"}
+{"n": "Performance Info ABE", "t": "Class", "p": "0.4.1.7:63", "h": "EARoot/EA4/EA1/EA7/EA828.htm", "g": "2673B548-C3F7-42fe-B271-CBF704B1F15D"}
+{"n": "Resource State ABE", "t": "Class", "p": "0.4.1.7:64", "h": "EARoot/EA4/EA1/EA7/EA829.htm", "g": "3B98B974-C9B4-46e3-84F0-F7F52ED473C5"}
+{"n": "Resource Statistical ABE", "t": "Class", "p": "0.4.1.7:65", "h": "EARoot/EA4/EA1/EA7/EA830.htm", "g": "DBE3F06C-7F95-453b-93AB-648978B58B71"}
+{"n": "Security ABE", "t": "Class", "p": "0.4.1.7:66", "h": "EARoot/EA4/EA1/EA7/EA831.htm", "g": "EE3410D9-0939-450a-BE27-84EE4BEF3907"}
+{"n": "Service State ABE", "t": "Class", "p": "0.4.1.7:67", "h": "EARoot/EA4/EA1/EA7/EA832.htm", "g": "149CB1E3-4C4F-4c04-973C-F515C6871650"}
+{"n": "Service Statistical Info ABE", "t": "Class", "p": "0.4.1.7:68", "h": "EARoot/EA4/EA1/EA7/EA833.htm", "g": "06F487C5-1713-4a9d-8F2D-CDD8DCD6CFB3"}
+{"n": "Sales Channel ABE", "t": "Class", "p": "0.4.1.8:3", "h": "EARoot/EA4/EA1/EA8/EA851.htm", "g": "AE852A15-8809-4ccf-A5BA-9ABD2B9EE5A0"}
+{"n": "Sales Commission ABE", "t": "Class", "p": "0.4.1.8:4", "h": "EARoot/EA4/EA1/EA8/EA852.htm", "g": "1D1298A8-4FE3-4dbb-9CE1-99AA98EC3EBB"}
+{"n": "Sales Forecast ABE", "t": "Class", "p": "0.4.1.8:5", "h": "EARoot/EA4/EA1/EA8/EA853.htm", "g": "797CB83C-6FB1-4c7f-ACC0-2A76E224216E"}
+{"n": "Sales Lead and Opportunity ABE", "t": "Class", "p": "0.4.1.8:6", "h": "EARoot/EA4/EA1/EA8/EA854.htm", "g": "85D84404-18F3-45ab-AD8A-0FB8B93E6F48"}
+{"n": "Sales Party Roles ABE", "t": "Class", "p": "0.4.1.8:7", "h": "EARoot/EA4/EA1/EA8/EA855.htm", "g": "6B94A6E6-03A0-4789-A3EE-AA7EDD1947CF"}
+{"n": "Sales Statistic ABE", "t": "Class", "p": "0.4.1.8:8", "h": "EARoot/EA4/EA1/EA8/EA856.htm", "g": "4ED563EF-3F66-4fd8-9E61-3B86B111B45A"}
+{"n": "Sales Strategy Plan ABE", "t": "Class", "p": "0.4.1.8:9", "h": "EARoot/EA4/EA1/EA8/EA857.htm", "g": "C5719746-565D-4354-A6CB-AAA2B62A322C"}
+{"n": "Sales Lead and Opportunity ABE", "t": "Logical diagram", "p": "0.4.1.8:2", "h": "EARoot/EA4/EA1/EA8/EA848.htm", "g": "D147D378-0E8B-462f-9940-91093EF09EB0"}
+{"n": "Sales Lead ABE", "t": "Class", "p": "0.4.1.8:10", "h": "EARoot/EA4/EA1/EA8/EA858.htm", "g": "5F435815-A5AC-4965-BED8-870DD8C22637"}
+{"n": "Sales Opportunity ABE", "t": "Class", "p": "0.4.1.8:11", "h": "EARoot/EA4/EA1/EA8/EA859.htm", "g": "5A615BFE-3EC7-41d1-8975-32C7434FCAE7"}
+{"n": "Service Domain Structure", "t": "ABE diagram", "p": "0.4.1.9:3", "h": "EARoot/EA4/EA1/EA9/EA864.htm", "g": "7B2A56D1-6D1E-4af3-848E-CFB4AB8F2604"}
+{"n": "Service ABE", "t": "Class", "p": "0.4.1.9:6", "h": "EARoot/EA4/EA1/EA9/EA872.htm", "g": "5A7A94BE-0A53-40b8-9742-AAD611686F28"}
+{"n": "Service Capacity ABE", "t": "Class", "p": "0.4.1.9:7", "h": "EARoot/EA4/EA1/EA9/EA873.htm", "g": "E7D4CAB8-B17C-4552-8AC6-F54B323475CF"}
+{"n": "Service Configuration ABE", "t": "Class", "p": "0.4.1.9:8", "h": "EARoot/EA4/EA1/EA9/EA874.htm", "g": "C665062F-1415-4e9f-9C58-C034175A7607"}
+{"n": "Service Order ABE", "t": "Class", "p": "0.4.1.9:9", "h": "EARoot/EA4/EA1/EA9/EA875.htm", "g": "F9DCFFD4-5032-4dd9-AC37-F346188F7785"}
+{"n": "Service Party Roles ABE", "t": "Class", "p": "0.4.1.9:10", "h": "EARoot/EA4/EA1/EA9/EA876.htm", "g": "FE73F109-F999-48e0-A3B3-5EDD7190CD8D"}
+{"n": "Service Performance ABE", "t": "Class", "p": "0.4.1.9:11", "h": "EARoot/EA4/EA1/EA9/EA877.htm", "g": "B33C6130-25D3-4953-B514-9B691A720663"}
+{"n": "Service Problem ABE", "t": "Class", "p": "0.4.1.9:12", "h": "EARoot/EA4/EA1/EA9/EA878.htm", "g": "F327CB12-792E-4be2-AE7E-BFEF88E69A80"}
+{"n": "Service Specification ABE", "t": "Class", "p": "0.4.1.9:13", "h": "EARoot/EA4/EA1/EA9/EA879.htm", "g": "259594D9-3D70-4a0d-A868-815EEA6630EC"}
+{"n": "Service Strategy & Plan ABE", "t": "Class", "p": "0.4.1.9:14", "h": "EARoot/EA4/EA1/EA9/EA880.htm", "g": "F2F42D6F-7BC8-40b1-B015-EFDF22A83F77"}
+{"n": "Service Test ABE", "t": "Class", "p": "0.4.1.9:15", "h": "EARoot/EA4/EA1/EA9/EA881.htm", "g": "346E6F09-0034-462d-A5E0-E8865B545511"}
+{"n": "Service Usage ABE", "t": "Class", "p": "0.4.1.9:16", "h": "EARoot/EA4/EA1/EA9/EA882.htm", "g": "036DBFCB-1E08-4048-9893-A83988AE7FC1"}
+{"n": "TIP Service Management ABE", "t": "Class", "p": "0.4.1.9:17", "h": "EARoot/EA4/EA1/EA9/EA883.htm", "g": "C720CCEA-B859-47ef-90EA-4989DB110A91"}
+{"n": "Service ABE", "t": "Logical diagram", "p": "0.4.1.9:1", "h": "EARoot/EA4/EA1/EA9/EA860.htm", "g": "EDD97F67-1888-404a-BE77-1DF7E763EA21"}
+{"n": "Service Performance ABE", "t": "Custom diagram", "p": "0.4.1.9:4", "h": "EARoot/EA4/EA1/EA9/EA866.htm", "g": "FA9630CD-24BE-48f2-82E4-4FC0FACD6B2A"}
+{"n": "Service Specification ABE", "t": "Logical diagram", "p": "0.4.1.9:5", "h": "EARoot/EA4/EA1/EA9/EA868.htm", "g": "D60ED94F-F902-45fc-9792-21474A135E8D"}
+{"n": "Service Usage Entity ABE", "t": "Class", "p": "0.4.1.9:18", "h": "EARoot/EA4/EA1/EA9/EA884.htm", "g": "1D78B725-3851-458a-AA78-5505563705F5"}
+{"n": "Service Usage Specification ABE", "t": "Class", "p": "0.4.1.9:19", "h": "EARoot/EA4/EA1/EA9/EA885.htm", "g": "BDA92627-175E-456f-B1AB-CF043C53FA17"}
+{"n": "Customer Facing Service Spec ABE", "t": "Class", "p": "0.4.1.9:26", "h": "EARoot/EA4/EA1/EA9/EA892.htm", "g": "EC4A8E2D-C7F8-46fc-83D3-FA297FC48290"}
+{"n": "Resource Facing Service Spec ABE", "t": "Class", "p": "0.4.1.9:27", "h": "EARoot/EA4/EA1/EA9/EA893.htm", "g": "068F0529-EAA8-4875-B949-A492B66D00BE"}
+{"n": "Service Catalog ABE", "t": "Class", "p": "0.4.1.9:28", "h": "EARoot/EA4/EA1/EA9/EA894.htm", "g": "4C336157-1A5D-44a4-BE0F-34DFA817DB8D"}
+{"n": "Customer Facing Service ABE", "t": "Class", "p": "0.4.1.9:29", "h": "EARoot/EA4/EA1/EA9/EA895.htm", "g": "1D92BDFC-F587-44ba-8D13-3A094A6AE03C"}
+{"n": "Resource Facing Service ABE", "t": "Class", "p": "0.4.1.9:30", "h": "EARoot/EA4/EA1/EA9/EA896.htm", "g": "9CDAE2B6-0B7C-48f2-8071-A74B19E6D084"}
+{"n": "Service Level Spec ABE", "t": "Class", "p": "0.4.1.9:34", "h": "EARoot/EA4/EA1/EA9/EA900.htm", "g": "10AADFE4-471A-4a56-A432-55002B8189AD"}
+{"n": "Service Performance Specification ABE", "t": "Class", "p": "0.4.1.9:35", "h": "EARoot/EA4/EA1/EA9/EA901.htm", "g": "EA90C024-7B32-4135-90B4-1D44824B8A34"}
+{"n": "Resource Facing Service Spec Role ABE", "t": "Class", "p": "0.4.1.9:20", "h": "EARoot/EA4/EA1/EA9/EA886.htm", "g": "B9B2DAF4-2DC8-4590-8893-4BA8C80F5967"}
+{"n": "Service Bundle ABE", "t": "Class", "p": "0.4.1.9:21", "h": "EARoot/EA4/EA1/EA9/EA887.htm", "g": "6D2DE533-84CF-4317-B617-FAC583944680"}
+{"n": "Customer Facing Service Example ABE", "t": "Class", "p": "0.4.1.9:22", "h": "EARoot/EA4/EA1/EA9/EA888.htm", "g": "696C24BC-3D55-4513-A3A6-9ACBC7B0B4CA"}
+{"n": "CustomerFacing Service Role ABE", "t": "Class", "p": "0.4.1.9:23", "h": "EARoot/EA4/EA1/EA9/EA889.htm", "g": "690EB47A-51D6-42d6-B902-BD86BC597C7C"}
+{"n": "Network Service ABE", "t": "Class", "p": "0.4.1.9:24", "h": "EARoot/EA4/EA1/EA9/EA890.htm", "g": "82DF04C7-C28F-4169-B389-E234A228C82A"}
+{"n": "Usage Volume Service ABE", "t": "Class", "p": "0.4.1.9:25", "h": "EARoot/EA4/EA1/EA9/EA891.htm", "g": "71F633A8-FBEB-4676-AC2D-F7A8E93CED77"}
+{"n": "Resource Facing Service Examples ABE", "t": "Class", "p": "0.4.1.9:32", "h": "EARoot/EA4/EA1/EA9/EA898.htm", "g": "51BCB0F0-C6D3-4616-8AC8-2FB57F81CA35"}
+{"n": "Resource Facing Service Role ABE", "t": "Class", "p": "0.4.1.9:33", "h": "EARoot/EA4/EA1/EA9/EA899.htm", "g": "D0A747F3-A8A8-4c08-90B8-E1DAD828DF97"}
+{"n": "Customer Facing Service Spec Examples ABE", "t": "Class", "p": "0.4.1.9:37", "h": "EARoot/EA4/EA1/EA9/EA903.htm", "g": "4F222115-05C6-4b87-B981-6B2FCA2933DB"}
+{"n": "Customer Facing Service Spec Role ABE", "t": "Class", "p": "0.4.1.9:38", "h": "EARoot/EA4/EA1/EA9/EA904.htm", "g": "79918CCC-2858-4ac4-8089-B5AF5DC52FA6"}
+{"n": "Network Service Spec ABE", "t": "Class", "p": "0.4.1.9:39", "h": "EARoot/EA4/EA1/EA9/EA905.htm", "g": "D549BB6C-D874-4d24-AF9E-A0BC410D1AC5"}
+{"n": "Service Package ABE", "t": "Class", "p": "0.4.1.9:40", "h": "EARoot/EA4/EA1/EA9/EA906.htm", "g": "D32823E5-5742-428a-941A-100AE1C033FE"}
+{"n": "Usage Volume Service Spec ABE", "t": "Class", "p": "0.4.1.9:41", "h": "EARoot/EA4/EA1/EA9/EA907.htm", "g": "73ECDB15-F983-49b6-BCB4-D0BC3FC6E24A"}
+{"n": "Service Bundle Examples ABE", "t": "Class", "p": "0.4.1.9:31", "h": "EARoot/EA4/EA1/EA9/EA897.htm", "g": "3373B710-B90F-4299-8624-353E89ADCFE7"}
+{"n": "Service Package Spec Examples ABE", "t": "Class", "p": "0.4.1.9:36", "h": "EARoot/EA4/EA1/EA9/EA902.htm", "g": "8A3CD092-C2BA-4139-B1D9-CC2417E8DE6F"}
+{"n": "Network Service Spec", "t": "Package", "p": "0.4.1.9.1", "h": "EARoot/EA4/EA1/EA9/EA1/EA908.htm", "g": "E5BDD14B-1D53-409b-804F-F1D35618A372"}
+{"n": "Shared Domain Level 1", "t": "Logical diagram", "p": "0.4.1.10:6", "h": "EARoot/EA4/EA1/EA10/EA919.htm", "g": "E2E4FD85-21C1-4b45-AF01-AF4AACE5ADE3"}
+{"n": "Shared Domain Level 2", "t": "ABE diagram", "p": "0.4.1.10:7", "h": "EARoot/EA4/EA1/EA10/EA921.htm", "g": "6335F975-87B3-4a7c-808A-B500D53EF30F"}
+{"n": "Document ABE", "t": "Class", "p": "0.4.1.10:8", "h": "EARoot/EA4/EA1/EA10/EA924.htm", "g": "BB573793-541D-4bf5-9218-CE0AA7F8CB8B"}
+{"n": "Party Bill ABE", "t": "Class", "p": "0.4.1.10:9", "h": "EARoot/EA4/EA1/EA10/EA925.htm", "g": "B81C96D7-A03D-4992-95B0-F1A5F7AA8E6A"}
+{"n": "Permission ABE", "t": "Class", "p": "0.4.1.10:10", "h": "EARoot/EA4/EA1/EA10/EA926.htm", "g": "D61851C4-B3CB-4081-A992-FB68C14A1666"}
+{"n": "Calendar ABE", "t": "Class", "p": "0.4.1.10:11", "h": "EARoot/EA4/EA1/EA10/EA927.htm", "g": "859B7039-EFC1-48f6-8B92-3B06126F3846"}
+{"n": "Communication Interaction ABE", "t": "Class", "p": "0.4.1.10:12", "h": "EARoot/EA4/EA1/EA10/EA928.htm", "g": "770E3FF7-4B25-4110-A4DA-B27BE1F5AC43"}
+{"n": "Digital Identity ABE", "t": "Class", "p": "0.4.1.10:13", "h": "EARoot/EA4/EA1/EA10/EA929.htm", "g": "8D795486-DE90-41e1-A6FF-7600349A30C1"}
+{"n": "Location ABE", "t": "Class", "p": "0.4.1.10:14", "h": "EARoot/EA4/EA1/EA10/EA930.htm", "g": "66ED67A8-6A58-4423-8A30-6B6D486F0369"}
+{"n": "Party ABE", "t": "Class", "p": "0.4.1.10:15", "h": "EARoot/EA4/EA1/EA10/EA931.htm", "g": "72515876-77D1-4c88-9378-5B6808DC60D8"}
+{"n": "Party Payment ABE", "t": "Class", "p": "0.4.1.10:16", "h": "EARoot/EA4/EA1/EA10/EA932.htm", "g": "9E0AA529-DF38-432e-8AA8-ABE4E4408761"}
+{"n": "Party Privacy ABE", "t": "Class", "p": "0.4.1.10:17", "h": "EARoot/EA4/EA1/EA10/EA933.htm", "g": "E605E73B-C556-477d-9621-986B6B092144"}
+{"n": "Calendar ABE", "t": "Custom diagram", "p": "0.4.1.10:1", "h": "EARoot/EA4/EA1/EA10/EA909.htm", "g": "F7FC2FAF-85BB-40d2-A6E2-EB7BECCF2698"}
+{"n": "Location ABE", "t": "Custom diagram", "p": "0.4.1.10:2", "h": "EARoot/EA4/EA1/EA10/EA911.htm", "g": "41412903-7CBC-457c-9E3E-B8956B2DA928"}
+{"n": "Party ABE", "t": "Custom diagram", "p": "0.4.1.10:3", "h": "EARoot/EA4/EA1/EA10/EA913.htm", "g": "DE4F80BC-1543-48ee-98FC-C78E28657DE9"}
+{"n": "Party Payment ABE", "t": "Custom diagram", "p": "0.4.1.10:4", "h": "EARoot/EA4/EA1/EA10/EA915.htm", "g": "199F23A0-4AC1-4127-9F25-7E330E2331DE"}
+{"n": "Party Privacy ABE", "t": "Custom diagram", "p": "0.4.1.10:5", "h": "EARoot/EA4/EA1/EA10/EA917.htm", "g": "E5671473-A109-49f1-A567-69C53048695F"}
+{"n": "Geographic Place ABE", "t": "Class", "p": "0.4.1.10:18", "h": "EARoot/EA4/EA1/EA10/EA934.htm", "g": "B772CB88-3566-44a7-9B94-673B1887C3D1"}
+{"n": "Local Place ABE", "t": "Class", "p": "0.4.1.10:19", "h": "EARoot/EA4/EA1/EA10/EA935.htm", "g": "90C513A4-4B78-46cd-AB97-8E42E2B3009C"}
+{"n": "OpenGisSFS ABE", "t": "Class", "p": "0.4.1.10:20", "h": "EARoot/EA4/EA1/EA10/EA936.htm", "g": "AC287360-0A47-4d12-9CF0-118EFC6F2AB4"}
+{"n": "Contact Medium ABE", "t": "Class", "p": "0.4.1.10:21", "h": "EARoot/EA4/EA1/EA10/EA937.htm", "g": "D193F75C-94F1-4ca1-A405-13D0A43C0252"}
+{"n": "Currency ABE", "t": "Class", "p": "0.4.1.10:22", "h": "EARoot/EA4/EA1/EA10/EA938.htm", "g": "11159066-926C-46bd-B725-3FA0AC0D1469"}
+{"n": "Party Community ABE", "t": "Class", "p": "0.4.1.10:23", "h": "EARoot/EA4/EA1/EA10/EA939.htm", "g": "C2D4EFB8-07F5-44cf-9658-A7EB27AAE0AC"}
+{"n": "Party Demographic ABE", "t": "Class", "p": "0.4.1.10:24", "h": "EARoot/EA4/EA1/EA10/EA940.htm", "g": "762DC3AD-D862-4536-9713-1D2D07710894"}
+{"n": "Party Identification ABE", "t": "Class", "p": "0.4.1.10:25", "h": "EARoot/EA4/EA1/EA10/EA941.htm", "g": "009BE2BE-DBDE-4a4c-BFFD-73DB86C4E7F4"}
+{"n": "Party Organization ABE", "t": "Class", "p": "0.4.1.10:26", "h": "EARoot/EA4/EA1/EA10/EA942.htm", "g": "36250EA6-C693-424d-BE8F-7F4413CA399B"}
+{"n": "Party Profile ABE", "t": "Class", "p": "0.4.1.10:27", "h": "EARoot/EA4/EA1/EA10/EA943.htm", "g": "4CC4C0C2-E7D6-434e-AB31-5002AE60F0A8"}
+{"n": "Party Role Examples ABE", "t": "Class", "p": "0.4.1.10:28", "h": "EARoot/EA4/EA1/EA10/EA944.htm", "g": "FA882D74-ADE4-454d-8D76-AE2BFD5CC7B6"}
+{"n": "Party Role Group ABE", "t": "Class", "p": "0.4.1.10:29", "h": "EARoot/EA4/EA1/EA10/EA945.htm", "g": "37718303-D05F-444b-9A3F-B9094DA9D8EE"}
+{"n": "Skill ABE", "t": "Class", "p": "0.4.1.10:30", "h": "EARoot/EA4/EA1/EA10/EA946.htm", "g": "028768AC-F366-4a48-B743-034D58E87A48"}
+{"n": "Schedule Definition ABE", "t": "Class", "p": "0.4.1.10:31", "h": "EARoot/EA4/EA1/EA10/EA947.htm", "g": "7D690F69-B2ED-48d7-9F35-47B5FC11CCE7"}
+{"n": "Bank ABE", "t": "Class", "p": "0.4.1.10:32", "h": "EARoot/EA4/EA1/EA10/EA948.htm", "g": "2FDD8C72-2243-466c-B3EE-B6A854CC51A4"}
+{"n": "Payment Method ABE", "t": "Class", "p": "0.4.1.10:33", "h": "EARoot/EA4/EA1/EA10/EA949.htm", "g": "A1A929CC-15C4-4616-B9D9-D5A482EB78DC"}
+{"n": "Party Privacy Profile ABE", "t": "Class", "p": "0.4.1.10:36", "h": "EARoot/EA4/EA1/EA10/EA952.htm", "g": "F5EEFD6B-B261-4d52-9C45-62F4D0569BD3"}
+{"n": "Party Privacy Profile Type ABE", "t": "Class", "p": "0.4.1.10:37", "h": "EARoot/EA4/EA1/EA10/EA953.htm", "g": "CBBBF99D-15B6-4e67-9C34-A9E522543AE2"}
+{"n": "Party Billing Statistic ABE", "t": "Class", "p": "0.4.1.10:38", "h": "EARoot/EA4/EA1/EA10/EA954.htm", "g": "F6BAD9F8-CADB-45cc-9CE7-3EB040CE0469"}
+{"n": "Geographic Address ABE", "t": "Class", "p": "0.4.1.10:34", "h": "EARoot/EA4/EA1/EA10/EA950.htm", "g": "4206D707-077A-41e1-B2D7-E9197AF9A48F"}
+{"n": "Symbology ABE", "t": "Class", "p": "0.4.1.10:35", "h": "EARoot/EA4/EA1/EA10/EA951.htm", "g": "A32F2426-D5E0-438d-BC3D-E5EF9224A826"}
+{"n": "SID  Map", "t": "Logical diagram", "p": "0.4.2:1", "h": "EARoot/EA4/EA2/EA955.htm", "g": "CDE58CDE-49F9-427b-BCC2-C63A93CE7143"}
+{"n": "SID  Map II", "t": "Logical diagram", "p": "0.4.2:2", "h": "EARoot/EA4/EA2/EA957.htm", "g": "2E5631FB-B9BA-4dbc-8CB3-52F595C2B5E7"}
+{"n": " SID Map III", "t": "Logical diagram", "p": "0.4.2:3", "h": "EARoot/EA4/EA2/EA959.htm", "g": "C80BD275-24E2-450c-965F-B5FF8541032F"}
+{"n": "SID Domains Map", "t": "Logical diagram", "p": "0.4.2:4", "h": "EARoot/EA4/EA2/EA961.htm", "g": "6F6DFCDB-E2D6-4ab7-A757-DB50A5047FE5"}
+{"n": "List of Elements in Package Market Sales Party Roles ABE", "t": "Class", "p": "0.4.2:5", "h": "EARoot/EA4/EA2/EA974.htm", "g": "99C06DC0-0CA1-45ae-B34C-C4A482508168"}
+{"n": "Market Sales Party Roles ABE", "t": "Artifact", "p": "0.4.2:6", "h": "EARoot/EA4/EA2/EA975.htm", "g": "31B681EA-DB69-45ce-A107-107315BD7008"}
+{"n": "Market Sales Party Roles ABE", "t": "Class", "p": "0.4.2:7", "h": "EARoot/EA4/EA2/EA976.htm", "g": "3B2D7195-ADCC-4716-A426-421BD16F79F2"}
+{"n": "Notice", "t": "Package", "p": "0.4.2.1", "h": "EARoot/EA4/EA2/EA1/EA989.htm", "g": "435221B4-C915-4335-9E2E-04A68AC19AD4"}
+{"n": "Market Domain", "t": "Package", "p": "0.4.2.2", "h": "EARoot/EA4/EA2/EA2/EA994.htm", "g": "8A14025E-50D0-4674-8C25-DA9F5F9356CC"}
+{"n": "Sales Domain", "t": "Package", "p": "0.4.2.3", "h": "EARoot/EA4/EA2/EA3/EA1158.htm", "g": "1FBF7AEA-037F-423c-860A-C04CDCC41FFA"}
+{"n": "Customer Domain", "t": "Package", "p": "0.4.2.4", "h": "EARoot/EA4/EA2/EA4/EA1254.htm", "g": "876C6D23-589A-4011-9067-D57014F392DD"}
+{"n": "Product Domain", "t": "Package", "p": "0.4.2.5", "h": "EARoot/EA4/EA2/EA5/EA1536.htm", "g": "C821F572-393E-49ce-8AC7-CE783E36CDCE"}
+{"n": "Service Domain", "t": "Package", "p": "0.4.2.6", "h": "EARoot/EA4/EA2/EA6/EA2110.htm", "g": "D21C56B1-7A13-4f58-932C-74283D883256"}
+{"n": "Resource Domain", "t": "Package", "p": "0.4.2.7", "h": "EARoot/EA4/EA2/EA7/EA2478.htm", "g": "8E179827-2B1A-4ba7-B0FC-32FA0B931820"}
+{"n": "Business Partner Domain", "t": "Package", "p": "0.4.2.8", "h": "EARoot/EA4/EA2/EA8/EA3496.htm", "g": "C736BF72-917F-4514-A527-8076C3F82993"}
+{"n": "Enterprise Domain", "t": "Package", "p": "0.4.2.9", "h": "EARoot/EA4/EA2/EA9/EA3821.htm", "g": "AC58F4D5-158E-47c3-B95E-0DBB86EFED21"}
+{"n": "Patterns Domain", "t": "Package", "p": "0.4.2.10", "h": "EARoot/EA4/EA2/EA10/EA4267.htm", "g": "FE7FD136-04A3-4fa4-B875-5A305CCCEE53"}
+{"n": "Shared Domain", "t": "Package", "p": "0.4.2.11", "h": "EARoot/EA4/EA2/EA11/EA6528.htm", "g": "9F3A0B07-73F8-4296-BDEA-3EDF5CA9205F"}
+{"n": "[MD-01] Market ABEs Level 1", "t": "Logical diagram", "p": "0.4.2.2:1", "h": "EARoot/EA4/EA2/EA2/EA990.htm", "g": "EA63F6E4-D81A-4366-9F12-57338FF5F1C2"}
+{"n": "[MSD-02] Market ABEs Level 1 & 2", "t": "Logical diagram", "p": "0.4.2.2:2", "h": "EARoot/EA4/EA2/EA2/EA992.htm", "g": "CDC05DF7-45DF-4bc1-9E17-E073051D7EF8"}
+{"n": "Market Party Roles ABE", "t": "Package", "p": "0.4.2.2.1", "h": "EARoot/EA4/EA2/EA2/EA1/EA1005.htm", "g": "51185388-BBC1-435b-B7D1-17874B924B22"}
+{"n": "Market Segment ABE", "t": "Package", "p": "0.4.2.2.2", "h": "EARoot/EA4/EA2/EA2/EA2/EA1022.htm", "g": "191018FD-645C-48af-A252-6BCE21584301"}
+{"n": "Competitor ABE", "t": "Package", "p": "0.4.2.2.3", "h": "EARoot/EA4/EA2/EA2/EA3/EA1043.htm", "g": "F5F6A222-994E-4b19-9A81-C1685CCC89A4"}
+{"n": "Market Strategy Plan ABE", "t": "Package", "p": "0.4.2.2.4", "h": "EARoot/EA4/EA2/EA2/EA4/EA1089.htm", "g": "0803BBB4-7B40-4b7a-B3DA-0FB00A53D67C"}
+{"n": "Marketing Campaign ABE", "t": "Package", "p": "0.4.2.2.5", "h": "EARoot/EA4/EA2/EA2/EA5/EA1123.htm", "g": "D2ABBA56-436C-4901-8D2E-CA653152E13A"}
+{"n": "Marketing Performance ABE", "t": "Package", "p": "0.4.2.2.6", "h": "EARoot/EA4/EA2/EA2/EA6/EA1142.htm", "g": "2DB20827-09E0-4ba4-BBC7-838E8607089F"}
+{"n": "Market Forecast ABE", "t": "Package", "p": "0.4.2.2.7", "h": "EARoot/EA4/EA2/EA2/EA7/EA1147.htm", "g": "7AD67932-9890-43ba-8952-8EFFF31BE441"}
+{"n": "Market Statistics ABE", "t": "Package", "p": "0.4.2.2.8", "h": "EARoot/EA4/EA2/EA2/EA8/EA1150.htm", "g": "C890EEDF-806B-4da6-A75A-3909665A6D76"}
+{"n": "Outside Plant", "t": "Package", "p": "0.4.3.1", "h": "EARoot/EA4/EA3/EA1/EA7366.htm", "g": "9E50F36F-4CC8-4c99-A707-64667EA39486"}
+{"n": "Figure M.00 - Market Party Roles", "t": "Logical diagram", "p": "0.4.2.2.1:1", "h": "EARoot/EA4/EA2/EA2/EA1/EA1003.htm", "g": "BD5BA50E-7EED-40b0-ACE2-23FAFA6A4ADC"}
+{"n": "MarketingCampaignRole", "t": "Class", "p": "0.4.2.2.1:2", "h": "EARoot/EA4/EA2/EA2/EA1/EA1006.htm", "g": "C6A15BDD-A5A9-4913-9CDE-FB2793616A68"}
+{"n": "MarketingDesigner", "t": "Class", "p": "0.4.2.2.1:3", "h": "EARoot/EA4/EA2/EA2/EA1/EA1007.htm", "g": "AD1729FC-BC01-4063-8EA8-ABDFA8B8756F"}
+{"n": "MarketingManager", "t": "Class", "p": "0.4.2.2.1:4", "h": "EARoot/EA4/EA2/EA2/EA1/EA1008.htm", "g": "0E773D83-F74E-401a-A8D9-2BF6C8F0508A"}
+{"n": "MarketingOperator", "t": "Class", "p": "0.4.2.2.1:5", "h": "EARoot/EA4/EA2/EA2/EA1/EA1009.htm", "g": "4620B162-6E0C-4abd-8060-8CFB38B01F58"}
+{"n": "Figure MS.01 - Basic Market Segment Entities", "t": "Logical diagram", "p": "0.4.2.2.2:1", "h": "EARoot/EA4/EA2/EA2/EA2/EA1010.htm", "g": "497E7C4C-9D0D-4b65-891A-843B826E280F"}
+{"n": "Figure MS.02 - Composite and Atomic Market Segments", "t": "Logical diagram", "p": "0.4.2.2.2:2", "h": "EARoot/EA4/EA2/EA2/EA2/EA1012.htm", "g": "E4F61179-6199-4a48-9C82-0B5FED9E7441"}
+{"n": "Figure MS.03 - Market Segment Characteristics", "t": "Logical diagram", "p": "0.4.2.2.2:3", "h": "EARoot/EA4/EA2/EA2/EA2/EA1014.htm", "g": "840E4F33-9AA7-483e-BC24-1B4D9888A95D"}
+{"n": "Illustration Figure MS.03- I01 - Market Segment Characteristics", "t": "Object diagram", "p": "0.4.2.2.2:4", "h": "EARoot/EA4/EA2/EA2/EA2/EA1016.htm", "g": "CBCE5037-E18F-4ddf-AAF9-67E388DAB9A0"}
+{"n": "Figure MS.05 - Composite and Atomic Market Segment Characteristics", "t": "Logical diagram", "p": "0.4.2.2.2:5", "h": "EARoot/EA4/EA2/EA2/EA2/EA1018.htm", "g": "4D1EE40F-2DA2-4fdd-BDA4-198C2FE7C31F"}
+{"n": "Figure MS.06 - Market Segment Associations With Other Entities", "t": "Logical diagram", "p": "0.4.2.2.2:6", "h": "EARoot/EA4/EA2/EA2/EA2/EA1020.htm", "g": "EACD8532-10C7-4687-B13B-6C213F2625D0"}
+{"n": "AtomicMarketSegment", "t": "Class", "p": "0.4.2.2.2:7", "h": "EARoot/EA4/EA2/EA2/EA2/EA1024.htm", "g": "ED5A16D1-6D74-4798-85CA-A759194A2E8D"}
+{"n": "AtomicMarketSegmentCharacteristic", "t": "Class", "p": "0.4.2.2.2:8", "h": "EARoot/EA4/EA2/EA2/EA2/EA1025.htm", "g": "7EBDDC6D-C9FC-4463-ACC6-5F62128EF12E"}
+{"n": "CompositeMarketSegment", "t": "Class", "p": "0.4.2.2.2:9", "h": "EARoot/EA4/EA2/EA2/EA2/EA1026.htm", "g": "6EFA3025-EAAC-407b-8396-697ABAC1180B"}
+{"n": "CompositeMarketSegmentCharacteristic", "t": "Class", "p": "0.4.2.2.2:10", "h": "EARoot/EA4/EA2/EA2/EA2/EA1027.htm", "g": "542183C8-6FB9-4f1d-98C9-C476F3366906"}
+{"n": "MarketSegment", "t": "Class", "p": "0.4.2.2.2:11", "h": "EARoot/EA4/EA2/EA2/EA2/EA1028.htm", "g": "383CAD43-BDCC-4d45-8D8D-7095CD2A86F2"}
+{"n": "MarketSegmentCharacteristic", "t": "Class", "p": "0.4.2.2.2:12", "h": "EARoot/EA4/EA2/EA2/EA2/EA1029.htm", "g": "94F2EA21-4565-4172-AD4F-C4F763EBCDF3"}
+{"n": "MarketSegmentCharacteristicValue", "t": "Class", "p": "0.4.2.2.2:13", "h": "EARoot/EA4/EA2/EA2/EA2/EA1030.htm", "g": "DB22044A-1A44-4d9d-8A5A-0CEEE320E691"}

@@ -1,0 +1,19 @@
+{"n": "Domains", "t": "Logical diagram", "p": "0.2", "h": "EARoot/EA2/EA389.htm", "g": "73E702A2-F30A-4f4c-A27B-372615B1F971"}
+{"n": "Market Domain", "t": "Class", "p": "0.2:2", "h": "EARoot/EA2/EA394.htm", "g": "C186C405-36CF-4270-948A-8FFFFA2DD44C", "s": "The Market domain focuses on understanding, shaping, and influencing demand by managing market intelligence, brand strategy, customer insight, and go-to-market planning. It encompasses activities that position the organization in the market, develop marketing strategies, conduct research and segmentation, manage brand and reputation, and design outbound campaigns to drive awareness and interest. The Market domain translates the organizations' goals into market-facing strategies. The domain also includes the continuous assessment of market performance, emerging trends, and customer behavior to guide strategic decisions and shape the development of products and offerings.", "r": "26.0.0", "st": "Validated"}
+{"n": "Sales Domain", "t": "Class", "p": "0.2:3", "h": "EARoot/EA2/EA395.htm", "g": "9B46FA52-7C5B-42ef-890E-C4B175514307"}
+{"n": "Product Domain", "t": "Class", "p": "0.2:4", "h": "EARoot/EA2/EA396.htm", "g": "C5A4C490-FC04-47df-8088-E8B3AF69F66F"}
+{"n": "Customer Domain", "t": "Class", "p": "0.2:5", "h": "EARoot/EA2/EA397.htm", "g": "D5EF8759-4963-4085-9CA2-230C283C0317"}
+{"n": "Service Domain", "t": "Class", "p": "0.2:6", "h": "EARoot/EA2/EA398.htm", "g": "B082E44F-0991-4d60-A104-3A605D137C4A"}
+{"n": "Resource Domain", "t": "Class", "p": "0.2:7", "h": "EARoot/EA2/EA399.htm", "g": "C965871B-4766-4d4d-B657-C3EDA6EF4685"}
+{"n": "Business Partner Domain", "t": "Class", "p": "0.2:8", "h": "EARoot/EA2/EA400.htm", "g": "AB0846E0-0790-4379-9A6A-820270983884"}
+{"n": "Enterprise Domain", "t": "Class", "p": "0.2:9", "h": "EARoot/EA2/EA401.htm", "g": "0F5B5510-5735-4b83-9D29-18FD96269F68"}
+{"n": "Common Domain", "t": "Class", "p": "0.2:10", "h": "EARoot/EA2/EA402.htm", "g": "F79D1086-B8FC-47eb-9526-4C16434843C6"}
+{"n": "Shared Domain", "t": "Class", "p": "0.2:11", "h": "EARoot/EA2/EA403.htm", "g": "24AD0690-4C35-441b-9DAE-95A5DD557753"}
+{"n": "Integration Domain", "t": "Class", "p": "0.2:12", "h": "EARoot/EA2/EA404.htm", "g": "452C1525-FE77-4cd9-8E0F-4D4176EEA95D"}
+{"n": "Patterns Domain", "t": "Class", "p": "0.2:13", "h": "EARoot/EA2/EA405.htm", "g": "291C8F3E-81A5-4172-9A28-4FD7D7117CEB"}
+{"n": "Proposed Business Architecture Domains", "t": "Package", "p": "0.2.1", "h": "EARoot/EA2/EA1/EA406.htm", "g": "2821C2F3-4BCC-4a6d-99F2-469C174273C0"}
+{"n": "Business Domain (BA)", "t": "Class", "p": "0.2.1:1", "h": "EARoot/EA2/EA1/EA407.htm", "g": "6C0200C0-FF11-4237-BC88-F58FB4802C97"}
+{"n": "Commercial Domain (BA)", "t": "Class", "p": "0.2.1:2", "h": "EARoot/EA2/EA1/EA408.htm", "g": "FB096740-E065-4d46-8B10-00E7C4C33EE6"}
+{"n": "Generic Domain (BA)", "t": "Class", "p": "0.2.1:3", "h": "EARoot/EA2/EA1/EA409.htm", "g": "92720379-0017-483e-BA5B-D85743A8A995"}
+{"n": "Production Domain (BA)", "t": "Class", "p": "0.2.1:4", "h": "EARoot/EA2/EA1/EA410.htm", "g": "BCA5570E-0D82-4d53-97DA-E7B27FA17873"}
+{"n": "Ecosystem Domain (BA)", "t": "Class", "p": "0.2.1:5", "h": "EARoot/EA2/EA1/EA411.htm", "g": "F68CBD17-0616-4e30-8A34-5DA158195F0D"}
